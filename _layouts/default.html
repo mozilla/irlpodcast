@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+    {% include head.html %}
+
+    <body>
+        {% include header.html %}
+
+        <main class="page-content" aria-label="Content">
+            {{ content }}
+        </main>
+
+        {% include footer.html %}
+    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="{{ "/assets/js/mozilla.smoothscroll.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/mozilla.modal.js" | relative_url }}"></script>
+</html>

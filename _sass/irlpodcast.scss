@@ -1,0 +1,142 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+// These are general styles for elements/components that occur on every page.
+// Individual pages may include additional component styles as needed.
+
+@import
+    // Fonts
+    'includes/fonts/zilla-slab',
+    'includes/fonts/zilla-slab-highlight',
+
+    // Base elements - general HTML elements
+    'base/elements',
+
+    // Components - specific purpose blocks with sub-elements and modifiers
+    'components/modal',
+    'components/sections',
+    'components/footer';
+
+
+.content {
+    text-align: center;
+}
+
+.site-title {
+    @include zilla-slab-highlight();
+    @include font-size(22px);
+    background-image: url('/assets/images/banner-mobile.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 169px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    color: #000 !important;
+    width: auto;
+    justify-content: center;
+    align-items: flex-end;
+
+    span {
+        padding: 20px 10px;
+    }
+
+    @media #{$mq-phone-wide} {
+        @include font-size(36px);
+        background-image: url('/assets/images/banner-tablet.jpg');
+        height: 394px;
+    }
+
+    @media #{$mq-desktop} {
+        @include font-size(46px);
+        background-image: url('/assets/images/banner-desktop.jpg');
+        height: 787px;
+    }
+}
+
+.subscribe-links {
+    text-align: center;
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    @media #{$mq-tablet} {
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+#episode-list {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+}
+
+.episode-image {
+    border: 1px solid #999;
+}
+
+.episode-title {
+    @include font-size-level2();
+    font-weight: normal;
+    text-align: center;
+}
+
+.episode-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.transcript {
+    h4 {
+        @include font-size-level3();
+        margin-bottom: 20px;
+    }
+}
+
+.social-share-links {
+    display: flex;
+
+    li {
+        margin: 0 10px;
+        padding: 0 4px;
+
+        a {
+            background-size: 24px;
+            display: block;
+            height: 24px;
+            overflow: hidden;
+            text-indent: 120%;
+            width: 24px;
+        }
+    }
+}
+
+.twitter {
+    background: url('/assets/images/twitter.svg') top left no-repeat;
+}
+
+.facebook {
+    background: url('/assets/images/facebook.svg') top left no-repeat;
+}
+
+#footer {
+    background: #111;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+}

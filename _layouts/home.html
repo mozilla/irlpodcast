@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<section id="intro">
+    <div class="content">
+        <p>Subtitle that is 255 characters or less. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
+
+        <ul id="subscribe-links-home" class="subscribe-links">
+            <li>
+                <a href=""><img src="{{ "/assets/images/apple-podcasts-badge.svg" | relative_url }}" alt="Subscribe on Apple Podcasts"></a>
+            </li>
+            <li>
+                <a href=""><img src="{{ "/assets/images/spotify-badge.svg" | relative_url }}" alt="Subscribe on Spotify"></a>
+            </li>
+            <li>
+                <a href=""><img src="{{ "/assets/images/radiopublic-badge.svg" | relative_url }}" alt="Subscribe on RadioPublic"></a>
+            </li>
+            <li class="rss-link">
+                <a href="http://feeds.mozilla-podcasts.org/irl">Subscribe via RSS</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="episodes">
+    <div class="content">
+        <ul id="episode-list">
+        {% for episode in site.categories.episodes %}
+            {% assign image_path = episode.number | prepend: "/assets/images/episodes/" | append: "/artwork.jpg" %}
+            {% assign image_path_high_res = episode.number | prepend: "/assets/images/episodes/" | append: "/artwork@2x.jpg" %}
+
+            <li class="episode" id="episode-{{ episode-number }}">
+                <img src="{{ image_path | relative_url }}" srcset="{{ image_path_high_res | relative_url }} 2x" class="episode-image" alt="">
+
+                <h2 class="episode-title">
+                    <a class="episode-link" href="{{ episode.url | relative_url }}">{{ episode.title | escape }}</a>
+                </h2>
+
+                <p>
+                    {{ episode.description }}
+                </p>
+
+                <ul class="episode-links">
+                    <li><a href="#subscribe-links" class="subscribe-link">Subscribe</a></li>
+                    <li>
+                        Share:
+                        {% assign episode_share_url = episode.url | absolute_url %}
+                        {% assign episode_share_text = episode.number | prepend: "IRL Podcast - Episode " | append: ": " | append: episode.title  %}
+                        {% include social-share-links.html share_url=episode_share_url share_text=episode_share_text %}
+                    </li>
+                    <li><a href="{{ episode.url | relative_url }}#transcript" data-transcript="episode-{{ episode.number }}-transcript" id="episode-{{ episode.number }}-transcript-link" class="transcript-link">Transcript</a></li>
+                </ul>
+
+                <iframe frameborder="0" height="36px" scrolling="no" seamless src="{{ episode.embed }}?style=light" width="100%"></iframe>
+
+                <div class="transcript-wrapper hidden">
+                    <div class="transcript" id="episode-{{ episode.number }}-transcript">
+                        <h4>Episode {{ episode.number }}: {{ episode.title | escape }}</h4>
+                        {{ episode.transcript | markdownify }}
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+
+<section id="more">
+    <div class="content">
+        <h3>More on the IRL Podcast</h3>
+
+        <p>
+            <a href="https://blog.mozilla.org/internetcitizen/category/IRL/">Read the latest from Mozilla’s Internet Citizen Blog</a>
+        </p>
+    </div>
+</section>
