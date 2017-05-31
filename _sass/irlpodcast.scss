@@ -27,7 +27,7 @@
 .site-title {
     @include zilla-slab-highlight();
     @include font-size(22px);
-    background-image: url('/assets/images/banner-mobile.jpg');
+    background-image: url($baseurl + '/assets/images/banner-mobile.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;
@@ -46,13 +46,13 @@
 
     @media #{$mq-phone-wide} {
         @include font-size(36px);
-        background-image: url('/assets/images/banner-tablet.jpg');
+        background-image: url($baseurl + '/assets/images/banner-tablet.jpg');
         height: 394px;
     }
 
     @media #{$mq-desktop} {
         @include font-size(46px);
-        background-image: url('/assets/images/banner-desktop.jpg');
+        background-image: url($baseurl + '/assets/images/banner-desktop.jpg');
         height: 787px;
     }
 }
@@ -121,11 +121,11 @@
 }
 
 .twitter {
-    background: url('/assets/images/twitter.svg') top left no-repeat;
+    background: url($baseurl + '/assets/images/twitter.svg') top left no-repeat;
 }
 
 .facebook {
-    background: url('/assets/images/facebook.svg') top left no-repeat;
+    background: url($baseurl + '/assets/images/facebook.svg') top left no-repeat;
 }
 
 #footer {

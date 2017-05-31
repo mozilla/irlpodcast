@@ -2,22 +2,22 @@
   font-family: 'Zilla Slab';
   font-weight: normal;
   font-style: normal;
-  src: url("/assets/fonts/ZillaSlab-Regular.woff2") format("woff2"), url("/assets/fonts/ZillaSlab-Regular.woff") format("woff"); }
+  src: url("/irlpodcast/assets/fonts/ZillaSlab-Regular.woff2") format("woff2"), url("/irlpodcast/assets/fonts/ZillaSlab-Regular.woff") format("woff"); }
 @font-face {
   font-family: 'Zilla Slab';
   font-weight: bold;
   font-style: normal;
-  src: url("/assets/fonts/ZillaSlab-Bold.woff2") format("woff2"), url("/assets/fonts/ZillaSlab-Bold.woff") format("woff"); }
+  src: url("/irlpodcast/assets/fonts/ZillaSlab-Bold.woff2") format("woff2"), url("/irlpodcast/assets/fonts/ZillaSlab-Bold.woff") format("woff"); }
 @font-face {
   font-family: 'Zilla Slab Highlight';
   font-weight: normal;
   font-style: normal;
-  src: url("/assets/fonts/ZillaSlab-RegularHighlight.woff2") format("woff2"), url("/assets/fonts/ZillaSlab-RegularHighlight.woff") format("woff"); }
+  src: url("/irlpodcast/assets/fonts/ZillaSlab-RegularHighlight.woff2") format("woff2"), url("/irlpodcast/assets/fonts/ZillaSlab-RegularHighlight.woff") format("woff"); }
 @font-face {
   font-family: 'Zilla Slab Highlight';
   font-weight: bold;
   font-style: normal;
-  src: url("/assets/fonts/ZillaSlab-BoldHighlight.woff2") format("woff2"), url("/assets/fonts/ZillaSlab-BoldHighlight.woff") format("woff"); }
+  src: url("/irlpodcast/assets/fonts/ZillaSlab-BoldHighlight.woff2") format("woff2"), url("/irlpodcast/assets/fonts/ZillaSlab-BoldHighlight.woff") format("woff"); }
 article, aside, details, figcaption, figure, footer, header,
 hgroup, main, nav, section, summary {
   display: block; }
@@ -346,7 +346,7 @@ html.noscroll {
           overflow: hidden;
           text-indent: 120%;
           white-space: nowrap;
-          background: transparent url("/assets/images/modal-close.svg") center center no-repeat;
+          background: transparent url("/irlpodcast/assets/images/modal-close.svg") center center no-repeat;
           -webkit-background-size: 14px 14px;
           background-size: 14px 14px;
           border-radius: 50%;
@@ -424,7 +424,7 @@ html[dir="rtl"] #modal .window .inner #modal-close {
   font-family: "Zilla Slab Highlight", "Zilla Slab", "Open Sans", X-LocaleSpecific, sans-serif;
   font-size: 22px;
   font-size: 1.375rem;
-  background-image: url("/assets/images/banner-mobile.jpg");
+  background-image: url("/irlpodcast/assets/images/banner-mobile.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   display: flex;
@@ -442,13 +442,13 @@ html[dir="rtl"] #modal .window .inner #modal-close {
     .site-title {
       font-size: 36px;
       font-size: 2.25rem;
-      background-image: url("/assets/images/banner-tablet.jpg");
+      background-image: url("/irlpodcast/assets/images/banner-tablet.jpg");
       height: 394px; } }
   @media screen and (min-width: 1000px) {
     .site-title {
       font-size: 46px;
       font-size: 2.875rem;
-      background-image: url("/assets/images/banner-desktop.jpg");
+      background-image: url("/irlpodcast/assets/images/banner-desktop.jpg");
       height: 787px; } }
 
 .subscribe-links {
@@ -507,10 +507,10 @@ html[dir="rtl"] #modal .window .inner #modal-close {
       width: 24px; }
 
 .twitter {
-  background: url("/assets/images/twitter.svg") top left no-repeat; }
+  background: url("/irlpodcast/assets/images/twitter.svg") top left no-repeat; }
 
 .facebook {
-  background: url("/assets/images/facebook.svg") top left no-repeat; }
+  background: url("/irlpodcast/assets/images/facebook.svg") top left no-repeat; }
 
 #footer {
   background: #111;

@@ -10,14 +10,14 @@
     font-family: 'Zilla Slab Highlight';
     font-weight: normal;
     font-style: normal;
-    src: url('/assets/fonts/ZillaSlab-RegularHighlight.woff2') format('woff2'),
-         url('/assets/fonts/ZillaSlab-RegularHighlight.woff') format('woff');
+    src: url($baseurl + '/assets/fonts/ZillaSlab-RegularHighlight.woff2') format('woff2'),
+         url($baseurl + '/assets/fonts/ZillaSlab-RegularHighlight.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Zilla Slab Highlight';
     font-weight: bold;
     font-style: normal;
-    src: url('/assets/fonts/ZillaSlab-BoldHighlight.woff2') format('woff2'),
-         url('/assets/fonts/ZillaSlab-BoldHighlight.woff') format('woff');
+    src: url($baseurl + '/assets/fonts/ZillaSlab-BoldHighlight.woff2') format('woff2'),
+         url($baseurl + '/assets/fonts/ZillaSlab-BoldHighlight.woff') format('woff');
 }
