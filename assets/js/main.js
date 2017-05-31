@@ -2,19 +2,23 @@
     'use strict';
 
     var episodeList = document.getElementById('episode-list');
-    var subscribeLinksHome = document.getElementById('subscribe-links-home');
-    var subscribeLinksCoords = subscribeLinksHome.getBoundingClientRect();
 
     episodeList.addEventListener('click', function(e) {
-        if (e.target.classList.contains('subscribe-link')) {
+        var targetClass = e.target.classList;
+
+        if (targetClass.contains('episode-subscribe-link')) {
             e.preventDefault();
 
-            Mozilla.smoothScroll({
-                top: subscribeLinksCoords.top - 40
+            Mozilla.Modal.createModal(e.target, $('#' + e.target.dataset.subscribeLinks), {
+                title: 'Subscribe'
             });
-        }
+        } else if (targetClass.contains('episode-share-link')) {
+            e.preventDefault();
 
-        if (e.target.classList.contains('transcript-link')) {
+            Mozilla.Modal.createModal(e.target, $('#' + e.target.dataset.shareLinks), {
+                title: 'Share'
+            });
+        } else if (targetClass.contains('episode-transcript-link')) {
             e.preventDefault();
 
             Mozilla.Modal.createModal(e.target, $('#' + e.target.dataset.transcript), {

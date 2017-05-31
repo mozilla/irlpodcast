@@ -58,21 +58,28 @@
 }
 
 .subscribe-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-align: center;
 
     li {
-        margin-bottom: 5px;
+        display: flex;
+        flex: 0 0 50%;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
     }
 
     @media #{$mq-tablet} {
-        display: flex;
-        justify-content: space-around;
-
         li {
-            display: flex;
-            align-items: center;
+            flex-basis: 25%;
         }
     }
+}
+
+#modal .subscribe-links {
+    display: block;
 }
 
 #episode-list {
@@ -95,27 +102,32 @@
     justify-content: space-around;
 }
 
-.transcript {
+.modal-content-wrapper {
+    // don't display titles inside of a modal wrapper
+    // they should only be shown when inside of an actual modal
     h4 {
-        @include font-size-level3();
-        margin-bottom: 20px;
+        display: none;
     }
 }
 
 .social-share-links {
     display: flex;
+    justify-content: space-around;
 
     li {
+        @include border-box();
+        flex: 0 0 50%;
         margin: 0 10px;
         padding: 0 4px;
 
         a {
-            background-size: 24px;
+            background-size: 50px;
             display: block;
-            height: 24px;
+            height: 50px;
+            margin: 0 auto;
             overflow: hidden;
             text-indent: 120%;
-            width: 24px;
+            width: 50px;
         }
     }
 }
@@ -140,3 +152,25 @@
         margin-bottom: 0;
     }
 }
+
+// modal stuff
+.transcript-modal-wrapper {
+    display: none;
+}
+
+#modal {
+    h4 {
+        @include font-size-level3();
+        margin-bottom: 20px;
+    }
+}
+
+// JS enabled stuff
+.js {
+    .modal-content-wrapper,
+    .transcript-modal-wrapper {
+        display: none;
+    }
+}
+
+

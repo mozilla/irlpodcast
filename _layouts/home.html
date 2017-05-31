@@ -6,20 +6,7 @@ layout: default
     <div class="content">
         <p>Subtitle that is 255 characters or less. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
 
-        <ul id="subscribe-links-home" class="subscribe-links">
-            <li>
-                <a href=""><img src="{{ "/assets/images/apple-podcasts-badge.svg" | relative_url }}" alt="Subscribe on Apple Podcasts"></a>
-            </li>
-            <li>
-                <a href=""><img src="{{ "/assets/images/spotify-badge.svg" | relative_url }}" alt="Subscribe on Spotify"></a>
-            </li>
-            <li>
-                <a href=""><img src="{{ "/assets/images/radiopublic-badge.svg" | relative_url }}" alt="Subscribe on RadioPublic"></a>
-            </li>
-            <li class="rss-link">
-                <a href="http://feeds.mozilla-podcasts.org/irl">Subscribe via RSS</a>
-            </li>
-        </ul>
+        {% include subscribe-links.html %}
     </div>
 </section>
 
@@ -42,20 +29,32 @@ layout: default
                 </p>
 
                 <ul class="episode-links">
-                    <li><a href="#subscribe-links" class="subscribe-link">Subscribe</a></li>
-                    <li>
-                        Share:
-                        {% assign episode_share_url = episode.url | absolute_url %}
-                        {% assign episode_share_text = episode.number | prepend: "IRL Podcast - Episode " | append: ": " | append: episode.title  %}
-                        {% include social-share-links.html share_url=episode_share_url share_text=episode_share_text %}
-                    </li>
-                    <li><a href="{{ episode.url | relative_url }}#transcript" data-transcript="episode-{{ episode.number }}-transcript" id="episode-{{ episode.number }}-transcript-link" class="transcript-link">Transcript</a></li>
+                    <li><a href="#subscribe-links" class="episode-subscribe-link" data-subscribe-links="episode-{{ episode.number }}-subscribe-links">Subscribe</a></li>
+                    <li><a href="" class="episode-share-link" data-share-links="episode-{{ episode.number }}-share-links">Share</a></li>
+                    <li><a href="{{ episode.url | relative_url }}#transcript" class="episode-transcript-link" data-transcript="episode-{{ episode.number }}-transcript">Transcript</a></li>
                 </ul>
 
                 <iframe frameborder="0" height="36px" scrolling="no" seamless src="{{ episode.embed }}?style=light" width="100%"></iframe>
 
-                <div class="transcript-wrapper hidden">
-                    <div class="transcript" id="episode-{{ episode.number }}-transcript">
+
+                <!-- the following are presented in modal windows -->
+                <div class="modal-content-wrapper">
+                    <div class="episode-subscribe-links" id="episode-{{ episode.number }}-subscribe-links">
+                        {% include subscribe-links.html %}
+                    </div>
+                </div>
+
+                <div class="modal-content-wrapper">
+                    <div class="episode-share-links" id="episode-{{ episode.number }}-share-links">
+                        <h4>Episode {{ episode.number }}: {{ episode.title | escape }}</h4>
+                        {% assign episode_share_url = episode.url | absolute_url %}
+                        {% assign episode_share_text = episode.number | prepend: "IRL Podcast - Episode " | append: ": " | append: episode.title  %}
+                        {% include social-share-links.html share_url=episode_share_url share_text=episode_share_text %}
+                    </div>
+                </div>
+
+                <div class="modal-content-wrapper transcript-modal-wrapper">
+                    <div class="episode-transcript" id="episode-{{ episode.number }}-transcript">
                         <h4>Episode {{ episode.number }}: {{ episode.title | escape }}</h4>
                         {{ episode.transcript | markdownify }}
                     </div>
