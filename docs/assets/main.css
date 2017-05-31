@@ -452,16 +452,22 @@ html[dir="rtl"] #modal .window .inner #modal-close {
       height: 787px; } }
 
 .subscribe-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   text-align: center; }
   .subscribe-links li {
-    margin-bottom: 5px; }
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px; }
   @media screen and (min-width: 760px) {
-    .subscribe-links {
-      display: flex;
-      justify-content: space-around; }
-      .subscribe-links li {
-        display: flex;
-        align-items: center; } }
+    .subscribe-links li {
+      flex-basis: 25%; } }
+
+#modal .subscribe-links {
+  display: block; }
 
 #episode-list {
   border-bottom: 1px solid #ccc;
@@ -484,27 +490,27 @@ html[dir="rtl"] #modal .window .inner #modal-close {
   display: flex;
   justify-content: space-around; }
 
-.transcript h4 {
-  font-size: 21px;
-  font-size: 1.3125rem;
-  margin-bottom: 20px; }
-  @media screen and (min-width: 760px) {
-    .transcript h4 {
-      font-size: 28px;
-      font-size: 1.75rem; } }
+.modal-content-wrapper h4 {
+  display: none; }
 
 .social-share-links {
-  display: flex; }
+  display: flex;
+  justify-content: space-around; }
   .social-share-links li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    flex: 0 0 50%;
     margin: 0 10px;
     padding: 0 4px; }
     .social-share-links li a {
-      background-size: 24px;
+      background-size: 50px;
       display: block;
-      height: 24px;
+      height: 50px;
+      margin: 0 auto;
       overflow: hidden;
       text-indent: 120%;
-      width: 24px; }
+      width: 50px; }
 
 .twitter {
   background: url("/irlpodcast/assets/images/twitter.svg") top left no-repeat; }
@@ -521,3 +527,19 @@ html[dir="rtl"] #modal .window .inner #modal-close {
     display: flex;
     justify-content: space-around;
     margin-bottom: 0; }
+
+.transcript-modal-wrapper {
+  display: none; }
+
+#modal h4 {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  margin-bottom: 20px; }
+  @media screen and (min-width: 760px) {
+    #modal h4 {
+      font-size: 28px;
+      font-size: 1.75rem; } }
+
+.js .modal-content-wrapper,
+.js .transcript-modal-wrapper {
+  display: none; }
