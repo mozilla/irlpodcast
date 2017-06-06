@@ -309,6 +309,8 @@ html.noscroll {
     color: #333;
     padding: 20px; }
     #modal .window .inner {
+      margin: 0 auto;
+      max-width: 600px;
       position: relative;
       background: #fff;
       padding: 20px;
@@ -391,6 +393,57 @@ html[dir="rtl"] #modal .window .inner #modal-close {
           margin-left: 0; }
         #modal .inner .footer div:last-child {
           margin-right: 0; } }
+/* classes don't match naming schem for other files because
+I didn't want to alter the javascript that relies on them */
+.newsletter_icon {
+  height: 37px;
+  width: 56px;
+  margin-top: -4px; }
+
+.newsletter_errors {
+  display: none;
+  /* hide by default */
+  margin-bottom: 20px;
+  box-shadow: 0 0 0 1px #ffffff;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1); }
+  .newsletter_errors > :last-child {
+    margin-bottom: 0; }
+
+.newsletter_promise {
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem; }
+
+.newsletter_thanks {
+  display: none; }
+
+.newsletter-inline #newsletter_email label {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  /* !important required to ensure element is hidden when mixin is applied */
+  position: absolute !important;
+  /* stylelint-disable-line declaration-no-important */
+  width: 1px; }
+.newsletter-inline input[type=email],
+.newsletter-inline .button {
+  width: 100%; }
+
+/* hide the newsletter selection */
+#newsletter_options {
+  display: none; }
+
+.js .js-collapse #newsletter_privacy,
+.js .js-collapse .newsletter_promise {
+  display: none; }
+
+@media screen and (min-width: 760px) {
+  .newsletter:not(.newsletter-inline) {
+    min-height: 50vh; } }
 .section,
 .content {
   zoom: 1;
@@ -417,57 +470,86 @@ html[dir="rtl"] #modal .window .inner #modal-close {
     .content {
       width: 980px; } }
 
-.content {
-  text-align: center; }
+a,
+a:active,
+a:link,
+a:visited {
+  color: #88429d;
+  transition: color 0.2s ease; }
+
+a:focus,
+a:hover,
+a:visited:focus,
+a:visited:hover {
+  color: #984aaf; }
+
+#mozilla-logo {
+  -webkit-background-size: 100px 32px;
+  background-size: 100px 32px;
+  overflow: hidden;
+  text-indent: 120%;
+  white-space: nowrap;
+  background-image: url("/irlpodcast/assets/images/moz-wordmark-dark-reverse.svg");
+  background-repeat: no-repeat;
+  display: block;
+  height: 32px;
+  margin-bottom: 20px;
+  width: 100px; }
+
+#site-header:after {
+  background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
+  background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
+  content: '';
+  display: block;
+  height: 2px;
+  margin-top: 40px;
+  visibility: visible;
+  width: 100%; }
 
 .site-title {
-  font-family: "Zilla Slab Highlight", "Zilla Slab", "Open Sans", X-LocaleSpecific, sans-serif;
-  font-size: 22px;
-  font-size: 1.375rem;
-  background-image: url("/irlpodcast/assets/images/banner-mobile.jpg");
-  background-position: center top;
-  background-repeat: no-repeat;
-  display: flex;
-  height: 169px;
-  margin: 0 auto;
-  text-align: center;
-  font-weight: bold;
-  color: #000 !important;
-  width: auto;
-  justify-content: center;
-  align-items: flex-end; }
-  .site-title span {
-    padding: 20px 10px; }
-  @media screen and (min-width: 480px) {
-    .site-title {
-      font-size: 36px;
-      font-size: 2.25rem;
-      background-image: url("/irlpodcast/assets/images/banner-tablet.jpg");
-      height: 394px; } }
-  @media screen and (min-width: 1000px) {
-    .site-title {
-      font-size: 46px;
-      font-size: 2.875rem;
-      background-image: url("/irlpodcast/assets/images/banner-desktop.jpg");
-      height: 787px; } }
+  color: #000;
+  text-decoration: none; }
+  .site-title:active, .site-title:link, .site-title:visited {
+    color: #000; }
+  .site-title:focus, .site-title:hover, .site-title:visited:focus, .site-title:visited:hover {
+    color: #000;
+    text-decoration: none; }
+  .site-title:before {
+    -webkit-background-size: 280px 280px;
+    background-size: 280px 280px;
+    background-image: url("/irlpodcast/assets/images/irl-logo-300px.png");
+    content: '';
+    display: block;
+    height: 280px;
+    margin-bottom: 20px;
+    width: 280px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .site-title:before {
+      background-image: url("/irlpodcast/assets/images/irl-logo-600px.png"); } }
 
-.subscribe-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.subscribe-links li {
+  margin-bottom: 10px;
   text-align: center; }
-  .subscribe-links li {
+@media screen and (min-width: 480px) {
+  .subscribe-links {
     display: flex;
-    flex: 0 0 50%;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 10px; }
-  @media screen and (min-width: 760px) {
+    flex-wrap: wrap;
+    justify-content: space-around; }
     .subscribe-links li {
-      flex-basis: 25%; } }
+      display: flex;
+      flex: 0 0 50%;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 10px; } }
+@media screen and (min-width: 760px) {
+  .subscribe-links li {
+    flex-basis: 25%; } }
 
 #modal .subscribe-links {
   display: block; }
+  @media screen and (min-width: 760px) {
+    #modal .subscribe-links {
+      display: flex; } }
 
 #episode-list {
   border-bottom: 1px solid #ccc;
@@ -523,6 +605,21 @@ html[dir="rtl"] #modal .window .inner #modal-close {
   color: #fff;
   padding: 10px 0;
   margin-top: 20px; }
+  #footer a,
+  #footer a:active,
+  #footer a:focus,
+  #footer a:hover,
+  #footer a:link,
+  #footer a:visited,
+  #footer a:visited:focus,
+  #footer a:visited:hover {
+    color: #fff;
+    text-decoration: none; }
+  #footer a:focus,
+  #footer a:hover,
+  #footer a:visited:focus,
+  #footer a:visited:hover {
+    text-decoration: underline; }
   #footer ul {
     display: flex;
     justify-content: space-around;
@@ -534,7 +631,8 @@ html[dir="rtl"] #modal .window .inner #modal-close {
 #modal h4 {
   font-size: 21px;
   font-size: 1.3125rem;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-align: center; }
   @media screen and (min-width: 760px) {
     #modal h4 {
       font-size: 28px;

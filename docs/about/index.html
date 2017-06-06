@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>About IRL</title>
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+    <meta name="description" content="Check out IRL, the new podcast from Mozilla. Because online life is real life.">
 
     <meta name="apple-itunes-app" content="app-id=PODCAST_ID_HERE">
 
     <link rel="stylesheet" href="/irlpodcast/assets/main.css">
     <link rel="canonical" href="/irlpodcast/about/">
-    <link rel="alternate" type="application/rss+xml" title="IRL: Online Life is Real Life" href="/irlpodcast/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="IRL podcast: Get real online." href="/irlpodcast/feed.xml">
 
     <script src="/irlpodcast/assets/js/pre-render.js"></script>
     <script src="/irlpodcast/assets/js/mozilla.dnt-helper.js"></script>
@@ -22,8 +22,12 @@
 
 
     <body>
-        <header class="content" role="banner">
-  <a class="site-title" href="/irlpodcast/"><span>IRL: Online Life is Real Life</span></a>
+        <header class="content" role="banner" id="site-header">
+    <a href="https://www.mozilla.org" id="mozilla-logo"><span>Mozilla</span></a>
+
+    <a class="site-title" href="/irlpodcast/">
+        <h1>IRL: Because Online Life Is Real Life</h1>
+    </a>
 </header>
 
 
@@ -31,61 +35,73 @@
             <article class="post">
   <div class="content">
     <h1 class="post-title">About IRL</h1>
-    <p>Under 4000 characters. This summary will also show up on Apple Podcasts. Avoid starting the description by repeating the show title or author. It’s redundant. Example: Behind every working human, there’s a story. Work in Progress is a new show about the meaning and identity we find in work. Each week, hear stories of personal ambition and debilitating insecurities, great successes and abject failures, the plans we make and the luck that…happens. Hosted by Dan Misener, produced by Slack. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+    <p>Let’s get real: Our online life is real life. We walk, talk, work, LOL and even love on the Internet – but we don’t always treat it like real life. Host Veronica Belmont explores this disconnect with stories from the wilds of the Web – and real talk about the online issues that affect us all. Whether it’s privacy breaches, closed platforms, hacking, fake news, or cyber bullying, we the people have the power to change the course of the Internet, keeping it healthy, weird, and wonderful for everyone. IRL – Because online life is real life. Brought to you by Mozilla.</p>
 
 <h2 id="about-mozilla">About Mozilla</h2>
 
-<p>Under 400 characters. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+<p>Mozilla is the nonprofit maker of Firefox, and a leader in the fight for internet health. We empower people to be safe and strong online, build tools and products that battle Big Tech, and champion a more just, equal, and fair system for all.</p>
 
 <h2 id="credits">Credits</h2>
 
-<p><strong>Veronica Belmont</strong></p>
+<h3 id="veronica-belmont">Veronica Belmont</h3>
 
-<p>Under 400 characters. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+<p><img src="/assets/images/veronica-belmont-300px.jpg" alt="" srcset="/assets/images/veronica-belmont-600px.jpg 2x" /></p>
 
-<p><strong>Pacific Content</strong></p>
+<p>Veronica Belmont is a Product Manager at <a href="https://www.growbot.io/">Growbot.io</a>, startup advisor, and board member at <a href="https://about.me/">about.me</a>. She has an expertise in and passion for technology, and as a media personality, has hosted several video and audio shows on the topic, including Engadget’s Dear Veronica, Gizmodo’s The Gadget Testers, and Discovery Digital’s Tekzilla.</p>
 
-<p>Under 400 characters. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+<h3 id="pacific-content">Pacific Content</h3>
+
+<p><img src="/assets/images/pacific-content-logo.svg" alt="" id="pacific-content-logo" /></p>
+
+<p>Pacific Content leads production of Mozilla’s IRL podcast. They’re a group of forward-facing media professionals that exclusively focuses on making original podcast series with brands. They’re also the people behind Slack’s Work in Progress podcast, Dell Technologies’s Trailblazers with Walter Isaacson podcast, and Zendesk’s Relate podcast.</p>
 
 <h2 id="contact">Contact</h2>
 
 <p>For press inquiries, email us at <a href="press@mozilla.com">press@mozilla.com</a>
-For any other inquiries, email is at <a href="IRLpodcast@mozilla.com">IRLpodcast@mozilla.com</a></p>
+For any other inquiries, email us at <a href="IRLpodcast@mozilla.com">IRLpodcast@mozilla.com</a></p>
 
-<h2 id="stay-informed-about-internet-health">Stay informed about Internet Health</h2>
+<h2>Get Involved IRL</h2>
 
-<p>Get the Mozilla newsletter to keep up with internet health issues that affect you.</p>
+<p>
+    Sign up for the Mozilla newsletter to hear more, learn more, and raise your
+    voice for a healthy Internet.
+</p>
 
-<form id="newsletter_form" name="newsletter_form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
-    <input type="hidden" id="fmt" name="fmt" value="H" />
-    <input id="id_newsletters" maxlength="100" name="newsletters" value="mozilla-foundation" type="hidden" />
+<div class="newsletter js-collapse">
+    <form id="newsletter_form" name="newsletter_form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
+        <input type="hidden" id="fmt" name="fmt" value="H" />
+        <input id="id_newsletters" maxlength="100" name="newsletters" value="mozilla-foundation" type="hidden" />
 
-    <div id="newsletter_errors" class="newsletter_errors"></div>
+        <div id="newsletter_errors" class="newsletter_errors"></div>
 
-    <div id="newsletter_email" class="form_group">
-        <label for="email" class="form_label">E-mail</label> <input type="email" id="email" name="email" class="form_input" required="" placeholder="you@example.com" size="30" />
+        <div id="newsletter_email" class="form_group">
+            <label for="email" class="form_label">E-mail</label> <input type="email" id="email" name="email" class="form_input" required="" placeholder="you@example.com" size="30" />
+        </div>
+
+        <div id="newsletter_privacy" class="form_group form_group-agree">
+            <input type="checkbox" id="privacy" name="privacy" required="" /> <label for="privacy">I'm okay with Mozilla handling my info as explained in this <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>.</label>
+        </div>
+
+        <div id="newsletter_submit">
+            <button id="newsletter_submit" type="submit" class="button">Sign up now</button> <em class="newsletter_promise">We will only send you Mozilla-related information.</em>
+        </div>
+    </form>
+
+    <div id="newsletter_thanks" class="newsletter_thanks">
+        <h2>Thanks!</h2>
+
+        <p>
+            If you haven’t previously confirmed a subscription to a
+            Mozilla-related newsletter you may have to do so. Please check your
+            inbox or your spam filter for an email from us.
+        </p>
     </div>
-
-    <div id="newsletter_privacy" class="form_group form_group-agree">
-        <input type="checkbox" id="privacy" name="privacy" required="" /> <label for="privacy">I'm okay with Mozilla handling my info as explained in this <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>.</label>
-    </div>
-
-    <div id="newsletter_submit">
-        <button id="newsletter_submit" type="submit" class="button">Sign up now</button> <em class="newsletter_promise">We will only send you information about View Source.</em>
-    </div>
-</form>
-
-<div id="newsletter_thanks" class="newsletter_thanks">
-    <h2>
-        Thanks! Please check your inbox to confirm your subscription.
-    </h2>
-
-    <p>
-        You'll receive an email from mozilla@e.mozilla.org to confirm your subscription. If you don't see it, check your spam filter. You must confirm your subscription to receive updates about the View Source Conference.
-    </p>
 </div>
 
-<p><a href="https://www.mozilla.org/privacy/">Privacy Policy</a></p>
+<p>
+    <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>
+</p>
+
 
   </div>
 </article>
@@ -106,7 +122,7 @@ For any other inquiries, email is at <a href="IRLpodcast@mozilla.com">IRLpodcast
     </body>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="/irlpodcast/assets/js/mozilla.smoothscroll.js"></script>
     <script src="/irlpodcast/assets/js/main.js"></script>
     <script src="/irlpodcast/assets/js/mozilla.modal.js"></script>
+    <script src="/irlpodcast/assets/js/newsletter.js"></script>
 </html>
