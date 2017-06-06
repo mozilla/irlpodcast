@@ -2,8 +2,8 @@
 layout:         episode
 title:          "Trailer"
 date:           2017-05-25 11:07:14 -0500
-categories:     episodes
-embed:          "https://simplecast.com/e/49816"
+categories:     change_to_episodes_when_ready
+embed:          "https://embed.radiopublic.com/e?if=71789ff6-6488-4a7b-90b7-150d9034a5e4&ge=s1!42f89bb8bd9df747413dc19bd317d58565c9c334"
 description:    "Short description, ideally under 140 characters. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolo."
 number:         0
 transcript: |
