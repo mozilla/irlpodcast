@@ -14,13 +14,13 @@ Mozilla is the nonprofit maker of Firefox, and a leader in the fight for interne
 
 ### Veronica Belmont
 
-![]({{ site.url }}/assets/images/veronica-belmont-300px.jpg){:srcset="{{ site.url }}/assets/images/veronica-belmont-600px.jpg 2x"}
+![]({{ site.baseurl }}/assets/images/veronica-belmont-300px.jpg){:srcset="{{ site.baseurl }}/assets/images/veronica-belmont-600px.jpg 2x"}
 
 Veronica Belmont is a Product Manager at [Growbot.io](https://www.growbot.io/), startup advisor, and board member at [about.me](https://about.me/). She has an expertise in and passion for technology, and as a media personality, has hosted several video and audio shows on the topic, including Engadget's Dear Veronica, Gizmodo’s The Gadget Testers, and Discovery Digital’s Tekzilla.
 
 ### Pacific Content
 
-![]({{ site.url }}/assets/images/pacific-content-logo.svg){:id="pacific-content-logo"}
+![]({{ site.baseurl }}/assets/images/pacific-content-logo.svg){:id="pacific-content-logo"}
 
 Pacific Content leads production of Mozilla’s IRL podcast. They’re a group of forward-facing media professionals that exclusively focuses on making original podcast series with brands. They’re also the people behind Slack’s Work in Progress podcast, Dell Technologies's Trailblazers with Walter Isaacson podcast, and Zendesk’s Relate podcast.
 
