@@ -3,6 +3,8 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+// TODO: remove zilla stuff if TypeKit is given the green light
+
 // The custom X-LocaleSpecific font family is defined with a @font-face rule in
 // locale-specific stylesheets which can be found at /media/css/l10n/. See
 // /docs/l10n.rst for details.
@@ -13,8 +15,11 @@ $font-zilla-slab: 'Zilla Slab', 'Open Sans', X-LocaleSpecific, sans-serif;
 // equally readable with a non-highlight variant.
 $font-zilla-slab-highlight: 'Zilla Slab Highlight', 'Zilla Slab', 'Open Sans', X-LocaleSpecific, sans-serif;
 
-$base-font-stack: $font-zilla-slab;
-$base-font-size: 100%;
+// loaded via typekit
+$font-franklin-gothic: 'franklin-gothic-urw-comp', 'sans-serif';
+
+$base-font-stack: $font-franklin-gothic;
+$base-font-size: 120%;
 $base-line-height: 1.5;
 
 

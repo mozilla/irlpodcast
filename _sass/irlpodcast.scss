@@ -36,6 +36,16 @@ a:visited:hover {
     color: lighten(#88429d, 5%);
 }
 
+.page-content {
+    padding-bottom: 70px; // makes up for height of fixed footer
+}
+
+.content p {
+    @media #{$mq-tablet} {
+        @include font-size(22px);
+    }
+}
+
 #mozilla-logo {
     @include background-size(100px 32px);
     @include image-replaced();
@@ -43,37 +53,11 @@ a:visited:hover {
     background-repeat: no-repeat;
     display: block;
     height: 32px;
-    margin-bottom: 20px;
     width: 100px;
-}
-
-#site-header:after {
-    @include gradient-horizontal(#ff00fd, 0%, #0e00cf, 100%);
-    content: '';
-    display: block;
-    height: 2px;
-    margin-top: 40px;
-    visibility: visible;
-    width: 100%;
 }
 
 .site-title {
     color: #000;
-    text-decoration: none;
-
-    &:active,
-    &:link,
-    &:visited {
-        color: #000;
-    }
-
-    &:focus,
-    &:hover,
-    &:visited:focus,
-    &:visited:hover {
-        color: #000;
-        text-decoration: none;
-    }
 
     &:before {
         @include background-size(280px 280px);
@@ -90,6 +74,16 @@ a:visited:hover {
             background-image: url($baseurl + '/assets/images/irl-logo-600px.png');
         }
     }
+}
+
+#intro .content:after {
+    @include gradient-horizontal(#ff00fd, 0%, #0e00cf, 100%);
+    content: '';
+    display: block;
+    height: 2px;
+    margin-top: 40px;
+    visibility: visible;
+    width: 100%;
 }
 
 .subscribe-links {
@@ -187,9 +181,13 @@ a:visited:hover {
 
 #footer {
     background: #111;
+    bottom: 0;
     color: #fff;
-    padding: 10px 0;
+    height: 70px;
+    left: 0;
     margin-top: 20px;
+    position: fixed;
+    width: 100%;
 
     a,
     a:active,

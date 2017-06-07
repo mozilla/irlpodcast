@@ -4,13 +4,30 @@
 
 @import '../includes/lib';
 
-/* classes don't match naming schem for other files because
-I didn't want to alter the javascript that relies on them */
+#newsletter-wrapper {
+    @include at2x($baseurl + '/assets/images/newsletter-bg.png');
+    @include background-size(cover);
+    color: #fff;
+    padding: 20px;
 
-.newsletter_icon {
-    height: 37px;
-    width: 56px;
-    margin-top: -4px;
+    input[type=email],
+    .button {
+        @include border-box();
+        width: 100%;
+    }
+
+    input[type=email] {
+        border-radius: 0;
+    }
+
+    .button {
+        @include font-size(22px);
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        margin-top: 10px;
+        padding: 8px 0;
+    }
 }
 
 .newsletter_errors {
@@ -30,24 +47,22 @@ I didn't want to alter the javascript that relies on them */
     @include font-size(14px);
 }
 
-.newsletter_thanks {
-    display: none;
+#newsletter_email label {
+    @include visually-hidden();
 }
 
-.newsletter-inline {
-    #newsletter_email label {
-        @include visually-hidden();
-    }
-
-    input[type=email],
-    .button {
-        width: 100%;
-    }
+.newsletter_thanks {
+    display: none;
 }
 
 /* hide the newsletter selection */
 #newsletter_options {
     display: none;
+}
+
+#privacy-policy-link-wrapper {
+    margin-top: 10px;
+    text-align: center;
 }
 
 .js .js-collapse {

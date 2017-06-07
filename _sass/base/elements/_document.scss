@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-size: 100%;
+    font-size: $base-font-size;
     background: #fff;
     border-top: 2px solid #fff;
     color: $color-text-primary;

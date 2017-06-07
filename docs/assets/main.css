@@ -62,11 +62,11 @@ html {
   background: #fff; }
 
 body {
-  font-size: 100%;
+  font-size: 120%;
   background: #fff;
   border-top: 2px solid #fff;
   color: #000;
-  font-family: "Zilla Slab", "Open Sans", X-LocaleSpecific, sans-serif;
+  font-family: "franklin-gothic-urw-comp", "sans-serif";
   line-height: 1.5; }
 
 .hidden {
@@ -393,12 +393,33 @@ html[dir="rtl"] #modal .window .inner #modal-close {
           margin-left: 0; }
         #modal .inner .footer div:last-child {
           margin-right: 0; } }
-/* classes don't match naming schem for other files because
-I didn't want to alter the javascript that relies on them */
-.newsletter_icon {
-  height: 37px;
-  width: 56px;
-  margin-top: -4px; }
+#newsletter-wrapper {
+  background-image: url("/irlpodcast/assets/images/newsletter-bg.png");
+  background-size: auto auto;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  padding: 20px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    #newsletter-wrapper {
+      background-image: url("/irlpodcast/assets/images/newsletter-bg-high-res.png");
+      background-size: auto auto; } }
+  #newsletter-wrapper input[type=email],
+  #newsletter-wrapper .button {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%; }
+  #newsletter-wrapper input[type=email] {
+    border-radius: 0; }
+  #newsletter-wrapper .button {
+    font-size: 22px;
+    font-size: 1.375rem;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 10px;
+    padding: 8px 0; }
 
 .newsletter_errors {
   display: none;
@@ -415,10 +436,7 @@ I didn't want to alter the javascript that relies on them */
   font-size: 14px;
   font-size: 0.875rem; }
 
-.newsletter_thanks {
-  display: none; }
-
-.newsletter-inline #newsletter_email label {
+#newsletter_email label {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -429,13 +447,17 @@ I didn't want to alter the javascript that relies on them */
   position: absolute !important;
   /* stylelint-disable-line declaration-no-important */
   width: 1px; }
-.newsletter-inline input[type=email],
-.newsletter-inline .button {
-  width: 100%; }
+
+.newsletter_thanks {
+  display: none; }
 
 /* hide the newsletter selection */
 #newsletter_options {
   display: none; }
+
+#privacy-policy-link-wrapper {
+  margin-top: 10px;
+  text-align: center; }
 
 .js .js-collapse #newsletter_privacy,
 .js .js-collapse .newsletter_promise {
@@ -483,6 +505,14 @@ a:visited:focus,
 a:visited:hover {
   color: #984aaf; }
 
+.page-content {
+  padding-bottom: 70px; }
+
+@media screen and (min-width: 760px) {
+  .content p {
+    font-size: 22px;
+    font-size: 1.375rem; } }
+
 #mozilla-logo {
   -webkit-background-size: 100px 32px;
   background-size: 100px 32px;
@@ -493,27 +523,10 @@ a:visited:hover {
   background-repeat: no-repeat;
   display: block;
   height: 32px;
-  margin-bottom: 20px;
   width: 100px; }
 
-#site-header:after {
-  background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
-  background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
-  content: '';
-  display: block;
-  height: 2px;
-  margin-top: 40px;
-  visibility: visible;
-  width: 100%; }
-
 .site-title {
-  color: #000;
-  text-decoration: none; }
-  .site-title:active, .site-title:link, .site-title:visited {
-    color: #000; }
-  .site-title:focus, .site-title:hover, .site-title:visited:focus, .site-title:visited:hover {
-    color: #000;
-    text-decoration: none; }
+  color: #000; }
   .site-title:before {
     -webkit-background-size: 280px 280px;
     background-size: 280px 280px;
@@ -526,6 +539,16 @@ a:visited:hover {
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
     .site-title:before {
       background-image: url("/irlpodcast/assets/images/irl-logo-600px.png"); } }
+
+#intro .content:after {
+  background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
+  background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
+  content: '';
+  display: block;
+  height: 2px;
+  margin-top: 40px;
+  visibility: visible;
+  width: 100%; }
 
 .subscribe-links li {
   margin-bottom: 10px;
@@ -602,9 +625,13 @@ a:visited:hover {
 
 #footer {
   background: #111;
+  bottom: 0;
   color: #fff;
-  padding: 10px 0;
-  margin-top: 20px; }
+  height: 70px;
+  left: 0;
+  margin-top: 20px;
+  position: fixed;
+  width: 100%; }
   #footer a,
   #footer a:active,
   #footer a:focus,
