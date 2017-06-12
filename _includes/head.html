@@ -18,10 +18,7 @@
     <script src="{{ "/assets/js/pre-render.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/mozilla.dnt-helper.js" | relative_url }}"></script>
 
-    <script src="https://use.typekit.net/ksz8uxj.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-    {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% if jekyll.environment == 'production' and site.gtm_id %}
         {% include google-analytics.html %}
     {% endif %}
 </head>

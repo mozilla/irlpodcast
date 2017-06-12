@@ -1,18 +1,27 @@
 ---
 layout:         episode
-title:          "Trailer"
-date:           2017-05-25 11:07:14 -0500
+title:          "Introducing IRL: Because Online Life is Real Life"
+date:           2017-06-08 11:07:14 -0500
 categories:     episodes
-embed:          "https://embed.radiopublic.com/e?if=71789ff6-6488-4a7b-90b7-150d9034a5e4&ge=s1!42f89bb8bd9df747413dc19bd317d58565c9c334"
-description:    "Short description, ideally under 140 characters. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolo."
+embed:          "https://simplecast.com/e/72534"
+description:    "Our online life **is** real life. We walk, talk, work, and even love on the Internet – but we don’t always treat it like real life. Host Veronica Belmont sets out to explore this disconnect with stories from the wilds of the Web."
 number:         0
+show_notes: |
+    For behind-the-scenes video of IRL Trailer production, and a bit more about why we're making this podcast, check out our [blog](http://blog.mozilla.org/internetcitizen/2017/06/09/introducing-irl-original-podcast-mozilla/).
 transcript: |
-    Hi boys. I'm Tina. Hey Jimmy Jr. Did you see those two squirrels fighting in the courtyard? I'm not spooked. What's the next thing after spooked? I'm that. I'm gonna write the most erotic, graphic, freakiest friend fiction ever. If I were a hamburger you'd come and watch! I need to find a boy with a turtle bite on his finger. How do you know a python ate it? Did it leave a note? Not if you're a fish. I'm compiling a list of people I can mate with to repopulate the Earth. Is it possible to be in love with 25 people at once? Dad, you're the best pimp a girl could ever have. I'm compiling a list of people I can mate with to repopulate the Earth. The hand wants what the hand wants. I could go to jail, or hell, or jail-hell. The hand wants what the hand wants.
+    **Speaker 1:** They want to deliver fast amounts of information over the internet, and again, the internet is a series of tubes, tubes, tubes.
 
-    There's someone behind the milk. Maybe it's the dairy fairy. If I drunk text you and you're asleep, don't text me in the morning…that ship has sailed. I want a dry erase board so I can write down all my private thoughts and then erase them immediately. Sometimes with Jimmy Jr, I don't know what to say. But now I don't know what not to say and it's like okay guys, who can get to my mouth first? My bra's chafing me. Let's raise our glasses! I need both ears to hold up my glasses. Buns...sen. Detention is no big deal. Don't have a crap attack. Your body. Hey, you don't want to mess with my sister. She'll wear down your self esteem over a period of years. Sometimes with Jimmy Jr, I don't know what to say. But now I don't know what not to say and it's like okay guys, who can get to my mouth first? The hand wants what the hand wants. Dad, if you believe you're beautiful, you will be. I did.
+    **Veronica B.:** And three, two, the internet. It's amazing if you love pandas, complicated OK Go videos, buying stuff, gifs, jiffs, no, it's gifs, seeing governments toppled by popular uprisings, kittens getting their heads stuck in jars, or watching mean people from high school get middle aged on Facebook, but it's a rough place if you don't like cyberbullying, anonymous threats, fake news, companies stalking your every move, ransomware, identity theft, or getting hacked, getting doxxed, getting catfished ... Maybe we can't have nice things. We just break them or make them too weird or obnoxious to enjoy. So given its current state, I have to ask. Is the internet broken beyond repair? I'm Veronica Belmont, and I'm hosting this brand new podcast for Mozilla. It's called IRL. Yep, that's right, IRL as in In Real Life, because your online life is real life. I think we forget that sometimes because we do stuff online that we wouldn't dare do in meet space. Online, we let companies follow us around as we hop from website to website. In real life, we don't answer the door when someone's trying to sell us cookies. Online, we split up in highly politicized camps. IRL, we could probably talk out our differences over a few beers.
 
-    The second time hurt the most. Give them ridiculous French accents. I'm not spooked. What's the next thing after spooked? I'm that. I need both ears to hold up my glasses. Ok then, see you on our date! I need both ears to hold up my glasses. Your body. This is where I thrash. Your body. This is like watching two monkeys at the puberty zoo. Dr. Yap, once I was into you, but after seeing you torture my father, I think we should just be friends with dental benefits. I could go to jail, or hell, or jail-hell. The hand wants what the hand wants. Drop the towel.
+    **Speaker 3:**  Yay!
+
+    **Veronica B.:** Online, we stalk our Tinder dates before we even meet them in person. In real life, we do that and we end up in front of a judge. These days, it feels like the web's at a critical juncture. On IRL, I'll dive into the internet to find out what needs fixing, saving, or made stronger. Together, let's find out how we can fix the internet for good and prove we can have nice things. IRL, an original podcast from Mozilla, launching on June 26th. Find out more at irlpodcast.org. IRL, because online life is real life.
 ---
+
+## Show Notes
+<a name="#shownotes"></a>
+
+{{ page.show_notes }}
 
 ## Transcript
 <a name="#transcript"></a>

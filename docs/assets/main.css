@@ -1,23 +1,13 @@
 @font-face {
-  font-family: 'Zilla Slab';
+  font-family: 'FranklinGothic';
   font-weight: normal;
   font-style: normal;
-  src: url("/irlpodcast/assets/fonts/ZillaSlab-Regular.woff2") format("woff2"), url("/irlpodcast/assets/fonts/ZillaSlab-Regular.woff") format("woff"); }
+  src: url("/irlpodcast/assets/fonts/franklingothic-book.woff2") format("woff2"), url("/irlpodcast/assets/fonts/franklingothic-book.woff") format("woff"); }
 @font-face {
-  font-family: 'Zilla Slab';
+  font-family: 'FranklinGothic';
   font-weight: bold;
   font-style: normal;
-  src: url("/irlpodcast/assets/fonts/ZillaSlab-Bold.woff2") format("woff2"), url("/irlpodcast/assets/fonts/ZillaSlab-Bold.woff") format("woff"); }
-@font-face {
-  font-family: 'Zilla Slab Highlight';
-  font-weight: normal;
-  font-style: normal;
-  src: url("/irlpodcast/assets/fonts/ZillaSlab-RegularHighlight.woff2") format("woff2"), url("/irlpodcast/assets/fonts/ZillaSlab-RegularHighlight.woff") format("woff"); }
-@font-face {
-  font-family: 'Zilla Slab Highlight';
-  font-weight: bold;
-  font-style: normal;
-  src: url("/irlpodcast/assets/fonts/ZillaSlab-BoldHighlight.woff2") format("woff2"), url("/irlpodcast/assets/fonts/ZillaSlab-BoldHighlight.woff") format("woff"); }
+  src: url("/irlpodcast/assets/fonts/franklingothic-demi.woff2") format("woff2"), url("/irlpodcast/assets/fonts/franklingothic-demi.woff") format("woff"); }
 article, aside, details, figcaption, figure, footer, header,
 hgroup, main, nav, section, summary {
   display: block; }
@@ -66,7 +56,7 @@ body {
   background: #fff;
   border-top: 2px solid #fff;
   color: #000;
-  font-family: "franklin-gothic-urw-comp", "sans-serif";
+  font-family: "FranklinGothic", sans-serif;
   line-height: 1.5; }
 
 .hidden {
@@ -525,21 +515,6 @@ a:visited:hover {
   height: 32px;
   width: 100px; }
 
-.site-title {
-  color: #000; }
-  .site-title:before {
-    -webkit-background-size: 280px 280px;
-    background-size: 280px 280px;
-    background-image: url("/irlpodcast/assets/images/irl-logo-300px.png");
-    content: '';
-    display: block;
-    height: 280px;
-    margin-bottom: 20px;
-    width: 280px; }
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
-    .site-title:before {
-      background-image: url("/irlpodcast/assets/images/irl-logo-600px.png"); } }
-
 #intro .content:after {
   background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
   background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
@@ -549,6 +524,22 @@ a:visited:hover {
   margin-top: 40px;
   visibility: visible;
   width: 100%; }
+@media screen and (min-width: 760px) {
+  #intro .content {
+    display: grid;
+    grid-template: repeat(3, auto)/300px auto;
+    grid-template-areas: "logo title" "logo intro" "gradient gradient"; }
+    #intro .content #site-logo {
+      grid-area: logo; }
+    #intro .content #site-title {
+      grid-area: title; }
+    #intro .content #site-intro {
+      grid-area: intro; }
+    #intro .content:after {
+      grid-area: gradient; }
+    #intro .content #site-title,
+    #intro .content #site-intro {
+      padding-left: 20px; } }
 
 .subscribe-links li {
   margin-bottom: 10px;

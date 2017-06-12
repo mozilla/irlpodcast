@@ -23,11 +23,11 @@
                 Mozilla.Modal.createModal(e.target, $('#' + e.target.dataset.shareLinks), {
                     title: 'Share'
                 });
-            } else if (targetClass.contains('episode-transcript-link')) {
+            } else if (targetClass.contains('episode-shownotes-link')) {
                 e.preventDefault();
 
-                Mozilla.Modal.createModal(e.target, $('#' + e.target.dataset.transcript), {
-                    title: 'Transcript'
+                Mozilla.Modal.createModal(e.target, $('#' + e.target.dataset.shownotes), {
+                    title: 'Show Notes'
                 });
             }
 

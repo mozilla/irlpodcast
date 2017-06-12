@@ -8,8 +8,7 @@
 
 @import
     // Fonts
-    'includes/fonts/zilla-slab',
-    'includes/fonts/zilla-slab-highlight',
+    'includes/fonts/franklin-gothic',
 
     // Base elements - general HTML elements
     'base/elements',
@@ -56,34 +55,45 @@ a:visited:hover {
     width: 100px;
 }
 
-.site-title {
-    color: #000;
-
-    &:before {
-        @include background-size(280px 280px);
-        background-image: url($baseurl + '/assets/images/irl-logo-300px.png');
+#intro .content {
+    &:after {
+        @include gradient-horizontal(#ff00fd, 0%, #0e00cf, 100%);
         content: '';
         display: block;
-        height: 280px;
-        margin-bottom: 20px;
-        width: 280px;
+        height: 2px;
+        margin-top: 40px;
+        visibility: visible;
+        width: 100%;
     }
 
-    @media #{$mq-high-res} {
-        &:before {
-            background-image: url($baseurl + '/assets/images/irl-logo-600px.png');
+    @media #{$mq-tablet} {
+        display: grid;
+        grid-template: repeat(3, auto) / 300px auto;
+        grid-template-areas: "logo title"
+                             "logo intro"
+                             "gradient gradient";
+
+        #site-logo {
+            grid-area: logo;
+        }
+
+        #site-title {
+            grid-area: title;
+        }
+
+        #site-intro {
+            grid-area: intro;
+        }
+
+        &:after {
+            grid-area: gradient;
+        }
+
+        #site-title,
+        #site-intro {
+            padding-left: 20px;
         }
     }
-}
-
-#intro .content:after {
-    @include gradient-horizontal(#ff00fd, 0%, #0e00cf, 100%);
-    content: '';
-    display: block;
-    height: 2px;
-    margin-top: 40px;
-    visibility: visible;
-    width: 100%;
 }
 
 .subscribe-links {
