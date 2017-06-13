@@ -2,8 +2,9 @@
 
 1. Add asset bundler
     - https://github.com/tkareine/jekyll-minibundle
-2. Wire up newsletter form
-3.
+2. make max-width skinnier
+3. add separator vertical bar on episode links
+4. check font sizes
 
 ## Publishing to GitHub pages
 

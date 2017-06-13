@@ -490,7 +490,7 @@ html[dir="rtl"] #modal .window .inner #modal-close {
       width: 740px; } }
   @media screen and (min-width: 1000px) {
     .content {
-      width: 980px; } }
+      width: 860px; } }
 
 a,
 a:active,
@@ -551,7 +551,8 @@ a:visited:hover {
     grid-template: repeat(3, auto)/300px auto;
     grid-template-areas: "logo title" "logo intro" "subscribe subscribe" "gradient gradient"; }
     #intro .content #site-logo {
-      grid-area: logo; }
+      grid-area: logo;
+      margin-right: 20px; }
     #intro .content #site-title {
       grid-area: title; }
     #intro .content #site-intro {
@@ -559,10 +560,7 @@ a:visited:hover {
     #intro .content .subscribe-links {
       grid-area: subscribe; }
     #intro .content:after {
-      grid-area: gradient; }
-    #intro .content #site-title,
-    #intro .content #site-intro {
-      padding-left: 20px; } }
+      grid-area: gradient; } }
 
 .subscribe-links li {
   margin-bottom: 10px;
@@ -649,7 +647,8 @@ a:visited:hover {
     #episode-list .episode-player {
       display: block; } }
 #episode-list .episode-links {
-  display: none; }
+  display: none;
+  max-width: none; }
   @media screen and (min-width: 760px) {
     #episode-list .episode-links {
       display: flex; } }
@@ -664,7 +663,8 @@ a:visited:hover {
 
 .episode-links {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between;
+  max-width: 260px; }
   .episode-links a:before {
     background-position: left bottom;
     background-repeat: no-repeat;

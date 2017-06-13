@@ -95,6 +95,7 @@ a:visited:hover {
 
         #site-logo {
             grid-area: logo;
+            margin-right: 20px;
         }
 
         #site-title {
@@ -111,11 +112,6 @@ a:visited:hover {
 
         &:after {
             grid-area: gradient;
-        }
-
-        #site-title,
-        #site-intro {
-            padding-left: 20px;
         }
     }
 }
@@ -262,6 +258,7 @@ a:visited:hover {
 
     .episode-links {
         display: none;
+        max-width: none;
 
         @media #{$mq-tablet} {
             display: flex;
@@ -275,7 +272,8 @@ a:visited:hover {
 
 .episode-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 260px;
 
     a:before {
         background-position: left bottom;

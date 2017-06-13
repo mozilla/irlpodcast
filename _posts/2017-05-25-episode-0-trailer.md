@@ -1,4 +1,5 @@
 ---
+permalink:      /episodes/0/
 layout:         episode
 id:             episode-page
 title:          "Introducing IRL: Because Online Life is Real Life"
