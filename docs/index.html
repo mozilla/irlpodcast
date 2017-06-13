@@ -21,10 +21,29 @@
     <script src="/irlpodcast/assets/js/mozilla.dnt-helper.js"></script>
 
     
+        <script>
+    'use strict';
+
+    // If doNotTrack is not enabled, it is ok to add GTM
+    // @see https://bugzilla.mozilla.org/show_bug.cgi?id=1217896 for more details
+    if (typeof Mozilla.dntEnabled === 'function' && !Mozilla.dntEnabled()) {
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5H9T7GF');
+    }
+</script>
+
+    
 </head>
 
 
     <body id="home">
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9T7GF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
     
 
         <header class="content" role="banner" id="site-header">
@@ -53,18 +72,18 @@
 
 <section id="subscribe">
     <div class="content">
-        <ul class="subscribe-links">
+        <ul class="subscribe-links" data-episode-title="">
     <li>
-        <a href=""><img src="/irlpodcast/assets/images/apple-podcasts-badge.svg" alt="Subscribe on Apple Podcasts"></a>
+        <a href="" data-service="iTunes"><img src="/irlpodcast/assets/images/apple-podcasts-badge.svg" alt="Subscribe on Apple Podcasts"></a>
     </li>
     <li>
-        <a href=""><img src="/irlpodcast/assets/images/spotify-badge.svg" alt="Subscribe on Spotify"></a>
+        <a href="" data-service="Spotify"><img src="/irlpodcast/assets/images/spotify-badge.svg" alt="Subscribe on Spotify"></a>
     </li>
     <li>
-        <a href=""><img src="/irlpodcast/assets/images/radiopublic-badge.svg" alt="Subscribe on RadioPublic"></a>
+        <a href="" data-service="Radio Public"><img src="/irlpodcast/assets/images/radiopublic-badge.svg" alt="Subscribe on RadioPublic"></a>
     </li>
     <li class="rss-link">
-        <a href="http://feeds.mozilla-podcasts.org/irl">Or, subscribe using RSS</a>
+        <a href="http://feeds.mozilla-podcasts.org/irl" data-service="RSS">Or, subscribe using RSS</a>
     </li>
 </ul>
 
@@ -80,17 +99,15 @@
                 
 
 
+
 <article class="episode" id="episode-0">
-    <img src="/irlpodcast/assets/images/episodes/0/artwork.jpg" srcset="/irlpodcast/assets/images/episodes/0/artwork@2x.jpg 2x" class="episode-image" alt="">
+    <img src="/irlpodcast/assets/images/episodes/0/artwork.png" srcset="/irlpodcast/assets/images/episodes/0/artwork@2x.png 2x" class="episode-image" alt="">
 
-    <h2 class="episode-title">
-        <a class="episode-link" href="/irlpodcast/episodes/2017/06/08/episode-0-trailer.html">Introducing IRL: Because Online Life is Real Life</a>
-    </h2>
+    <a href="/irlpodcast/episodes/2017/06/08/episode-0-trailer.html" class="episode-link">
+        <strong class="episode-number">Episode 0</strong>
 
-    <p>
-        <p>Our online life <strong>is</strong> real life. We walk, talk, work, and even love on the Internet – but we don’t always treat it like real life. Host Veronica Belmont sets out to explore this disconnect with stories from the wilds of the Web.</p>
-
-    </p>
+        <h2 class="episode-title">Introducing IRL: Because Online Life is Real Life</h2>
+    </a>
 
     <ul class="episode-links">
         <li><a href="#subscribe-links" class="episode-subscribe-link" data-subscribe-links="episode-0-subscribe-links">Subscribe</a></li>
@@ -98,23 +115,23 @@
         <li><a href="" class="episode-share-link" data-share-links="episode-0-share-links">Share</a></li>
     </ul>
 
-    <iframe src="https://simplecast.com/e/72534?style=dark" seamless="" scrolling="no" width="100%" height="36px" frameborder="0"></iframe>
+    <iframe class="episode-player" src="https://simplecast.com/e/72534?style=light" seamless="" scrolling="no" width="100%" height="36px" frameborder="0"></iframe>
 
     <!-- the following are presented in modal windows -->
     <div class="modal-content-wrapper">
         <div class="episode-subscribe-links" id="episode-0-subscribe-links">
-            <ul class="subscribe-links">
+            <ul class="subscribe-links" data-episode-title="Introducing IRL: Because Online Life is Real Life">
     <li>
-        <a href=""><img src="/irlpodcast/assets/images/apple-podcasts-badge.svg" alt="Subscribe on Apple Podcasts"></a>
+        <a href="" data-service="iTunes"><img src="/irlpodcast/assets/images/apple-podcasts-badge.svg" alt="Subscribe on Apple Podcasts"></a>
     </li>
     <li>
-        <a href=""><img src="/irlpodcast/assets/images/spotify-badge.svg" alt="Subscribe on Spotify"></a>
+        <a href="" data-service="Spotify"><img src="/irlpodcast/assets/images/spotify-badge.svg" alt="Subscribe on Spotify"></a>
     </li>
     <li>
-        <a href=""><img src="/irlpodcast/assets/images/radiopublic-badge.svg" alt="Subscribe on RadioPublic"></a>
+        <a href="" data-service="Radio Public"><img src="/irlpodcast/assets/images/radiopublic-badge.svg" alt="Subscribe on RadioPublic"></a>
     </li>
     <li class="rss-link">
-        <a href="http://feeds.mozilla-podcasts.org/irl">Or, subscribe using RSS</a>
+        <a href="http://feeds.mozilla-podcasts.org/irl" data-service="RSS">Or, subscribe using RSS</a>
     </li>
 </ul>
 
@@ -126,9 +143,9 @@
             <h4>Episode 0 - Introducing IRL: Because Online Life is Real Life</h4>
             
             
-            <ul class="social-share-links">
-    <li><a class="twitter" href="https://www.twitter.com/intent/tweet?url=/irlpodcast/episodes/2017/06/08/episode-0-trailer.html&amp;text=IRL+Podcast+-+Episode+0%3A+Introducing+IRL%3A+Because+Online+Life+is+Real+Life" title="Twitter" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
-    <li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=/irlpodcast/episodes/2017/06/08/episode-0-trailer.html" title="Facebook" data-link-type="social share" data-link-name="Facebook">Facebook</a></li>
+            <ul class="social-share-links" data-episode-title="">
+    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=/irlpodcast/episodes/2017/06/08/episode-0-trailer.html&amp;text=IRL+Podcast+-+Episode+0%3A+Introducing+IRL%3A+Because+Online+Life+is+Real+Life" title="Twitter" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
+    <li><a class="facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=/irlpodcast/episodes/2017/06/08/episode-0-trailer.html" title="Facebook" data-link-type="social share" data-link-name="Facebook">Facebook</a></li>
 </ul>
 
         </div>

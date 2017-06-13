@@ -2,36 +2,56 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-(function(Mozilla) {
+(function($, Mozilla, dataLayer) {
     'use strict';
 
-    var episodeList = document.getElementById('episode-list');
+    var $episodeList = $('#episode-list');
+    var $subscribeLinks = $('.subscribe-links');
+    var $socialShareLinks = $('.social-share-links');
 
-    if (episodeList) {
-        episodeList.addEventListener('click', function(e) {
-            var targetClass = e.target.classList;
+    // open modals for subscribe/show notes/share
+    $episodeList.on('click', 'a', function(e) {
+        e.preventDefault();
+        var $target = $(e.target);
 
-            if (targetClass.contains('episode-subscribe-link')) {
-                e.preventDefault();
+        if ($target.hasClass('episode-subscribe-link')) {
+            Mozilla.Modal.createModal(e.target, $('#' + $target.data('subscribeLinks')), {
+                title: 'Subscribe'
+            });
+        } else if ($target.hasClass('episode-share-link')) {
+            Mozilla.Modal.createModal(e.target, $('#' + $target.data('shareLinks')), {
+                title: 'Share'
+            });
+        } else if ($target.hasClass('episode-shownotes-link')) {
+            Mozilla.Modal.createModal(e.target, $('#' + $target.data('shownotes')), {
+                title: 'Show Notes'
+            });
+        }
+    });
 
-                Mozilla.Modal.createModal(e.target, $('#' + e.target.dataset.subscribeLinks), {
-                    title: 'Subscribe'
-                });
-            } else if (targetClass.contains('episode-share-link')) {
-                e.preventDefault();
+    // track subscribe clicks
+    $subscribeLinks.on('click', 'a', function(e) {
+        var $this = $(this);
+        var $parent = $this.parents('.subscribe-links:first');
+        var service = $this.data('service');
 
-                Mozilla.Modal.createModal(e.target, $('#' + e.target.dataset.shareLinks), {
-                    title: 'Share'
-                });
-            } else if (targetClass.contains('episode-shownotes-link')) {
-                e.preventDefault();
-
-                Mozilla.Modal.createModal(e.target, $('#' + e.target.dataset.shownotes), {
-                    title: 'Show Notes'
-                });
-            }
-
-            e.stopPropagation();
+        dataLayer.push({
+            'data-listen-platform': service,
+            'data-podcast-title': $parent.data('episode-title'),
+            'event': 'listen-with'
         });
-    }
-})(window.Mozilla);
+    });
+
+    // track share clicks
+    $socialShareLinks.on('click', 'a', function(e) {
+        var $this = $(this);
+        var $parent = $this.parents('.social-share-links:first');
+        var service = $this.data('service');
+
+        dataLayer.push({
+            'data-share-network': service,
+            'data-podcast-title': $parent.data('episode-title'),
+            'event': 'social-share'
+        });
+    });
+})(window.jQuery, window.Mozilla, window.dataLayer || []);

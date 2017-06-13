@@ -11,19 +11,44 @@ Our online life is real life. We walk, talk, work, LOL and even love on the Inte
 
 Mozilla is the nonprofit maker of Firefox, and a leader in the fight for internet health. We empower people to be safe and strong online, build tools and products that battle Big Tech, and champion a more just, equal, and fair system for all.
 
-## Credits
+<div id="credits">
+    <h2>Credits</h2>
 
-### Veronica Belmont
+    <ul>
+        <li class="credit">
+            <img src="{{ site.baseurl }}/assets/images/veronica-belmont-300px.jpg" srcset="{{ site.baseurl }}/assets/images/veronica-belmont-600px.jpg 2x" class="credits-image" alt="">
 
-![]({{ site.baseurl }}/assets/images/veronica-belmont-300px.jpg){:srcset="{{ site.baseurl }}/assets/images/veronica-belmont-600px.jpg 2x"}
+            <h3>Veronica Belmont</h3>
 
-Veronica Belmont is a Product Manager at [Growbot.io](https://www.growbot.io/), startup advisor, and board member at [about.me](https://about.me/). She has an expertise in and passion for technology, and as a media personality, has hosted several video and audio shows on the topic, including Engadget's Dear Veronica, Gizmodo’s The Gadget Testers, and Discovery Digital’s Tekzilla.
+            <p>
+                Veronica Belmont is a Product Manager at
+                <a href="https://www.growbot.io/" rel="external">Growbot.io</a>, startup
+                advisor, and board member at
+                <a href="https://about.me/" rel="external">about.me</a>. She has an
+                expertise in and passion for technology, and as a media personality, has
+                hosted several video and audio shows on the topic, including Engadget's
+                Dear Veronica, Gizmodo’s The Gadget Testers, and Discovery Digital’s
+                Tekzilla.
+            </p>
+        </li>
 
-### Pacific Content
+        <li class="credit">
+            <div class="credits-image" id="pacific-content-credit-image">
+                <img src="{{ site.baseurl }}/assets/images/pacific-content-logo.svg" width="200" height="267">
+            </div>
 
-![]({{ site.baseurl }}/assets/images/pacific-content-logo.svg){:id="pacific-content-logo"}
+            <h3>Pacific Content</h3>
 
-Pacific Content leads production of Mozilla’s IRL podcast. They’re a group of forward-facing media professionals that exclusively focuses on making original podcast series with brands. They’re also the people behind Slack’s Work in Progress podcast, Dell Technologies's Trailblazers with Walter Isaacson podcast, and Zendesk’s Relate podcast.
+            <p>
+                Pacific Content leads production of Mozilla’s IRL podcast. They’re a
+                group of forward-facing media professionals that exclusively focuses on
+                making original podcast series with brands. They’re also the people
+                behind Slack’s Work in Progress podcast, Dell Technologies's
+                Trailblazers with Walter Isaacson podcast, and Zendesk’s Relate podcast.
+            </p>
+        </li>
+    </ul>
+</div>
 
 ## Contact
 

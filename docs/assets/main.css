@@ -386,10 +386,11 @@ html[dir="rtl"] #modal .window .inner #modal-close {
 #newsletter-wrapper {
   background-image: url("/irlpodcast/assets/images/newsletter-bg.png");
   background-size: auto auto;
-  -webkit-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 1256px 515px;
+  background-size: 1256px 515px;
+  background-position: top left;
   color: #fff;
-  padding: 20px; }
+  padding: 30px 20px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
     #newsletter-wrapper {
       background-image: url("/irlpodcast/assets/images/newsletter-bg-high-res.png");
@@ -408,8 +409,22 @@ html[dir="rtl"] #modal .window .inner #modal-close {
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
-    margin-top: 10px;
-    padding: 8px 0; }
+    margin: 10px 0;
+    padding: 8px 0;
+    transition: background-color 0.2s ease, color 0.2s ease; }
+    #newsletter-wrapper .button:hover {
+      background: #fff;
+      color: #000; }
+  @media screen and (min-width: 760px) {
+    #newsletter-wrapper {
+      padding: 40px; } }
+
+@media screen and (min-width: 760px) {
+  #newsletter-inner-wrapper {
+    width: 450px; } }
+
+#newsletter_privacy {
+  margin-top: 10px; }
 
 .newsletter_errors {
   display: none;
@@ -453,9 +468,6 @@ html[dir="rtl"] #modal .window .inner #modal-close {
 .js .js-collapse .newsletter_promise {
   display: none; }
 
-@media screen and (min-width: 760px) {
-  .newsletter:not(.newsletter-inline) {
-    min-height: 50vh; } }
 .section,
 .content {
   zoom: 1;
@@ -487,6 +499,8 @@ a:active,
 a:link,
 a:visited {
   color: #88429d;
+  font-weight: bold;
+  text-decoration: none;
   transition: color 0.2s ease; }
 
 a:focus,
@@ -503,6 +517,10 @@ a:visited:hover {
     font-size: 22px;
     font-size: 1.375rem; } }
 
+#site-header {
+  margin-top: 40px;
+  padding-bottom: 0; }
+
 #mozilla-logo {
   -webkit-background-size: 100px 32px;
   background-size: 100px 32px;
@@ -515,13 +533,16 @@ a:visited:hover {
   height: 32px;
   width: 100px; }
 
+#site-intro {
+  margin-bottom: 0; }
+
 #intro .content:after {
   background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
   background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
   content: '';
   display: block;
   height: 2px;
-  margin-top: 40px;
+  margin-top: 20px;
   visibility: visible;
   width: 100%; }
 @media screen and (min-width: 760px) {
@@ -569,22 +590,104 @@ a:visited:hover {
   border-bottom: 1px solid #ccc;
   padding-bottom: 40px; }
 
+@media screen and (min-width: 760px) {
+  .episode {
+    display: grid;
+    grid-template: repeat(4, auto)/300px auto;
+    grid-template-areas: "logo title" "logo links" "logo player"; }
+    .episode .episode-image {
+      align-self: start;
+      grid-area: logo;
+      height: 200px;
+      justify-self: end;
+      margin-right: 20px;
+      width: 200px; }
+    .episode .episode-link {
+      grid-area: title; }
+    .episode .episode-links {
+      grid-area: links; }
+    .episode .episode-player {
+      grid-area: player; } }
+
 .episode-image {
-  border: 1px solid #999; }
+  display: none; }
+  @media screen and (min-width: 760px) {
+    .episode-image {
+      display: block;
+      border: 1px solid #999; } }
+
+.episode-link {
+  display: block;
+  padding-right: 50px;
+  position: relative; }
+  .episode-link:active, .episode-link:link, .episode-link:visited, .episode-link:focus, .episode-link:hover, .episode-link:visited:focus, .episode-link:visited:hover {
+    color: #000; }
+  .episode-link:after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 30px;
+    background: url("/irlpodcast/assets/images/episode-link-arrow.svg") right center no-repeat;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+    transform: translateX(-4px);
+    transition: transform 0.2s ease; }
+  .episode-link:hover:after {
+    transform: translateX(0); }
+  @media screen and (min-width: 760px) {
+    .episode-link {
+      padding-right: 0; }
+      .episode-link:after {
+        display: none; } }
 
 .episode-title {
   font-size: 28px;
   font-size: 1.75rem;
-  font-weight: normal;
-  text-align: center; }
+  font-weight: normal; }
   @media screen and (min-width: 760px) {
     .episode-title {
       font-size: 38px;
       font-size: 2.375rem; } }
 
+.episode-player {
+  display: none; }
+  @media screen and (min-width: 760px) {
+    .episode-player {
+      display: block; } }
+
 .episode-links {
-  display: flex;
-  justify-content: space-around; }
+  display: none; }
+  @media screen and (min-width: 760px) {
+    .episode-links {
+      display: flex;
+      justify-content: space-around; }
+      .episode-links a:before {
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        content: '';
+        display: block;
+        float: left;
+        height: 20px;
+        padding-right: 10px;
+        width: 15px; } }
+
+.episode-subscribe-link:before {
+  -webkit-background-size: 15px 15px;
+  background-size: 15px 15px;
+  background-image: url("/irlpodcast/assets/images/icon-subscribe.svg"); }
+
+.episode-share-link:before {
+  -webkit-background-size: 15px 18px;
+  background-size: 15px 18px;
+  background-image: url("/irlpodcast/assets/images/icon-share.svg"); }
+
+.episode-links .episode-shownotes-link:before {
+  -webkit-background-size: 18px 12px;
+  background-size: 18px 12px;
+  background-image: url("/irlpodcast/assets/images/icon-shownotes.svg");
+  width: 18px; }
 
 .modal-content-wrapper h4 {
   display: none; }
@@ -655,6 +758,30 @@ a:visited:hover {
     #modal h4 {
       font-size: 28px;
       font-size: 1.75rem; } }
+
+.credit {
+  zoom: 1;
+  margin-top: 20px; }
+  .credit:after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden; }
+
+.credits-image {
+  display: block;
+  height: 300px;
+  margin-bottom: 20px;
+  width: 300px; }
+  @media screen and (min-width: 760px) {
+    .credits-image {
+      float: left;
+      margin-right: 20px; } }
+
+#pacific-content-credit-image img {
+  display: block;
+  padding: 17px 0 0 50px; }
 
 .js .modal-content-wrapper,
 .js .transcript-modal-wrapper {

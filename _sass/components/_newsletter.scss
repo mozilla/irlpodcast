@@ -6,9 +6,10 @@
 
 #newsletter-wrapper {
     @include at2x($baseurl + '/assets/images/newsletter-bg.png');
-    @include background-size(cover);
+    @include background-size(1256px 515px);
+    background-position: top left;
     color: #fff;
-    padding: 20px;
+    padding: 30px 20px;
 
     input[type=email],
     .button {
@@ -25,9 +26,29 @@
         background: transparent;
         border: 1px solid #fff;
         color: #fff;
-        margin-top: 10px;
+        margin: 10px 0;
         padding: 8px 0;
+        transition: background-color 0.2s ease, color 0.2s ease;
+
+        &:hover {
+            background: #fff;
+            color: #000;
+        }
     }
+
+    @media #{$mq-tablet} {
+        padding: 40px;
+    }
+}
+
+#newsletter-inner-wrapper {
+    @media #{$mq-tablet} {
+        width: 450px;
+    }
+}
+
+#newsletter_privacy {
+    margin-top: 10px;
 }
 
 .newsletter_errors {
@@ -69,11 +90,5 @@
     #newsletter_privacy,
     .newsletter_promise {
         display: none;
-    }
-}
-
-@media #{$mq-tablet} {
-    .newsletter:not(.newsletter-inline) {
-        min-height: 50vh;
     }
 }

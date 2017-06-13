@@ -1,14 +1,14 @@
-<ul class="subscribe-links">
+<ul class="subscribe-links" data-episode-title="{{ include.episode_title | default: "" }}">
     <li>
-        <a href=""><img src="{{ "/assets/images/apple-podcasts-badge.svg" | relative_url }}" alt="Subscribe on Apple Podcasts"></a>
+        <a href="" data-service="iTunes"><img src="{{ "/assets/images/apple-podcasts-badge.svg" | relative_url }}" alt="Subscribe on Apple Podcasts"></a>
     </li>
     <li>
-        <a href=""><img src="{{ "/assets/images/spotify-badge.svg" | relative_url }}" alt="Subscribe on Spotify"></a>
+        <a href="" data-service="Spotify"><img src="{{ "/assets/images/spotify-badge.svg" | relative_url }}" alt="Subscribe on Spotify"></a>
     </li>
     <li>
-        <a href=""><img src="{{ "/assets/images/radiopublic-badge.svg" | relative_url }}" alt="Subscribe on RadioPublic"></a>
+        <a href="" data-service="Radio Public"><img src="{{ "/assets/images/radiopublic-badge.svg" | relative_url }}" alt="Subscribe on RadioPublic"></a>
     </li>
     <li class="rss-link">
-        <a href="http://feeds.mozilla-podcasts.org/irl">Or, subscribe using RSS</a>
+        <a href="http://feeds.mozilla-podcasts.org/irl" data-service="RSS">Or, subscribe using RSS</a>
     </li>
 </ul>

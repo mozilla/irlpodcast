@@ -1,43 +1,41 @@
 <div id="newsletter-wrapper">
-    <h2>Get Involved IRL</h2>
+    <div id="newsletter-inner-wrapper">
+        <h2>Get Involved IRL</h2>
 
-    <p>
-        Sign up for the Mozilla newsletter to hear more, learn more, and raise your
-        voice for a healthy Internet.
-    </p>
+        <p>
+            Sign up for the Mozilla newsletter to hear more, learn more, and raise your
+            voice for a healthy Internet.
+        </p>
 
-    <div class="newsletter js-collapse">
-        <form id="newsletter_form" name="newsletter_form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
-            <input type="hidden" id="fmt" name="fmt" value="H">
-            <input id="id_newsletters" maxlength="100" name="newsletters" value="mozilla-foundation" type="hidden">
+        <div class="newsletter js-collapse">
+            <form id="newsletter_form" name="newsletter_form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
+                <input type="hidden" id="fmt" name="fmt" value="H">
+                <input id="id_newsletters" maxlength="100" name="newsletters" value="mozilla-foundation" type="hidden">
 
-            <div id="newsletter_errors" class="newsletter_errors"></div>
+                <div id="newsletter_errors" class="newsletter_errors"></div>
 
-            <div id="newsletter_email" class="form_group">
-                <label for="email" class="form_label">E-mail</label> <input type="email" id="email" name="email" class="form_input" required="" placeholder="you@example.com" size="30">
+                <div id="newsletter_email" class="form_group">
+                    <label for="email" class="form_label">E-mail</label> <input type="email" id="email" name="email" class="form_input" required="" placeholder="you@example.com" size="30">
+                </div>
+
+                <div id="newsletter_privacy" class="form_group form_group-agree">
+                    <input type="checkbox" id="privacy" name="privacy" required=""> <label for="privacy">I'm okay with Mozilla handling my info as explained in this <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>.</label>
+                </div>
+
+                <div id="newsletter_submit">
+                    <button id="newsletter_submit" type="submit" class="button">Sign up now</button> <em class="newsletter_promise">We will only send you Mozilla-related information.</em>
+                </div>
+            </form>
+
+            <div id="newsletter_thanks" class="newsletter_thanks">
+                <h2>Thanks!</h2>
+
+                <p>
+                    If you haven’t previously confirmed a subscription to a
+                    Mozilla-related newsletter you may have to do so. Please check your
+                    inbox or your spam filter for an email from us.
+                </p>
             </div>
-
-            <div id="newsletter_privacy" class="form_group form_group-agree">
-                <input type="checkbox" id="privacy" name="privacy" required=""> <label for="privacy">I'm okay with Mozilla handling my info as explained in this <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>.</label>
-            </div>
-
-            <div id="newsletter_submit">
-                <button id="newsletter_submit" type="submit" class="button">Sign up now</button> <em class="newsletter_promise">We will only send you Mozilla-related information.</em>
-            </div>
-        </form>
-
-        <div id="newsletter_thanks" class="newsletter_thanks">
-            <h2>Thanks!</h2>
-
-            <p>
-                If you haven’t previously confirmed a subscription to a
-                Mozilla-related newsletter you may have to do so. Please check your
-                inbox or your spam filter for an email from us.
-            </p>
-        </div>
-    </div>
-
-    <p id="privacy-policy-link-wrapper">
-        <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>
-    </p>
-</div>
+        </div><!--/.newsletter-->
+    </div><!--/#newsletter-inner-wrapper-->
+</div><!--/#newsletter-wrapper-->

@@ -25,6 +25,8 @@ a:active,
 a:link,
 a:visited {
     color: #88429d;
+    font-weight: bold;
+    text-decoration: none;
     transition: color 0.2s ease;
 }
 
@@ -45,6 +47,11 @@ a:visited:hover {
     }
 }
 
+#site-header {
+    margin-top: 40px;
+    padding-bottom: 0;
+}
+
 #mozilla-logo {
     @include background-size(100px 32px);
     @include image-replaced();
@@ -55,13 +62,17 @@ a:visited:hover {
     width: 100px;
 }
 
+#site-intro {
+    margin-bottom: 0;
+}
+
 #intro .content {
     &:after {
         @include gradient-horizontal(#ff00fd, 0%, #0e00cf, 100%);
         content: '';
         display: block;
         height: 2px;
-        margin-top: 40px;
+        margin-top: 20px;
         visibility: visible;
         width: 100%;
     }
@@ -136,19 +147,138 @@ a:visited:hover {
     padding-bottom: 40px;
 }
 
+.episode {
+    @media #{$mq-tablet} {
+        display: grid;
+        grid-template: repeat(4, auto) / 300px auto;
+        grid-template-areas: "logo title"
+                             "logo links"
+                             "logo player";
+
+        // align image to top right side of grid area
+        .episode-image {
+            align-self: start;
+            grid-area: logo;
+            height: 200px;
+            justify-self: end;
+            margin-right: 20px;
+            width: 200px;
+        }
+
+        .episode-link {
+            grid-area: title;
+        }
+
+        .episode-links {
+            grid-area: links;
+        }
+
+        .episode-player {
+            grid-area: player;
+        }
+    }
+}
+
 .episode-image {
-    border: 1px solid #999;
+    display: none;
+
+    @media #{$mq-tablet} {
+        display: block;
+        border: 1px solid #999;
+    }
+}
+
+.episode-link {
+    display: block;
+    padding-right: 50px;
+    position: relative;
+
+    &:active,
+    &:link,
+    &:visited,
+    &:focus,
+    &:hover,
+    &:visited:focus,
+    &:visited:hover {
+        color: #000;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 30px;
+        background: url($baseurl + '/assets/images/episode-link-arrow.svg') right center no-repeat;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -15px;
+        transform: translateX(-4px);
+        transition: transform 0.2s ease;
+    }
+
+    &:hover {
+        &:after {
+            transform: translateX(0);
+        }
+    }
+
+    @media #{$mq-tablet} {
+        padding-right: 0;
+
+        &:after {
+            display: none;
+        }
+    }
 }
 
 .episode-title {
     @include font-size-level2();
     font-weight: normal;
-    text-align: center;
+}
+
+.episode-player {
+    display: none;
+
+    @media #{$mq-tablet} {
+        display: block;
+    }
 }
 
 .episode-links {
-    display: flex;
-    justify-content: space-around;
+    display: none;
+
+    @media #{$mq-tablet} {
+        display: flex;
+        justify-content: space-around;
+
+        a:before {
+            background-position: left bottom;
+            background-repeat: no-repeat;
+            content: '';
+            display: block;
+            float: left;
+            height: 20px;
+            padding-right: 10px;
+            width: 15px;
+        }
+    }
+}
+
+.episode-subscribe-link:before {
+    @include background-size(15px 15px);
+    background-image: url($baseurl + '/assets/images/icon-subscribe.svg');
+}
+
+.episode-share-link:before {
+    @include background-size(15px 18px);
+    background-image: url($baseurl + '/assets/images/icon-share.svg');
+}
+
+.episode-links .episode-shownotes-link:before {
+    @include background-size(18px 12px);
+    background-image: url($baseurl + '/assets/images/icon-shownotes.svg');
+    width: 18px;
 }
 
 .modal-content-wrapper {
@@ -235,6 +365,31 @@ a:visited:hover {
         @include font-size-level3();
         margin-bottom: 20px;
         text-align: center;
+    }
+}
+
+// about page
+.credit {
+    @include clearfix();
+    margin-top: 20px;
+}
+
+.credits-image {
+    display: block;
+    height: 300px;
+    margin-bottom: 20px;
+    width: 300px;
+
+    @media #{$mq-tablet} {
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+#pacific-content-credit-image {
+    img {
+        display: block;
+        padding: 17px 0 0 50px;
     }
 }
 
