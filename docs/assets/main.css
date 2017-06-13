@@ -303,7 +303,7 @@ html.noscroll {
       max-width: 600px;
       position: relative;
       background: #fff;
-      padding: 20px;
+      padding: 40px;
       zoom: 1; }
       #modal .window .inner:after {
         clear: both;
@@ -314,14 +314,12 @@ html.noscroll {
       #modal .window .inner > header {
         font-size: 28px;
         font-size: 1.75rem;
-        color: #fff;
         display: block;
+        font-weight: bold;
         height: auto;
         line-height: 1.3;
         min-height: 46px;
-        padding: 6px 60px 0 20px;
-        background: #000;
-        margin: -20px -20px 20px; }
+        padding-right: 60px; }
         @media screen and (min-width: 760px) {
           #modal .window .inner > header {
             font-size: 38px;
@@ -341,8 +339,7 @@ html.noscroll {
           background: transparent url("/irlpodcast/assets/images/modal-close.svg") center center no-repeat;
           -webkit-background-size: 14px 14px;
           background-size: 14px 14px;
-          border-radius: 50%;
-          border: 1px solid #fff;
+          border: none;
           height: 30px;
           min-width: 0;
           padding: 0;
@@ -353,10 +350,11 @@ html.noscroll {
             box-shadow: none; }
       #modal .window .inner .overlay-contents {
         background: transparent;
-        margin: 0 auto;
-        padding-top: 20px; }
+        margin: 0 auto; }
         #modal .window .inner .overlay-contents img, #modal .window .inner .overlay-contents iframe {
           max-width: 100%; }
+        #modal .window .inner .overlay-contents ul {
+          margin-bottom: 0; }
 
 /* Tweaks for RTL locales */
 html[dir="rtl"] #modal .window .inner #modal-close {
@@ -545,17 +543,21 @@ a:visited:hover {
   margin-top: 20px;
   visibility: visible;
   width: 100%; }
+#intro .content .subscribe-links {
+  margin-top: 20px; }
 @media screen and (min-width: 760px) {
   #intro .content {
     display: grid;
     grid-template: repeat(3, auto)/300px auto;
-    grid-template-areas: "logo title" "logo intro" "gradient gradient"; }
+    grid-template-areas: "logo title" "logo intro" "subscribe subscribe" "gradient gradient"; }
     #intro .content #site-logo {
       grid-area: logo; }
     #intro .content #site-title {
       grid-area: title; }
     #intro .content #site-intro {
       grid-area: intro; }
+    #intro .content .subscribe-links {
+      grid-area: subscribe; }
     #intro .content:after {
       grid-area: gradient; }
     #intro .content #site-title,
@@ -581,10 +583,11 @@ a:visited:hover {
     flex-basis: 25%; } }
 
 #modal .subscribe-links {
-  display: block; }
-  @media screen and (min-width: 760px) {
-    #modal .subscribe-links {
-      display: flex; } }
+  display: block;
+  margin-top: 40px; }
+  #modal .subscribe-links li {
+    margin-bottom: 20px;
+    text-align: left; }
 
 #episode-list {
   border-bottom: 1px solid #ccc;
@@ -596,33 +599,32 @@ a:visited:hover {
     grid-template: repeat(4, auto)/300px auto;
     grid-template-areas: "logo title" "logo links" "logo player"; }
     .episode .episode-image {
-      align-self: start;
       grid-area: logo;
-      height: 200px;
-      justify-self: end;
-      margin-right: 20px;
-      width: 200px; }
-    .episode .episode-link {
+      margin-right: 20px; }
+    .episode .episode-title-wrapper {
       grid-area: title; }
     .episode .episode-links {
       grid-area: links; }
     .episode .episode-player {
       grid-area: player; } }
 
-.episode-image {
+#episode-list .episode-image {
   display: none; }
   @media screen and (min-width: 760px) {
-    .episode-image {
+    #episode-list .episode-image {
       display: block;
-      border: 1px solid #999; } }
-
-.episode-link {
+      border: 1px solid #999;
+      align-self: start;
+      height: 200px;
+      justify-self: end;
+      width: 200px; } }
+#episode-list .episode-title-wrapper {
   display: block;
   padding-right: 50px;
   position: relative; }
-  .episode-link:active, .episode-link:link, .episode-link:visited, .episode-link:focus, .episode-link:hover, .episode-link:visited:focus, .episode-link:visited:hover {
+  #episode-list .episode-title-wrapper:active, #episode-list .episode-title-wrapper:link, #episode-list .episode-title-wrapper:visited, #episode-list .episode-title-wrapper:focus, #episode-list .episode-title-wrapper:hover, #episode-list .episode-title-wrapper:visited:focus, #episode-list .episode-title-wrapper:visited:hover {
     color: #000; }
-  .episode-link:after {
+  #episode-list .episode-title-wrapper:after {
     content: '';
     display: block;
     width: 20px;
@@ -634,44 +636,44 @@ a:visited:hover {
     margin-top: -15px;
     transform: translateX(-4px);
     transition: transform 0.2s ease; }
-  .episode-link:hover:after {
+  #episode-list .episode-title-wrapper:hover:after {
     transform: translateX(0); }
   @media screen and (min-width: 760px) {
-    .episode-link {
+    #episode-list .episode-title-wrapper {
       padding-right: 0; }
-      .episode-link:after {
+      #episode-list .episode-title-wrapper:after {
         display: none; } }
+#episode-list .episode-player {
+  display: none; }
+  @media screen and (min-width: 760px) {
+    #episode-list .episode-player {
+      display: block; } }
+#episode-list .episode-links {
+  display: none; }
+  @media screen and (min-width: 760px) {
+    #episode-list .episode-links {
+      display: flex; } }
 
 .episode-title {
   font-size: 28px;
-  font-size: 1.75rem;
-  font-weight: normal; }
+  font-size: 1.75rem; }
   @media screen and (min-width: 760px) {
     .episode-title {
       font-size: 38px;
       font-size: 2.375rem; } }
 
-.episode-player {
-  display: none; }
-  @media screen and (min-width: 760px) {
-    .episode-player {
-      display: block; } }
-
 .episode-links {
-  display: none; }
-  @media screen and (min-width: 760px) {
-    .episode-links {
-      display: flex;
-      justify-content: space-around; }
-      .episode-links a:before {
-        background-position: left bottom;
-        background-repeat: no-repeat;
-        content: '';
-        display: block;
-        float: left;
-        height: 20px;
-        padding-right: 10px;
-        width: 15px; } }
+  display: flex;
+  justify-content: space-around; }
+  .episode-links a:before {
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    content: '';
+    display: block;
+    float: left;
+    height: 20px;
+    padding-right: 10px;
+    width: 15px; }
 
 .episode-subscribe-link:before {
   -webkit-background-size: 15px 15px;
@@ -689,32 +691,41 @@ a:visited:hover {
   background-image: url("/irlpodcast/assets/images/icon-shownotes.svg");
   width: 18px; }
 
-.modal-content-wrapper h4 {
+.modal-content-wrapper h4,
+.modal-content-wrapper .modal-copy {
   display: none; }
 
 .social-share-links {
   display: flex;
-  justify-content: space-around; }
+  justify-content: flex-start; }
   .social-share-links li {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    flex: 0 0 50%;
-    margin: 0 10px;
+    flex: 0 0 auto;
+    margin: 0 20px 0 0;
     padding: 0 4px; }
     .social-share-links li a {
-      background-size: 50px;
+      background: #000;
+      border-radius: 50%;
       display: block;
-      height: 50px;
+      height: 70px;
       margin: 0 auto;
       overflow: hidden;
       text-indent: 120%;
-      width: 50px; }
+      width: 70px; }
+      .social-share-links li a:before {
+        background-size: 50px;
+        content: '';
+        display: block;
+        height: 50px;
+        margin: 10px auto;
+        width: 50px; }
 
-.twitter {
+.twitter:before {
   background: url("/irlpodcast/assets/images/twitter.svg") top left no-repeat; }
 
-.facebook {
+.facebook:before {
   background: url("/irlpodcast/assets/images/facebook.svg") top left no-repeat; }
 
 #footer {
@@ -782,6 +793,19 @@ a:visited:hover {
 #pacific-content-credit-image img {
   display: block;
   padding: 17px 0 0 50px; }
+
+#show-notes {
+  padding-top: 20px; }
+  #show-notes:before {
+    background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
+    background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
+    content: '';
+    display: block;
+    height: 2px;
+    margin-top: 20px;
+    visibility: visible;
+    width: 100%;
+    margin-bottom: 20px; }
 
 .js .modal-content-wrapper,
 .js .transcript-modal-wrapper {

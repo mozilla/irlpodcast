@@ -1,5 +1,6 @@
 ---
 layout:         episode
+id:             episode-page
 title:          "Introducing IRL: Because Online Life is Real Life"
 date:           2017-06-08 11:07:14 -0500
 categories:     episodes

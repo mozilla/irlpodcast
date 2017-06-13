@@ -5,15 +5,25 @@
 <article class="episode" id="episode-{{ episode.number }}">
     <img src="{{ image_path | relative_url }}" srcset="{{ image_path_high_res | relative_url }} 2x" class="episode-image" alt="">
 
-    <a href="{{ episode.url | relative_url }}" class="episode-link">
+{% if include.view == "episode" %}
+    <div class="episode-title-wrapper">
+{% else %}
+    <a href="{{ episode.url | relative_url }}" class="episode-title-wrapper">
+{% endif %}
         <strong class="episode-number">Episode {{ episode.number }}</strong>
 
         <h2 class="episode-title">{{ episode.title | escape }}</h2>
+{% if include.view == "episode" %}
+    </div>
+{% else %}
     </a>
+{% endif %}
 
     <ul class="episode-links">
         <li><a href="#subscribe-links" class="episode-subscribe-link" data-subscribe-links="episode-{{ episode.number }}-subscribe-links">Subscribe</a></li>
+    {% if include.view != "episode" %}
         <li><a href="{{ episode.url | relative_url }}#show_notes" class="episode-shownotes-link" data-shownotes="episode-{{ episode.number }}-shownotes">Show Notes</a></li>
+    {% endif %}
         <li><a href="" class="episode-share-link" data-share-links="episode-{{ episode.number }}-share-links">Share</a></li>
     </ul>
 
@@ -22,13 +32,25 @@
     <!-- the following are presented in modal windows -->
     <div class="modal-content-wrapper">
         <div class="episode-subscribe-links" id="episode-{{ episode.number }}-subscribe-links">
-            {% include subscribe-links.html episode_title=episode.title %}
+            <p class="modal-copy">
+                {{ site.description }}
+            </p>
+
+            {% assign itunes_tracking = episode.number | prepend: "episode" %}
+            {% include subscribe-links.html episode_title=episode.title itunes_tracking=itunes_tracking %}
         </div>
     </div>
 
     <div class="modal-content-wrapper">
         <div class="episode-share-links" id="episode-{{ episode.number }}-share-links">
-            <h4>Episode {{ episode.number }} - {{ episode.title | escape }}</h4>
+            <p class="modal-copy">
+                Episode {{ episode.number }} - {{ episode.title | escape }}
+            </p>
+
+            <p class="modal-copy">
+                {{ episode.description | markdownify }}
+            </p>
+
             {% assign episode_share_url = episode.url | absolute_url %}
             {% assign episode_share_text = episode.number | prepend: "IRL Podcast - Episode " | append: ": " | append: episode.title  %}
             {% include social-share-links.html share_url=episode_share_url share_text=episode_share_text episode_title=episode.title %}
@@ -37,7 +59,10 @@
 
     <div class="modal-content-wrapper shownotes-modal-wrapper">
         <div class="episode-shownotes" id="episode-{{ episode.number }}-shownotes">
-            <h4>Episode {{ episode.number }} - {{ episode.title | escape }}</h4>
+            <p class="modal-copy">
+                Episode {{ episode.number }} - {{ episode.title | escape }}
+            </p>
+
             {{ episode.show_notes | markdownify }}
         </div>
     </div>

@@ -5,12 +5,12 @@
 (function($, Mozilla, dataLayer) {
     'use strict';
 
-    var $episodeList = $('#episode-list');
+    var $episodeLinks = $('.episode-links');
     var $subscribeLinks = $('.subscribe-links');
     var $socialShareLinks = $('.social-share-links');
 
     // open modals for subscribe/show notes/share
-    $episodeList.on('click', 'a', function(e) {
+    $episodeLinks.on('click', function(e) {
         e.preventDefault();
         var $target = $(e.target);
 

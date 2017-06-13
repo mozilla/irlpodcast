@@ -20,6 +20,16 @@
     'components/footer';
 
 
+@mixin gradient-bar() {
+    @include gradient-horizontal(#ff00fd, 0%, #0e00cf, 100%);
+    content: '';
+    display: block;
+    height: 2px;
+    margin-top: 20px;
+    visibility: visible;
+    width: 100%;
+}
+
 a,
 a:active,
 a:link,
@@ -68,13 +78,11 @@ a:visited:hover {
 
 #intro .content {
     &:after {
-        @include gradient-horizontal(#ff00fd, 0%, #0e00cf, 100%);
-        content: '';
-        display: block;
-        height: 2px;
+        @include gradient-bar();
+    }
+
+    .subscribe-links {
         margin-top: 20px;
-        visibility: visible;
-        width: 100%;
     }
 
     @media #{$mq-tablet} {
@@ -82,6 +90,7 @@ a:visited:hover {
         grid-template: repeat(3, auto) / 300px auto;
         grid-template-areas: "logo title"
                              "logo intro"
+                             "subscribe subscribe"
                              "gradient gradient";
 
         #site-logo {
@@ -94,6 +103,10 @@ a:visited:hover {
 
         #site-intro {
             grid-area: intro;
+        }
+
+        .subscribe-links {
+            grid-area: subscribe;
         }
 
         &:after {
@@ -134,11 +147,17 @@ a:visited:hover {
     }
 }
 
-#modal .subscribe-links {
-    display: block;
+// modal-specific styles
+#modal {
+    // subscribe links stack top to bottom in modal
+    .subscribe-links {
+        display: block;
+        margin-top: 40px;
 
-    @media #{$mq-tablet} {
-        display: flex;
+        li {
+            margin-bottom: 20px;
+            text-align: left;
+        }
     }
 }
 
@@ -157,15 +176,11 @@ a:visited:hover {
 
         // align image to top right side of grid area
         .episode-image {
-            align-self: start;
             grid-area: logo;
-            height: 200px;
-            justify-self: end;
             margin-right: 20px;
-            width: 200px;
         }
 
-        .episode-link {
+        .episode-title-wrapper {
             grid-area: title;
         }
 
@@ -179,89 +194,98 @@ a:visited:hover {
     }
 }
 
-.episode-image {
-    display: none;
+#episode-list {
+    .episode-image {
+        display: none;
 
-    @media #{$mq-tablet} {
-        display: block;
-        border: 1px solid #999;
-    }
-}
-
-.episode-link {
-    display: block;
-    padding-right: 50px;
-    position: relative;
-
-    &:active,
-    &:link,
-    &:visited,
-    &:focus,
-    &:hover,
-    &:visited:focus,
-    &:visited:hover {
-        color: #000;
-    }
-
-    &:after {
-        content: '';
-        display: block;
-        width: 20px;
-        height: 30px;
-        background: url($baseurl + '/assets/images/episode-link-arrow.svg') right center no-repeat;
-        position: absolute;
-        right: 0;
-        top: 50%;
-        margin-top: -15px;
-        transform: translateX(-4px);
-        transition: transform 0.2s ease;
-    }
-
-    &:hover {
-        &:after {
-            transform: translateX(0);
+        @media #{$mq-tablet} {
+            display: block;
+            border: 1px solid #999;
+            align-self: start;
+            height: 200px;
+            justify-self: end;
+            width: 200px;
         }
     }
 
-    @media #{$mq-tablet} {
-        padding-right: 0;
+    .episode-title-wrapper {
+        display: block;
+        padding-right: 50px;
+        position: relative;
+
+        &:active,
+        &:link,
+        &:visited,
+        &:focus,
+        &:hover,
+        &:visited:focus,
+        &:visited:hover {
+            color: #000;
+        }
 
         &:after {
-            display: none;
+            content: '';
+            display: block;
+            width: 20px;
+            height: 30px;
+            background: url($baseurl + '/assets/images/episode-link-arrow.svg') right center no-repeat;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            margin-top: -15px;
+            transform: translateX(-4px);
+            transition: transform 0.2s ease;
+        }
+
+        &:hover {
+            &:after {
+                transform: translateX(0);
+            }
+        }
+
+        @media #{$mq-tablet} {
+            padding-right: 0;
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    .episode-player {
+        display: none;
+
+        @media #{$mq-tablet} {
+            display: block;
+        }
+    }
+
+    .episode-links {
+        display: none;
+
+        @media #{$mq-tablet} {
+            display: flex;
         }
     }
 }
 
 .episode-title {
     @include font-size-level2();
-    font-weight: normal;
-}
-
-.episode-player {
-    display: none;
-
-    @media #{$mq-tablet} {
-        display: block;
-    }
 }
 
 .episode-links {
-    display: none;
+    display: flex;
+    justify-content: space-around;
 
-    @media #{$mq-tablet} {
-        display: flex;
-        justify-content: space-around;
-
-        a:before {
-            background-position: left bottom;
-            background-repeat: no-repeat;
-            content: '';
-            display: block;
-            float: left;
-            height: 20px;
-            padding-right: 10px;
-            width: 15px;
-        }
+    a:before {
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        content: '';
+        display: block;
+        float: left;
+        height: 20px;
+        padding-right: 10px;
+        width: 15px;
     }
 }
 
@@ -282,40 +306,51 @@ a:visited:hover {
 }
 
 .modal-content-wrapper {
-    // don't display titles inside of a modal wrapper
+    // don't display titles or modal copy inside of a modal wrapper
     // they should only be shown when inside of an actual modal
-    h4 {
+    h4,
+    .modal-copy {
         display: none;
     }
 }
 
 .social-share-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 
     li {
         @include border-box();
-        flex: 0 0 50%;
-        margin: 0 10px;
+        flex: 0 0 auto;
+        margin: 0 20px 0 0;
         padding: 0 4px;
 
         a {
-            background-size: 50px;
+            background: #000;
+            border-radius: 50%;
             display: block;
-            height: 50px;
+            height: 70px;
             margin: 0 auto;
             overflow: hidden;
             text-indent: 120%;
-            width: 50px;
+            width: 70px;
+
+            &:before {
+                background-size: 50px;
+                content: '';
+                display: block;
+                height: 50px;
+                margin: 10px auto;
+                width: 50px;
+            }
         }
     }
 }
 
-.twitter {
+.twitter:before {
     background: url($baseurl + '/assets/images/twitter.svg') top left no-repeat;
 }
 
-.facebook {
+.facebook:before {
     background: url($baseurl + '/assets/images/facebook.svg') top left no-repeat;
 }
 
@@ -390,6 +425,16 @@ a:visited:hover {
     img {
         display: block;
         padding: 17px 0 0 50px;
+    }
+}
+
+// episode page
+#show-notes {
+    padding-top: 20px;
+
+    &:before {
+        @include gradient-bar();
+        margin-bottom: 20px;
     }
 }
 
