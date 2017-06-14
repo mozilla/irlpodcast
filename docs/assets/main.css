@@ -807,6 +807,10 @@ a:visited:hover {
   display: block;
   padding: 17px 0 0 50px; }
 
+#footer-privacy-link {
+  margin: 20px 0 10px;
+  text-align: center; }
+
 #show-notes {
   padding-top: 20px; }
   #show-notes:before {
