@@ -5,6 +5,7 @@
 2. make max-width skinnier
 3. add separator vertical bar on episode links
 4. check font sizes
+5. add open graph stuff (see doc)
 
 ## Publishing to GitHub pages
 

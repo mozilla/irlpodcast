@@ -381,6 +381,12 @@ html[dir="rtl"] #modal .window .inner #modal-close {
           margin-left: 0; }
         #modal .inner .footer div:last-child {
           margin-right: 0; } }
+@supports (display: flex) {
+  @media screen and (min-width: 760px) {
+    #modal {
+      align-items: center;
+      display: flex;
+      justify-content: center; } } }
 #newsletter-wrapper {
   background-image: url("/irlpodcast/assets/images/newsletter-bg.png");
   background-size: auto auto;
@@ -580,13 +586,6 @@ a:visited:hover {
   .subscribe-links li {
     flex-basis: 25%; } }
 
-#modal .subscribe-links {
-  display: block;
-  margin-top: 40px; }
-  #modal .subscribe-links li {
-    margin-bottom: 20px;
-    text-align: left; }
-
 #episode-list {
   border-bottom: 1px solid #ccc;
   padding-bottom: 40px; }
@@ -641,17 +640,14 @@ a:visited:hover {
       padding-right: 0; }
       #episode-list .episode-title-wrapper:after {
         display: none; } }
-#episode-list .episode-player {
-  display: none; }
-  @media screen and (min-width: 760px) {
-    #episode-list .episode-player {
-      display: block; } }
 #episode-list .episode-links {
   display: none;
   max-width: none; }
   @media screen and (min-width: 760px) {
     #episode-list .episode-links {
       display: flex; } }
+#episode-list .episode-player {
+  display: none; }
 
 .episode-title {
   font-size: 28px;
@@ -691,9 +687,17 @@ a:visited:hover {
   background-image: url("/irlpodcast/assets/images/icon-shownotes.svg");
   width: 18px; }
 
-.modal-content-wrapper h4,
-.modal-content-wrapper .modal-copy {
+.episode-link-share,
+.episode-player {
   display: none; }
+
+.js .episode-link-share {
+  display: list-item; }
+.js .episode-player {
+  display: block; }
+@media screen and (min-width: 760px) {
+  .js #episode-list .episode-player {
+    display: block; } }
 
 .social-share-links {
   display: flex;
@@ -757,9 +761,6 @@ a:visited:hover {
     justify-content: space-around;
     margin-bottom: 0; }
 
-.transcript-modal-wrapper {
-  display: none; }
-
 #modal h4 {
   font-size: 21px;
   font-size: 1.3125rem;
@@ -769,6 +770,18 @@ a:visited:hover {
     #modal h4 {
       font-size: 28px;
       font-size: 1.75rem; } }
+#modal .subscribe-links {
+  display: block;
+  margin-top: 40px; }
+  #modal .subscribe-links li {
+    margin-bottom: 20px;
+    text-align: left; }
+
+.modal-content-wrapper {
+  display: none; }
+  .modal-content-wrapper h4,
+  .modal-content-wrapper .modal-copy {
+    display: none; }
 
 .credit {
   zoom: 1;
@@ -806,7 +819,3 @@ a:visited:hover {
     visibility: visible;
     width: 100%;
     margin-bottom: 20px; }
-
-.js .modal-content-wrapper,
-.js .transcript-modal-wrapper {
-  display: none; }

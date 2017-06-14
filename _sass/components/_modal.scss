@@ -65,7 +65,6 @@ html.noscroll {
                 z-index: 99;
 
                 a {
-                    // TODO: remove <a> element from mozilla-modal.js with mozID rollout
                     display: none;
                 }
 
@@ -123,7 +122,6 @@ html[dir="rtl"] {
 
             div {
                 padding: 0;
-                //@include span(4);
 
                 &:first-child {
                     margin-left: 0;
@@ -133,6 +131,16 @@ html[dir="rtl"] {
                     margin-right: 0;
                 }
             }
+        }
+    }
+}
+
+@supports (display: flex) {
+    @media #{$mq-tablet} {
+        #modal {
+            align-items: center;
+            display: flex;
+            justify-content: center;
         }
     }
 }
