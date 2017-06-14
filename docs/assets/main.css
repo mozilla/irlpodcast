@@ -785,7 +785,7 @@ a:visited:hover {
 
 .credit {
   zoom: 1;
-  margin-top: 20px; }
+  margin-top: 40px; }
   .credit:after {
     clear: both;
     content: '';
@@ -803,9 +803,9 @@ a:visited:hover {
       float: left;
       margin-right: 20px; } }
 
-#pacific-content-credit-image img {
+.svg-about-image img {
   display: block;
-  padding: 17px 0 0 50px; }
+  margin: 10px auto 0; }
 
 #footer-privacy-link {
   margin: 20px 0 10px; }

@@ -418,7 +418,7 @@ a:visited:hover {
 // about page
 .credit {
     @include clearfix();
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .credits-image {
@@ -433,11 +433,9 @@ a:visited:hover {
     }
 }
 
-#pacific-content-credit-image {
-    img {
-        display: block;
-        padding: 17px 0 0 50px;
-    }
+.svg-about-image img {
+    display: block;
+    margin: 10px auto 0;
 }
 
 #footer-privacy-link {

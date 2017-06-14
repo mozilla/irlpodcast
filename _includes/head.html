@@ -7,7 +7,7 @@
     <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:image" content="{{ "/assets/images/irl-logo-600px.png" | absolute_url }}">
     <meta property="og:title" content="{{ site.title }}{% if page.og_title %} - {{ page.og_title }}{% endif %}">
-    <meta property="og:description" content="{{ page.description | default: "Veronica Belmont explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla." | markdownify | strip_html | strip_newlines }}">
+    <meta property="og:description" content="{% if page.og_description %}{{ site.og_episode_description_prefix | append: " " | append: page.og_description | markdownify | strip_html | strip_newlines }}{% else %}Veronica Belmont explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla.{% endif %}">
 
     <!-- TODO: remove for launch! -->
     <meta name="robots" content="noindex" />

@@ -18,6 +18,7 @@ email: irlpodcast@mozilla.com
 description: "Check out IRL, an original podcast from Mozilla. Because online life is real life."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+og_episode_description_prefix: "IRL podcast episode from @Mozilla w/ @Veronica Belmont:"
 
 # Build settings
 markdown: kramdown

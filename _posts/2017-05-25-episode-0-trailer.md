@@ -4,6 +4,7 @@ layout:         episode
 body_id:        episode-page
 title:          "Introducing IRL: Because Online Life is Real Life"
 og_title:       "Episode 0: Introducing IRL"
+og_description: "Introducing IRL: Because Online Life is Real Life"
 date:           2017-06-08 11:07:14 -0500
 categories:     episodes
 embed:          "https://simplecast.com/e/72534"
