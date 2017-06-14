@@ -2,7 +2,7 @@
 layout:     page
 title:      About IRL
 permalink:  /about/
-id:         about
+body_id:    about
 ---
 
 Our online life is real life. We walk, talk, work, LOL and even love on the Internet – but we don’t always treat it like real life. Host Veronica Belmont explores this disconnect with stories from the wilds of the Web – and gets to the bottom of online issues that affect us all. Whether it’s privacy breaches, closed platforms, hacking, fake news, or cyber bullying, we the people have the power to change the course of the Internet, keeping it healthy, weird, and wonderful for everyone. IRL is an original podcast from Mozilla.

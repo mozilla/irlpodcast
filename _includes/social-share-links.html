@@ -1,4 +1,4 @@
-<ul class="social-share-links" data-episode-title="{{ include.episodeTitle | default: ""}}">
-    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ include.share_url | uri_escape }}&amp;text={{ include.share_text | url_encode }}" title="Twitter" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
+<ul class="social-share-links" data-episode-title="{{ include.episode_title | default: ""}}">
+    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ include.share_url | uri_escape }}&amp;text={{ "New IRL podcast episode from @Mozilla and w/ @Veronica Belmont." | url_encode }}{{ include.share_text | prepend: " " | url_encode }}" title="Twitter" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
     <li><a class="facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ include.share_url | uri_escape }}" title="Facebook" data-link-type="social share" data-link-name="Facebook">Facebook</a></li>
 </ul>

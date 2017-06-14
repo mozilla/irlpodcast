@@ -6,6 +6,7 @@
 3. add separator vertical bar on episode links
 4. check font sizes
 5. add open graph stuff (see doc)
+6. check about putting shit on clipboard w/out flash
 
 ## Publishing to GitHub pages
 
