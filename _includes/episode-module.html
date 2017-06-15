@@ -1,6 +1,6 @@
 {% assign episode = include.episode %}
 {% assign image_path = episode.number | prepend: "/assets/images/episodes/" | append: "/artwork.png" %}
-{% assign image_path_high_res = episode.number | prepend: "/assets/images/episodes/" | append: "/artwork@2x.png" %}
+{% assign image_path_high_res = episode.number | prepend: "/assets/images/episodes/" | append: "/artwork-high-res.png" %}
 
 <article class="episode" id="episode-{{ episode.number }}">
     <img src="{{ image_path | relative_url }}" srcset="{{ image_path_high_res | relative_url }} 2x" class="episode-image" alt="">

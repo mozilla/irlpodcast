@@ -81,16 +81,12 @@ a:visited:hover {
         @include gradient-bar();
     }
 
-    .subscribe-links {
-        margin-top: 20px;
-    }
-
     @media #{$mq-tablet} {
         display: grid;
         grid-template: repeat(3, auto) / 300px auto;
         grid-template-areas: "logo title"
                              "logo intro"
-                             "subscribe subscribe"
+                             "logo subscribe"
                              "gradient gradient";
 
         #site-logo {
@@ -119,7 +115,32 @@ a:visited:hover {
 .subscribe-links {
     li {
         margin-bottom: 10px;
-        text-align: center;
+
+        a {
+            display: inline-block;
+        }
+
+        img {
+            display: block;
+        }
+    }
+
+    .rss-link {
+        border: 1px solid #7f7f7f;
+        border-radius: 4px;
+        padding: 3px 17px 3px 2px;
+
+        &:before {
+            @include background-size(15px 18px);
+            background-image: url($baseurl + '/assets/images/rss.svg');
+            background-repeat: no-repeat;
+            content: '';
+            display: block;
+            float: left;
+            height: 18px;
+            margin: 6px 10px 0;
+            width: 15px;
+        }
     }
 
     @media #{$mq-phone-wide} {
@@ -128,17 +149,14 @@ a:visited:hover {
         justify-content: space-around;
 
         li {
+            align-items: center;
             display: flex;
             flex: 0 0 50%;
-            flex-direction: column;
-            justify-content: center;
             margin-bottom: 10px;
-        }
-    }
 
-    @media #{$mq-tablet} {
-        li {
-            flex-basis: 25%;
+            a {
+                flex: 0 0 auto;
+            }
         }
     }
 }
@@ -250,7 +268,7 @@ a:visited:hover {
 }
 
 .episode-title {
-    @include font-size-level2();
+    @include font-size-level3();
 }
 
 .episode-links {

@@ -549,13 +549,11 @@ a:visited:hover {
   margin-top: 20px;
   visibility: visible;
   width: 100%; }
-#intro .content .subscribe-links {
-  margin-top: 20px; }
 @media screen and (min-width: 760px) {
   #intro .content {
     display: grid;
     grid-template: repeat(3, auto)/300px auto;
-    grid-template-areas: "logo title" "logo intro" "subscribe subscribe" "gradient gradient"; }
+    grid-template-areas: "logo title" "logo intro" "logo subscribe" "gradient gradient"; }
     #intro .content #site-logo {
       grid-area: logo;
       margin-right: 20px; }
@@ -569,22 +567,38 @@ a:visited:hover {
       grid-area: gradient; } }
 
 .subscribe-links li {
-  margin-bottom: 10px;
-  text-align: center; }
+  margin-bottom: 10px; }
+  .subscribe-links li a {
+    display: inline-block; }
+  .subscribe-links li img {
+    display: block; }
+.subscribe-links .rss-link {
+  border: 1px solid #7f7f7f;
+  border-radius: 4px;
+  padding: 3px 17px 3px 2px; }
+  .subscribe-links .rss-link:before {
+    -webkit-background-size: 15px 18px;
+    background-size: 15px 18px;
+    background-image: url("/irlpodcast/assets/images/rss.svg");
+    background-repeat: no-repeat;
+    content: '';
+    display: block;
+    float: left;
+    height: 18px;
+    margin: 6px 10px 0;
+    width: 15px; }
 @media screen and (min-width: 480px) {
   .subscribe-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; }
     .subscribe-links li {
+      align-items: center;
       display: flex;
       flex: 0 0 50%;
-      flex-direction: column;
-      justify-content: center;
-      margin-bottom: 10px; } }
-@media screen and (min-width: 760px) {
-  .subscribe-links li {
-    flex-basis: 25%; } }
+      margin-bottom: 10px; }
+      .subscribe-links li a {
+        flex: 0 0 auto; } }
 
 #episode-list {
   border-bottom: 1px solid #ccc;
@@ -650,12 +664,12 @@ a:visited:hover {
   display: none; }
 
 .episode-title {
-  font-size: 28px;
-  font-size: 1.75rem; }
+  font-size: 21px;
+  font-size: 1.3125rem; }
   @media screen and (min-width: 760px) {
     .episode-title {
-      font-size: 38px;
-      font-size: 2.375rem; } }
+      font-size: 28px;
+      font-size: 1.75rem; } }
 
 .episode-links {
   display: flex;

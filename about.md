@@ -16,7 +16,7 @@ Mozilla is the nonprofit maker of Firefox, and a leader in the fight for interne
 
     <ul>
         <li class="credit">
-            <img src="{{ site.baseurl }}/assets/images/veronica-belmont-300px.jpg" srcset="{{ site.baseurl }}/assets/images/veronica-belmont-600px.jpg 2x" class="credits-image" alt="">
+            <img src="{{ site.baseurl }}/assets/images/veronica-belmont.jpg" srcset="{{ site.baseurl }}/assets/images/veronica-belmont-high-res.jpg 2x" class="credits-image" alt="">
 
             <h3>Veronica Belmont</h3>
 
@@ -66,7 +66,7 @@ Mozilla is the nonprofit maker of Firefox, and a leader in the fight for interne
 
 ## Contact
 
-For press inquiries, email us at [press@mozilla.com](press@mozilla.com). For any other inquiries, email us at [IRLpodcast@mozilla.com](IRLpodcast@mozilla.com).
+For press inquiries, email us at [press@mozilla.com](mailto:press@mozilla.com). For any other inquiries, email us at [IRLpodcast@mozilla.com](mailto:IRLpodcast@mozilla.com).
 
 {% include newsletter.html %}
 
