@@ -9,6 +9,19 @@
     var $subscribeLinks = $('.subscribe-links');
     var $socialShareLinks = $('.social-share-links');
 
+    function copyShareLink(inputElement, $noticeElement) {
+        if (inputElement) {
+            inputElement.select();
+
+            try {
+                document.execCommand('copy');
+                inputElement.blur();
+
+                $noticeElement.addClass('show');
+            } catch(e) {}
+        }
+    }
+
     // open modals for subscribe/show notes/share
     $episodeLinks.on('click', function(e) {
         e.preventDefault();
@@ -47,6 +60,15 @@
         var $this = $(this);
         var $parent = $this.parents('.social-share-links:first');
         var service = $this.data('service');
+
+        if (service === 'copylink') {
+            e.preventDefault();
+
+            var inputElement = document.getElementById($this.data('input-element'));
+            var $noticeElement = $parent.find('.copy-ok:first');
+
+            copyShareLink(inputElement, $noticeElement);
+        }
 
         dataLayer.push({
             'data-share-network': service,

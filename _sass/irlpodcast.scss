@@ -131,13 +131,13 @@ a:visited:hover {
         padding: 3px 17px 3px 2px;
 
         &:before {
-            @include background-size(15px 18px);
-            background-image: url($baseurl + '/assets/images/rss.svg');
+            @include background-size(15px 15px);
+            background-image: url($baseurl + '/assets/images/icon-subscribe.svg');
             background-repeat: no-repeat;
             content: '';
             display: block;
             float: left;
-            height: 18px;
+            height: 20px;
             margin: 6px 10px 0;
             width: 15px;
         }
@@ -328,13 +328,9 @@ a:visited:hover {
 }
 
 .social-share-links {
-    display: flex;
-    justify-content: flex-start;
-
     li {
         @include border-box();
-        flex: 0 0 auto;
-        margin: 0 20px 0 0;
+        margin-bottom: 10px;
         padding: 0 4px;
 
         a {
@@ -342,7 +338,6 @@ a:visited:hover {
             border-radius: 50%;
             display: block;
             height: 70px;
-            margin: 0 auto;
             overflow: hidden;
             text-indent: 120%;
             width: 70px;
@@ -357,14 +352,51 @@ a:visited:hover {
             }
         }
     }
+
+    input {
+        border: none;
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    @media #{$mq-phone-wide} {
+        ul {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        li {
+            flex: 0 0 auto;
+            margin: 0 20px 0 0;
+
+            a {
+                margin: 0 auto;
+            }
+        }
+    }
 }
 
 .twitter:before {
-    background: url($baseurl + '/assets/images/twitter.svg') top left no-repeat;
+    background: url($baseurl + '/assets/images/fa-twitter.svg') top left no-repeat;
 }
 
 .facebook:before {
-    background: url($baseurl + '/assets/images/facebook.svg') top left no-repeat;
+    background: url($baseurl + '/assets/images/fa-facebook.svg') top left no-repeat;
+}
+
+.copylink:before {
+    background: url($baseurl + '/assets/images/fa-link.svg') top left no-repeat;
+}
+
+.copy-ok {
+    font-style: italic;
+    margin-top: 10px;
+    opacity: 0;
+
+    &.show {
+        @include animation(pebbles-fade-in 0.3s ease-in 0s 1 normal both);
+    }
 }
 
 #footer {

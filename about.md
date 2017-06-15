@@ -58,7 +58,8 @@ Mozilla is the nonprofit maker of Firefox, and a leader in the fight for interne
             <p>
                 The music you hear on IRL is original composition by RobertoAngel-Dwyer
                 and Daniel Byrne. And, it’s available under a Creative Commons license,
-                so you’re free to use it. Download the music files here.
+                so you’re free to use it. Download the music files
+                <a href="http://ccmixter.org/people/Angel_Dwyer_Byrne" rel="external">here</a>.
             </p>
         </li>
     </ul>
@@ -66,7 +67,7 @@ Mozilla is the nonprofit maker of Firefox, and a leader in the fight for interne
 
 ## Contact
 
-For press inquiries, email us at [press@mozilla.com](mailto:press@mozilla.com). For any other inquiries, email us at [IRLpodcast@mozilla.com](mailto:IRLpodcast@mozilla.com).
+For press inquiries, email us at [press@mozilla.com](mailto:press@mozilla.com). For any other inquiries, email us at [IRL-podcast@mozilla.com](mailto:IRL-podcast@mozilla.com).
 
 {% include newsletter.html %}
 

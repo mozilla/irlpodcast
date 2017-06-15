@@ -47,9 +47,9 @@
                 Episode {{ episode.number }} - {{ episode.title | escape }}
             </p>
 
-            {% assign episode_share_url = page.url | absolute_url %}
+            {% assign episode_share_url = episode.url | absolute_url %}
             {% assign episode_share_text = episode.title  %}
-            {% include social-share-links.html share_url=episode_share_url share_text=episode_share_text episode_title=episode.title %}
+            {% include social-share-links.html share_url=episode_share_url share_text=episode_share_text episode_title=episode.title episode_number=episode.number %}
         </div>
     </div>
 
