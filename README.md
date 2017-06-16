@@ -14,13 +14,15 @@
 
 ## Publishing to GitHub pages (`mozilla.github.io/irlpodcast`)
 
-1. Ensure you are on the `master` branch
-2. Run the following build command: `JEKYLL_ENV=production jekyll build --config _config.yml,_config-build-dev.yml`
-3. Push changes to `master` branch on GitHub
+1. Run the following build command: `JEKYLL_ENV=production jekyll build --config _config.yml,_config-build-dev.yml`
+2. Push changes in the `docs` folder to the `master` branch on GitHub
+
+## Publishing to staging (stage.irlpodcast.org)
+
+1. Push the `master` branch to GitHub
 
 ## Publishing to production (`irlpodcast.org`)
 
-1. Ensure you are on the `prod` branch
-2. Sync `prod` branch with `master` branch
-3. Run the following build command: `JEKYLL_ENV=production jekyll build --config _config.yml,_config-build-prod.yml`
-4. Push changes to `prod` branch on GitHub
+1. Push to the `prod` branch on GitHub: `git push origin master:prod`
+
+(Assuming your GitHub remote is `origin` and your local `master` branch has the changes you want to see on prod.)
