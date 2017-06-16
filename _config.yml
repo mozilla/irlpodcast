@@ -27,3 +27,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - bin/
+  - Jenkinsfile
