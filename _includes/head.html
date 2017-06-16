@@ -12,6 +12,10 @@
     <!-- TODO: remove for launch! -->
     <meta name="robots" content="noindex" />
 
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="{{ "/assets/images/favicon/favicon-180x180.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="196x196" href="{{ "/assets/images/favicon/favicon-196x196.png" | relative_url }}">
+    <link rel="shortcut icon" href="{{ "/assets/images/favicon/favicon.ico" | relative_url }}">
+
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.description | default: site.description | markdownify | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
