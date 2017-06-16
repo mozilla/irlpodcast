@@ -27,7 +27,7 @@ node {
     stage ('Prepare') {
       checkout scm
     }
-    if ( env.BRANCH_NAME == 'jenkinsfile' ) { //TODO: switch to 'master' for PR
+    if ( env.BRANCH_NAME == 'master' ) {
       buildSite()
       syncS3('irlpodcast-stage')
     } else if ( env.BRANCH_NAME == 'prod' ) {
