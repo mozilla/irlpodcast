@@ -2,18 +2,25 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-(function($, Mozilla, dataLayer) {
+(function($, Mozilla, Clipboard, dataLayer) {
     'use strict';
 
     var $episodeLinks = $('.episode-links');
     var $subscribeLinks = $('.subscribe-links');
     var $socialShareLinks = $('.social-share-links');
 
+    // set up clipboard.js
+    var copylinkClipboard = new Clipboard('.copylink');
+
+    // display related copy success message when clicking copy icon
+    copylinkClipboard.on('success', function() {
+        $('#modal').find('.copy-ok').addClass('show');
+    });
+
     function copyShareLink(inputElement, $noticeElement) {
         if (inputElement) {
-            inputElement.select();
-
             try {
+                inputElement.select();
                 document.execCommand('copy');
                 inputElement.blur();
 
@@ -63,11 +70,6 @@
 
         if (service === 'copylink') {
             e.preventDefault();
-
-            var inputElement = document.getElementById($this.data('input-element'));
-            var $noticeElement = $parent.find('.copy-ok:first');
-
-            copyShareLink(inputElement, $noticeElement);
         }
 
         dataLayer.push({
@@ -76,4 +78,4 @@
             'event': 'social-share'
         });
     });
-})(window.jQuery, window.Mozilla, window.dataLayer || []);
+})(window.jQuery, window.Mozilla, window.Clipboard, window.dataLayer || []);

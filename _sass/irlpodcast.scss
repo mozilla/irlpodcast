@@ -48,7 +48,7 @@ a:visited:hover {
 }
 
 .page-content {
-    padding-bottom: 70px; // makes up for height of fixed footer
+    padding-bottom: 20px;
 }
 
 .content p {
@@ -58,7 +58,7 @@ a:visited:hover {
 }
 
 #site-header {
-    margin-top: 40px;
+    margin-top: 80px; // compensate for fixed nav
     padding-bottom: 0;
 }
 
@@ -176,8 +176,9 @@ a:visited:hover {
 
         // align image to top right side of grid area
         .episode-image {
+            @include border-box();
             grid-area: logo;
-            margin-right: 20px;
+            padding-right: 20px;
         }
 
         .episode-title-wrapper {
@@ -201,7 +202,6 @@ a:visited:hover {
 
         @media #{$mq-tablet} {
             display: block;
-            border: 1px solid #999;
             align-self: start;
             height: 200px;
             justify-self: end;
@@ -401,11 +401,11 @@ a:visited:hover {
 
 #footer {
     background: #111;
-    bottom: 0;
+    top: 0;
     color: #fff;
     height: 70px;
     left: 0;
-    margin-top: 20px;
+    margin-bottom: 20px;
     position: fixed;
     width: 100%;
 

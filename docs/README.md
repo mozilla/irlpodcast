@@ -1,7 +1,7 @@
 # TODO (pre-launch)
 
 1. Remove `noindex` meta tag
-2. Add Spotify link
+2. ~~Add Spotify link~~
 3. Change date on trailer episode post
 3. Get code reviewed
 
@@ -9,6 +9,8 @@
 
 1. Improve support for old browsers
 2. Implement JS/CSS bundler
+3. Add CSS/JS linter
+4. Add .editorconfig
 
 ## Publishing to GitHub pages (`mozilla.github.io/irlpodcast`)
 

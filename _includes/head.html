@@ -15,7 +15,7 @@
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.description | default: site.description | markdownify | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-    <meta name="apple-itunes-app" content="app-id=1247652431, affiliate-data=at=1010lbVy&ct=mozilla_smart_banner">
+    <meta name="apple-itunes-app" content="app-id=1247652431, affiliate-data=at=1010lbVy&amp;ct=mozilla_smart_banner">
 
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">

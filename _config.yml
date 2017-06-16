@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "IRL podcast: Get real online"
+title: "IRL Podcast: Online Life is Real Life"
 email: irlpodcast@mozilla.com
-description: "Check out IRL, an original podcast from Mozilla. Because online life is real life."
+description: "Veronica Belmont explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 og_episode_description_prefix: "IRL podcast episode from @Mozilla w/ @Veronica Belmont:"
