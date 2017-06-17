@@ -56,7 +56,7 @@ Mozilla is the nonprofit maker of Firefox, and a leader in the fight for interne
             <h3>Roberto Angel-Dwyer and Daniel Byrne</h3>
 
             <p>
-                The music you hear on IRL is original composition by RobertoAngel-Dwyer
+                The music you hear on IRL is original composition by Roberto Angel-Dwyer
                 and Daniel Byrne. And, it’s available under a Creative Commons license,
                 so you’re free to use it. Download the music files
                 <a href="http://ccmixter.org/people/Angel_Dwyer_Byrne" rel="external">here</a>.
