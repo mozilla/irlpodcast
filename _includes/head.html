@@ -9,9 +9,6 @@
     <meta property="og:title" content="{{ site.title }}{% if page.og_title %} - {{ page.og_title }}{% endif %}">
     <meta property="og:description" content="{% if page.og_description %}{{ site.og_episode_description_prefix | append: " " | append: page.og_description | markdownify | strip_html | strip_newlines }}{% else %}Veronica Belmont explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla.{% endif %}">
 
-    <!-- TODO: remove for launch! -->
-    <meta name="robots" content="noindex" />
-
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="{{ "/assets/images/favicon/favicon-180x180.png" | relative_url }}">
     <link rel="icon" type="image/png" sizes="196x196" href="{{ "/assets/images/favicon/favicon-196x196.png" | relative_url }}">
     <link rel="shortcut icon" href="{{ "/assets/images/favicon/favicon.ico" | relative_url }}">
