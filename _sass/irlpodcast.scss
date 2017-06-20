@@ -492,8 +492,26 @@ a:visited:hover {
     margin: 10px auto 0;
 }
 
-#footer-privacy-link {
+#footer-links {
     margin: 20px 0 10px;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding-right: 20px;
+
+        &:first-child:after {
+            @include font-size(24px);
+            content: '·';
+            display: inline-block;
+            line-height: 1px;
+            padding-left: 20px;
+            text-align: center;
+            width: 2px;
+        }
+    }
 }
 
 // episode page

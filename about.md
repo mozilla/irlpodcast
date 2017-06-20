@@ -9,7 +9,7 @@ Our online life is real life. We walk, talk, work, LOL and even love on the Inte
 
 ## About Mozilla
 
-Mozilla is the nonprofit maker of Firefox, and a leader in the fight for internet health. We empower people to be safe and strong online, build tools and products that battle Big Tech, and champion a more just, equal, and fair system for all.
+Mozilla is the maker of Firefox, and a nonprofit leader in the fight for internet health. We empower people to be safe and strong online, build tools and products that battle Big Tech, and champion a more just, equal, and fair system for all.
 
 <div id="credits">
     <h2>Credits</h2>
@@ -71,6 +71,10 @@ For press inquiries, email us at [press@mozilla.com](mailto:press@mozilla.com). 
 
 {% include newsletter.html %}
 
-<div id="footer-privacy-link">
-    <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>
+<div id="footer-links">
+    <ul>
+        <li><a href="https://www.mozilla.org/privacy/">Privacy Notice</a></li>
+        <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+    </ul>
+
 </div>
