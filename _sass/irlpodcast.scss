@@ -77,6 +77,8 @@ a:visited:hover {
 }
 
 #intro .content {
+    padding-bottom: 0;
+
     &:after {
         @include gradient-bar();
     }
@@ -161,9 +163,17 @@ a:visited:hover {
     }
 }
 
+#episodes .content {
+    padding-top: 0;
+}
+
 #episode-list {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.episode-list-item {
+    border-bottom: 1px solid #000;
+    padding: 20px;
 }
 
 .episode {
