@@ -1,4 +1,246 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://mozilla.github.io/irlpodcast/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mozilla.github.io/irlpodcast/" rel="alternate" type="text/html" /><updated>2017-06-16T16:32:42-05:00</updated><id>https://mozilla.github.io/irlpodcast/</id><title type="html">IRL Podcast: Online Life is Real Life</title><subtitle>Veronica Belmont explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla.</subtitle><entry><title type="html">Introducing IRL: Because Online Life is Real Life</title><link href="https://mozilla.github.io/irlpodcast/episode0/" rel="alternate" type="text/html" title="Introducing IRL: Because Online Life is Real Life" /><published>2017-06-08T11:07:14-05:00</published><updated>2017-06-08T11:07:14-05:00</updated><id>https://mozilla.github.io/irlpodcast/episode-0-trailer</id><content type="html" xml:base="https://mozilla.github.io/irlpodcast/episode0/">&lt;h2 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://mozilla.github.io/irlpodcast/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mozilla.github.io/irlpodcast/" rel="alternate" type="text/html" /><updated>2017-06-21T15:43:54-05:00</updated><id>https://mozilla.github.io/irlpodcast/</id><title type="html">IRL Podcast: Online Life is Real Life</title><subtitle>Veronica Belmont explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla.</subtitle><entry><title type="html">All Your Data Are Belong to Us</title><link href="https://mozilla.github.io/irlpodcast/episode1/" rel="alternate" type="text/html" title="All Your Data Are Belong to Us" /><published>2017-06-26T02:00:01-05:00</published><updated>2017-06-26T02:00:01-05:00</updated><id>https://mozilla.github.io/irlpodcast/episode-1-all-your-data</id><content type="html" xml:base="https://mozilla.github.io/irlpodcast/episode1/">&lt;h2 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h2&gt;
+&lt;p&gt;&lt;a name=&quot;#shownotes&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Go &lt;a href=&quot;https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs/&quot;&gt;here&lt;/a&gt; for the World Privacy Forum’s list of the Top 10 Most Important Opt-outs.&lt;/p&gt;
+
+&lt;p&gt;Mozilla also has &lt;a href=&quot;https://www.mozilla.org/internet-health/privacy-security/&quot;&gt;a few suggestions&lt;/a&gt; on how to manage the data privacy challenge discussed in this episode.&lt;/p&gt;
+
+&lt;p&gt;For more on this episode, including editorial commentary, visit &lt;a href=&quot;http://blog.mozilla.org/internetcitizen/2017/06/26/irl-episode-1-privacy&quot;&gt;Mozilla’s Internet Citizen blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;transcript&quot;&gt;Transcript&lt;/h2&gt;
+&lt;p&gt;&lt;a name=&quot;#transcript&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Free cookies. Free cookies, you’re welcome.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Woman 1:&lt;/strong&gt; Thank you so much.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; I say we follow them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin:&lt;/strong&gt; Let’s do it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Let’s do it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Give free cookies to a stranger, and apparently you can follow them anywhere. This is Dave and Kevin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; They’re two 20 something, 30 something looking girls. So they’re going to buy alcohol.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; I paid these guys to follow these women, by the way.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; One of them is short, one of them’s tall. We just got a bad look from a guy who looks like he works at the mall. Definitely questioning what we were doing. So should I just tell them what we were doing?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Yeah, do it. I’d love to hear their reactions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Did you notice that we were kind of following you a little bit?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Woman 1:&lt;/strong&gt; Oh really? No, not at all.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Soon as we gave you the cookies, we’ve been following you around.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Woman 1:&lt;/strong&gt; Oh.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Woman 2:&lt;/strong&gt; Oh, wow, that’s really creepy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Okay, so my friends just handed cookies out to strangers so we could follow them. It’s basically the real life version of something that happens to you when you’re on the internet.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; So what we were doing an experiment on … Internet privacy and the idea that companies just follow you around on the internet and track your behavior.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Woman 2:&lt;/strong&gt; Oh, I totally know that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Woman 1:&lt;/strong&gt; Yeah, I’m totally aware of that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Are you okay with that?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Woman 1:&lt;/strong&gt; No, definitely not.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Corporations do it with online cookies. Those cookies are like little tracking devices that they stick inside your computer or phone, except they don’t confess and they never stop following.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Woman 2:&lt;/strong&gt; It’s kind of like they’re violating you in some way. You have no control over your privacy anymore, you know?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; No control over our privacy? No control over our data, basically. You know that’s a thing right? You know that’s the deal when we go online. You’ve heard the expression: When something is free, you’re the product. You might think it’s no big deal that giving away your data in exchange for free services is a fair trade, but if you don’t know how deep the data mine goes, how can you know that what you get for what you give is a fair trade? Welcome to IRL, an original podcast from Mozilla. Sometimes we do stuff online we’d never do in person, like posting comments we’d be too scared to say to someone’s face, or being reckless with our secrets, or signing away our rights without a glance at the fine print. But the fact is, there’s no real distinction between our online and offline lives. We only have one life. So, on IRL I’ll help you sort the good and the great from the bad and the suck of our online lives, and see what we can do together to make everything awesome, because online life is real life. I’m Veronica Belmont and if you know anything about me, not saying that you should, you know I loves me some internets. It’s been my passion and it’s been my career forever, which means however that there’s a ton of data about a certain Veronica Belmont just ready for the harvesting. I know there are companies out there making tons of coin by taking my data, packaging it, and selling it to the highest bidder, or any bidder I guess. Well, let’s see what this data industry is up to. Let’s sort out the things we should worry about from the things worthy of only a well-placed meh. When I first started thinking about this episode, I thought it might be fun to see what a total stranger could dig up about me with a little googling. I share a lot of data online, so I figure this could be pretty fun. So we found a stranger, but not just any stranger, someone who’s killer good at this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt;  You are the poster girl of oversharing. We’ll talk about that in a second.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; He is a legit private eye. He’s a real PI in New York City. And his name is Steven Rambam.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; R-A-M-B-A-M. First name is Steven with a V. I’m a detective, I have been for 32 years and 90% of what I used to do, by going out into the field and knocking on doors and looking through musty archives I can do sitting at home in my underpants drinking a beer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; That’s amazing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; I know everything there is to know about you, and I really mean everything.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; So you have said in the past that privacy is dead and that we should all get over it. What does that even mean? How do we get over it?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; The problem with all of this oversharing is that once you’ve done it, it’s like virginity, you can never get it back. Anything that you later want to conceal, you can’t. It’s death of a thousand cuts. By the time even six months of you posting photos and showing what news sources you’re interested in, and what articles you linger over and who your friends are, it is out there, it will never go away. I can assure you, you can not get that data back.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; I have to know because I feel as though I’m pretty much an open book, as you said I’m the poster child for oversharing. But I feel like I do it very intentionally.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; Well, I don’t know what you were looking to share but I can tell you that there’s nothing that is not available about you. You drink. Your tastes in booze are the same as mine, red wine and bourbon.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; That’s exactly right. That is exactly right.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; Of course it’s right. I’m a detective. It took me about four seconds to get your social security number, which starts … you can bleep that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; My heart is actually pumping really hard. It’s like beating out of my chest for some reason.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; I have your brother’s identity. I have your husband’s identity. I have everywhere you’ve ever lived. I have where you’re living right now … Avenue … Since you’re gonna bleep it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; That’s bleepable, yep.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; Before that … street … street are you gonna be bleeping all this?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Yes, I am.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; You’re related, I don’t have it in front of me, are you related to Daniel Boone?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Not that I know of.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; Something like that. Well, somebody said that they are your relative, before that, they said that they were related to Daniel Boone, so you’re related to Daniel Boone. Surprise!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; This is kind of a weird question maybe, is it okay for someone to be okay with the way things are? To just say, “I’m not committing any crimes, or I’m not doing whatever.” Is it okay for me to just be out in the open?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; No.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Or is that never a good idea?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; No. Because you may … First of all, because you may change your mind. Second of all, because the world may change. You never know what is going to be tomorrow considered inappropriate. You don’t know what tomorrow may bring. You also don’t know what you want to do with your life. If you think you’re hired today without people looking at your social networking presence, you’re wrong. I can tell you that there are things in people’s social networking profiles and social networking posts that have prevented me from subcontracting cases out to them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Like red wine and bourbon.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; No, I would hire you much quicker and we would debrief every night in a bar.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; I like that idea actually. Okay, well if I can’t find another job in the future, I know who to call.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; I mean, I could have mentioned that you’re a Dodgers fan. I could have mentioned-&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; No, No! You are so wrong. You are the opposite of correct with the Dodgers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; Excuse me, excuse me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; The opposite of correct.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; Giants, Giants. Sorry. I knew it was … Sorry, wrong. Giants. I didn’t look at the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; I love it, I love it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; It’s true, I am a die-hard Giants fan. Rambam was definitely not going to get away with that one.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; So yeah, I knew he would find some of that information out there, but being confronted with it all at once, it’s a bit overwhelming. It only took Rambam a few mouse clicks to gather that little bit of data about my life and history. Imagine if he had access to a giant vacuum cleaner and just was able to hoover up the entire internet instead. That’s basically what these data companies are doing. The data market is massive, how big? Well the going estimate puts it at over 130 billion dollars now and maybe as much as 200 billion in the next three years. Those in the business of buying and selling data, we call them data brokers. My producer pal, David Swanson, interviewed one to find out more about how this all works. Hey, David.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Hey, Veronica.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; So David, how are we going to figure this out?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; A little thought experiment. I want you to pretend that we’re starting a business, and we want to market our business to potential customers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; All right, well we started the episode with the free cookie stunt, so maybe we should continue with that theme. How about we pretend we’re starting a cookie business?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; And I love cookies, so that just makes sense.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Okay, is this just a fancy way to get you talking about data brokers?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Yep, definitely. You caught me there. And Zora Senat, she’s going to help us out too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Zora:&lt;/strong&gt; A data broker is similar to a mortgage broker, or any sort of broker. We are the bridge between our clients and users who are businesses using data for marketing purposes and the data aggregator.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; So, who does Zora actually work for?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Zora is the president of Exact Data in Chicago.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Zora:&lt;/strong&gt; Exact Data, sorry I call it Data, you call it Data. Potato, potato.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; So, what kind of potatoes could we get for our cookie business?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; That depends on what we want to ask for exactly, because exact data, data, has a lot of potatoes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Zora:&lt;/strong&gt; We have a consumer database of 240 million individuals. In that consumer database, we have over 700 elements that are associated with each individual.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; I hope you got that. Exact Data knows 700 things about every single person in their database. That’s just one company.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Zora:&lt;/strong&gt; So, name, address, city, state, zip, age, ethnicity, level of education, income, we can tell you whether you own or rent your home, and how long you’ve lived there. We also have a variety of interests data, include people who like woodworking, or motorcycling, or-&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; If you have grandchildren, if you’re interested in public affairs and politics, or dieting and weight loss, but yeah you get the point.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; That’s an extreme amount of data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; So, so far, this probably feels pretty straightforward, but it does get a little more interesting when we start talking about something called propensities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Propensities?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Yeah, it’s just a fancy word to explain how data brokers package and repackage us into different categories and lists For example, a dog owner living in Brooklyn, who buys a certain brand of toothpaste and gets her vegetables from a local grocer, she’s more likely to vote Democrat.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; I’m pretty sure she was my college roommate.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Yeah, maybe. I actually just came up with that example.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Some people might also find this a little bit creepy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; People basically have to trust that these companies are being careful with how they package and how they sell our personal data, and to whom they’re selling it to.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; So what if I want out? What does Zora say about that?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Zora:&lt;/strong&gt; In most cases, you can opt out, if you contact these data aggregators and tell them you want your name and your information off of their list. All of the data providers we work with and our company maintains a global suppression file and honors those requests.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; The trick is here, you have to approach each company individually.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Okay, so I’m not really getting a good sense of how many companies there are.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Yeah, I don’t have a good sense of that either, and it doesn’t really seem like anyone does. But in the research that I did, the estimates that I saw were from between two and four thousand companies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Oh my God. I have to say I’m feeling a little bit guilty about buying these marketing lists for our imaginary cookie business.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; We shouldn’t feel guilty because it’s just a cookie business, but that doesn’t mean that some people aren’t still uncomfortable with the idea, and that some people are just outright against it all together. It doesn’t mean that sometimes something could go wrong, right? Zora says that their company is really careful, but she knows that the industry still has some problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Zora:&lt;/strong&gt; You’re right, if you have enough information about someone, it could lead to … That could have negative effects, which might need to be controlled by a system that doesn’t benefit directly from having this information. I definitely think there are opportunities for exploitation that we’d need to be aware of.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; So basically, my take away here is that these data brokers have a ton of information on us, they can slice it up into these really specific propensities, and at the end of the day, opting out is basically … It’s possible, but it’s really, really hard to do.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; Yep, you got it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Okay, well thank you for all this data David, I guess.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dave:&lt;/strong&gt; You’re gonna call me tomorrow about that cookie business though, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; This is IRL an original podcast from Mozilla, because online life is real life. Okay, so a bunch of data brokers out there are selling our data. Your data, my data, your parents data, if dogs could type, their data would be packaged and sold too, but just how much are they selling our data for exactly? Well, that’s a really hard number to come up with. Here’s an example though. To get the names, addresses, and emails of 5,000 people in Chicago, who live in a five mile radius of your cookie store, and who all have kids under 15, who might like to buy chocolate chip cookies, a list like that costs $600 bucks. In this example, your data is worth $.12. Not much, right? But then again, that’s just for cookies. I’d like to think I didn’t sign up for this, but maybe I did. It’s not like I ever read the terms and conditions of the services I use, like everyone else I just click accept so I can get the free app, you too right? That’s exactly what Kyle Zak did, and what happened next, led him to sue the Bose corporation for allegedly data mining it’s customers. He hired the law firm Edelson, and they filed a class action suit. So here’s the deal, Kyle bought some wireless Bose headphones for $350. To make those headphones work even better, he installed the Bose connect app on his phone. You can use it for things like adjusting the headphones noise canceling levels and it can even monitor your heart rate. Kyle soon decided that the app should actually be called “Spy Tunes”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kyle:&lt;/strong&gt; I had been looking for noise canceling headphones, because I realized that living in Chicago and going to school, it’s going to be loud and I’m going to be around people all the time. I went on Amazon and found the Bose Quiet Comfort 35 headphones, which promised to provide me a quiet, secluded listening experience.You had to download to use with the headphones, which I thought was excessive, but if it meant it was the only way to use my headphones, I said, okay why not? Light bulb in the head thought, “Okay, I want to find out where my data is going. I know now that I’m generating it, where is it going?” So, Edelson was a firm that had a data lab where they would work on things, because they’re very dedicated to protecting consumer privacy. After a bit of research and tinkering with their experts, we found out that it us song titles, it is album titles, it is artist names, it is podcast titles, podcast series names, podcast authors, duration, what time of the day you’re listening to them, with what frequency, was all begin recorded, was all being cataloged, and was being sent to a data mining company. It was as if I was in a dark room and suddenly a curtain was drawn and I found out that I have thousands of people staring at me, creating marketing data from me without my consent, without my say so, and without my knowledge. The headphones are now off. They’re in the case, in the back of my closet. A former friend of mine asked, “Why haven’t you just resigned yourself to the fact that you’re always plugged in and everyone is watching everyone all the time? And everyone knows everything about everyone.” And I was horrified. I have never resigned to that fact. You can be an exhibitionist, or you can be as private as you want, but the issue is, everyone, regardless of how much or how little they value privacy, should have the right to choose how private or not private to be.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; You know, I own a pair of Bose headphones, just not the ones featured in Kyle’s lawsuit, and I want to believe that this company, which I’ve been a fan of for decades isn’t taking all of us for a ride. I did ask Bose what they have to say about this. Here’s what a spokesperson emailed back.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bose Rep:&lt;/strong&gt; We will fight the inflammatory misleading allegations. We don’t wiretap your communications, we don’t sell your information, and we don’t use anything we collect to identify you, or anyone else by name. If there’s anything else we think you should know, you’ll hear it straight from us.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Hopefully they’ll whisper updates to us through the headphones. Whether or not Kyle’s lawsuit is successful, what’s clear is that he doesn’t trust the company anymore, he feels violated and helpless. So he’s fighting back, and he’s not alone. Companies keep getting their hands caught in the data cookie jar. Here are a couple of my favorite examples. Unroll.me is a free service that unsubscribes you from emails. I really liked unroll.me too, but they got caught selling their customers Lyft receipts to Lyft’s competition at Uber. And then there’s the company that sells smart vibrators. Yes, you heard me right, smart vibrators. WeVibe faced a class action lawsuit for selling their customer data. What data, you may ask. WeVibe tracked the exact times people used their vibrators and what setting they used, whether it was pulse, peak, and swear to God, a setting called ‘ChaChaCha’. Wow. Companies really can get your data from anywhere. Now, it looks like the companies you pay to access the internet pipes are about to join the data for sale game. You’ve heard of ISPs like Comcast, AT&amp;amp;T, and Verizon. This spring the congress voted to kill federal privacy rules that were about to be imposed on ISPs, so if they want to, they too can sell your data. Massachusetts congressman, Michael Capuano was astounded by the congressional vote, and he speaks for all of us when he said this on the floor of congress.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Con. Michael:&lt;/strong&gt; What the heck are you thinking? What is in your mind? Why would you want to give out any of your personal information to a faceless corporation for the sole purpose of them selling it?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Congressman Michael Capuano, sharing his inner thoughts about private data in a public forum.  In case you’re wondering like I am, all of this data collecting is totally legal, basically. Back in the day, before the internet changed everything, you could pass laws for specific things like health data and credit data. Every now and again the federal trade commission might fine a data broker or two for breaking those specific laws. Otherwise the industry largely policies itself.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pam:&lt;/strong&gt; The problem is, is that we don’t have any overarching law, just for privacy, that cuts across all topics. As a result, privacy laws just hit data brokers tangentially.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; This is Pam Dickson, she’s the executive director of a non-profit called The World Privacy Forum.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pam:&lt;/strong&gt; Yes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; She’s a wonder woman who testifies in front of the US congress and tries to get governments to pass laws to protect us common folk from data abuse.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pam:&lt;/strong&gt; When people think about privacy, they tend to think in linear terms, but if you think about how we live our lives, our lives are really nonlinear. We are in a sea of information. It’s like a ball of yarn, and we’re all in the center of it. It’s all connected. As a result, any solution that has to do with privacy, is just going to have to be as interconnected, and work in all those areas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; It kind of sounds like the data is just so rich these days that they can make these assumptions about us, without actually needing the exact information.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pam:&lt;/strong&gt; Yeah, I think that it’s very … Let me put it this way. We get a lot of calls from people who have been harmed by privacy problems. People calling who have really terrible cases of identity theft, or medical identity theft, problems I worry about are the problems that people don’t know about and can’t directly prove. We found a study where it showed that there was a national health plan, but the plan was not named. They had scoured through all these different pieces of information to find out was the most predictive about a person in terms of their health and how much they were going to cost the health plan. Of course, smoking was a huge predictor, right? We can all understand that. Another really, really big predictor that they kept on the top 25 list was how many online retail purchases you made of clothing items. I’m like, “Wait, what?”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; What?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pam:&lt;/strong&gt; Right. So, who would ever imagine that what we’re purchasing online is going to impact that. That what we pay for healthcare, or our assumed risk in healthcare. It’s that kind of thing that I’m talking about. We can’t keep track of it anymore. Because we can’t keep track of it anymore, it’s really important that business has rules to play by, and the government has more ability to look under the hood. A person needs to be able to make the choice. If you don’t have the means of knowing that you’re being tracked, if you aren’t able to make a meaningful choice, that’s a whole different thing, that’s not right, that’s not human autonomy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Healthcare costs and online shopping habits. Who knew they went together like peanut butter and chocolate. So that’s the way the cookie crumbles, the data industry knows more about me than by own mother does. My ISP, my Google, my Facebook know more about my hopes, and dreams, and schemes than my closest friends, maybe even my husband. Data is the new oil. People are getting rich by stealing your oil. Every time we click join and like and subscribe and add to cart and buy now and free two day shipping and rate your experience, data companies are sucking up all this intel.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven:&lt;/strong&gt; Privacy is dead.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; That’s Rambam again. I think he says that because he remembers when our privacy was so full of life. He knows private used to mean something special. Privacy used to be priceless. IN the past the FTC and some members of the US congress have tried to introduce regulations or laws to tackle this data business. Those efforts have led nowhere. We haven’t made it clear that this matters. Some activists are fighting back. When that ISP bill was passed, a non-profit, pro-privacy group called Fight for the Future, posted billboards that showed the names, faces, and phone numbers of politicians who sold us out. The billboards also pointed out exactly how much money the telecoms gave them in quote, unquote donations. Actions like that just might get things moving in the right direction, Pam Dickson has high hopes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pam:&lt;/strong&gt; It would be great if we marched on the streets for our data rights. We need collective action, and we need a collective voice to say, “Look, we care about privacy. It’s not dead. It’s alive, and we want to protect it.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica:&lt;/strong&gt; Okay, short of pitchforks and torches though, she has another suggestion. The World Privacy Forum has a list of the top ten most important opt outs. It will help you lock down at least some of your data, so it’s a start. Mozilla’s also put together a few suggestions on how to manage this data privacy challenge. Check out this episode’s show notes at IRLpodcast.org to find out more. So remember, when you’re online, you’re never really alone. For data companies it’s “All your data are belong to us”, but our privacy and our data is much too precious to leave to them. In real life, you draw your curtains at night so people don’t peek into what you’re up to. Online, maybe you want to draw the shades there too. IRL is an original podcast from Mozilla. Listen and subscribe through your favorite app, or on our website IRLpodcast.org. leave a rating and a review on Apple Podcasts so we know what you think. Hear this music? IRL’s theme is composed by Roberto Angel Dweyer and Daniel Burn. It’s available under creative commons license, learn more on our website and feel free to take the theme and remix at will, let me know if you do. Next time on IRL, an internet topic that seems to be on everyone’s minds these days. The battle to save net neutrality. I’m Veronica Belmont, see you online until we catch up again IRL. Is it potato, potato … Am I saying data and he’s saying data and are we both right? Am I wrong?&lt;/p&gt;</content><author><name></name></author><summary type="html">Show Notes</summary></entry><entry><title type="html">Introducing IRL: Because Online Life is Real Life</title><link href="https://mozilla.github.io/irlpodcast/episode0/" rel="alternate" type="text/html" title="Introducing IRL: Because Online Life is Real Life" /><published>2017-06-08T11:07:14-05:00</published><updated>2017-06-08T11:07:14-05:00</updated><id>https://mozilla.github.io/irlpodcast/episode-0-trailer</id><content type="html" xml:base="https://mozilla.github.io/irlpodcast/episode0/">&lt;h2 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h2&gt;
 &lt;p&gt;&lt;a name=&quot;#shownotes&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For behind-the-scenes video of IRL Trailer production, and a bit more about why we’re making this podcast, check out our &lt;a href=&quot;http://blog.mozilla.org/internetcitizen/2017/06/19/introducing-irl-original-podcast-mozilla/&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;

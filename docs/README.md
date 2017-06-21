@@ -1,16 +1,15 @@
-# TODO (pre-launch)
-
-1. Remove `noindex` meta tag
-2. ~~Add Spotify link~~
-3. Change date on trailer episode post
-3. Get code reviewed
-
 ## TODO (post-launch)
 
 1. Improve support for old browsers
 2. Implement JS/CSS bundler
 3. Add CSS/JS linter
 4. Add .editorconfig
+
+## Running locally
+
+1. Install the Gems: `bundle install`
+2. Serve the site: `bundle exec jekyll serve`
+2.1 If you need to build posts with a future date (for testing upcoming episodes): `bundle exec jekyll serve --future`
 
 ## Publishing to GitHub pages (`mozilla.github.io/irlpodcast`)
 
@@ -23,6 +22,4 @@
 
 ## Publishing to production (`irlpodcast.org`)
 
-1. Push to the `prod` branch on GitHub: `git push origin master:prod`
-
-(Assuming your GitHub remote is `origin` and your local `master` branch has the changes you want to see on prod.)
+1. Push to the `prod` branch on GitHub, e.g. `git push origin master:prod` (will push your local `master` branch to the remote `prod` branch)

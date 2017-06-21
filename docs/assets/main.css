@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'FranklinGothic';
   font-weight: normal;
@@ -540,31 +541,33 @@ a:visited:hover {
 #site-intro {
   margin-bottom: 0; }
 
-#intro .content:after {
-  background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
-  background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
-  content: '';
-  display: block;
-  height: 2px;
-  margin-top: 20px;
-  visibility: visible;
-  width: 100%; }
-@media screen and (min-width: 760px) {
-  #intro .content {
-    display: grid;
-    grid-template: repeat(3, auto)/300px auto;
-    grid-template-areas: "logo title" "logo intro" "logo subscribe" "gradient gradient"; }
-    #intro .content #site-logo {
-      grid-area: logo;
-      margin-right: 20px; }
-    #intro .content #site-title {
-      grid-area: title; }
-    #intro .content #site-intro {
-      grid-area: intro; }
-    #intro .content .subscribe-links {
-      grid-area: subscribe; }
-    #intro .content:after {
-      grid-area: gradient; } }
+#intro .content {
+  padding-bottom: 0; }
+  #intro .content:after {
+    background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
+    background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
+    content: '';
+    display: block;
+    height: 2px;
+    margin-top: 20px;
+    visibility: visible;
+    width: 100%; }
+  @media screen and (min-width: 760px) {
+    #intro .content {
+      display: grid;
+      grid-template: repeat(3, auto)/300px auto;
+      grid-template-areas: "logo title" "logo intro" "logo subscribe" "gradient gradient"; }
+      #intro .content #site-logo {
+        grid-area: logo;
+        margin-right: 20px; }
+      #intro .content #site-title {
+        grid-area: title; }
+      #intro .content #site-intro {
+        grid-area: intro; }
+      #intro .content .subscribe-links {
+        grid-area: subscribe; }
+      #intro .content:after {
+        grid-area: gradient; } }
 
 .subscribe-links li {
   margin-bottom: 10px; }
@@ -600,9 +603,15 @@ a:visited:hover {
       .subscribe-links li a {
         flex: 0 0 auto; } }
 
+#episodes .content {
+  padding-top: 0; }
+
 #episode-list {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 40px; }
+  margin-bottom: 0; }
+
+.episode-list-item {
+  border-bottom: 1px solid #000;
+  padding: 20px; }
 
 @media screen and (min-width: 760px) {
   .episode {
@@ -845,8 +854,21 @@ a:visited:hover {
   display: block;
   margin: 10px auto 0; }
 
-#footer-privacy-link {
+#footer-links {
   margin: 20px 0 10px; }
+  #footer-links ul {
+    display: flex; }
+  #footer-links li {
+    padding-right: 20px; }
+    #footer-links li:first-child:after {
+      font-size: 24px;
+      font-size: 1.5rem;
+      content: '·';
+      display: inline-block;
+      line-height: 1px;
+      padding-left: 20px;
+      text-align: center;
+      width: 2px; }
 
 #show-notes {
   padding-top: 20px; }
