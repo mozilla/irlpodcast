@@ -18,7 +18,6 @@ email: irlpodcast@mozilla.com
 description: "Veronica Belmont explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-og_episode_description_prefix: "IRL podcast "
 
 # Build settings
 markdown: kramdown
