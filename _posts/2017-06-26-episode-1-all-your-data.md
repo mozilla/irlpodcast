@@ -5,7 +5,7 @@ body_id:        episode-page
 title:          "All Your Data Are Belong to Us"
 og_title:       "Episode 1: All Your Data Are Belong to Us"
 og_description: "There is no such thing as a free lunch. Mozilla’s IRL podcast dives into the price of “free” online series."
-date:           2017-06-26 00:00:01 -0700
+date:           2017-06-26 09:00:00 -0700
 categories:     episodes
 embed:          "https://simplecast.com/e/73216"
 description:    "You’ve heard the expression, “When something is free, you’re the product.” And, while you may think it’s no big deal to give away your personal data in exchange for free online services, how can you know that what you **get** for what you **give** is a fair trade?"
