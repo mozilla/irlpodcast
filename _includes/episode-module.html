@@ -37,7 +37,8 @@
             </p>
 
             {% assign itunes_tracking = episode.number | prepend: "episode" %}
-            {% include subscribe-links.html episode_title=episode.title itunes_tracking=itunes_tracking %}
+            {% assign rp_campaign = episode.number | prepend: "episode" | append: "-modal" %}
+            {% include subscribe-links.html episode_title=episode.title itunes_tracking=itunes_tracking rp_campaign=rp_campaign %}
         </div>
     </div>
 
