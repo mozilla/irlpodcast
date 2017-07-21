@@ -177,12 +177,17 @@ a:visited:hover {
 }
 
 .episode {
+    .episode-description {
+        margin-top: 20px;
+    }
+
     @media #{$mq-tablet} {
         display: grid;
         grid-template: repeat(4, auto) / 300px auto;
         grid-template-areas: "logo title"
                              "logo links"
-                             "logo player";
+                             "logo player"
+                             "description description";
 
         // align image to top right side of grid area
         .episode-image {
@@ -201,6 +206,10 @@ a:visited:hover {
 
         .episode-player {
             grid-area: player;
+        }
+
+        .episode-description {
+            grid-area: description;
         }
     }
 }
@@ -274,6 +283,16 @@ a:visited:hover {
 
     .episode-player {
         display: none;
+    }
+
+    .episode-description {
+        // do not display description for mobile on home page
+        display: none;
+
+        @media #{$mq-tablet} {
+            display: block;
+            padding-left: 100px; // line up with right-aligned image
+        }
     }
 }
 
