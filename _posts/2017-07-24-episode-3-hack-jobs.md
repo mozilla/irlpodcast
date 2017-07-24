@@ -5,7 +5,7 @@ body_id:        episode-page
 title:          "Hack Jobs"
 og_title:       "Episode 3: Hack Jobs"
 og_description: "This episode of IRL focuses on our internet insecurity. Meet the unsung heroes fighting to keep us safe."
-date:           2017-07-24 09:00:00 -0700
+date:           2017-07-24 07:00:00 -0700
 categories:     episodes
 embed:          "https://simplecast.com/e/77156"
 description:    "Have you been hacked, or been the victim of malware or ransomware? Humans make the internet vibrant, but we're also the weakest link — we're predictable and often easily fooled. This episode of IRL focuses on our internet insecurity. Meet the unsung heroes fighting to keep us safe."
