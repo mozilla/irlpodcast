@@ -29,6 +29,10 @@
 
     <iframe class="episode-player" src="{{ episode.embed }}?style=light" seamless="" scrolling="no" width="100%" height="36px" frameborder="0"></iframe>
 
+    <div class="episode-description">
+        {{ episode.description | markdownify }}
+    </div>
+
     <!-- the following are presented in modal windows -->
     <div class="modal-content-wrapper">
         <div class="episode-subscribe-links" id="episode-{{ episode.number }}-subscribe-links">
