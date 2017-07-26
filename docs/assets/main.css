@@ -613,11 +613,13 @@ a:visited:hover {
   border-bottom: 1px solid #000;
   padding: 20px; }
 
+.episode .episode-description {
+  margin-top: 20px; }
 @media screen and (min-width: 760px) {
   .episode {
     display: grid;
     grid-template: repeat(4, auto)/300px auto;
-    grid-template-areas: "logo title" "logo links" "logo player"; }
+    grid-template-areas: "logo title" "logo links" "logo player" "description description"; }
     .episode .episode-image {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -629,7 +631,9 @@ a:visited:hover {
     .episode .episode-links {
       grid-area: links; }
     .episode .episode-player {
-      grid-area: player; } }
+      grid-area: player; }
+    .episode .episode-description {
+      grid-area: description; } }
 
 #episode-list .episode-image {
   display: none; }
@@ -673,6 +677,12 @@ a:visited:hover {
       display: flex; } }
 #episode-list .episode-player {
   display: none; }
+#episode-list .episode-description {
+  display: none; }
+  @media screen and (min-width: 760px) {
+    #episode-list .episode-description {
+      display: block;
+      padding-left: 100px; } }
 
 .episode-title {
   font-size: 21px;
