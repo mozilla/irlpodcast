@@ -5,7 +5,7 @@ body_id:        episode-page
 title:          "I Spy With My Digital Eye"
 og_title:       "Episode 5: I Spy With My Digital Eye"
 og_description: "Surveillance. Turns out, we’ve invited it into our homes through digital assistants, connected toys and baby monitors."
-date:           2017-08-21 09:00:00 -0700
+date:           2017-08-21 07:00:00 -0700
 categories:     episodes
 embed:          "https://simplecast.com/e/62690553"
 description:    "We react against the idea of surveillance, but it turns out that we’ve invited it into our homes through devices like digital assistants, connected toys and baby monitors. Are you comfortable with the idea that someone might be watching you or listening to you right now?"
