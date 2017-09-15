@@ -1,10 +1,3 @@
-## TODO (post-launch)
-
-1. Improve support for old browsers
-2. Implement JS/CSS bundler
-3. Add CSS/JS linter
-4. Add .editorconfig
-
 ## Running locally
 
 ### Docker
@@ -27,8 +20,12 @@
 
 ## Publishing to staging (stage.irlpodcast.org)
 
-1. Push the `master` branch to GitHub
+~~1. Push the `master` branch to GitHub~~
+
+See [MANUALPUSH.md](MANUALPUSH.md) until we have a working Docker image.
 
 ## Publishing to production (`irlpodcast.org`)
 
-1. Push to the `prod` branch on GitHub, e.g. `git push origin master:prod` (will push your local `master` branch to the remote `prod` branch)
+~~1. Push to the `prod` branch on GitHub, e.g. `git push origin master:prod` (will push your local `master` branch to the remote `prod` branch)~~
+
+See [MANUALPUSH.md](MANUALPUSH.md) until we have a working Docker image.
