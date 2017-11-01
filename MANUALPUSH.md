@@ -8,11 +8,11 @@ You must have the [AWS CLI](https://aws.amazon.com/cli/) and S3 credentials set 
 
 ### Staging
 
-`jekyll build --config _config.yml,_config-build-stage.yml --destination /release`
+`jekyll build --config _config.yml,_config-build-stage.yml --destination release`
 
 ### Prod
 
-`jekyll build --config _config.yml,_config-build-prod.yml --destination /release`
+`jekyll build --config _config.yml,_config-build-prod.yml --destination release`
 
 ## Push to S3:
 
