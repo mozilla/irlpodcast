@@ -1,3 +1,5 @@
+**2017-11-01: Docker-based build/push is working...for now**
+
 # Pushing to stage & prod manually
 
 As the Jekyll Docker image we relied on for pushes is no longer reliable, we are (for now) pushing manually.
