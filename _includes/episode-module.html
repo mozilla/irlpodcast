@@ -10,7 +10,13 @@
 {% else %}
     <a href="{{ episode.url | relative_url }}" class="episode-title-wrapper">
 {% endif %}
-        <strong class="episode-number">Episode {{ episode.number }}</strong>
+        <strong class="episode-number">
+        {% if episode.number contains "B" %}
+            Bonus Episode {{ episode.number | remove_first: "B" }}
+        {% else %}
+            Episode {{ episode.number }}
+        {% endif %}
+        </strong>
 
         <h2 class="episode-title">{{ episode.title | escape }}</h2>
 {% if include.view == "episode" %}
