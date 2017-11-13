@@ -11,7 +11,7 @@ embed:          "https://simplecast.com/e/e6985bbc"
 description:    "On the Internet, everything happens so much. We’ll check in on some of Season One’s stories and see how they’ve evolved. We’ll talk to Amanda Werner about creating visibility for Equifax victims. We’ll look at what’s next in the Marcus Hutchins case. And, drumroll, we’ll hear back from a troll we sent cake to last season."
 number:         B1
 show_notes: |
-    Life on the Internet moves fast. Director of Firefox Runtime explains why every millisecond matters. [Learn more](https://blog.mozilla.org/berlin/en/people/selena-deckelmann-firefox-runtime/).
+    Life on the Internet moves fast. Director of Firefox Runtime Selena Deckelmann explains why every millisecond matters. [Learn more](https://blog.mozilla.org/berlin/en/people/selena-deckelmann-firefox-runtime/).
 
     And, keep it clean out there. Check out our [data detox kit](https://datadetox.myshadow.org/detox/Day0) for more ways to keep your personal info safe. 
 transcript: |
