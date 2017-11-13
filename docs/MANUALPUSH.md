@@ -1,3 +1,5 @@
+**2017-11-01: Docker-based build/push is working...for now**
+
 # Pushing to stage & prod manually
 
 As the Jekyll Docker image we relied on for pushes is no longer reliable, we are (for now) pushing manually.
@@ -8,11 +10,11 @@ You must have the [AWS CLI](https://aws.amazon.com/cli/) and S3 credentials set 
 
 ### Staging
 
-`jekyll build --config _config.yml,_config-build-stage.yml --destination /release`
+`jekyll build --config _config.yml,_config-build-stage.yml --destination release`
 
 ### Prod
 
-`jekyll build --config _config.yml,_config-build-prod.yml --destination /release`
+`jekyll build --config _config.yml,_config-build-prod.yml --destination release`
 
 ## Push to S3:
 

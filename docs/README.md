@@ -20,12 +20,8 @@
 
 ## Publishing to staging (stage.irlpodcast.org)
 
-~~1. Push the `master` branch to GitHub~~
-
-See [MANUALPUSH.md](MANUALPUSH.md) until we have a working Docker image.
+1. Push the `master` branch to GitHub
 
 ## Publishing to production (`irlpodcast.org`)
 
-~~1. Push to the `prod` branch on GitHub, e.g. `git push origin master:prod` (will push your local `master` branch to the remote `prod` branch)~~
-
-See [MANUALPUSH.md](MANUALPUSH.md) until we have a working Docker image.
+1. Push to the `prod` branch on GitHub, e.g. `git push origin master:prod` (will push your local `master` branch to the remote `prod` branch)
