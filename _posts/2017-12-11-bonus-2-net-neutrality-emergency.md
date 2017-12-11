@@ -5,7 +5,7 @@ body_id:        episode-page
 title:          "Net Neutrality Emergency"
 og_title:       "Bonus Episode 2: Net Neutrality Emergency"
 og_description: "The battle for the open Internet isn’t over. In the days leading up to the FCC’s vote, we investigate what’s next for net neutrality."
-date:           2017-12-11 09:00:00 -0700
+date:           2017-12-11 06:00:00 -0700
 categories:     episodes
 embed:          "https://simplecast.com/e/a12c2c51"
 description:    "The battle for the open Internet isn’t over. In the days leading up to the FCC’s net neutrality vote, we investigate what’s next in the fight. We Rate Dogs’ Matt Nelson talks about trolling Ajit Pai with a pay-per-pupper plan. Verizon protesters share their experience on the ground. And the FCC’s Mignon Clyburn weighs in on net neutrality’s road ahead."
