@@ -11,7 +11,7 @@ embed:          "https://simplecast.com/e/17f3cc4b"
 description:    "From politics to poetry, bots are playing an increasingly visible role in culture. Veronica Belmont investigates the rise of social media bots with Lauren Kunze and Jenn Schiffer. Butter.ai’s Jack Hirsch talks about what happens when your profile is stolen by a political bot. Lisa-Maria Neudert measures how bots influence politics. Ben Nimmo teaches us how to spot and take down bot armies. And Tim Hwang explores how bots can connect us in surprising, and meaningful, new ways."
 number:         8
 show_notes: |
-    Bots, they’re just like you and me. Except easier to find, especially on Twitter. :) [Here’s a handy guide to spotting bots in social media, plus the answers to the bot-or-not quiz you heard on the episode](https://blog.mozilla.org/internetcitizen/2017/01/08/irl-how-to-spot-a-bot/).
+    Bots, they’re just like you and me. Except easier to find, especially on Twitter. :) [Here’s a handy guide to spotting bots in social media, plus the answers to the bot-or-not quiz you heard on the episode](https://blog.mozilla.org/internetcitizen/2018/01/08/irl-how-to-spot-a-bot/).
 transcript: |
     **Jack Hirsch:** My name is Jack Hirsch. I'm the CEO of Butter.ai. 
     
