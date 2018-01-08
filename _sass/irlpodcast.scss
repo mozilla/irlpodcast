@@ -85,7 +85,8 @@ a:visited:hover {
 
     @media #{$mq-tablet} {
         display: grid;
-        grid-template: repeat(3, auto) / 300px auto;
+        grid-gap: 0 20px; // gap between art & the rest of the content
+        grid-template: repeat(3, auto) / 280px auto;
         grid-template-areas: "logo title"
                              "logo intro"
                              "logo subscribe"
@@ -93,7 +94,6 @@ a:visited:hover {
 
         #site-logo {
             grid-area: logo;
-            margin-right: 20px;
         }
 
         #site-title {
@@ -183,7 +183,8 @@ a:visited:hover {
 
     @media #{$mq-tablet} {
         display: grid;
-        grid-template: repeat(4, auto) / 300px auto;
+        grid-gap: 0 20px; // gap between art & episode info
+        grid-template: repeat(4, auto) / 280px auto;
         grid-template-areas: "logo title"
                              "logo links"
                              "logo player"
@@ -193,7 +194,6 @@ a:visited:hover {
         .episode-image {
             @include border-box();
             grid-area: logo;
-            padding-right: 20px;
         }
 
         .episode-title-wrapper {
@@ -222,9 +222,9 @@ a:visited:hover {
         @media #{$mq-tablet} {
             display: block;
             align-self: start;
-            height: 200px;
+            height: 180px;
             justify-self: end;
-            width: 200px;
+            width: 180px;
         }
     }
 
