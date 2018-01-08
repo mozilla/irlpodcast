@@ -5,7 +5,7 @@ body_id:        episode-page
 title:          "Bot Or Not"
 og_title:       "Episode 8: Bot Or Not"
 og_description: "Most website visitors aren’t human. They’re bots. Here’s how to spot them."
-date:           2018-01-08 09:00:00 -0700
+date:           2018-01-08 07:00:00 -0700
 categories:     episodes
 embed:          "https://simplecast.com/e/17f3cc4b"
 description:    "From politics to poetry, bots are playing an increasingly visible role in culture. Veronica Belmont investigates the rise of social media bots with Lauren Kunze and Jenn Schiffer. Butter.ai’s Jack Hirsch talks about what happens when your profile is stolen by a political bot. Lisa-Maria Neudert measures how bots influence politics. Ben Nimmo teaches us how to spot and take down bot armies. And Tim Hwang explores how bots can connect us in surprising, and meaningful, new ways."
