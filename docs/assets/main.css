@@ -625,7 +625,7 @@ ol {
   .episode {
     display: grid;
     grid-gap: 0 20px;
-    grid-template: repeat(4, auto)/280px auto;
+    grid-template: repeat(4, auto)/260px auto;
     grid-template-areas: "logo title" "logo links" "logo player" "description description"; }
     .episode .episode-image {
       -webkit-box-sizing: border-box;
@@ -688,7 +688,7 @@ ol {
   @media screen and (min-width: 760px) {
     #episode-list .episode-description {
       display: block;
-      padding-left: 100px; } }
+      padding-left: 80px; } }
 
 .episode-title {
   font-size: 21px;
