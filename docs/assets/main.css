@@ -514,6 +514,12 @@ a:visited:focus,
 a:visited:hover {
   color: #984aaf; }
 
+ol {
+  list-style-type: numeric;
+  margin-left: 20px; }
+  ol li {
+    padding-left: 10px; }
+
 .page-content {
   padding-bottom: 20px; }
 
