@@ -11,7 +11,7 @@ embed:          "https://simplecast.com/e/3e74ce73"
 description:    "What does it mean to grow up online? We investigate how the www is changing our bodies and our brains. A college student shares his experience at rehab for Internet addiction. Bestselling author Nir Eyal breaks down what apps borrow from gambling technology. Writer Heather Schwedel talks about taking a cue from Kanye and breaking up with Twitter. And blogger Joshua Cousins talks about the Internet as a lifeline, in the wake of recent natural disasters."
 number:         9
 show_notes: |
-    Looking to reset your relationship with the Internet? Check out our [digital detox kit](https://blog.mozilla.org/internetcitizen/2018/01/16/digital-fitness/). And if you still need something to stop your phone’s constant beep boops, we have the next best thing: [an IRL ringtone](/ringtones/).
+    Looking to reset your relationship with the Internet? Check out our [digital detox kit](https://blog.mozilla.org/internetcitizen/2018/01/16/digital-fitness/). And if you still need something to stop your phone’s constant beep boops, we have the next best thing: [an IRL ringtone](!!baseurl!!/ringtones/).
 transcript: |
     **Melissa Gardinetti:** So, my name is Melissa Gardinetti and I have been using a smartphone since 2007.
     
@@ -221,7 +221,10 @@ transcript: |
 ## Show Notes
 <a name="#shownotes"></a>
 
-{{ page.show_notes }}
+{% comment %}
+    'replace' below is to ensure correct local link across local, dev, and prod URLs
+{% endcomment %}
+{{ page.show_notes | replace: '!!baseurl!!', site.baseurl }}
 
 ## Transcript
 <a name="#transcript"></a>
