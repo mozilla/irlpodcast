@@ -26,3 +26,4 @@ exclude:
   - Gemfile.lock
   - bin/
   - Jenkinsfile
+  - docker-compose.yml

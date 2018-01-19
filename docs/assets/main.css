@@ -555,11 +555,11 @@ a:visited:hover {
   @media screen and (min-width: 760px) {
     #intro .content {
       display: grid;
-      grid-template: repeat(3, auto)/300px auto;
+      grid-gap: 0 20px;
+      grid-template: repeat(3, auto)/280px auto;
       grid-template-areas: "logo title" "logo intro" "logo subscribe" "gradient gradient"; }
       #intro .content #site-logo {
-        grid-area: logo;
-        margin-right: 20px; }
+        grid-area: logo; }
       #intro .content #site-title {
         grid-area: title; }
       #intro .content #site-intro {
@@ -618,14 +618,14 @@ a:visited:hover {
 @media screen and (min-width: 760px) {
   .episode {
     display: grid;
-    grid-template: repeat(4, auto)/300px auto;
+    grid-gap: 0 20px;
+    grid-template: repeat(4, auto)/280px auto;
     grid-template-areas: "logo title" "logo links" "logo player" "description description"; }
     .episode .episode-image {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      grid-area: logo;
-      padding-right: 20px; }
+      grid-area: logo; }
     .episode .episode-title-wrapper {
       grid-area: title; }
     .episode .episode-links {
@@ -641,9 +641,9 @@ a:visited:hover {
     #episode-list .episode-image {
       display: block;
       align-self: start;
-      height: 200px;
+      height: 180px;
       justify-self: end;
-      width: 200px; } }
+      width: 180px; } }
 #episode-list .episode-title-wrapper {
   display: block;
   padding-right: 50px;
