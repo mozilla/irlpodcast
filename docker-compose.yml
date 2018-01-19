@@ -1,6 +1,6 @@
 jekyll:
   # image specifically for GitHub pages
-  image: jekyll/jekyll:pages
+  image: jekyll/jekyll:builder
   # --future will show future-dated posts
   command: jekyll serve --watch --future
   # map port in container to local port
