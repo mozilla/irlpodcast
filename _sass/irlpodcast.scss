@@ -47,6 +47,15 @@ a:visited:hover {
     color: lighten(#88429d, 5%);
 }
 
+ol {
+    list-style-type: numeric;
+    margin-left: 20px;
+
+    li {
+        padding-left: 10px;
+    }
+}
+
 .page-content {
     padding-bottom: 20px;
 }
