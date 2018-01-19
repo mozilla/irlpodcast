@@ -193,7 +193,7 @@ ol {
     @media #{$mq-tablet} {
         display: grid;
         grid-gap: 0 20px; // gap between art & episode info
-        grid-template: repeat(4, auto) / 280px auto;
+        grid-template: repeat(4, auto) / 260px auto;
         grid-template-areas: "logo title"
                              "logo links"
                              "logo player"
@@ -300,7 +300,7 @@ ol {
 
         @media #{$mq-tablet} {
             display: block;
-            padding-left: 100px; // line up with right-aligned image
+            padding-left: 80px; // line up with right-aligned image
         }
     }
 }
