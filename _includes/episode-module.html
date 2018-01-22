@@ -70,7 +70,11 @@
                 Episode {{ episode.number }} - {{ episode.title | escape }}
             </p>
 
-            {{ episode.show_notes | markdownify }}
+            {% comment %}
+                'replace' below is to ensure correct local link across local, dev, and prod URLs.
+                Front matter does not allow variables, so we need to do string substitution.
+            {% endcomment %}
+            {{ episode.show_notes | markdownify | replace: '!!baseurl!!', site.baseurl }}
         </div>
     </div>
 </article>
