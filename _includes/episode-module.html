@@ -2,6 +2,10 @@
 {% assign image_path = episode.number | prepend: "/assets/images/episodes/" | append: "/artwork.png" %}
 {% assign image_path_high_res = episode.number | prepend: "/assets/images/episodes/" | append: "/artwork-high-res.png" %}
 
+{% comment %}configs for subscribe links{% endcomment %}
+{% assign itunes_tracking = episode.number | prepend: "episode" %}
+{% assign rp_campaign = episode.number | prepend: "episode" | append: "-modal" %}
+
 <article class="episode" id="episode-{{ episode.number }}">
     <img src="{{ image_path | relative_url }}" srcset="{{ image_path_high_res | relative_url }} 2x" class="episode-image" alt="">
 
@@ -26,8 +30,8 @@
 {% endif %}
 
     <ul class="episode-links">
-        <li><a href="{{ "#subscribe-links-primary" | absolute_url }}" class="episode-subscribe-link" data-subscribe-links="episode-{{ episode.number }}-subscribe-links">Subscribe</a></li>
     {% if include.view != "episode" %}
+        <li><a href="{{ "#subscribe-links-primary" | absolute_url }}" class="episode-subscribe-link" data-subscribe-links="episode-{{ episode.number }}-subscribe-links">Subscribe</a></li>
         <li><a href="{{ episode.url | relative_url }}#show-notes" class="episode-shownotes-link" data-shownotes="episode-{{ episode.number }}-shownotes">Show Notes</a></li>
     {% endif %}
         <li class="episode-link-share"><a href="" class="episode-share-link" data-share-links="episode-{{ episode.number }}-share-links">Share</a></li>
@@ -35,22 +39,26 @@
 
     <iframe class="episode-player" src="{{ episode.embed }}?style=light" seamless="" scrolling="no" width="100%" height="36px" frameborder="0"></iframe>
 
+{% if include.view == 'episode' %}
+    {% include subscribe-links.html episode_title=episode.title itunes_tracking=itunes_tracking rp_campaign=rp_campaign show_title=true %}
+{% endif %}
+
     <div class="episode-description">
         {{ episode.description | markdownify }}
     </div>
 
     <!-- the following are presented in modal windows -->
+{% if include.view != "episode" %}
     <div class="modal-content-wrapper">
         <div class="episode-subscribe-links" id="episode-{{ episode.number }}-subscribe-links">
             <p class="modal-copy">
                 Subscribe to IRL. Because online life is real life.
             </p>
 
-            {% assign itunes_tracking = episode.number | prepend: "episode" %}
-            {% assign rp_campaign = episode.number | prepend: "episode" | append: "-modal" %}
             {% include subscribe-links.html episode_title=episode.title itunes_tracking=itunes_tracking rp_campaign=rp_campaign %}
         </div>
     </div>
+{% endif %}
 
     <div class="modal-content-wrapper">
         <div class="episode-share-links" id="episode-{{ episode.number }}-share-links">

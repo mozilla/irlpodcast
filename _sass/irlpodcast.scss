@@ -30,6 +30,10 @@
     width: 100%;
 }
 
+body {
+    border-top: 0;
+}
+
 a,
 a:active,
 a:link,
@@ -67,8 +71,9 @@ ol {
 }
 
 #site-header {
-    margin-top: 60px; // compensate for fixed nav
+    margin-top: 70px; // compensate for fixed nav
     padding-bottom: 0;
+    padding-top: 0;
 }
 
 #mozilla-logo {
@@ -83,26 +88,62 @@ ol {
 
 #site-intro {
     margin-bottom: 0;
+
+    @media #{$mq-tablet} {
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
-#intro .content {
-    padding-bottom: 0;
+#intro {
+    margin-top: 20px;
 
-    &:after {
-        @include gradient-bar();
+    .content {
+        padding: 0;
+        width: 100%;
+
+        &:after {
+            @include gradient-bar();
+        }
     }
+}
+
+#intro-content-inner {
+    padding: 0 20px;
+    width: auto;
+
+    @media #{$mq-tablet} {
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    @media #{$mq-desktop} {
+        width: 820px;
+    }
+}
+
+#site-logo {
+    margin-bottom: 20px;
+
+    img {
+        display: block;
+    }
+}
+
+#intro-main {
+    padding-bottom: 0;
 
     @media #{$mq-tablet} {
         display: grid;
         grid-gap: 0 20px; // gap between art & the rest of the content
-        grid-template: repeat(3, auto) / 280px auto;
+        grid-template: repeat(2, auto) / 280px auto;
         grid-template-areas: "logo title"
-                             "logo intro"
-                             "logo subscribe"
-                             "gradient gradient";
+                             "logo intro";
 
         #site-logo {
             grid-area: logo;
+            margin-bottom: 0;
         }
 
         #site-title {
@@ -112,34 +153,34 @@ ol {
         #site-intro {
             grid-area: intro;
         }
-
-        .subscribe-links {
-            grid-area: subscribe;
-        }
-
-        &:after {
-            grid-area: gradient;
-        }
     }
 }
 
 .subscribe-links {
     li {
         margin-bottom: 10px;
-
-        a {
-            display: inline-block;
-        }
-
-        img {
-            display: block;
-        }
     }
 
-    .rss-link {
-        border: 1px solid #7f7f7f;
-        border-radius: 4px;
-        padding: 3px 17px 3px 2px;
+    a {
+        background: #fff;
+        border: 1px solid #cacaca;
+        border-radius: 30px;
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 10px 0;
+        text-align: center;
+        width: 160px;
+    }
+
+    img {
+        display: block;
+        height: 26px;
+        margin: 0 auto;
+    }
+
+    // the only non-image subscribe link needs extra styling
+    .rss-badge {
+        display: inline-block;
 
         &:before {
             @include background-size(15px 15px);
@@ -149,7 +190,7 @@ ol {
             display: block;
             float: left;
             height: 20px;
-            margin: 6px 10px 0;
+            margin: 6px 10px 0 0;
             width: 15px;
         }
     }
@@ -160,13 +201,37 @@ ol {
         justify-content: space-around;
 
         li {
-            align-items: center;
-            display: flex;
-            flex: 0 0 50%;
             margin-bottom: 10px;
+        }
+    }
 
-            a {
-                flex: 0 0 auto;
+    @media #{$mq-desktop} {
+        a {
+            width: 180px;
+        }
+    }
+}
+
+.subscribe-links-wrapper {
+    margin-top: 20px;
+
+    .subscribe-links {
+        display: block;
+        margin: 20px 0 0;
+
+        li {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media #{$mq-tablet} {
+        .subscribe-links {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            
+            li {
+                margin-bottom: 0;
             }
         }
     }
@@ -183,6 +248,7 @@ ol {
 .episode-list-item {
     border-bottom: 1px solid #000;
     padding: 20px;
+    padding: 1.5em 20px 0.25em;
 }
 
 .episode {
@@ -190,14 +256,19 @@ ol {
         margin-top: 20px;
     }
 
+    .episode-title-wrapper {
+        margin-bottom: 20px;
+    }
+
     @media #{$mq-tablet} {
         display: grid;
         grid-gap: 0 20px; // gap between art & episode info
+        grid-template: auto 40px auto auto / 260px auto;
         grid-template: repeat(4, auto) / 260px auto;
-        grid-template-areas: "logo title"
-                             "logo links"
-                             "logo player"
-                             "description description";
+        grid-template-areas: "logo title share"
+                             "logo player player"
+                             "subscribe subscribe subscribe"
+                             "description description description";
 
         // align image to top right side of grid area
         .episode-image {
@@ -207,14 +278,21 @@ ol {
 
         .episode-title-wrapper {
             grid-area: title;
+            margin-bottom: 0;
         }
 
         .episode-links {
-            grid-area: links;
+            grid-area: share;
+            justify-content: flex-end;
+            margin-bottom: 0;
         }
 
         .episode-player {
             grid-area: player;
+        }
+
+        .subscribe-links-wrapper {
+            grid-area: subscribe;
         }
 
         .episode-description {
@@ -287,6 +365,7 @@ ol {
 
         @media #{$mq-tablet} {
             display: flex;
+            justify-content: space-between;
         }
     }
 
@@ -301,6 +380,19 @@ ol {
         @media #{$mq-tablet} {
             display: block;
             padding-left: 80px; // line up with right-aligned image
+        }
+    }
+
+    @media #{$mq-tablet} {
+        .episode {
+            grid-template-areas: "logo title"
+                                 "logo links"
+                                 "logo player"
+                                 "description description";
+
+            .episode-links {
+                grid-area: links;
+            }
         }
     }
 }
@@ -553,11 +645,11 @@ ol {
 }
 
 // episode page
-#show-notes {
-    padding-top: 20px;
+#show-notes:before {
+    @include gradient-bar();
+    margin-bottom: 20px;
 
-    &:before {
-        @include gradient-bar();
-        margin-bottom: 20px;
+    @media #{$mq-tablet} {
+        margin-bottom: 40px;
     }
 }
