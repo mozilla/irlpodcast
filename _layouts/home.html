@@ -5,26 +5,30 @@ body_id:    home
 
 <section id="intro">
     <div class="content">
-        <div id="site-logo">
-            <img src="{{ "/assets/images/irl-logo.png" | relative_url }}" srcset="{{ "/assets/images/irl-logo-high-res.png" | relative_url }} 2x" alt="">
+        <div id="intro-content-inner">
+            <div id="intro-main">
+                <div id="site-logo">
+                    <img src="{{ "/assets/images/irl-logo.png" | relative_url }}" srcset="{{ "/assets/images/irl-logo-high-res.png" | relative_url }} 2x" alt="">
+                </div>
+
+                <div id="site-title">
+                    <h1>IRL: Because Online Life Is Real Life</h1>
+                </div>
+
+                <div id="site-intro">
+                    <p>
+                        Host Veronica Belmont shares real stories of life online and
+                        real talk about the future of the Web.
+                    </p>
+
+                    <p>
+                        IRL is an original podcast from Mozilla.
+                    </p>
+                </div>
+            </div>
+
+            {% include subscribe-links.html itunes_tracking="homepage" id="subscribe-links-primary" show_title=true %}
         </div>
-
-        <div id="site-title">
-            <h1>IRL: Because Online Life Is Real Life</h1>
-        </div>
-
-        <div id="site-intro">
-            <p>
-                Host Veronica Belmont shares real stories of life online and
-                real talk about the future of the Web.
-            </p>
-
-            <p>
-                IRL is an original podcast from Mozilla.
-            </p>
-        </div>
-
-        {% include subscribe-links.html itunes_tracking="homepage" id="subscribe-links-primary" %}
     </div>
 </section>
 
