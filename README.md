@@ -10,15 +10,16 @@
 0. Make sure your environment meets the [requirements](https://jekyllrb.com/docs/installation/#requirements)
 1. Install the Gems: `bundle install`
 2. Serve the site: `bundle exec jekyll serve`
-2.1 If you need to build posts with a future date (for testing upcoming episodes): `bundle exec jekyll serve --future`
+    - 2.1 If you need to build posts with a future date (for testing upcoming episodes): `bundle exec jekyll serve --future`
 3. Visit `http://localhost:4000`
 
 ## Publishing to GitHub pages (`mozilla.github.io/irlpodcast`)
 
 1. Run the following build command: `JEKYLL_ENV=production jekyll build --config _config.yml,_config-build-dev.yml`
+    - 1.1 If you need to see posts that are future dated (e.g. to verify an upcoming episode), add `--future` at the end of the above command.
 2. Push changes in the `docs` folder to the `master` branch on GitHub
 
-## Publishing to staging (stage.irlpodcast.org)
+## Publishing to staging (`stage.irlpodcast.org`)
 
 1. Push the `master` branch to GitHub
 
