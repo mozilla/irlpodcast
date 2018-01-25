@@ -195,16 +195,6 @@ ol {
         }
     }
 
-    @media #{$mq-phone-wide} {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-
-        li {
-            margin-bottom: 10px;
-        }
-    }
-
     @media #{$mq-desktop} {
         a {
             width: 180px;
@@ -214,19 +204,24 @@ ol {
 
 .subscribe-links-wrapper {
     margin-top: 20px;
+    max-width: 420px;
 
     .subscribe-links {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
         margin: 20px 0 0;
 
         li {
-            margin-bottom: 20px;
+            flex: 0 0 auto;
+            margin: 0 5px 20px;
         }
     }
 
     @media #{$mq-tablet} {
+        max-width: none;
+
         .subscribe-links {
-            display: flex;
             flex-wrap: nowrap;
             justify-content: space-between;
             
