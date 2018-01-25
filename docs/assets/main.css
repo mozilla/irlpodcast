@@ -499,6 +499,9 @@ html[dir="rtl"] #modal .window .inner #modal-close {
     .content {
       width: 860px; } }
 
+body {
+  border-top: 0; }
+
 a,
 a:active,
 a:link,
@@ -529,8 +532,9 @@ ol {
     font-size: 1.375rem; } }
 
 #site-header {
-  margin-top: 60px;
-  padding-bottom: 0; }
+  margin-top: 70px;
+  padding-bottom: 0;
+  padding-top: 0; }
 
 #mozilla-logo {
   -webkit-background-size: 100px 32px;
@@ -546,46 +550,75 @@ ol {
 
 #site-intro {
   margin-bottom: 0; }
-
-#intro .content {
-  padding-bottom: 0; }
-  #intro .content:after {
-    background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
-    background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
-    content: '';
-    display: block;
-    height: 2px;
-    margin-top: 20px;
-    visibility: visible;
-    width: 100%; }
   @media screen and (min-width: 760px) {
-    #intro .content {
+    #site-intro p:last-child {
+      margin-bottom: 0; } }
+
+#intro {
+  margin-top: 20px; }
+  #intro .content {
+    padding: 0;
+    width: 100%; }
+    #intro .content:after {
+      background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
+      background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
+      content: '';
+      display: block;
+      height: 2px;
+      margin-top: 20px;
+      visibility: visible;
+      width: 100%; }
+
+#intro-content-inner {
+  padding: 0 20px;
+  width: auto; }
+  @media screen and (min-width: 760px) {
+    #intro-content-inner {
+      margin: 0 auto;
+      width: 700px; } }
+  @media screen and (min-width: 1000px) {
+    #intro-content-inner {
+      width: 820px; } }
+
+#site-logo {
+  margin-bottom: 20px; }
+  #site-logo img {
+    display: block; }
+
+#intro-main {
+  padding-bottom: 0; }
+  @media screen and (min-width: 760px) {
+    #intro-main {
       display: grid;
       grid-gap: 0 20px;
-      grid-template: repeat(3, auto)/280px auto;
-      grid-template-areas: "logo title" "logo intro" "logo subscribe" "gradient gradient"; }
-      #intro .content #site-logo {
-        grid-area: logo; }
-      #intro .content #site-title {
+      grid-template: repeat(2, auto)/280px auto;
+      grid-template-areas: "logo title" "logo intro"; }
+      #intro-main #site-logo {
+        grid-area: logo;
+        margin-bottom: 0; }
+      #intro-main #site-title {
         grid-area: title; }
-      #intro .content #site-intro {
-        grid-area: intro; }
-      #intro .content .subscribe-links {
-        grid-area: subscribe; }
-      #intro .content:after {
-        grid-area: gradient; } }
+      #intro-main #site-intro {
+        grid-area: intro; } }
 
 .subscribe-links li {
   margin-bottom: 10px; }
-  .subscribe-links li a {
-    display: inline-block; }
-  .subscribe-links li img {
-    display: block; }
-.subscribe-links .rss-link {
-  border: 1px solid #7f7f7f;
-  border-radius: 4px;
-  padding: 3px 17px 3px 2px; }
-  .subscribe-links .rss-link:before {
+.subscribe-links a {
+  background: #fff;
+  border: 1px solid #cacaca;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  width: 160px; }
+.subscribe-links img {
+  display: block;
+  height: 26px;
+  margin: 0 auto; }
+.subscribe-links .rss-badge {
+  display: inline-block; }
+  .subscribe-links .rss-badge:before {
     -webkit-background-size: 15px 15px;
     background-size: 15px 15px;
     background-image: url("/irlpodcast/assets/images/icon-subscribe.svg");
@@ -594,20 +627,31 @@ ol {
     display: block;
     float: left;
     height: 20px;
-    margin: 6px 10px 0;
+    margin: 6px 10px 0 0;
     width: 15px; }
-@media screen and (min-width: 480px) {
-  .subscribe-links {
+@media screen and (min-width: 1000px) {
+  .subscribe-links a {
+    width: 180px; } }
+
+.subscribe-links-wrapper {
+  margin-top: 20px;
+  max-width: 420px; }
+  .subscribe-links-wrapper .subscribe-links {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; }
-    .subscribe-links li {
-      align-items: center;
-      display: flex;
-      flex: 0 0 50%;
-      margin-bottom: 10px; }
-      .subscribe-links li a {
-        flex: 0 0 auto; } }
+    justify-content: flex-start;
+    margin: 20px 0 0; }
+    .subscribe-links-wrapper .subscribe-links li {
+      flex: 0 0 auto;
+      margin: 0 5px 20px; }
+  @media screen and (min-width: 760px) {
+    .subscribe-links-wrapper {
+      max-width: none; }
+      .subscribe-links-wrapper .subscribe-links {
+        flex-wrap: nowrap;
+        justify-content: space-between; }
+        .subscribe-links-wrapper .subscribe-links li {
+          margin-bottom: 0; } }
 
 #episodes .content {
   padding-top: 0; }
@@ -617,27 +661,36 @@ ol {
 
 .episode-list-item {
   border-bottom: 1px solid #000;
-  padding: 20px; }
+  padding: 20px;
+  padding: 1.5em 20px 0.25em; }
 
 .episode .episode-description {
   margin-top: 20px; }
+.episode .episode-title-wrapper {
+  margin-bottom: 20px; }
 @media screen and (min-width: 760px) {
   .episode {
     display: grid;
     grid-gap: 0 20px;
+    grid-template: auto 40px auto auto / 260px auto;
     grid-template: repeat(4, auto)/260px auto;
-    grid-template-areas: "logo title" "logo links" "logo player" "description description"; }
+    grid-template-areas: "logo title share" "logo player player" "subscribe subscribe subscribe" "description description description"; }
     .episode .episode-image {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
       grid-area: logo; }
     .episode .episode-title-wrapper {
-      grid-area: title; }
+      grid-area: title;
+      margin-bottom: 0; }
     .episode .episode-links {
-      grid-area: links; }
+      grid-area: share;
+      justify-content: flex-end;
+      margin-bottom: 0; }
     .episode .episode-player {
       grid-area: player; }
+    .episode .subscribe-links-wrapper {
+      grid-area: subscribe; }
     .episode .episode-description {
       grid-area: description; } }
 
@@ -680,7 +733,8 @@ ol {
   max-width: none; }
   @media screen and (min-width: 760px) {
     #episode-list .episode-links {
-      display: flex; } }
+      display: flex;
+      justify-content: space-between; } }
 #episode-list .episode-player {
   display: none; }
 #episode-list .episode-description {
@@ -689,6 +743,11 @@ ol {
     #episode-list .episode-description {
       display: block;
       padding-left: 80px; } }
+@media screen and (min-width: 760px) {
+  #episode-list .episode {
+    grid-template-areas: "logo title" "logo links" "logo player" "description description"; }
+    #episode-list .episode .episode-links {
+      grid-area: links; } }
 
 .episode-title {
   font-size: 21px;
@@ -886,15 +945,16 @@ ol {
       text-align: center;
       width: 2px; }
 
-#show-notes {
-  padding-top: 20px; }
-  #show-notes:before {
-    background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
-    background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
-    content: '';
-    display: block;
-    height: 2px;
-    margin-top: 20px;
-    visibility: visible;
-    width: 100%;
-    margin-bottom: 20px; }
+#show-notes:before {
+  background-image: -webkit-linear-gradient(left, #ff00fd 0%, #0e00cf 100%);
+  background-image: linear-gradient(to right, #ff00fd 0%, #0e00cf 100%);
+  content: '';
+  display: block;
+  height: 2px;
+  margin-top: 20px;
+  visibility: visible;
+  width: 100%;
+  margin-bottom: 20px; }
+  @media screen and (min-width: 760px) {
+    #show-notes:before {
+      margin-bottom: 40px; } }
