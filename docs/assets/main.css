@@ -604,20 +604,30 @@ ol {
 .subscribe-links li {
   margin-bottom: 10px; }
 .subscribe-links a {
-  background: #fff;
-  border: 1px solid #cacaca;
-  border-radius: 30px;
+  align-items: center;
+  background: #efefef;
+  border-radius: 10px;
   box-sizing: border-box;
-  display: inline-block;
-  padding: 10px 0;
+  display: flex;
+  height: 46px;
+  justify-content: center;
   text-align: center;
   width: 160px; }
+  .subscribe-links a span {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #a2a3a3;
+    padding: 3px 10px; }
 .subscribe-links img {
   display: block;
   height: 26px;
   margin: 0 auto; }
+.subscribe-links .subscribe-link-apple img,
+.subscribe-links .subscribe-link-radiopublic img {
+  height: 34px; }
 .subscribe-links .rss-badge {
-  display: inline-block; }
+  display: inline-block;
+  line-height: 1.3; }
   .subscribe-links .rss-badge:before {
     -webkit-background-size: 15px 15px;
     background-size: 15px 15px;
@@ -627,7 +637,7 @@ ol {
     display: block;
     float: left;
     height: 20px;
-    margin: 6px 10px 0 0;
+    margin: 4px 8px 0 0;
     width: 15px; }
 @media screen and (min-width: 1000px) {
   .subscribe-links a {
@@ -651,7 +661,7 @@ ol {
         flex-wrap: nowrap;
         justify-content: space-between; }
         .subscribe-links-wrapper .subscribe-links li {
-          margin-bottom: 0; } }
+          margin: 0; } }
 
 #episodes .content {
   padding-top: 0; }
