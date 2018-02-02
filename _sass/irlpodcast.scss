@@ -109,20 +109,6 @@ ol {
     }
 }
 
-#intro-content-inner {
-    padding: 0 20px;
-    width: auto;
-
-    @media #{$mq-tablet} {
-        margin: 0 auto;
-        width: 700px;
-    }
-
-    @media #{$mq-desktop} {
-        width: 820px;
-    }
-}
-
 #site-logo {
     margin-bottom: 20px;
 
@@ -132,14 +118,18 @@ ol {
 }
 
 #intro-main {
-    padding-bottom: 0;
+    padding: 0 20px;
+    width: auto;
 
     @media #{$mq-tablet} {
         display: grid;
         grid-gap: 0 20px; // gap between art & the rest of the content
-        grid-template: repeat(2, auto) / 280px auto;
+        grid-template: repeat(3, auto) / 280px auto;
         grid-template-areas: "logo title"
-                             "logo intro";
+                             "logo intro"
+                             "subscribe subscribe";
+        margin: 0 auto;
+        width: 700px;
 
         #site-logo {
             grid-area: logo;
@@ -153,6 +143,18 @@ ol {
         #site-intro {
             grid-area: intro;
         }
+
+        .subscribe-links-wrapper {
+            grid-area: subscribe;
+        }
+    }
+
+    @media #{$mq-desktop} {
+        grid-template: repeat(3, auto) / 280px auto;
+        grid-template-areas: "logo title"
+                             "logo intro"
+                             "logo subscribe";
+        width: 820px;
     }
 }
 
@@ -163,21 +165,16 @@ ol {
 
     a {
         align-items: center;
-        background: #efefef;
-        border-radius: 10px;
+        background: #fff;
+        border: 1px solid #a2a3a3;
+        border-radius: 8px;
         box-sizing: border-box;
         display: flex;
-        height: 46px;
+        height: 34px;
         justify-content: center;
+        padding: 3px 10px;
         text-align: center;
-        width: 160px;
-
-        span {
-            background: #fff;
-            border-radius: 8px;
-            border: 1px solid #a2a3a3;
-            padding: 3px 10px;
-        }
+        width: 133px;
     }
 
     img {
@@ -186,9 +183,17 @@ ol {
         margin: 0 auto;
     }
 
-    .subscribe-link-apple img,
+    .subscribe-link-apple {
+        border: none;
+        padding: 0;
+        
+        img {
+            height: 34px;
+        }
+    }
+
     .subscribe-link-radiopublic img {
-        height: 34px;
+        height: 23px;
     }
 
     // the only non-image subscribe link needs extra styling
@@ -208,27 +213,25 @@ ol {
             width: 15px;
         }
     }
-
-    @media #{$mq-desktop} {
-        a {
-            width: 180px;
-        }
-    }
 }
 
 .subscribe-links-wrapper {
     margin-top: 20px;
-    max-width: 420px;
+    max-width: 400px;
 
     .subscribe-links {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin: 20px 0 0;
+        margin-top: 20px;
 
         li {
             flex: 0 0 auto;
-            margin: 0 5px 20px;
+            margin-bottom: 20px;
+
+            &:nth-child(even) {
+                margin-left: 10px;
+            }
         }
     }
 
@@ -238,9 +241,20 @@ ol {
         .subscribe-links {
             flex-wrap: nowrap;
             justify-content: space-between;
-            
+            margin-top: 0;
+
             li {
-                margin: 0;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @media #{$mq-desktop} {
+        .subscribe-links li {
+            margin-left: 10px;
+            
+            &:first-child {
+                margin-left: 0;
             }
         }
     }
@@ -297,6 +311,8 @@ ol {
         }
 
         .episode-player {
+            align-items: center;
+            display: flex;
             grid-area: player;
         }
 
@@ -306,6 +322,25 @@ ol {
 
         .episode-description {
             grid-area: description;
+        }
+    }
+
+    @media #{$mq-desktop} {
+        grid-template-areas: "logo title share"
+                             "logo player player"
+                             "logo subscribe subscribe"
+                             "description description description";
+
+        .subscribe-links-wrapper {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-top: 0;
+        }
+
+        .subscribe-links {
+            margin-bottom: 0;
         }
     }
 }
@@ -462,6 +497,12 @@ ol {
     @media #{$mq-tablet} {
         #episode-list .episode-player {
             display: block;
+        }
+    }
+
+    @media #{$mq-desktop} {
+        .episode-player {
+            display: flex;
         }
     }
 }
