@@ -37,7 +37,9 @@
         <li class="episode-link-share"><a href="" class="episode-share-link" data-share-links="episode-{{ episode.number }}-share-links">Share</a></li>
     </ul>
 
-    <iframe class="episode-player" src="{{ episode.embed }}?style=light" seamless="" scrolling="no" width="100%" height="36px" frameborder="0"></iframe>
+    <div class="episode-player">
+        <iframe src="{{ episode.embed }}?style=light" seamless="" scrolling="no" width="100%" height="36px" frameborder="0"></iframe>
+    </div>
 
 {% if include.view == 'episode' %}
     {% include subscribe-links.html episode_title=episode.title itunes_tracking=itunes_tracking rp_campaign=rp_campaign show_title=true %}
