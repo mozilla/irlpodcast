@@ -5,7 +5,7 @@ body_id:        episode-page
 title:          "Face Value"
 og_title:       "Episode 10: Face Value"
 og_description: "From Snapchat filters to Apple’s Face ID, biometric technology plays a growing role in our everyday lives. What do we actually give up when we upload our face to these apps?"
-date:           2018-02-05 09:00:00 -0700
+date:           2018-02-05 07:00:00 -0700
 categories:     episodes
 embed:          "https://simplecast.com/e/10dbc4e6"
 description:    "From Snapchat filters to Apple’s Face ID, biometric technology plays a growing role in our everyday lives. What do we actually give up when we upload our face to these apps? Steven Talley shares his experience as a victim of mistaken identity. Joseph Atick, a forefather of facial recognition technology, reckons with its future. We head to to China, where biometric data is part of buying toilet paper. And artist Adam Harvey investigates how racial bias seeps into big data sets."
