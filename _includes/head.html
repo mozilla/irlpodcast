@@ -1,3 +1,9 @@
+{% if page.categories contains 'episodes' %}
+    {% assign ogImage = page.number | prepend: "/assets/images/episodes/" | append: "/artwork-high-res.png" | absolute_url %}
+{% else %}
+    {% assign ogImage = "/assets/images/irl-logo-open-graph.png" | absolute_url %}
+{% endif %}
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -5,7 +11,7 @@
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:image" content="{{ "/assets/images/irl-logo-open-graph.png" | absolute_url }}">
+    <meta property="og:image" content="{{ ogImage }}">
     <meta property="og:title" content="IRL Podcast{% if page.og_title %} {{ page.og_title }}{% endif %}">
     <meta property="og:description" content="{{ page.og_description | markdownify | strip_html | strip_newlines | default: "Veronica Belmont explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla." }}">
 
