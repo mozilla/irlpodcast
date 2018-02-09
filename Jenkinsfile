@@ -1,11 +1,11 @@
 #!groovy
 
-def buildSite() {
+def buildSite(destination) {
     stage ('build') {
       try {
-        sh 'bin/build.sh'
+        sh "bin/build.sh " + destination
       } catch(err) {
-          sh "bin/irc-notify.sh --stage 'build " + env.BRANCH_NAME + "' --status 'failed'"
+        sh "bin/irc-notify.sh --stage 'build " + env.BRANCH_NAME + "' --status 'failed'"
         throw err
       }
     }
@@ -28,10 +28,10 @@ node {
       checkout scm
     }
     if ( env.BRANCH_NAME == 'master' ) {
-      buildSite()
+      buildSite('stage')
       syncS3('irlpodcast-stage')
     } else if ( env.BRANCH_NAME == 'prod' ) {
-      buildSite()
+      buildSite('prod')
       syncS3('irlpodcast')
     }
 }
