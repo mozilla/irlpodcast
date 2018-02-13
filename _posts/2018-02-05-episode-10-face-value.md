@@ -33,7 +33,7 @@ transcript: |
     
     **Veronica Belmont:** In 2014, Steven was living an ordinary life as a financial broker in Denver. After answering the door, he followed the man outside. 
     
-    **Steven Talley:** I'm crouching down to inspect the damage where he's showing me he hit me, and I see these two cylindrical objects, which were flash bangs, and it was like a boom, boom, boom, boom, boom, boom, boom. Something like that. I can kind of see, again, this gang of people. They looked like a bunch of Army men. They had big guns. I could see that. Obviously, I was scared to death.
+    **Steven Talley:** I'm crouching down to inspect the damage where he's showing me he hit me, and I see these two cylindrical objects, which were flash bangs, and it was like a boom, boom, boom, boom, boom, boom, boom. Something like that. And I can kind of see, again, this gang of people. They looked like a bunch of Army men. They had big guns. I could see that. Obviously, I was scared to death.
     
     **Veronica Belmont:** Steven had no idea what he'd done to bring this on. He couldn't know that all of this was happening because he looked like someone else. 
     
@@ -53,7 +53,7 @@ transcript: |
     
     **Veronica Belmont:** They were wrong. More evidence proved he wasn't the suspect. Again, he was a free man, but the damage was done. You can't keep a job in the finance industry when you've been accused of robbing a bank. 
     
-    **Steven Talley:** To ruin my financial career. I've lost my security licenses and I've lost touch with my two kids that I haven't seen in almost three years now because of this issue of this incidence. 
+    **Steven Talley:** You know it’s ruined my financial career. I've lost my security licenses and I've lost touch with my two kids that I haven't seen in almost three years now because of this issue of this incidence. 
     
     **Veronica Belmont:** Because of what's happened Steven Talley is currently homeless. He's suing for $10 million. In Steven's case, the FBI relied on a specialized forensic team trained to examine facial images for patterns, but more than ever, we're turning to computers to do the heavy lifting. When we hand over that kind of data to technology, we're trusting the powers that be with terabytes of metadata that we've built up over the years. As these incredible new tools begin to influence both our offline and online lives, is your face still yours? Where does your identity end and someone else's intentions begin? Just like my pal, Casey, and her new iPhone, we can unlock our smartphones just by looking at them now. We use our faces online to turn ourselves into flower crowned anime characters, or talking poop emojis. Ever take a moment to think about how this kind of technology even gets built? You have to train the machine to learn what a face is. One way researchers do this is by scraping the internet for copyright-free face pics, like Flickr, for example. Or purchasing massive databases that have done this work already. That means if your face is on the web, it could be in one of these databases. 
     
@@ -79,7 +79,7 @@ transcript: |
     
     **Lily Ames:** What do you see?
     
-    **Felix Trench:** This shaven headed man with strong neck tattoos. I have no tattoos. 
+    **Felix Trench:** This shaven headed man with strong neck tattoos. I have no, no tattoos. 
     
     **Lily Ames:** So what do you think of your matches so far?
     
@@ -97,21 +97,19 @@ transcript: |
     
     **Veronica Belmont:** That hidden bias is something that comes up often. Have you tried Google's Arts and Culture app? It has a feature where it matches your face with portraits hanging in museums around the world. Google says it created this to encourage people to interact with art more regularly. Legit intentions and yeah, it's pretty fun too. 
     
-    **Colt Philips:** My name's Colt Philips . My racial background is primarily of English and Swedish descent. The photo that Google chose and matched to my face is a portrait of King Philip II, so the King of Spain. I do think that he looks like me, actually. Yeah. Now I'm wondering if I can claim that I'm a descendant of the throne. 
+    **Jennifer Aikman:** Hi, my name's Jennifer Aikman and my racial background is Caucasian. Well, I downloaded the app, and I wasted a lot of time trying to adjust my face, and adjust the lighting, and to function without filters for once in my life. The portrait is of Democritus, which is this ancient Greek philosopher, but he's got this terrible expression. It looks like he's just fed on human flesh or something. It's very, very weird. The reason I matched with this guy, other than going into a spiral of low self-esteem, is I'm pale. I have dark hair. He's got arched eyebrows and so do I. I don't know, maybe I'm just really diluted, but maybe I do kind of look like this, because my daughter was like, "You guys look so much alike," so it was hurtful. 
     
-    **Greg Deal:** My name is Greg Deal. I'm an indigenous person. I'm a member of the Pyramid Lake Paiute Tribes in Nevada. The main match I got was Head of a Man by Vincent Van Gogh. My face I think is fatter than the image itself. His hair's short. His ears actually kind of stick out a bit as well, so that's also not like my face. I assume that it's not an indigenous man simply because of where Van Gogh lived, that there were not a lot of native people. 
+    **Greg Deal:** My name is Greg Deal. I'm an indigenous person. I'm a member of the Pyramid Lake Paiute Tribes in Nevada. The main match I got was Head of a Man by Vincent Van Gogh. My face I think is fatter than the image itself. His hair's short. His ears actually kind of stick out a bit as well, so that's also not like my face.
     
     **Malachi Stewart:** My name is Malachi Stewart. It's just a picture of an African-American woman with a hat on her head and a hoop earring. It looked nothing like me. My skin tones are really, really different, and facial features are really different. The only thing that was similar about us was that we were Black, and it kind of looked like a slave picture. 
     
-    **Jennifer Aikman:** Hi, my name's Jennifer Aikman and my racial background is Caucasian. Well, I downloaded the app, and I wasted a lot of time trying to adjust my face, and adjust the lighting, and to function without filters for once in my life. The portrait is of Democritus, which is this ancient Greek philosopher, but he's got this terrible expression. It looks like he's just fed on human flesh or something. It's very, very weird. The reason I matched with this guy, other than going into a spiral of low self-esteem, is I'm pale. I have dark hair. He's got arched eyebrows and so do I. I don't know, maybe I'm just really diluted, but maybe I do kind of look like this, because my daughter was like, "You guys look so much alike," so it was hurtful. 
-    
-    **Veronica Belmont:** When I tried the app, I got 39% matched with a work of art that looks very much like Beatrice Arthur from the Golden Girls. Amazing person, fantastic comedian. I'm 35, though, so I have to say that stung, that stung a little bit. Google isn't intentionally biasing its search results based on skin color. It's trying hard with the dataset it has, but this kind of technology has a checkered history. One infamous example happened in 2015. A black man and his girlfriend noticed that Google's photos app was labeling pictures of them with the word, "Gorilla," which, well, is about as racist as it gets. Google immediately apologized. Since then, they've removed the gorilla term entirely from their software. Oh, and in case you're wondering, in this arts and cultures app's case at least, Google says it's not retaining your image at all. It uses your face to pair it to art and then deletes it. Racial biases and software hiccups aside, this technology is being deployed around the world. In China, it's showing up in the strangest places and headed towards a future you might find alarming. 
+    **Veronica Belmont:** So when I tried the app, I got 39% matched with a-a work of art that looks very much like Beatrice Arthur from the Golden Girls. Amazing person, fantastic comedian. I'm 35, though, so I have to say that stung, that stung a little bit. As fun as it is to match your selfie to a painting, some of us are wondering if it's just a sneaky way for Google to capture our faces and use them to train their face detecting machines, well when you use the app it actually tells you this isn't the case Google says the data won’t be used for anything other than to match you to artwork  and that the app stores your selfie only for the time it takes to make that match, good to know, but then again does it matter if our photos and faces already exists on other google platforms? To quote a tweet from actor Alyssa Milano “anyone suspicious of just surrendering your facial recognition to google?” or are we confident that they already have that at this point.      Racial biases and software hiccups aside, this technology is being deployed around the world. In China, it's showing up in the strangest places and headed towards a future you might find alarming. 
     
     **Nancy Lee:** I'm standing in the yellow sign on the floor that says, "Stand right here," and that green square is recognizing my face. 
     
     **Veronica Belmont:** The woman you're hearing is Nancy Lee. She's in Beijing and she's standing in front of a facial recognition terminal. 
     
-    **Bejan Siavoshyi:** She's leaning in so it gets her full profile.
+    **Bejan Siavoshyi:** And she's leaning in so it gets her full profile.
     
     **Veronica Belmont:** And that's Bejan Siavoshyi. He's watching Nancy's face get scanned by the machine. 
     
@@ -145,7 +143,7 @@ transcript: |
     
     **Bejan Siavoshyi:** There's a KFC in Hangzhou that's testing a payment system where you smile into a camera and out pops your meal. 
     
-    **Veronica Belmont:** S you pay with your face?
+    **Veronica Belmont:** So you pay with your face?
     
     **Bejan Siavoshyi:** You straight up pay with your face. 
     
@@ -161,7 +159,7 @@ transcript: |
     
     **Bejan Siavoshyi:** Well, I mean, the main reason is for public security and there's definitely a case for that, but the flip side of that is people are worried that the system could be used to stamp out what the government considers dissent.
     
-    **Veronica Belmont:** What do you think Bejan, given how much facial recognition technology seems to be everywhere there, do you think that people are more willing to accept this kind of surveillance than perhaps somewhere else? 
+    **Veronica Belmont:** But what do you think Bejan, given how much facial recognition technology seems to be everywhere there, do you think that people are more willing to accept this kind of surveillance than perhaps somewhere else? 
     
     **Bejan Siavoshyi:** I think on a security level there won't be too much pushback, but if this system starts to really impede privacy, then I do think that people will take issue in some way. 
     
@@ -187,13 +185,13 @@ transcript: |
     
     **Computer:** I see Joseph.
     
-    **Joseph Atick:** That immediately gave me shivers in my spine, because I was not aware, I was not thinking that it was going to do that. 
+    **Joseph Atick:** And that immediately gave me shivers in my spine, because I was not aware, I was not thinking that it was going to do that. 
     
     **Veronica Belmont:** Since then, he's watched as facial technology has become more and more influential. And for him, more and more unsettling. 
     
     **Joseph Atick:** The reason it's out of control is because we as the consumers, we as the people online are feeding this massive beast with the ability to recognize us all. I never imagined the day would come where we would be volunteering our facial images to teach a machine to recognize us anywhere at any time. The linkage between your offline personality and your online personality can now be possible. Cameras on the street can recognize me, but they can link me to my online activity. They will know exactly how much I'm worth. They know what kind of things I like to buy and obviously they can start targeting me for nefarious reasons, or for commercial reasons. I mean, is that the world we want to live in? 
     
-    **Veronica Belmont:** Joseph Atick put his heart and soul into this tech, but it sounds like he's wondering if he should've put more thought into what he built. I'm Veronica Belmont and this is IRL: Online Life is Real Life. Yes, this face tech stuff can inspire that big brother is watching feeling, but with any digital-aged marvel, it all comes down to human choices, what we do with it. Sometimes it can bring light to dark places. 
+    **Veronica Belmont:** Joseph Atick put his heart and soul into this tech, but it sounds like he's wondering if he should've put more thought into what he built. I'm Veronica Belmont and this is IRL: Online Life is Real Life. So yes, this face tech stuff can inspire that big brother is watching feeling, but with any digital-aged marvel, it all comes down to human choices, what we do with it. Sometimes it can bring light to dark places. 
     
     **Emily Kennedy:** There was one case in particular where there was a law enforcement agent who came across a news article about a young girl who was missing and she was believed to be sold online for sex.
     
@@ -249,7 +247,7 @@ transcript: |
     
     **Lily Ames:** Okay, no photo.
     
-    **Speaker 21:** We've learned something here. 
+    **Speaker 21:** We've learned something here.
 ---
 
 ## Show Notes
