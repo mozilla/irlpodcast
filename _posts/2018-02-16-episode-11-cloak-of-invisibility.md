@@ -11,7 +11,7 @@ embed:          "https://simplecast.com/e/036ebe44"
 description:    "On the Internet no one knows you’re a dog, as the old joke goes. But does anonymity truly exist on the web anymore? And when it’s taken from us, what else do we lose? So Sad Today talks about the value of anonymity for women and self-care. Jonathan Hirshorn shares his personal battle to keep his face off Facebook. New Yorker cartoonists Peter Steiner and Kaamran Hafeez discuss the evolution of memes and digital anonymity, in dog years. And Alison Macrina and Morgan Taylor reveal what’s underneath the surface of the searchable web."
 number:         11
 show_notes: |
-    The most famous cartoon in New Yorker history is about a dog on the Internet. Makes sense. Cartoonist Kaamran Hafeez revisits the OG doggo meme, with an update for the post-privacy era. Check out his latest work [here](https://blog.mozilla.org/internetcitizen/2018/02/16/irl-on-the-internet-no-one-knows-youre-doggo).
+    The most famous cartoon in New Yorker history is about a dog on the Internet. Makes sense. Cartoonist Kaamran Hafeez revisits the OG doggo meme, with an update for the post-privacy era. Check out his [new cartoons, inspired by this very episode](https://blog.mozilla.org/internetcitizen/2018/02/16/irl-on-the-internet-no-one-knows-youre-doggo).
 transcript: |
     **Veronica Belmont:** Hey, it's Veronica and I want to know, do you have a friend with a secret identity? Of the people you know, who is most likely to wear a Halloween costume when it isn't Halloween? On a scale of 1 to 10, who do you know who scores an 11? Just a few of the hard hitting questions an app called TBH is asking you to answer. 
     
