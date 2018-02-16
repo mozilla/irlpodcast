@@ -5,7 +5,7 @@ body_id:        episode-page
 title:          "Cloak of Invisibility"
 og_title:       "Episode 11: Cloak of Invisibility"
 og_description: "On the Internet no one knows you’re a dog, as the old joke goes. But does anonymity truly exist on the web anymore?"
-date:           2018-02-16 09:00:00 -0700
+date:           2018-02-16 07:00:00 -0700
 categories:     episodes
 embed:          "https://simplecast.com/e/036ebe44"
 description:    "On the Internet no one knows you’re a dog, as the old joke goes. But does anonymity truly exist on the web anymore? And when it’s taken from us, what else do we lose? So Sad Today talks about the value of anonymity for women and self-care. Jonathan Hirshorn shares his personal battle to keep his face off Facebook. New Yorker cartoonists Peter Steiner and Kaamran Hafeez discuss the evolution of memes and digital anonymity, in dog years. And Alison Macrina and Morgan Taylor reveal what’s underneath the surface of the searchable web."
