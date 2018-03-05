@@ -7,7 +7,7 @@ og_title:       "Episode 6: All Access Pass"
 og_description: "What is life like without fast Internet, and how does life change once a person has it? Veronica Belmont talks to people about joining the digital economy."
 date:           2017-09-04 09:00:01 -0700
 categories:     episodes
-embed:          "https://simplecast.com/e/037277dd"
+embed:          "037277dd"
 description:    "What is life like without fast Internet, and how does life change once a person has it? Should Internet access be a right, rather than a luxury? Veronica Belmont explores these questions as she talks to people about joining the digital economy. Inspiring stories of access are surfaced by members of a small Minnesota community and by a Syrian refugee who found hope in Amsterdam."
 number:         6
 show_notes: |
