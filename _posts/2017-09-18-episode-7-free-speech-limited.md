@@ -7,7 +7,7 @@ og_title:       "Episode 7: Free Speech, Limited?"
 og_description: "Recent events in Charlottesville, VA have revealed the role the Internet plays in IRL threats and violence. Should tech companies regulate who says what on the Internet?"
 date:           2017-09-18 07:00:00 -0700
 categories:     episodes
-embed:          "https://simplecast.com/e/a3d1c6fb"
+embed:          "a3d1c6fb"
 description:    "Recent events like the Charlottesville, VA rally have revealed the Internet’s role in helping spread IRL threats and violence. Leaders in the tech world have represented varying positions on both protecting free speech and also reducing hate speech online. Should tech companies regulate who says what on the Internet?"
 number:         7
 show_notes: |

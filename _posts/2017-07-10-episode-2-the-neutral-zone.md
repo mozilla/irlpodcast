@@ -7,7 +7,7 @@ og_title:       "Episode 2: The Neutral Zone: The Future of Net Neutrality"
 og_description: "The Internet is at a crossroads. Mozilla’s IRL podcast dives into the current net neutrality debate."
 date:           2017-07-10 07:00:00 -0700
 categories:     episodes
-embed:          "https://simplecast.com/e/74767"
+embed:          "0cb629a8"
 description:    "The Internet (at least in the US) is at a crossroads as the FCC is considering rolling back net neutrality regulations. If net neutrality is abolished, the Internet could shift from an essential service that all consumers can access to a product that can be packaged and sold to the highest bidders."
 number:         2
 show_notes: |

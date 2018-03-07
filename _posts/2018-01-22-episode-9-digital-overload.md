@@ -7,7 +7,7 @@ og_title:       "Episode 9: Digital Overload"
 og_description: "Recent reports estimate that over 50% of teens are addicted to their smartphones. Veronica Belmont investigates the impact of growing up online."
 date:           2018-01-22 07:00:00 -0700
 categories:     episodes
-embed:          "https://simplecast.com/e/3e74ce73"
+embed:          "3e74ce73"
 description:    "What does it mean to grow up online? We investigate how the www is changing our bodies and our brains. A college student shares his experience at rehab for Internet addiction. Bestselling author Nir Eyal breaks down what apps borrow from gambling technology. Writer Heather Schwedel talks about taking a cue from Kanye and breaking up with Twitter. And blogger Joshua Cousins talks about the Internet as a lifeline, in the wake of recent natural disasters."
 number:         9
 show_notes: |

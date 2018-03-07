@@ -7,7 +7,7 @@ og_title:       "Episode 4: The Care and Feeding of Your Troll"
 og_description: "Trolls are in every corner of the Web, but people are fighting back in new ways. Baked goods included."
 date:           2017-08-07 07:00:00 -0700
 categories:     episodes
-embed:          "https://simplecast.com/e/79094"
+embed:          "f4d354b4"
 description:    "Trolls. You'll find them in every corner of the Internet. During this episode, explore the landscape of trolling online, its impact on individuals, and its impact on the Web. Some people are fighting back in new and interesting ways. Baked goods included."
 number:         4
 show_notes: |

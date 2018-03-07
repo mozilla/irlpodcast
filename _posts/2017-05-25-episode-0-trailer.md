@@ -7,7 +7,7 @@ og_title:       "Episode 0: Introducing IRL"
 og_description: "Introducing IRL: Because Online Life is Real Life"
 date:           2017-06-08 11:07:14 -0500
 categories:     episodes
-embed:          "https://simplecast.com/e/72534"
+embed:          "a89abdf8"
 description:    "Our online life **is** real life. We walk, talk, work, and even love on the Internet – but we don’t always treat it like real life. Host Veronica Belmont sets out to explore this disconnect with stories from the wilds of the Web."
 number:         0
 show_notes: |
