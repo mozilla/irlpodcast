@@ -658,15 +658,12 @@ ol {
       max-width: none; }
       .subscribe-links-wrapper .subscribe-links {
         flex-wrap: nowrap;
-        justify-content: space-between;
         margin-top: 0; }
         .subscribe-links-wrapper .subscribe-links li {
-          margin-bottom: 0; } }
-  @media screen and (min-width: 1000px) {
-    .subscribe-links-wrapper .subscribe-links li {
-      margin-left: 10px; }
-      .subscribe-links-wrapper .subscribe-links li:first-child {
-        margin-left: 0; } }
+          margin-bottom: 0;
+          margin-right: 20px; }
+          .subscribe-links-wrapper .subscribe-links li:nth-child(even) {
+            margin-left: 0; } }
 
 #episodes .content {
   padding-top: 0; }
@@ -676,8 +673,7 @@ ol {
 
 .episode-list-item {
   border-bottom: 1px solid #000;
-  padding: 20px;
-  padding: 1.5em 20px 0.25em; }
+  padding: 1.5em 0 0.25em; }
 
 .episode .episode-description {
   margin-top: 20px; }
@@ -687,8 +683,7 @@ ol {
   .episode {
     display: grid;
     grid-gap: 0 20px;
-    grid-template: auto 40px auto auto / 260px auto;
-    grid-template: repeat(4, auto)/260px auto;
+    grid-template: repeat(4, auto)/260px 140px auto;
     grid-template-areas: "logo title share" "logo player player" "subscribe subscribe subscribe" "description description description"; }
     .episode .episode-image {
       -webkit-box-sizing: border-box;
@@ -705,32 +700,18 @@ ol {
     .episode .episode-player {
       align-items: center;
       display: flex;
-      grid-area: player; }
+      grid-area: player;
+      margin-top: 20px; }
     .episode .subscribe-links-wrapper {
       grid-area: subscribe; }
     .episode .episode-description {
       grid-area: description; } }
-@media screen and (min-width: 1000px) {
-  .episode {
-    grid-template-areas: "logo title share" "logo player player" "logo subscribe subscribe" "description description description"; }
-    .episode .subscribe-links-wrapper {
-      display: flex;
-      flex-wrap: nowrap;
-      flex-direction: column;
-      justify-content: flex-end;
-      margin-top: 0; }
-    .episode .subscribe-links {
-      margin-bottom: 0; } }
 
 #episode-list .episode-image {
   display: none; }
   @media screen and (min-width: 760px) {
     #episode-list .episode-image {
-      display: block;
-      align-self: start;
-      height: 180px;
-      justify-self: end;
-      width: 180px; } }
+      display: block; } }
 #episode-list .episode-title-wrapper {
   display: block;
   padding-right: 50px;
@@ -763,32 +744,33 @@ ol {
     #episode-list .episode-links {
       display: flex;
       justify-content: space-between; } }
-#episode-list .episode-player {
-  display: none; }
-#episode-list .episode-description {
-  display: none; }
-  @media screen and (min-width: 760px) {
-    #episode-list .episode-description {
-      display: block;
-      padding-left: 80px; } }
+  @media screen and (min-width: 1000px) {
+    #episode-list .episode-links {
+      justify-content: space-between; } }
 @media screen and (min-width: 760px) {
   #episode-list .episode {
-    grid-template-areas: "logo title" "logo links" "logo player" "description description"; }
-    #episode-list .episode .episode-links {
-      grid-area: links; } }
+    grid-template: repeat(4, auto)/260px auto;
+    grid-template-areas: "logo title" "logo share" "logo player" "description description"; } }
+@media screen and (min-width: 1000px) {
+  #episode-list .episode {
+    grid-template: repeat(3, auto)/260px 140px auto;
+    grid-template-areas: "logo title share" "logo player player" "description description description"; } }
 
 .episode-title {
-  font-size: 21px;
-  font-size: 1.3125rem; }
-  @media screen and (min-width: 760px) {
-    .episode-title {
-      font-size: 28px;
-      font-size: 1.75rem; } }
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  /* !important required to ensure element is hidden when mixin is applied */
+  position: absolute !important;
+  /* stylelint-disable-line declaration-no-important */
+  width: 1px; }
 
 .episode-links {
   display: flex;
-  justify-content: space-between;
-  max-width: 260px; }
+  justify-content: flex-start; }
   .episode-links a:before {
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -822,7 +804,10 @@ ol {
 .js .episode-link-share {
   display: list-item; }
 .js .episode-player {
-  display: block; }
+  background: #f5f5f5;
+  border-radius: 4px;
+  display: block;
+  height: 200px; }
 @media screen and (min-width: 760px) {
   .js #episode-list .episode-player {
     display: block; } }
