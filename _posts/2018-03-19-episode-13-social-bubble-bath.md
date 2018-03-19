@@ -5,7 +5,7 @@ body_id:        episode-page
 title:          "Social Bubble Bath"
 og_title:       "Episode 13: Social Bubble Bath"
 og_description: "How technology can create, and can break, our filter bubbles."
-date:           2018-03-19 09:00:00 -0700
+date:           2018-03-19 07:00:00 -0700
 categories:     episodes
 embed:          "388730c6"
 description:    "We’ve long heard that the ways the web is tailored for each user—how we search, what we’re shown, who we read and follow— reinforces walls between us. Veronica Belmont investigates how social media can create, and can break, our filter bubbles. Megan Phelps-Roper discusses the Westboro Baptist Church, and the bubbles that form both on and offline. B.J. May talks about the bubbles he encountered every day, in his Twitter feed, and tells us how he broke free. Rasmus Nielsen suggests social media isn’t the filter culprit we think it is. And, within the context of a divided America, DeRay McKesson argues that sometimes bubbles are what hold us together."
