@@ -329,7 +329,8 @@ transcript: |
 {{ page.transcript }}
 
 
-<script src="/assets/js/kirl.js"></script>
+<script src="{{ "/assets/js/kirl.js" | relative_url }}"></script>
+
 <script>
 (function() {
     'use strict';
