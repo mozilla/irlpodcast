@@ -51,7 +51,7 @@ Because there are many different Android phones, there’s no “one way” to d
 4. Tap the “Add”. You might need to select “Music Player” depending on how many file management apps you’ve installed
 5. Select the IRL Ringtone file and tap on “Done”
 
-<script src="/assets/js/kirl.js"></script>
+<script src="{{ "/assets/js/kirl.js" | relative_url }}"></script>
 <script>
 (function() {
     'use strict';
