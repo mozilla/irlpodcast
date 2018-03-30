@@ -342,8 +342,8 @@ transcript: |
         kirl.unload();
 
         // update image
-        artworkElement.src = '/assets/images/episodes/14/artwork-alt.jpg';
-        artworkElement.srcset = '/assets/images/episodes/14/artwork-alt-high-res.jpg 2x';
+        artworkElement.src = '{{ '/assets/images/episodes/14/artwork-alt.jpg' | relative_url }}';
+        artworkElement.srcset = '{{ '/assets/images/episodes/14/artwork-alt-high-res.jpg' | relative_url }} 2x';
     }
 
     var keycombos = [
