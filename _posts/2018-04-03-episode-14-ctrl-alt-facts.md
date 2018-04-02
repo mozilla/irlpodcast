@@ -13,13 +13,13 @@ number:         14
 show_notes: |
     A recent Gallup survey found that most Americans feel that it’s harder today to be well-informed than ever before. But each of us can play a part in stopping the spread of misinformation. [Learn more](https://blog.mozilla.org/internetcitizen/2018/04/02/irl-how-to-stop-social-media-misinformation).
 transcript: |
-    **Veronica Belmont:** Hi everyone, it’s Veronica… this episode is all about misinformation and it’s our last one for this season… but also it’s the first episode we’ve ever recorded in front of a live audience.We recorded it a couple weeks ago and since then, a lot has happened on this very topic—in real life. To catch up on the latest, head to our show notes. In the meantime, enjoy this episode. Here it is.
+    **Veronica Belmont:** Hello everyone, it’s Veronica… this episode is all about misinformation and it’s our last one for this season… but also it’s the first episode we’ve ever taped in front of a live audience. We recorded it a couple weeks ago and since then, a lot has happened on this very topic—in real life. To catch up on the latest, head to our show notes. In the meantime, enjoy this episode. Here it is.
     
-    **Micah White:** Well, I've been an activist my entire life, and one of the things that you have to learn, I think, is to not get sucked into things that are totally sketchy.
+    **Micah White:** Well you know, I've been an activist my entire life, and one of the things that you have to learn, I think, is to not get sucked into things that are totally sketchy.
     
     **Veronica Belmont:** It's 2016, and Micah White gets an email. Micah is one of the creators of the Occupy Wall Street movement. The email, it's from a guy who calls himself Yan Big Davis. Yan wants to interview Micah about protest movements in America. He says it's for a website called Black Matters. He tells Micah they about 200,000 followers. There's something about the email that just doesn't sit right. The wording, it seems a big strange, but it seems harmless enough, so ...
     
-    **Micah White:** I was like, "Sure, we can do the interview." Immediately, it was super weird because, first of all, when I got on the phone, it felt like he was calling me from over a really terrible internet phone call from very, very far away, definitely international, and he had this really strange accent. His was of speaking and accent was definitely not a fluent English speaker.
+    **Micah White:** I was like, "Sure, we can do the interview." Immediately, it was super weird because, first of all, when I got on the phone, it felt like he was calling me from you know over a really terrible internet phone call from very, very far away, definitely international, and he had this really strange accent. His was of speaking and accent was definitely not a fluent English speaker.
     
     **Veronica Belmont:** A week or so goes by. Yan sends Micah a link to this finished piece.
     
@@ -313,8 +313,10 @@ transcript: |
     
     **Sheera:** It's a broken thing. I found it on the floor, it's not a real ... Yeah, sorry. I didn't steal a necklace from Gaddafi's palace.
     
-    **Veronica Belmont:** You're just making that ... The lie of that truth was better, I thought that was pretty cool. Some applause for our guests please. Thank you. Thanks to all of you, our audience, for coming IRL's first live podcast taping. I'm so glad you guys all came out. This episode marks the end of our second season, but we'll be back a little later this year with plenty more storytelling for you. In fact, you can help us make the show. We want to hear from you. What kind of burning questions have you had about how the internet works, or doesn't work. The web is a deeply woven part of our lives. What do you need to understand better about how we can build a health internet for all? Head to the IRL website and let us know, IRLPodcast.org. I want to leave you with one last thought. A recent Gallup survey found that most Americans feel it's harder today to be well-informed than it was in previous years. That's despite the fact that we're the most connected humans in history.Though it’s not always easy to separate fact from fiction in social media, it’s not impossible to stop the spread of misinformation, at least from your own account. Check out the show notes for more on what you can do to promote information integrity online. IRL is an original podcast from Mozilla, the not-for-profit behind the Firefox browser. I'm Veronica Belmont and i'll see online until we catch up again, IRL.
-    
+    **Veronica Belmont:** You're just making that ... The lie of that truth was better, I thought that was pretty cool. Some applause for our guests please. Thank you. This episode marks the end of our second season, but we'll be back a little later this year with plenty more storytelling for you. In fact, you can help us make the show. We want to hear from you. What kind of burning questions have you had about how the internet works, or doesn't work. The web is a deeply woven part of our lives. What do you need to understand better about how we can build a healthy internet for all? Head to the IRL website and let us know, IRLPodcast.org. And thanks to all of you, our audience, for coming IRL's first live podcast taping. I'm so glad you guys all came out. I want to leave you with one last thought. Though it’s not always easy to separate fact from fiction in social media, it’s not impossible to stop the spread of misinformation, at least from your own account. Check out the show notes for more on what you can do to promote information integrity online.
+
+    IRL is an original podcast from Mozilla, the not-for-profit behind the Firefox browser. I'm Veronica Belmont and I'll see online until we catch up again, IRL.
+
     You guys got to hear a mess up, wasn't that cool? It was like really real. It's cool, we recorded another version earlier. It's fine.
 ---
 
