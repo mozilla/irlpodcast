@@ -1,0 +1,61 @@
+{{ define "main" }}
+    <section id="intro">
+        <div class="content">
+            <div id="intro-main">
+                <div id="site-logo">
+                    <img src="/images/irl-logo.png" srcset="/images/irl-logo-high-res.png 2x" alt="">
+                </div>
+
+                <div id="site-title">
+                    <h1>IRL: Because Online Life Is Real Life</h1>
+                </div>
+
+                <div id="site-intro">
+                    <p>
+                        Host Veronica Belmont shares real stories of life online and
+                        real talk about the future of the Web.
+                    </p>
+
+                    <p>
+                        IRL is an original podcast from Mozilla.
+                    </p>
+                </div>
+
+                <section class="subscribe-links-wrapper">
+                    <h4>Subscribe for free!</h4>
+                    
+                    {{ partial "subscribe-links.html" (dict "subscribeLinksID" "subscribe-links-primary") }}
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <section id="episodes">
+        <div class="content">
+            <ul id="episode-list">
+            {{- range .Data.Pages -}}
+                {{ if eq .Type "episodes" }}
+                <li class="episode-list-item">
+                    {{/* The dot context below passes the entire episode object */}}
+                    {{ partial "episode-module.html" . }}
+                </li>
+                {{ end }}
+            {{- end -}}
+            </ul>
+        </div>
+    </section>
+
+    <div class="content">
+        {{ partial "newsletter.html" . }}
+    </div>
+    
+    <section id="more">
+        <div class="content">
+            <h3>More on the IRL Podcast</h3>
+    
+            <p>
+                <a href="https://blog.mozilla.org/internetcitizen/category/IRL/">Get the 411 on IRL with Mozilla’s Internet Citizen Blog</a>
+            </p>
+        </div>
+    </section>
+{{ end }}

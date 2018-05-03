@@ -1,11 +1,9 @@
-jekyll:
-  # image specifically for GitHub pages
-  image: jekyll/jekyll:builder
-  # --future will show future-dated posts
-  command: jekyll serve --watch --future
-  # map port in container to local port
-  ports:
-    - 4000:4000
-  # map local files (.) to jekyll root in container
+hugo:
+  image: jojomi/hugo:0.36.1
   volumes:
-    - .:/srv/jekyll
+    - ./:/src
+  environment:
+    - HUGO_WATCH=True
+  ports:
+    - "1313:1313"
+  restart: always

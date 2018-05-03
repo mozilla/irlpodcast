@@ -1,5 +1,7 @@
-_site
-.sass-cache
-.jekyll-metadata
 .DS_Store
-release
+.vscode
+data/
+node_modules/
+public/
+static/css
+static/js
