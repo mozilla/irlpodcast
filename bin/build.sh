@@ -1,12 +1,18 @@
 #!/bin/bash
 cd "$(dirname ${BASH_SOURCE[0]})"/..
-rm -rf ./release
-mkdir ./release
-docker run --rm --label=jekyll \
-    --volume=$(pwd):/srv/jekyll \
-    --volume=$(pwd)/release:/tmp/build \
-    -e JEKYLL_ENV=production \
-    jekyll/jekyll \
-    bash -c "bundle install && jekyll build --config _config.yml,_config-build-$1.yml --destination /tmp/build && chown -R jekyll /srv/jekyll"
-# dir is owned by root and jenkins unable to delete without chown
-# jekyll is UID 1000 within container which matches jenkins UID in host
+rm -rf ./public
+mkdir ./public
+
+# let gulp build the assets
+docker run --rm -it --label=gulp \
+    --volume=$(pwd):/srv \
+    huli/gulp \
+    build
+
+# and then let hugo build the site
+docker run --rm --label=hugo \
+    --volume=$(pwd):/src \
+    --volume=$(pwd)/public:/tmp/build \
+    -e HUGO_ENV=production \
+    jojomi/hugo:0.40.2 \
+    ash -c "hugo --config config.toml,config-$1.toml --destination /tmp/build"

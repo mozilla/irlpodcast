@@ -45,7 +45,7 @@ gulp.task('watch', ['scss', 'js'], function() {
     gulp.watch('src/js/**/*', ['js']);
 });
 
-// build task for netlify
+// build task for pushing to stage/prod
 gulp.task('build', ['scss', 'js']);
 
 gulp.task('default', ['watch']);
