@@ -2,6 +2,5 @@
 .vscode
 data/
 node_modules/
-public/
 static/css
 static/js
