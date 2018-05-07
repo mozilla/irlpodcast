@@ -26,7 +26,7 @@ def syncS3(String bucket) {
 def syncGhPages() {
     stage ('sync gh-pages branch') {
         try {
-          // update gh-pages branch with contents of /public
+          sh "bin/push-gh-pages.sh"
         } catch(err) {
           sh "bin/irc-notify.sh --stage 'gh-pages branch sync' --status 'failed'"
           throw err
