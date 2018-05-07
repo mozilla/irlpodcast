@@ -3,7 +3,7 @@ cd "$(dirname ${BASH_SOURCE[0]})"/..
 mkdir -p ./public
 
 # let gulp build the assets
-docker run --rm -it --label=gulp \
+docker run --rm --label=gulp \
     --volume=$(pwd):/srv \
     huli/gulp \
     build
