@@ -48,5 +48,6 @@ node {
     // update BRANCH_NAME here to 'dev' when CI integration is complete
     } else if ( env.BRANCH_NAME == 'hugo' ) {
       buildSite('dev')
+      syncGhPages()
     }
 }
