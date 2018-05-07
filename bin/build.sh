@@ -1,7 +1,6 @@
 #!/bin/bash
 cd "$(dirname ${BASH_SOURCE[0]})"/..
-rm -rf ./public
-mkdir ./public
+mkdir -p ./public
 
 # let gulp build the assets
 docker run --rm -it --label=gulp \
@@ -15,4 +14,4 @@ docker run --rm --label=hugo \
     --volume=$(pwd)/public:/tmp/build \
     -e HUGO_ENV=production \
     jojomi/hugo:0.40.2 \
-    ash -c "hugo --config config.toml,config-$1.toml --destination /tmp/build"
+    ash -c "rm -rf /tmp/build/* && hugo --config config.toml,config-$1.toml --destination /tmp/build"
