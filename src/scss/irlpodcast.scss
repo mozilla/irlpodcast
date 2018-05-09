@@ -1,0 +1,692 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+// These are general styles for elements/components that occur on every page.
+// Individual pages may include additional component styles as needed.
+
+@import
+    // Fonts
+    'includes/fonts/franklin-gothic',
+
+    // Base elements - general HTML elements
+    'base/elements',
+
+    // Components - specific purpose blocks with sub-elements and modifiers
+    'components/modal',
+    'components/newsletter',
+    'components/sections',
+    'components/footer';
+
+
+@mixin gradient-bar() {
+    @include gradient-horizontal(#ff00fd, 0%, #0e00cf, 100%);
+    content: '';
+    display: block;
+    height: 2px;
+    margin-top: 20px;
+    visibility: visible;
+    width: 100%;
+}
+
+body {
+    border-top: 0;
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+    color: #88429d;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:focus,
+a:hover,
+a:visited:focus,
+a:visited:hover {
+    color: lighten(#88429d, 5%);
+}
+
+ol {
+    list-style-type: numeric;
+    margin-left: 20px;
+
+    li {
+        padding-left: 10px;
+    }
+}
+
+.page-content {
+    padding-bottom: 20px;
+}
+
+.content p {
+    @media #{$mq-tablet} {
+        @include font-size(22px);
+    }
+}
+
+#site-header {
+    margin-top: 70px; // compensate for fixed nav
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#mozilla-logo {
+    @include background-size(100px 32px);
+    @include image-replaced();
+    background-image: url('/images/moz-wordmark-dark-reverse.svg');
+    background-repeat: no-repeat;
+    display: block;
+    height: 32px;
+    width: 100px;
+}
+
+#site-intro {
+    margin-bottom: 0;
+
+    @media #{$mq-tablet} {
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+#intro {
+    margin-top: 20px;
+
+    .content {
+        padding: 0;
+        width: 100%;
+
+        &:after {
+            @include gradient-bar();
+        }
+    }
+}
+
+#site-logo {
+    margin-bottom: 20px;
+
+    img {
+        display: block;
+    }
+}
+
+#intro-main {
+    padding: 0 20px;
+    width: auto;
+
+    @media #{$mq-tablet} {
+        display: grid;
+        grid-gap: 0 20px; // gap between art & the rest of the content
+        grid-template: repeat(3, auto) / 280px auto;
+        grid-template-areas: "logo title"
+                             "logo intro"
+                             "subscribe subscribe";
+        margin: 0 auto;
+        width: 700px;
+
+        #site-logo {
+            grid-area: logo;
+            margin-bottom: 0;
+        }
+
+        #site-title {
+            grid-area: title;
+        }
+
+        #site-intro {
+            grid-area: intro;
+        }
+
+        .subscribe-links-wrapper {
+            grid-area: subscribe;
+        }
+    }
+
+    @media #{$mq-desktop} {
+        grid-template: repeat(3, auto) / 280px auto;
+        grid-template-areas: "logo title"
+                             "logo intro"
+                             "logo subscribe";
+        width: 820px;
+    }
+}
+
+.subscribe-links {
+    li {
+        margin-bottom: 10px;
+    }
+
+    a {
+        align-items: center;
+        background: #fff;
+        border: 1px solid #a2a3a3;
+        border-radius: 8px;
+        box-sizing: border-box;
+        display: flex;
+        height: 34px;
+        justify-content: center;
+        padding: 3px 10px;
+        text-align: center;
+        width: 133px;
+    }
+
+    img {
+        display: block;
+        height: 26px;
+        margin: 0 auto;
+    }
+
+    .subscribe-link-apple {
+        border: none;
+        padding: 0;
+        
+        img {
+            height: 34px;
+        }
+    }
+
+    .subscribe-link-radiopublic img {
+        height: 23px;
+    }
+
+    // the only non-image subscribe link needs extra styling
+    .rss-badge {
+        display: inline-block;
+        line-height: 1.3;
+
+        &:before {
+            @include background-size(15px 15px);
+            background-image: url('/images/icon-subscribe.svg');
+            background-repeat: no-repeat;
+            content: '';
+            display: block;
+            float: left;
+            height: 20px;
+            margin: 4px 8px 0 0;
+            width: 15px;
+        }
+    }
+}
+
+.subscribe-links-wrapper {
+    margin-top: 20px;
+    max-width: 400px;
+
+    .subscribe-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 20px;
+
+        li {
+            flex: 0 0 auto;
+            margin-bottom: 20px;
+
+            &:nth-child(even) {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    @media #{$mq-tablet} {
+        max-width: none;
+
+        .subscribe-links {
+            flex-wrap: nowrap;
+            margin-top: 0;
+
+            li {
+                margin-bottom: 0;
+                margin-right: 20px;
+
+                &:nth-child(even) {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+#episodes .content {
+    padding-top: 0;
+}
+
+#episode-list {
+    margin-bottom: 0;
+}
+
+.episode-list-item {
+    border-bottom: 1px solid #000;
+    padding: 1.5em 0 0.25em;
+}
+
+.episode {
+    .episode-description {
+        margin-top: 20px;
+    }
+
+    .episode-image img {
+        display: block;
+    }
+
+    .episode-title-wrapper {
+        margin-bottom: 20px;
+
+        &:active,
+        &:link,
+        &:visited,
+        &:focus,
+        &:hover,
+        &:visited:focus,
+        &:visited:hover {
+            color: #000;
+        }
+    }
+
+    @media #{$mq-tablet} {
+        display: grid;
+        grid-gap: 0 20px; // gap between art & episode info
+        grid-template: repeat(4, auto) / 260px 140px auto;
+        grid-template-areas: "logo title share"
+                             "logo player player"
+                             "subscribe subscribe subscribe"
+                             "description description description";
+
+        // align image to top right side of grid area
+        .episode-image {
+            @include border-box();
+            grid-area: logo;
+        }
+
+        .episode-title-wrapper {
+            grid-area: title;
+            margin-bottom: 0;
+        }
+
+        .episode-links {
+            grid-area: share;
+            justify-content: flex-end;
+            margin-bottom: 0;
+        }
+
+        .episode-player {
+            align-items: flex-end;
+            display: flex;
+            grid-area: player;
+        }
+
+        .subscribe-links-wrapper {
+            grid-area: subscribe;
+        }
+
+        .episode-description {
+            grid-area: description;
+        }
+    }
+}
+
+#episode-page {
+    // hide all things intended to be displayed in a list view of all episodes
+    .episode-view-list {
+        display: none;
+    }
+}
+
+// customizations for .episode when in a list (like on the home page)
+#episode-list {
+    // hide elements to only be displayed on single episode page
+    .episode-view-single {
+        display: none;
+    }
+    
+    .episode-image {
+        display: none;
+
+        @media #{$mq-tablet} {
+            display: block;
+        }
+    }
+
+    .episode-title-wrapper {
+        display: block;
+        padding-right: 50px;
+        position: relative;
+
+        &:after {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 30px;
+            background: url('/images/episode-link-arrow.svg') right center no-repeat;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            margin-top: -15px;
+            transform: translateX(-4px);
+            transition: transform 0.2s ease;
+        }
+
+        &:hover {
+            &:after {
+                transform: translateX(0);
+            }
+        }
+
+        @media #{$mq-tablet} {
+            padding-right: 0;
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    .episode-links {
+        display: none;
+        max-width: none;
+
+        @media #{$mq-tablet} {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media #{$mq-desktop} {
+            justify-content: space-between;
+        }
+    }
+
+    @media #{$mq-tablet} {
+        .episode {
+            grid-template: repeat(4, auto) / 260px auto;
+            grid-template-areas: "logo title"
+                                 "logo share"
+                                 "logo player"
+                                 "description description";
+        }
+    }
+
+    @media #{$mq-desktop} {
+        .episode {
+            grid-template: repeat(3, auto) / 260px 150px auto;
+            grid-template-areas: "logo title share"
+                                 "logo player player"
+                                 "description description description";
+        }
+    }
+}
+
+// episode title is included in the embedded player, so no need to actually display
+// kept in markup for a11y
+.episode-title {
+    @include visually-hidden();
+}
+
+.episode-links {
+    display: flex;
+    justify-content: flex-start;
+
+    a:before {
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        content: '';
+        display: block;
+        float: left;
+        height: 20px;
+        padding-right: 10px;
+        width: 15px;
+    }
+}
+
+.episode-subscribe-link:before {
+    @include background-size(15px 15px);
+    background-image: url('/images/icon-subscribe.svg');
+}
+
+.episode-share-link:before {
+    @include background-size(15px 18px);
+    background-image: url('/images/icon-share.svg');
+}
+
+.episode-links .episode-shownotes-link:before {
+    @include background-size(18px 12px);
+    background-image: url('/images/icon-shownotes.svg');
+    width: 18px;
+}
+
+// should not show up with JS disabled
+.episode-link-share,
+.episode-player {
+    display: none;
+}
+
+.js {
+    .episode-link-share {
+        display: list-item;
+    }
+
+    .episode-player {
+        display: block;
+    }
+
+    .episode-player-wrapper {
+        background: #f5f5f5;
+        border-radius: 4px;
+        height: 200px;
+        width: 100%;
+    }
+
+    @media #{$mq-tablet} {
+        .episode-player {
+            display: flex;
+        }
+    }
+}
+
+.social-share-links {
+    li {
+        @include border-box();
+        margin-bottom: 10px;
+        padding: 0 4px;
+
+        a {
+            background: #000;
+            border-radius: 50%;
+            display: block;
+            height: 70px;
+            overflow: hidden;
+            text-indent: 120%;
+            width: 70px;
+
+            &:before {
+                background-size: 50px;
+                content: '';
+                display: block;
+                height: 50px;
+                margin: 10px auto;
+                width: 50px;
+            }
+        }
+    }
+
+    input {
+        border: none;
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    @media #{$mq-phone-wide} {
+        ul {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        li {
+            flex: 0 0 auto;
+            margin: 0 20px 0 0;
+
+            a {
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+.twitter:before {
+    background: url('/images/fa-twitter.svg') top left no-repeat;
+}
+
+.facebook:before {
+    background: url('/images/fa-facebook.svg') top left no-repeat;
+}
+
+.copylink:before {
+    background: url('/images/fa-link.svg') top left no-repeat;
+}
+
+.copy-ok {
+    font-style: italic;
+    margin-top: 10px;
+    opacity: 0;
+
+    &.show {
+        @include animation(pebbles-fade-in 0.3s ease-in 0s 1 normal both);
+    }
+}
+
+#footer {
+    background: #111;
+    top: 0;
+    color: #fff;
+    height: 50px;
+    left: 0;
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+
+    .content {
+        padding: 10px 20px;
+    }
+
+    a,
+    a:active,
+    a:focus,
+    a:hover,
+    a:link,
+    a:visited,
+    a:visited:focus,
+    a:visited:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:focus,
+    a:hover,
+    a:visited:focus,
+    a:visited:hover {
+        text-decoration: underline;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+}
+
+// modal stuff
+#modal {
+    h4 {
+        @include font-size-level3();
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    // subscribe links stack top to bottom in modal
+    .subscribe-links {
+        display: block;
+        margin-top: 40px;
+
+        li {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+    }
+}
+
+.modal-content-wrapper {
+    display: none;
+    // don't display titles or modal copy inside of a modal wrapper
+    // they should only be shown when inside of an actual modal
+    h4,
+    .modal-copy {
+        display: none;
+    }
+}
+
+// about page
+.credit {
+    @include clearfix();
+    margin-top: 40px;
+}
+
+.credits-image {
+    display: block;
+    height: 300px;
+    margin-bottom: 20px;
+    width: 300px;
+
+    @media #{$mq-tablet} {
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+.svg-about-image img {
+    display: block;
+    margin: 10px auto 0;
+}
+
+#footer-links {
+    margin: 20px 0 10px;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding-right: 20px;
+
+        &:first-child:after {
+            @include font-size(24px);
+            content: '·';
+            display: inline-block;
+            line-height: 1px;
+            padding-left: 20px;
+            text-align: center;
+            width: 2px;
+        }
+    }
+}
+
+// episode page
+#show-notes:before {
+    @include gradient-bar();
+    margin-bottom: 20px;
+
+    @media #{$mq-tablet} {
+        margin-bottom: 40px;
+    }
+}
+
+// ringtones page
+h2 {
+    margin-bottom: 0.75em;
+}

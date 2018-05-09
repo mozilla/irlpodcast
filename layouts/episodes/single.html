@@ -1,0 +1,26 @@
+{{ define "bodyID" }}episode-page{{ end }}
+
+{{ define "main" }}
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="content" itemprop="articleBody">
+            {{/* The dot context below passes the entire episode object */}}
+            {{ partial "episode-module.html" . }}
+
+            <h2 id="show-notes">Show Notes</h2>
+            <a name="#shownotes"></a>
+
+            <p>{{ .Params.Shownotes | markdownify }}</p>
+
+            <h2 id="transcript">Transcript</h2>
+            <a name="#transcript"></a>
+
+            <p>{{ .Params.Transcript | markdownify }}</p>
+        </div>
+    </article>
+
+    {{ if isset .Params "scripts" }}
+        {{ range .Params.scripts }}
+            <script src="/js/{{ index $.Site.Data.js.hash . }}"></script>
+        {{ end }}
+    {{ end }}
+{{ end }}

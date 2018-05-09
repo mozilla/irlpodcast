@@ -1,28 +1,27 @@
-## Running locally
+## Running Locally
 
-### Docker
+1. Install dependencies: `npm install`
+2. Start Gulp for asset compilation: `gulp`
+3. In a new terminal window, start the server: `docker-compose up`
+4. Open `http://localhost:1313` in a browser
 
-1. Run `docker-compose up`
-2. Visit `http://localhost:4000`
+Edit the `.scss` and `.js` files in the `/src` directory (*NOT* in `/static`).
 
-### Native Ruby
+## Adding new epsidoes
 
-0. Make sure your environment meets the [requirements](https://jekyllrb.com/docs/installation/#requirements)
-1. Install the Gems: `bundle install`
-2. Serve the site: `bundle exec jekyll serve`
-    - 2.1 If you need to build posts with a future date (for testing upcoming episodes): `bundle exec jekyll serve --future`
-3. Visit `http://localhost:4000`
+1. `hugo new episodes/201X-XX-XX-episode-XX-episode-title-here.md`
 
-## Publishing to GitHub pages (`mozilla.github.io/irlpodcast`)
+You can create this file by hand in the filesystem, but the above command will use the
+`archetypes/episodes.md` template to populate all the necessary front matter, saving
+you precious, precious time.
 
-1. Run the following build command: `JEKYLL_ENV=production jekyll build --config _config.yml,_config-build-dev.yml`
-    - 1.1 If you need to see posts that are future dated (e.g. to verify an upcoming episode), add `--future` at the end of the above command.
-2. Push changes in the `docs` folder to the `master` branch on GitHub
+## Adding new pages
 
-## Publishing to staging (`stage.irlpodcast.org`)
+This probably won't happen often, but if needed, run:
 
-1. Push the `master` branch to GitHub
+1. `hugo new somepage.md`
 
-## Publishing to production (`irlpodcast.org`)
+### Kudos
 
-1. Push to the `prod` branch on GitHub, e.g. `git push origin master:prod` (will push your local `master` branch to the remote `prod` branch)
+- http://danbahrami.io/articles/building-a-production-website-with-hugo-and-gulp-js/
+- https://regisphilibert.com/blog/2018/02/hugo-the-scope-the-context-and-the-dot/

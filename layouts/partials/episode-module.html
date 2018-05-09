@@ -1,0 +1,96 @@
+{{ $.Scratch.Set "imagePath" (printf "episodes/%s/artwork.png" (string .Params.number)) }}
+{{ $.Scratch.Set "imagePathHighRes" (replace (.Scratch.Get "imagePath") ".png" "-high-res.png") }}
+{{ $.Scratch.Set "itunesTracking" (printf "episode%s" (string .Params.number)) }}
+{{ $.Scratch.Set "rpTracking" (printf "episode%s-modal" (string .Params.number)) }}
+
+<article class="episode" id="episode-{{ .Params.number }}">
+    <div class="episode-image episode-view-single">
+        <img src="/images/{{ .Scratch.Get "imagePath" }}" srcset="/images/{{ .Scratch.Get "imagePathHighRes" }} 2x" alt="">
+    </div>
+    <div class="episode-image episode-view-list">
+        <a href="{{ .Permalink }}">
+            <img src="/images/{{ .Scratch.Get "imagePath" }}" srcset="/images/{{ .Scratch.Get "imagePathHighRes" }} 2x" alt="">
+        </a>
+    </div>
+
+    <a href="{{ .Permalink }}" class="episode-title-wrapper">
+        <strong class="episode-number">
+        {{ if in .Params.number "B" }}
+            Bonus Episode {{ strings.TrimPrefix "B" .Params.number }}
+        {{ else }}
+            Episode {{ .Params.number }}
+        {{ end }}
+        </strong>
+
+        <h2 class="episode-title">{{ .Title }}</h2>
+    </a>
+
+    <ul class="episode-links">
+        <li class="episode-view-list"><a href="{{ printf "%s#subscribe-links-primary" .Permalink }}" class="episode-subscribe-link" data-subscribe-links="episode-{{ .Params.number }}-subscribe-links">Subscribe</a></li>
+        <li class="episode-view-list"><a href="{{ printf "%s#show-notes" .Permalink }}" class="episode-shownotes-link" data-shownotes="episode-{{ .Params.number }}-shownotes">Show Notes</a></li>
+        <li class="episode-link-share"><a href="#" class="episode-share-link" data-share-links="episode-{{ .Params.number }}-share-links">Share</a></li>
+    </ul>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe frameborder="0" height="200px" scrolling="no" seamless src="https://embed.simplecast.com/{{ .Params.embed }}?color=f5f5f5" width="100%"></iframe>
+        </div>
+    </div>
+
+    <section class="subscribe-links-wrapper episode-view-single">
+        <h4>Subscribe for free!</h4>
+
+        {{ partial "subscribe-links.html" (dict "itunesTracking" (.Scratch.Get "itunesTracking") "rpTracking" (.Scratch.Get "rpTracking") "title" .Title) }}
+    </section>
+
+    <div class="episode-description">
+        <p>
+            {{ .Params.description | markdownify }}
+        </p>
+    </div>
+
+    <!-- the following are presented in modal windows -->
+    <div class="modal-content-wrapper episode-view-list">
+        <div class="episode-subscribe-links" id="episode-{{ .Params.number }}-subscribe-links">
+            <p class="modal-copy">
+                Subscribe to IRL. Because online life is real life.
+            </p>
+
+            {{ partial "subscribe-links.html" (dict "itunesTracking" (.Scratch.Get "itunesTracking") "rpTracking" (.Scratch.Get "rpTracking") "title" .Title) }}
+        </div>
+    </div>
+
+    <div class="modal-content-wrapper">
+        <div class="episode-share-links" id="episode-{{ .Params.number }}-share-links">
+            <p class="modal-copy">
+                Episode {{ .Params.number }} - {{ .Title }}
+            </p>
+
+            <aside class="social-share-links" data-episode-title="{{ .Title | default "" }}">
+                <ul>
+                    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ .Permalink }}&amp;text=IRL Podcast Episode {{ .Params.number }}: {{ printf "%s w/ @Mozilla & @Veronica" .Title }}" title="Twitter" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
+                    <li><a class="facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" title="Facebook" data-link-type="social share" data-link-name="Facebook">Facebook</a></li>
+                    <li><a class="copylink" data-service="copylink" href="{{ .Permalink }}" data-link-type="social share" data-link-name="copylink" data-clipboard-target="#episode-url-input-{{ .Params.number }}">Copy Link</a></li>
+                </ul>
+            
+                <input readonly type="text" class="episode-url-input" id="episode-url-input-{{ .Params.number }}" value="{{ .Permalink }}">
+            
+                <div class="copy-ok">URL copied to clipboard</div>
+            </aside>
+        </div>
+    </div>
+
+    <div class="modal-content-wrapper shownotes-modal-wrapper">
+        <div class="episode-shownotes" id="episode-{{ .Params.number }}-shownotes">
+            <p class="modal-copy">
+                Episode {{ .Params.number }} - {{ .Title }}
+            </p>
+
+            {{/*
+                'replace' below is to ensure correct local link across local, dev, and prod URLs.
+                Front matter does not allow variables, so we need to do string substitution.
+            */}}
+            {{ (replace .Params.showNotes "!!baseurl!!" .Site.BaseURL) | markdownify }}
+        </div>
+    </div>
+</article>
