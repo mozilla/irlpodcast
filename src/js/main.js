@@ -78,4 +78,7 @@
             'event': 'social-share'
         });
     });
+
+    // lazy load simplecast players
+    Mozilla.LazyLoad.init();
 })(window.jQuery, window.Mozilla, window.Clipboard, window.dataLayer || []);
