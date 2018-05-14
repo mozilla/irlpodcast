@@ -124,7 +124,7 @@ ol {
     @media #{$mq-tablet} {
         display: grid;
         grid-gap: 0 20px; // gap between art & the rest of the content
-        grid-template: repeat(3, auto) / 280px auto;
+        grid-template: repeat(3, auto) / 260px auto;
         grid-template-areas: "logo title"
                              "logo intro"
                              "subscribe subscribe";
@@ -150,7 +150,7 @@ ol {
     }
 
     @media #{$mq-desktop} {
-        grid-template: repeat(3, auto) / 280px auto;
+        grid-template: repeat(3, auto) / 260px auto;
         grid-template-areas: "logo title"
                              "logo intro"
                              "logo subscribe";
@@ -250,6 +250,12 @@ ol {
                     margin-left: 0;
                 }
             }
+        }
+    }
+
+    @media #{$mq-desktop} {
+        .subscribe-links li {
+            margin-right: 3px;
         }
     }
 }
