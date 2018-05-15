@@ -45,8 +45,7 @@ node {
     } else if ( env.BRANCH_NAME == 'prod' ) {
       buildSite('prod')
       syncS3('irlpodcast')
-    // update BRANCH_NAME here to 'dev' when CI integration is complete
-    } else if ( env.BRANCH_NAME == 'hugo' ) {
+    } else if ( env.BRANCH_NAME == 'dev' ) {
       buildSite('dev')
       syncGhPages()
     }
