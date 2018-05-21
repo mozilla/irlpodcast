@@ -347,17 +347,18 @@ ol {
 
 // customizations for .episode when in a list (like on the home page)
 #episode-list {
-    // hide elements to only be displayed on single episode page
-    .episode-view-single {
-        display: none;
-    }
-    
     .episode-image {
         display: none;
 
         @media #{$mq-tablet} {
             display: block;
         }
+    }
+
+    // hide elements to only be displayed on single episode page
+    // must come after above rule for cascading override
+    .episode-view-single {
+        display: none;
     }
 
     .episode-title-wrapper {
@@ -468,7 +469,8 @@ ol {
 
 // should not show up with JS disabled
 .episode-link-share,
-.episode-player {
+.episode-player,
+.lazy-load {
     display: none;
 }
 
@@ -486,6 +488,10 @@ ol {
         border-radius: 4px;
         height: 200px;
         width: 100%;
+    }
+
+    .lazy-load {
+        display: block;
     }
 
     @media #{$mq-tablet} {
