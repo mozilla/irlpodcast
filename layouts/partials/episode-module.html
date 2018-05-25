@@ -93,7 +93,7 @@
                 'replace' below is to ensure correct local link across local, dev, and prod URLs.
                 Front matter does not allow variables, so we need to do string substitution.
             */}}
-            {{ (replace .Params.showNotes "!!baseurl!!" .Site.BaseURL) | markdownify }}
+            {{ (replace .Params.showNotes "!!baseurl!!/" .Site.BaseURL) | markdownify }}
         </div>
     </div>
 </article>
