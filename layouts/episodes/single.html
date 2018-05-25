@@ -9,7 +9,11 @@
             <h2 id="show-notes">Show Notes</h2>
             <a name="#shownotes"></a>
 
-            <p>{{ .Params.Shownotes | markdownify }}</p>
+            {{/*
+                'replace' below is to ensure correct local link across local, dev, and prod URLs.
+                Front matter does not allow variables, so we need to do string substitution.
+            */}}
+            <p>{{ (replace .Params.showNotes "!!baseurl!!/" .Site.BaseURL) | markdownify }}</p>
 
             <h2 id="transcript">Transcript</h2>
             <a name="#transcript"></a>
