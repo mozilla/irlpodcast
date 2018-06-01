@@ -9,6 +9,7 @@
 @import
     // Fonts
     'includes/fonts/franklin-gothic',
+    'includes/fonts/zilla-slab',
 
     // Base elements - general HTML elements
     'base/elements',
@@ -70,20 +71,29 @@ ol {
     }
 }
 
-#site-header {
-    margin-top: 70px; // compensate for fixed nav
-    padding-bottom: 0;
-    padding-top: 0;
-}
+#intro {
+    background: #000 url('/images/bg-intro.png') center center no-repeat;
+    color: #fff;
+    padding-top: 120px;
 
-#mozilla-logo {
-    @include background-size(100px 32px);
-    @include image-replaced();
-    background-image: url('/images/moz-wordmark-dark-reverse.svg');
-    background-repeat: no-repeat;
-    display: block;
-    height: 32px;
-    width: 100px;
+    .content {
+        padding: 0;
+        width: 100%;
+    }
+
+    @media #{$mq-tablet} {
+        .content {
+            padding-left: 40px;
+            width: calc(100% - 40px);
+        }
+    }
+
+    @media #{$mq-desktop} {
+        .content {
+            padding-left: 0;
+            width: auto;
+        }
+    }
 }
 
 #site-intro {
@@ -96,19 +106,6 @@ ol {
     }
 }
 
-#intro {
-    margin-top: 20px;
-
-    .content {
-        padding: 0;
-        width: 100%;
-
-        &:after {
-            @include gradient-bar();
-        }
-    }
-}
-
 #site-logo {
     margin-bottom: 20px;
 
@@ -117,44 +114,48 @@ ol {
     }
 }
 
+#site-title {
+    font-family: 'Zilla Slab';
+    font-weight: bold;
+}
+
 #intro-main {
-    padding: 0 20px;
+    padding: 0 20px 20px;
     width: auto;
 
+    @media #{$mq-phone-wide} {
+        width: calc(100% - 80px); // compensate for padding & mozilla logo
+    }
+
     @media #{$mq-tablet} {
-        display: grid;
-        grid-gap: 0 20px; // gap between art & the rest of the content
-        grid-template: repeat(3, auto) / 260px auto;
-        grid-template-areas: "logo title"
-                             "logo intro"
-                             "subscribe subscribe";
         margin: 0 auto;
-        width: 700px;
-
-        #site-logo {
-            grid-area: logo;
-            margin-bottom: 0;
-        }
-
-        #site-title {
-            grid-area: title;
-        }
-
-        #site-intro {
-            grid-area: intro;
-        }
-
-        .subscribe-links-wrapper {
-            grid-area: subscribe;
-        }
+        width: 660px;
     }
 
     @media #{$mq-desktop} {
-        grid-template: repeat(3, auto) / 260px auto;
-        grid-template-areas: "logo title"
-                             "logo intro"
-                             "logo subscribe";
-        width: 820px;
+        width: 700px;
+    }
+}
+
+#mozilla-logo {
+    position: absolute;
+    right: 0;
+    top: 90px;
+    z-index: 2;
+
+    a {
+        @include background-size(27px 97px);
+        @include image-replaced();
+        background-image: url('/images/mozilla-logo.png');
+        background-repeat: no-repeat;
+        display: block;
+        height: 97px;
+        width: 27px;
+    }
+
+    @media #{$mq-tablet} {
+        left: 0;
+        right: auto;
     }
 }
 
@@ -223,11 +224,11 @@ ol {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin-top: 20px;
+        margin: 10px 0 0;
 
         li {
             flex: 0 0 auto;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
 
             &:nth-child(even) {
                 margin-left: 10px;
@@ -237,25 +238,25 @@ ol {
 
     @media #{$mq-tablet} {
         max-width: none;
+        padding: 100px 0 80px;
+
+        h4 {
+            text-align: center;
+        }
 
         .subscribe-links {
             flex-wrap: nowrap;
+            justify-content: center;
             margin-top: 0;
 
             li {
                 margin-bottom: 0;
-                margin-right: 20px;
+                margin-right: 10px;
 
                 &:nth-child(even) {
                     margin-left: 0;
                 }
             }
-        }
-    }
-
-    @media #{$mq-desktop} {
-        .subscribe-links li {
-            margin-right: 3px;
         }
     }
 }
@@ -273,13 +274,25 @@ ol {
     padding: 1.5em 0 0.25em;
 }
 
+.episode-image {
+    @media #{$mq-tablet} {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
 .episode {
     .episode-description {
         margin-top: 20px;
     }
 
-    .episode-image img {
-        display: block;
+    .episode-image {
+        margin-bottom: 10px;
+
+        img {
+            display: block;
+        }
     }
 
     .episode-title-wrapper {
@@ -309,17 +322,18 @@ ol {
         .episode-image {
             @include border-box();
             grid-area: logo;
+            margin-bottom: 0;
         }
 
         .episode-title-wrapper {
             grid-area: title;
-            margin-bottom: 0;
+            margin-bottom: 10px;
         }
 
         .episode-links {
             grid-area: share;
             justify-content: flex-end;
-            margin-bottom: 0;
+            margin-bottom: 10px;
         }
 
         .episode-player {
@@ -330,6 +344,16 @@ ol {
 
         .subscribe-links-wrapper {
             grid-area: subscribe;
+            padding-bottom: 20px;
+            padding-top: 0;
+
+            h4 {
+                text-align: left;
+            }
+
+            .subscribe-links {
+                justify-content: flex-start;
+            }
         }
 
         .episode-description {
@@ -343,6 +367,12 @@ ol {
     .episode-view-list {
         display: none;
     }
+
+    @media #{$mq-tablet} {
+        .episode-link-share {
+            margin-right: 40px;
+        }
+    }
 }
 
 // customizations for .episode when in a list (like on the home page)
@@ -351,7 +381,7 @@ ol {
         display: none;
 
         @media #{$mq-tablet} {
-            display: block;
+            display: flex;
         }
     }
 
@@ -437,7 +467,7 @@ ol {
 
 .episode-links {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 
     a:before {
         background-position: left bottom;
@@ -451,9 +481,17 @@ ol {
     }
 }
 
-.episode-subscribe-link:before {
-    @include background-size(15px 15px);
-    background-image: url('/images/icon-subscribe.svg');
+.episode-subscribe-link {
+    border: 1px solid #88429d;
+    border-radius: 8px;
+    display: block;
+    margin-top: -5px;
+    padding: 3px 10px;
+
+    &:before {
+        @include background-size(15px 15px);
+        background-image: url('/images/icon-subscribe.svg');
+    }
 }
 
 .episode-share-link:before {
@@ -461,10 +499,14 @@ ol {
     background-image: url('/images/icon-share.svg');
 }
 
-.episode-links .episode-shownotes-link:before {
-    @include background-size(18px 12px);
-    background-image: url('/images/icon-shownotes.svg');
-    width: 18px;
+.episode-download-link:before {
+    @include background-size();
+    background-image: url('/images/icon-download.svg');
+}
+
+a.episode-shownotes-link {
+    font-weight: normal;
+    text-decoration: underline;
 }
 
 // should not show up with JS disabled
@@ -689,12 +731,29 @@ ol {
 }
 
 // episode page
+.episode-post {
+    margin-top: 60px; // compensate for navigation
+
+    @media #{$mq-tablet} {
+        margin-top: 80px;
+    }
+}
+
 #show-notes:before {
     @include gradient-bar();
     margin-bottom: 20px;
 
     @media #{$mq-tablet} {
         margin-bottom: 40px;
+    }
+}
+
+// generic pages (about, ringtones)
+#page .page-content {
+    margin-top: 60px;
+
+    @media #{$mq-tablet} {
+        margin-top: 80px;
     }
 }
 

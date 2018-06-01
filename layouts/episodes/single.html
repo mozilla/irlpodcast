@@ -1,7 +1,7 @@
 {{ define "bodyID" }}episode-page{{ end }}
 
 {{ define "main" }}
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="episode-post" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="content" itemprop="articleBody">
             {{/* The dot context below passes the entire episode object */}}
             {{ partial "episode-module.html" . }}
@@ -13,7 +13,7 @@
                 'replace' below is to ensure correct local link across local, dev, and prod URLs.
                 Front matter does not allow variables, so we need to do string substitution.
             */}}
-            <p>{{ (replace .Params.showNotes "!!baseurl!!/" .Site.BaseURL) | markdownify }}</p>
+            <p>{{ (replace .Params.showNotes "!!baseurl!!" .Site.BaseURL) | markdownify }}</p>
 
             <h2 id="transcript">Transcript</h2>
             <a name="#transcript"></a>

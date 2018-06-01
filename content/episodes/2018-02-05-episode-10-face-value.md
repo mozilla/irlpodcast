@@ -3,9 +3,12 @@ categories: "episodes"
 date: 2018-02-05T07:00:00-07:00
 description: "From Snapchat filters to Apple’s Face ID, biometric technology plays a growing role in our everyday lives. What do we actually give up when we upload our face to these apps? Steven Talley shares his experience as a victim of mistaken identity. Joseph Atick, a forefather of facial recognition technology, reckons with its future. We head to to China, where biometric data is part of buying toilet paper. And artist Adam Harvey investigates how racial bias seeps into big data sets."
 embed: "10dbc4e6"
+mp3: "https://tracking.feedpress.it/link/17512/8172255/10dbc4e6.mp3"
 number: 10
 ogdescription: "From Snapchat filters to Apple’s Face ID, biometric technology plays a growing role in our everyday lives. What do we actually give up when we upload our face to these apps?"
 ogtitle: "Episode 10: Face Value"
+season: 2
+seasonepisode: 3
 shownotes: |
     Today, more than half of US adults are recorded in police facial recognition databases. For more on the far-reaching impact of facial recognition tech, [check out our blog](https://blog.mozilla.org/internetcitizen/2018/02/05/irl-face-the-future).
 url: /episode10/

@@ -3,6 +3,7 @@ categories: "episodes"
 date: 2017-05-25T07:00:00-07:00
 description: "Our online life **is** real life. We walk, talk, work, and even love on the Internet – but we don’t always treat it like real life. Host Veronica Belmont sets out to explore this disconnect with stories from the wilds of the Web."
 embed: "a89abdf8"
+mp3: "https://tracking.feedpress.it/link/17512/6384462/a89abdf8.mp3"
 number: 0
 ogdescription: "Introducing IRL: Because Online Life is Real Life"
 ogtitle: "Episode 0: Introducing IRL"

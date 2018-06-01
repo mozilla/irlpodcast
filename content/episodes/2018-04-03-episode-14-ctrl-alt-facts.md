@@ -3,12 +3,15 @@ categories: "episodes"
 date: 2018-04-03T07:00:00-07:00
 description: "From campaign bots to conspiracy videos, it’s harder than ever to discover the truth online. In conversation with The New York Times’ Sheera Frenkel, Data For Democracy Policy Lead and Mozilla Fellow Renee DiResta, and DisInfoMedia founder Jestin Coler, we navigate the age of disinformation. It’s the season finale of IRL, recorded live in San Francisco on March 18th, 2018."
 embed: "a5bb8cd8"
+mp3: "https://tracking.feedpress.it/link/17512/8734259/a5bb8cd8.mp3"
 number: 14
 ogdescription: "How to stop the spread of disinformation online."
 ogtitle: "Episode 14: Ctrl+Alt+Facts"
 shownotes: |
     A recent Gallup survey found that most Americans feel that it’s harder today to be well-informed than ever before. But each of us can play a part in stopping the spread of misinformation. [Learn more](https://blog.mozilla.org/internetcitizen/2018/04/02/irl-how-to-stop-social-media-misinformation).
 url: /episode14/
+season: 2
+seasonepisode: 7
 scripts: ['kirl-min.js', 'episode14-min.js']
 title: "Ctrl+Alt+Facts"
 transcript: |

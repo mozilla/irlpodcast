@@ -29,22 +29,26 @@
         }
     }
 
-    // open modals for subscribe/show notes/share
+    // open modals for subscribe/share
     $episodeLinks.on('click', function(e) {
-        e.preventDefault();
         var $target = $(e.target);
+        var modalContentElem;
+        var modalTitle;
 
         if ($target.hasClass('episode-subscribe-link')) {
-            Mozilla.Modal.createModal(e.target, $('#' + $target.data('subscribeLinks')), {
-                title: 'Subscribe'
-            });
+            modalContentElem = $target.data('subscribeLinks');
+            modalTitle = 'Subscribe';
         } else if ($target.hasClass('episode-share-link')) {
-            Mozilla.Modal.createModal(e.target, $('#' + $target.data('shareLinks')), {
-                title: 'Share'
-            });
-        } else if ($target.hasClass('episode-shownotes-link')) {
-            Mozilla.Modal.createModal(e.target, $('#' + $target.data('shownotes')), {
-                title: 'Show Notes'
+            modalContentElem = $target.data('shareLinks');
+            modalTitle = 'Share';
+        }
+
+        // mp3 link also exists in this list - that link should have no special handling
+        if (modalContentElem && modalTitle) {
+            e.preventDefault();
+
+            Mozilla.Modal.createModal(e.target, $('#' + modalContentElem), {
+                title: modalTitle
             });
         }
     });

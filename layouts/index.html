@@ -1,5 +1,11 @@
 {{ define "main" }}
     <section id="intro">
+        <div id="mozilla-logo">
+            <a href="https://www.mozilla.org">
+                <span>Mozilla</span>
+            </a>
+        </div>
+        
         <div class="content">
             <div id="intro-main">
                 <div id="site-logo">
@@ -7,7 +13,7 @@
                 </div>
 
                 <div id="site-title">
-                    <h1>IRL: Because Online Life Is Real Life</h1>
+                    <h1>Because Online Life Is Real Life</h1>
                 </div>
 
                 <div id="site-intro">
@@ -22,7 +28,7 @@
                 </div>
 
                 <section class="subscribe-links-wrapper">
-                    <h4>Subscribe for free!</h4>
+                    <h4>Subscribe:</h4>
                     
                     {{ partial "subscribe-links.html" (dict "subscribeLinksID" "subscribe-links-primary") }}
                 </section>

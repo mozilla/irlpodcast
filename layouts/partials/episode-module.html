@@ -18,7 +18,11 @@
         {{ if in .Params.number "B" }}
             Bonus Episode {{ strings.TrimPrefix "B" .Params.number }}
         {{ else }}
-            Episode {{ .Params.number }}
+            {{ if and .Params.season .Params.seasonepisode }}
+                Season {{ .Params.season }} Ep. {{ .Params.seasonepisode }}
+            {{ else }}
+                Episode {{ .Params.number }}
+            {{ end }}
         {{ end }}
         </strong>
 
@@ -27,8 +31,8 @@
 
     <ul class="episode-links">
         <li class="episode-view-list"><a href="{{ printf "%s#subscribe-links-primary" .Permalink }}" class="episode-subscribe-link" data-subscribe-links="episode-{{ .Params.number }}-subscribe-links">Subscribe</a></li>
-        <li class="episode-view-list"><a href="{{ printf "%s#show-notes" .Permalink }}" class="episode-shownotes-link" data-shownotes="episode-{{ .Params.number }}-shownotes">Show Notes</a></li>
         <li class="episode-link-share"><a href="#" class="episode-share-link" data-share-links="episode-{{ .Params.number }}-share-links">Share</a></li>
+        <li><a href="{{ .Params.mp3 }}" class="episode-download-link" rel="external noopener noreferrer">MP3</a></li>
     </ul>
 
     <div class="episode-player">
@@ -41,7 +45,7 @@
     </div>
 
     <section class="subscribe-links-wrapper episode-view-single">
-        <h4>Subscribe for free!</h4>
+        <h4>Subscribe:</h4>
 
         {{ partial "subscribe-links.html" (dict "itunesTracking" (.Scratch.Get "itunesTracking") "rpTracking" (.Scratch.Get "rpTracking") "title" .Title) }}
     </section>
@@ -49,6 +53,7 @@
     <div class="episode-description">
         <p>
             {{ .Params.description | markdownify }}
+            <a href="{{ printf "%s#show-notes" .Permalink }}" class="episode-shownotes-link episode-view-list">Show Notes</a>
         </p>
     </div>
 
@@ -93,7 +98,7 @@
                 'replace' below is to ensure correct local link across local, dev, and prod URLs.
                 Front matter does not allow variables, so we need to do string substitution.
             */}}
-            {{ (replace .Params.showNotes "!!baseurl!!/" .Site.BaseURL) | markdownify }}
+            {{ (replace .Params.showNotes "!!baseurl!!" .Site.BaseURL) | markdownify }}
         </div>
     </div>
 </article>

@@ -3,9 +3,12 @@ categories: "episodes"
 date: 2018-01-22T07:00:00-07:00
 description: "What does it mean to grow up online? We investigate how the www is changing our bodies and our brains. A college student shares his experience at rehab for Internet addiction. Bestselling author Nir Eyal breaks down what apps borrow from gambling technology. Writer Heather Schwedel talks about taking a cue from Kanye and breaking up with Twitter. And blogger Joshua Cousins talks about the Internet as a lifeline, in the wake of recent natural disasters."
 embed: "3e74ce73"
+mp3: "https://tracking.feedpress.it/link/17512/8067502/3e74ce73.mp3"
 number: 9
 ogdescription: "Recent reports estimate that over 50% of teens are addicted to their smartphones. Veronica Belmont investigates the impact of growing up online."
 ogtitle: "Episode 9: Digital Overload"
+season: 2
+seasonepisode: 2
 shownotes: |
     Looking to reset your relationship with the Internet? Check out our [digital detox kit](https://blog.mozilla.org/internetcitizen/2018/01/16/digital-fitness/). And if you still need something to stop your phone’s constant beep boops, we have the next best thing: [an IRL ringtone](!!baseurl!!/ringtones/).
 url: /episode9/
