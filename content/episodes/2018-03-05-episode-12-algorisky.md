@@ -4,9 +4,12 @@ date: 2018-03-05T09:00:00-07:00
 description: "From Google search to Facebook news, algorithms shape our online experience. But like us, algorithms are flawed. Whether intentional or not, biases get written into code. Now, more than ever, it’s up to us to push for accountability. Because when bad code spreads disinformation, it’s never something that “the algorithm did.” It’s something people did. Veronica Belmont investigates algorithmic accountability, in conversation with Luke Dormehl, Staci Burns, James Bridle, Nick Seaver, and Safiya Noble."
 draft: false
 embed: "afafa89f"
+mp3: "https://tracking.feedpress.it/link/17512/8459340/afafa89f.mp3"
 number: 12
 ogdescription: "When bad code spreads disinformation and bias, it’s never something that “the algorithm did.” It’s something people did."
 ogtitle: "Episode 12: Algorisky"
+season: 2
+seasonepisode: 5
 shownotes: "Algorithms aren’t neutral. They’re really just recipes; expressions of human intent. That means it’s up to us to build the algorithms we want. [Read more on how we can make algorithms more accountable](https://blog.mozilla.org/netpolicy/2017/10/23/mozillas-comments-uk-algorithms-inquiry/)."
 url: /episode12/
 title: "Algorisky"

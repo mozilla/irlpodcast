@@ -3,9 +3,12 @@ categories: "episodes"
 date: 2017-09-04T07:00:00-07:00
 description: "What is life like without fast Internet, and how does life change once a person has it? Should Internet access be a right, rather than a luxury? Veronica Belmont explores these questions as she talks to people about joining the digital economy. Inspiring stories of access are surfaced by members of a small Minnesota community and by a Syrian refugee who found hope in Amsterdam."
 embed: "037277dd"
+mp3: "https://tracking.feedpress.it/link/17512/6676819/037277dd.mp3"
 number: 6
 ogdescription: "What is life like without fast Internet, and how does life change once a person has it? Veronica Belmont talks to people about joining the digital economy."
 ogtitle: "Episode 6: All Access Pass"
+season: 1
+seasonepisode: 6
 shownotes: |
     The more voices, perspectives, lanugages, and people contributing to the Web, the richer the experience for everyone. But the  Internet is not yet accessible to all. [Find out how you can make a difference](https://www.mozilla.org/en-US/internet-health/digital-inclusion/?source=shownotes).
 

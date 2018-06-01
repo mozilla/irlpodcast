@@ -3,9 +3,12 @@ categories: "episodes"
 date: 2017-09-18T07:00:00-07:00
 description: "Recent events like the Charlottesville, VA rally have revealed the Internet’s role in helping spread IRL threats and violence. Leaders in the tech world have represented varying positions on both protecting free speech and also reducing hate speech online. Should tech companies regulate who says what on the Internet?"
 embed: "a3d1c6fb"
+mp3: "https://tracking.feedpress.it/link/17512/6823925/a3d1c6fb.mp3"
 number: 7
 ogdescription: "Recent events in Charlottesville, VA have revealed the role the Internet plays in IRL threats and violence. Should tech companies regulate who says what on the Internet?"
 ogtitle: "Episode 7: Free Speech, Limited?"
+season: 1
+seasonepisode: 7
 shownotes: |
     Freedom of speech is important, online and off. And, it’s also important that free speech not infringe on the freedom of others. Tell us: [what can regular internet citizens do to address this issue](http://blog.mozilla.org/internetcitizen/2017/09/18/accelerate-change/?source=shownotes)? How can we all accelerate the pace of change for a more free, civil and healthy Internet?
 url: /episode7/

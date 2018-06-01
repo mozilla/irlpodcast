@@ -3,9 +3,12 @@ categories: "episodes"
 date: 2017-08-21T07:00:00-07:00
 description: "We react against the idea of surveillance, but it turns out that we’ve invited it into our homes through devices like digital assistants, connected toys and baby monitors. Are you comfortable with the idea that someone might be watching you or listening to you right now?"
 embed: "62690553"
+mp3: "https://tracking.feedpress.it/link/17512/6547098/62690553.mp3"
 number: 5
 ogdescription: "Surveillance. Turns out, we’ve invited it into our homes through digital assistants, connected toys and baby monitors."
 ogtitle: "Episode 5: I Spy With My Digital Eye"
+season: 1
+seasonepisode: 5
 shownotes: |
     Struck by the idea that toys made for kids may have prying eyes (and ears)? For more on connected devices and surveillance, head over to our [blog](http://blog.mozilla.org/internetcitizen/2017/08/21/iot-surveillance/?source=shownotes).
 

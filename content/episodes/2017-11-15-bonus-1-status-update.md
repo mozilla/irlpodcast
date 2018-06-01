@@ -3,6 +3,7 @@ categories: "episodes"
 date: 2017-11-15T07:15:00-07:00
 description: "We check in on some of Season One’s stories and see how they’ve evolved. Activist Amanda Werner talks about their turn as the Monopoly Man at the Equifax hearings. Investigative journalist Marcy Wheeler follows the case of hacker Marcus Hutchins, and tries to make sense of why he was arrested. And, drumroll, we finally hear back from a troll we sent cake to last season."
 embed: "e6985bbc"
+mp3: "https://tracking.feedpress.it/link/17512/7403900/e6985bbc.mp3"
 number: B1
 ogdescription: "On the Internet, everything happens so much. Veronica Belmont explores the latest developments in digital activism, cybersecurity and troll clapbacks."
 ogtitle: "Bonus Episode 1: Status Update"

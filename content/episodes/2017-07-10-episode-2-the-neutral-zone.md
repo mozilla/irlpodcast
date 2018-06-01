@@ -3,9 +3,12 @@ categories: "episodes"
 date: 2017-07-10T07:00:00-07:00
 description: "The Internet (at least in the US) is at a crossroads as the FCC is considering rolling back net neutrality regulations. If net neutrality is abolished, the Internet could shift from an essential service that all consumers can access to a product that can be packaged and sold to the highest bidders."
 embed: "0cb629a8"
+mp3: "https://tracking.feedpress.it/link/17512/6384460/0cb629a8.mp3"
 number: 2
 ogdescription: "The Internet is at a crossroads. Mozilla’s IRL podcast dives into the current net neutrality debate."
 ogtitle: "Episode 2: The Neutral Zone: The Future of Net Neutrality"
+season: 1
+seasonepisode: 2
 shownotes: |
     Undecided as to whether or not you support net neutrality? Check out our [blog](https://blog.mozilla.org/internetcitizen/2017/05/18/net-neutrality-answers/) for more.
 

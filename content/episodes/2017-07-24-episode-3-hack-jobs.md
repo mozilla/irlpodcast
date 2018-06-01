@@ -3,9 +3,12 @@ categories: "episodes"
 date: 2017-07-24T07:00:00-07:00
 description: "Have you been hacked, or been the victim of malware or ransomware? Humans make the internet vibrant, but we're also the weakest link — we're predictable and often easily fooled. This episode of IRL focuses on our internet insecurity. Meet the unsung heroes fighting to keep us safe."
 embed: "558fffa7"
+mp3: "https://tracking.feedpress.it/link/17512/6384459/558fffa7.mp3"
 number: 3
 ogdescription: "This episode of IRL focuses on our internet insecurity. Meet the unsung heroes fighting to keep us safe."
 ogtitle: "Episode 3: Hack Jobs"
+season: 1
+seasonepisode: 3
 shownotes: |
     Stay safe online! [Here's more](http://blog.mozilla.org/internetcitizen/2017/07/24/irl-episode-3/) on how to not be a ransomware victim.
 

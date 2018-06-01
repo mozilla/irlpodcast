@@ -3,9 +3,12 @@ categories: "episodes"
 date: 2018-01-08T07:00:00-07:00
 description: "From politics to poetry, bots are playing an increasingly visible role in culture. Veronica Belmont investigates the rise of social media bots with Lauren Kunze and Jenn Schiffer. Butter.ai’s Jack Hirsch talks about what happens when your profile is stolen by a political bot. Lisa-Maria Neudert measures how bots influence politics. Ben Nimmo teaches us how to spot and take down bot armies. And Tim Hwang explores how bots can connect us in surprising, and meaningful, new ways."
 embed: "17f3cc4b"
+mp3: "https://tracking.feedpress.it/link/17512/7983958/17f3cc4b.mp3"
 number: 8
 ogdescription: "Most website visitors aren’t human. They’re bots. Here’s how to spot them."
 ogtitle: "Episode 8: Bot Or Not"
+season: 2
+seasonepisode: 1
 shownotes: |
     Bots, they’re just like you and me. Except easier to find, especially on Twitter. :) [Here’s a handy guide to spotting bots in social media, plus the answers to the bot-or-not quiz you heard on the episode](https://blog.mozilla.org/internetcitizen/2018/01/08/irl-how-to-spot-a-bot/).
 url: /episode8/

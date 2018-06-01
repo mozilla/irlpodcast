@@ -3,9 +3,12 @@ categories: "episodes"
 date: 2018-02-16T07:00:00-07:00
 description: "On the Internet no one knows you’re a dog, as the old joke goes. But does anonymity truly exist on the web anymore? And when it’s taken from us, what else do we lose? So Sad Today talks about the value of anonymity for women and self-care. Jonathan Hirshon shares his personal battle to keep his face off Facebook. New Yorker cartoonists Peter Steiner and Kaamran Hafeez discuss the evolution of memes and digital anonymity, in dog years. And Alison Macrina and Morgan Taylor reveal what’s underneath the surface of the searchable web."
 embed: "036ebe44"
+mp3: "https://tracking.feedpress.it/link/17512/8289733/036ebe44.mp3"
 number: 11
 ogdescription: "On the Internet no one knows you’re a dog, as the old joke goes. But does anonymity truly exist on the web anymore?"
 ogtitle: "Episode 11: Cloak of Invisibility"
+season: 2
+seasonepisode: 4
 shownotes: |
     The most famous cartoon in New Yorker history is about a dog on the Internet. Makes sense. Cartoonist Kaamran Hafeez revisits the OG doggo meme, with an update for the post-privacy era. Check out his [new cartoons, inspired by this very episode](https://blog.mozilla.org/internetcitizen/2018/02/16/irl-on-the-internet-no-one-knows-youre-doggo).
 url: /episode11/

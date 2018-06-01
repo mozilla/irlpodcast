@@ -3,9 +3,12 @@ categories: "episodes"
 date: 2017-06-26T07:00:00-07:00
 description: "You’ve heard the expression, “When something is free, you’re the product.” And, while you may think it’s no big deal to give away your personal data in exchange for free online services, how can you know that what you **get** for what you **give** is a fair trade?"
 embed: "52b4d81c"
+mp3: "https://tracking.feedpress.it/link/17512/6384461/52b4d81c.mp3"
 number: 1
 ogdescription: "There is no such thing as a free lunch. Mozilla’s IRL podcast dives into the price of “free” online series."
 ogtitle: "Episode 1: All Your Data Are Belong to Us"
+season: 1
+seasonepisode: 1
 shownotes: |
     Go [here](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs/) for the World Privacy Forum's list of the Top 10 Most Important Opt-outs.
 
