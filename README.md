@@ -7,7 +7,7 @@
 
 Edit the `.scss` and `.js` files in the `/src` directory (*NOT* in `/static`).
 
-## Adding new epsidoes
+## Adding new episodes
 
 1. `hugo new episodes/201X-XX-XX-episode-XX-episode-title-here.md`
 
