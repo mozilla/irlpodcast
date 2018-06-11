@@ -30,7 +30,7 @@
     <link rel="icon" type="image/png" sizes="196x196" href="/images/favicon/favicon-196x196.png">
     <link rel="shortcut icon" href="/images/favicon/favicon.ico">
 
-    <title>{{ .Page.Title | default .Site.Title }}</title>
+    <title>{{ .Page.Params.Description | default .Page.Title | default .Site.Title }}</title>
     <meta name="description" content="{{ htmlEscape (.Page.Params.description | default .Site.Params.description | markdownify) | truncate 160 }}">
 
     <meta name="apple-itunes-app" content="app-id=1247652431, affiliate-data=at=1010lbVy&amp;ct=mozilla_smart_banner">
