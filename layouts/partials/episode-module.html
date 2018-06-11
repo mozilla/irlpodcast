@@ -49,6 +49,7 @@
     </section>
 
     <div class="episode-description">
+        <h1>{{ .Params.title }}</h1>
         <p>
             {{ .Params.description | markdownify }}
             <a href="{{ printf "%s#show-notes" .Permalink }}" class="episode-shownotes-link episode-view-list">Show Notes</a>
