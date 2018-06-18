@@ -1,7 +1,7 @@
 hugo:
   image: jojomi/hugo:0.40.2
   volumes:
-    - ./:/src
+    - ./:/src:delegated
   environment:
     - HUGO_WATCH=True
   ports:

@@ -6,7 +6,7 @@ mkdir -p ./release
 docker run --rm --label=gulp \
     --volume=$(pwd):/srv \
     huli/gulp \
-    build
+    build --production
 
 # and then let hugo build the site
 docker run --rm --label=hugo \
