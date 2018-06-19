@@ -184,10 +184,11 @@ ol {
         margin: 0 auto;
     }
 
+    .subscribe-link-google,
     .subscribe-link-apple {
         border: none;
         padding: 0;
-        
+
         img {
             height: 34px;
         }
@@ -227,11 +228,16 @@ ol {
         margin: 10px 0 0;
 
         li {
+            @include font-size(10px); // prevents alt text from overflowing
             flex: 0 0 auto;
             margin-bottom: 10px;
 
             &:nth-child(even) {
                 margin-left: 10px;
+            }
+
+            .rss-badge {
+                @include font-size(19px);
             }
         }
     }
