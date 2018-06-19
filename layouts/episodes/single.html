@@ -6,14 +6,16 @@
             {{/* The dot context below passes the entire episode object */}}
             {{ partial "episode-module.html" . }}
 
-            <h2 id="show-notes">Show Notes</h2>
-            <a name="#shownotes"></a>
+            {{ if isset .Params "showNotes" }}
+                <h2 id="show-notes">Show Notes</h2>
+                <a name="#shownotes"></a>
 
-            {{/*
-                'replace' below is to ensure correct local link across local, dev, and prod URLs.
-                Front matter does not allow variables, so we need to do string substitution.
-            */}}
-            <p>{{ (replace .Params.showNotes "!!baseurl!!" .Site.BaseURL) | markdownify }}</p>
+                {{/*
+                    'replace' below is to ensure correct local link across local, dev, and prod URLs.
+                    Front matter does not allow variables, so we need to do string substitution.
+                */}}
+                <p>{{ (replace .Params.showNotes "!!baseurl!!" .Site.BaseURL) | markdownify }}</p>
+            {{ end }}
 
             <h2 id="transcript">Transcript</h2>
             <a name="#transcript"></a>
