@@ -12,7 +12,7 @@
     {{ if and .Params.season .Params.seasonepisode }}
         {{ $.Scratch.Set "episodeNumber" (printf "Season %s Ep. %s" (string .Params.season) (string .Params.seasonepisode)) }}
     {{ else }}
-        {{ $.Scratch.Set "episodeNumber" (printf "Episode %s" .Params.number) }}
+        {{ $.Scratch.Set "episodeNumber" (printf "Episode %s" (string .Params.number)) }}
     {{ end }}
     {{ $.Scratch.Set "tweetPrefix" (printf "IRL Podcast %s" (.Scratch.Get "episodeNumber")) }}
 {{ end }}
