@@ -130,10 +130,18 @@ ol {
     @media #{$mq-tablet} {
         margin: 0 auto;
         width: 660px;
+
+        .subscribe-links-wrapper {
+            max-width: 500px;
+        }
     }
 
     @media #{$mq-desktop} {
         width: 700px;
+
+        .subscribe-links-wrapper {
+            max-width: 100%;
+        }
     }
 }
 
@@ -244,23 +252,20 @@ ol {
 
     @media #{$mq-tablet} {
         max-width: none;
-        padding: 100px 0 80px;
-
-        h4 {
-            text-align: center;
-        }
+        padding: 100px 0 70px;
 
         .subscribe-links {
-            flex-wrap: nowrap;
-            justify-content: center;
             margin-top: 0;
 
             li {
-                margin-bottom: 0;
-                margin-right: 10px;
+                margin-right: 8px;
 
                 &:nth-child(even) {
                     margin-left: 0;
+                }
+
+                &:last-child {
+                    margin-right: 0;
                 }
             }
         }
@@ -350,7 +355,7 @@ ol {
 
         .subscribe-links-wrapper {
             grid-area: subscribe;
-            padding-bottom: 20px;
+            padding-bottom: 10px;
             padding-top: 0;
 
             h4 {
