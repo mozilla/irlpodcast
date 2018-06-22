@@ -1,12 +1,17 @@
+{{/* Set some variables based on if its a episode/bonus/trailer */}}
+{{/* This will need updating if we go above 9 seasons or episodes */}}
 {{ if in .Params.seasonepisode "B" }}
+    {{/* Bonus episode */}}
     {{ $.Scratch.Set "episodeNumber" (printf "Bonus Episode") }}
     {{ $.Scratch.Set "tweetPrefix" "IRL Podcast Bonus Episode" }}
     {{ $.Scratch.Set "imageFolder" (printf "S0%sB0%s" (string .Params.season) (strings.TrimPrefix "B" .Params.seasonepisode) ) }}
 {{ else if eq (string .Params.seasonepisode) (string "0") }}
+    {{/* Episode 0 are trailers */}}
     {{ $.Scratch.Set "episodeNumber" (printf "Season %s Trailer" (string .Params.season) ) }}
     {{ $.Scratch.Set "tweetPrefix" "IRL Podcast" }}
     {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
 {{ else }}
+    {{/* Regular episode */}}
     {{ $.Scratch.Set "episodeNumber" (printf "Season %s Ep. %s" (string .Params.season) (string .Params.seasonepisode)) }}
     {{ $.Scratch.Set "tweetPrefix" (printf "IRL Podcast %s" (.Scratch.Get "episodeNumber")) }}
     {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}

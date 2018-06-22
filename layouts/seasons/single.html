@@ -1,0 +1,23 @@
+{{ define "bodyID" }}season-page{{ end }}
+
+{{ define "main" }}
+  {{ $.Scratch.Set "thisSeason" .Params.season }}
+
+  <div class="content">
+    <h1 id="season-title">Season {{ (.Scratch.Get "thisSeason") }} Episodes</h1>
+  </div>
+  <section id="episodes">
+      <div class="content">
+          <ul id="episode-list">
+            {{- range (where .Site.Pages "Type" "episodes").Reverse -}}
+                {{ if eq (string .Params.season) (string ($.Scratch.Get "thisSeason")) }}
+                <li class="episode-list-item">
+                    {{/* The dot context below passes the entire episode object */}}
+                    {{ partial "episode-module.html" . }}
+                </li>
+                {{ end }}
+            {{- end -}}
+          </ul>
+      </div>
+  </section>
+{{ end }}
