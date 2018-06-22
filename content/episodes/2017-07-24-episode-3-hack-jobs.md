@@ -13,7 +13,9 @@ shownotes: |
     Stay safe online! [Here's more](http://blog.mozilla.org/internetcitizen/2017/07/24/irl-episode-3/) on how to not be a ransomware victim.
 
     And, if you'd like to learn a bit more about the PATCH Act mentioned in our episode, go [here](https://blog.mozilla.org/blog/2017/05/17/improving-internet-security-vulnerability-disclosure/).
-url: /episode3/
+url: /season1/episode3/
+aliases:
+    - /episode3/
 title: "Hack Jobs"
 transcript: |
     **Speaker 1:** Hello, you need to make the bitcoin payment to unlock your files. Do you know how to purchase bitcoin?

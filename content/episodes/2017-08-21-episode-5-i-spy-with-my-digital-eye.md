@@ -13,7 +13,9 @@ shownotes: |
     Struck by the idea that toys made for kids may have prying eyes (and ears)? For more on connected devices and surveillance, head over to our [blog](http://blog.mozilla.org/internetcitizen/2017/08/21/iot-surveillance/?source=shownotes).
 
     And, check out the [Surveillance Self-Defense Kit](https://ssd.eff.org/en) mentioned in this episode, developed by the Electronic Frontier Foundation.
-url: /episode5/
+url: /season1/episode5/
+aliases:
+    - /episode5/
 title: "I Spy With My Digital Eye"
 transcript: |
     **Veronica B. :** Okay Google, tell me a secret.

@@ -4,12 +4,14 @@ date: 2017-05-25T07:00:00-07:00
 description: "Our online life **is** real life. We walk, talk, work, and even love on the Internet – but we don’t always treat it like real life. Host Veronica Belmont sets out to explore this disconnect with stories from the wilds of the Web."
 embed: "a89abdf8"
 mp3: "https://tracking.feedpress.it/link/17512/6384462/a89abdf8.mp3"
-number: 0
+number: T0
 ogdescription: "Introducing IRL: Because Online Life is Real Life"
 ogtitle: "Episode 0: Introducing IRL"
 shownotes: |
     For behind-the-scenes video of IRL Trailer production, and a bit more about why we're making this podcast, check out our [blog](http://blog.mozilla.org/internetcitizen/2017/06/19/introducing-irl-original-podcast-mozilla/).
-url: /episode0/
+url: /season1/episode0/
+aliases:
+    - /episode0/
 title: "Introducing IRL: Because Online Life is Real Life"
 transcript: |
     **Speaker 1:** They want to deliver fast amounts of information over the internet, and again, the internet is a series of tubes, tubes, tubes.

@@ -11,7 +11,9 @@ season: 1
 seasonepisode: 7
 shownotes: |
     Freedom of speech is important, online and off. And, it’s also important that free speech not infringe on the freedom of others. Tell us: [what can regular internet citizens do to address this issue](http://blog.mozilla.org/internetcitizen/2017/09/18/accelerate-change/?source=shownotes)? How can we all accelerate the pace of change for a more free, civil and healthy Internet?
-url: /episode7/
+url: /season1/episode7/
+aliases:
+    - /episode7/
 title: "Free Speech, Limited?"
 transcript: |
     **Veronica Belmont:** Just a head's up, today's episode contains a word or two some people may find offensive. This is IRL, Online Life is Real Life, an original podcast from Mozilla. I'm Veronica Belmont.

@@ -8,7 +8,9 @@ number: T1
 ogdescription: "Get a sneak peak at what Veronica Belmont will cover in Season 3 of IRL, because online life is real life. "
 ogtitle: "IRL Podcast: Introducing Season 3"
 season: 3
-url: /introducing-season-3/
+url: /season3/episode0/
+aliases:
+    - /introducing-season-3/
 title: "Introducing Season 3 of IRL: Because Online Life is Real Life"
 transcript: |
     **Speaker 1:**  You know, there were nights where I would log off having essentially tricked women into going on dates. That was really difficult.

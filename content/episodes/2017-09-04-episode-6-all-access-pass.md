@@ -13,7 +13,9 @@ shownotes: |
     The more voices, perspectives, lanugages, and people contributing to the Web, the richer the experience for everyone. But the  Internet is not yet accessible to all. [Find out how you can make a difference](https://www.mozilla.org/en-US/internet-health/digital-inclusion/?source=shownotes).
 
     And, find out how libraries, in particular, are [evolving to meet digital demand and address patrons' connectivity issues](http://blog.mozilla.org/internetcitizen/2017/09/04/libraries/?source=shownotes).
-url: /episode6/
+url: /season1/episode6/
+aliases:
+    - /episode6/
 title: "All Access Pass"
 transcript: |
     **Chuck:** Welcome back to The Weakest Connection. The game show that matches your internet speed with your internet knowledge. Martha, you are our returning champion.
