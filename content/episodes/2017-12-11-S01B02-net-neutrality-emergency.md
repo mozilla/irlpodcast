@@ -7,6 +7,8 @@ mp3: "https://tracking.feedpress.it/link/17512/7685620/a12c2c51.mp3"
 number: B2
 ogdescription: "The battle for the open Internet isn’t over. In the days leading up to the FCC’s vote, we investigate what’s next for net neutrality."
 ogtitle: "Bonus Episode 2: Net Neutrality Emergency"
+season: 1
+seasonepisode: B2
 shownotes: |
     What does it take to get net neutrality? People like you. Find out more about how you can help [here](https://blog.mozilla.org/netpolicy/2017/11/29/take-get-net-neutrality/).
 url: /season1/bonus2/

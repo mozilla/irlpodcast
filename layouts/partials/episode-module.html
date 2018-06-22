@@ -1,21 +1,21 @@
-{{ $.Scratch.Set "imagePath" (printf "episodes/%s/artwork.png" (string .Params.number)) }}
+{{ if in .Params.seasonepisode "B" }}
+    {{ $.Scratch.Set "episodeNumber" (printf "Bonus Episode") }}
+    {{ $.Scratch.Set "tweetPrefix" "IRL Podcast Bonus Episode" }}
+    {{ $.Scratch.Set "imageFolder" (printf "S0%sB0%s" (string .Params.season) (strings.TrimPrefix "B" .Params.seasonepisode) ) }}
+{{ else if eq (string .Params.seasonepisode) (string "0") }}
+    {{ $.Scratch.Set "episodeNumber" (printf "Season %s Trailer" (string .Params.season) ) }}
+    {{ $.Scratch.Set "tweetPrefix" "IRL Podcast" }}
+    {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
+{{ else }}
+    {{ $.Scratch.Set "episodeNumber" (printf "Season %s Ep. %s" (string .Params.season) (string .Params.seasonepisode)) }}
+    {{ $.Scratch.Set "tweetPrefix" (printf "IRL Podcast %s" (.Scratch.Get "episodeNumber")) }}
+    {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
+{{ end }}
+
+{{ $.Scratch.Set "imagePath" (printf "episodes/%s/artwork.png" (.Scratch.Get "imageFolder")) }}
 {{ $.Scratch.Set "imagePathHighRes" (replace (.Scratch.Get "imagePath") ".png" "-high-res.png") }}
 {{ $.Scratch.Set "itunesTracking" (printf "episode%s" (string .Params.number)) }}
 {{ $.Scratch.Set "rpTracking" (printf "episode%s-modal" (string .Params.number)) }}
-{{ if in .Params.number "B" }}
-    {{ $.Scratch.Set "episodeNumber" (printf "Bonus Episode") }}
-    {{ $.Scratch.Set "tweetPrefix" "IRL Podcast Bonus Episode" }}
-{{ else if in .Params.number "T" }}
-    {{ $.Scratch.Set "episodeNumber" (printf "Season %s Trailer" (string .Params.season) ) }}
-    {{ $.Scratch.Set "tweetPrefix" "IRL Podcast" }}
-{{ else }}
-    {{ if and .Params.season .Params.seasonepisode }}
-        {{ $.Scratch.Set "episodeNumber" (printf "Season %s Ep. %s" (string .Params.season) (string .Params.seasonepisode)) }}
-    {{ else }}
-        {{ $.Scratch.Set "episodeNumber" (printf "Episode %s" (string .Params.number)) }}
-    {{ end }}
-    {{ $.Scratch.Set "tweetPrefix" (printf "IRL Podcast %s" (.Scratch.Get "episodeNumber")) }}
-{{ end }}
 
 
 <article class="episode" id="episode-{{ .Params.number }}">

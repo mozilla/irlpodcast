@@ -4,10 +4,11 @@ date: 2018-06-18T09:00:00-07:00
 description: "In Season 3 of IRL, we're exploring the bargains we make online every day, and how we might approach striking better deals with the powers that be. You'll find out what happened when the U.S. Army got into the video game business, what it's like to be a professional flirter on Tinder (for real), and how a super cute pig transformed a person's life one Instagram post at a time. Episode 1 launches July 2nd."
 embed: "5c7fc3e8"
 mp3: "https://tracking.feedpress.it/link/17512/9485414/5c7fc3e8.mp3"
-number: T1
+number: 15
 ogdescription: "Get a sneak peak at what Veronica Belmont will cover in Season 3 of IRL, because online life is real life. "
 ogtitle: "IRL Podcast: Introducing Season 3"
 season: 3
+seasonepisode: 0
 url: /season3/episode0/
 aliases:
     - /introducing-season-3/
