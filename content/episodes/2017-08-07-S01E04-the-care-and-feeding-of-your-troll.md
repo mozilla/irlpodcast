@@ -11,7 +11,9 @@ season: 1
 seasonepisode: 4
 shownotes: |
     [Help form a more inclusive world and Web](http://blog.mozilla.org/internetcitizen/2017/07/31/a-more-inclusive-world-and-web/?source=shownotes).
-url: /episode4/
+url: /season1/episode4/
+aliases:
+    - /episode4/
 title: "The Care and Feeding of Your Troll"
 transcript: |
     **Veronica B.:** There are people on the internet who take great satisfaction in driving other people bananas. We call them trolls. Most often people will tell you to never feed a troll. Well, that's good advice until there's better advice.

@@ -15,7 +15,9 @@ shownotes: |
     Mozilla also has [a few suggestions](https://www.mozilla.org/internet-health/privacy-security/) on how to manage the data privacy challenge discussed in this episode.
 
     For more on this episode, including editorial commentary, visit [Mozilla's Internet Citizen blog](http://blog.mozilla.org/internetcitizen/2017/06/26/irl-episode-1-privacy).
-url: /episode1/
+url: /season1/episode1/
+aliases:
+    - /episode1/
 title: "All Your Data Are Belong to Us"
 transcript: |
     **Dave:** Free cookies. Free cookies, you're welcome.

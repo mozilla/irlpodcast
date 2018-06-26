@@ -4,15 +4,15 @@ date: 20XX-XX-XXT09:00:00-07:00
 description: ""
 embed: ""
 mp3: ""
-number: 
+number:
 ogdescription: ""
 ogtitle: ""
-season: 
-seasonepisode: 
+season:
+seasonepisode:
 shownotes: |
-    
-url: /episode /
+
+url: /season /episode /
 title: ""
 transcript: |
-    
+
 ---

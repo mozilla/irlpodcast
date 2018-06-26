@@ -15,7 +15,9 @@ shownotes: |
     Find out how to participate in the Net Neutrality Day of Action [here](https://www.battleforthenet.com/july12/).
 
     You can file comments on Pai's plan to roll back net neutrality rules at [this link](https://www.fcc.gov/ecfs/search/proceedings?q=name:((17-108))). Just click "Express" to write a comment directly into the FCC form by July 17.
-url: /episode2/
+url: /season1/episode2/
+aliases:
+    - /episode2/
 title: "The Neutral Zone: The Future of Net Neutrality"
 transcript: |
     **Speaker 1:** Thank you for calling Generic Internet. How can I upsell you today?
