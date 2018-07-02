@@ -1,6 +1,6 @@
 ---
 categories: "episodes"
-date: 2018-07-02T09:00:00-07:00
+date: 2018-07-02T07:00:00-07:00
 description: "We’re told from a young age to “accept the things we cannot change.” But should this be the case online as well? We click “Accept” every day, but often don’t know what we’re giving away. Is it a fair trade, and should we demand a better bargain? [Veronica Belmont](https://twitter.com/Veronica) and special guest [Dave Pell](https://twitter.com/davepell) explore if what we get for what we give online is a good deal. We hear how one man’s HIV status was exposed without permission, how a massive data-mining company is using our information to predict how we'll behave, and why on earth our email inboxes are filling up with privacy policies."
 embed: "7a906834"
 mp3: "https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/7a906834.mp3"
