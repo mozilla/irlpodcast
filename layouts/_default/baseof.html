@@ -1,6 +1,12 @@
 {{/* set episode-specific open graph info if viewing an individual episode */}}
 {{ if and (isset .Params "categories") (eq .Params.categories "episodes") }}
-    {{ $.Scratch.Set "ogImage" (replace (printf "/images/episodes/%s/artwork.png" (string .Params.number)) ".png" "-high-res.png") }}
+    {{ if in .Params.seasonepisode "B" }}
+        {{ $.Scratch.Set "imageFolder" (printf "S0%sB0%s" (string .Params.season) (strings.TrimPrefix "B" .Params.seasonepisode) ) }}
+    {{ else }}
+        {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
+    {{ end }}
+
+    {{ $.Scratch.Set "ogImage" (printf "/images/episodes/%s/artwork-high-res.png" (.Scratch.Get "imageFolder")) }}
     {{ $.Scratch.Set "ogImageWidth" "600" }}
     {{ $.Scratch.Set "ogImageHeight" "600" }}
     {{ $.Scratch.Set "ogTitle" (printf "IRL Podcast %s" .Params.ogTitle) }}
