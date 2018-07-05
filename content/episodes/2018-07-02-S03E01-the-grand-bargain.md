@@ -132,8 +132,6 @@ transcript: |
 
     **Dave Pell:** Well, I think there's always a couple of scales that people use to measure these things. One thing about Palantir is we hear about all the information they have on us individually. As people hear that, I think they tend to think well, I'm not doing anything wrong, so I'm willing to pay the price of having people know my information if that means they'll also know the information of somebody who might be up to no good. Recently, there was a serial killer in California who was arrested based on DNA that was found at one of the genealogy sites.
 
-    **Veronica Belmont:** Yeah. It was 23andMe, which I use.
-
     **Dave Pell:** Yeah. After that, of course, there was a lot of articles about how much we're sharing right down to our DNA. And on one hand, you'd expect people to be a little concerned about that, but on the other hand they're thinking well if it means they're going to catch serial killers, maybe that's a deal I'm willing to make. It really never comes into play as being a personal issue or a real big factor for you personally until that information is either weaponized, used against you, or it feels personal. In the election when Cambridge Analytica used some of our information against us in a way on an area that we felt so sensitive about, which is politics, that's one of the first times I think people really started to take it personally and think wait, if I'm sharing information that can ultimately be used to get a result that I don't want, now I'm starting to get mad.
 
     **Veronica Belmont:** So let's say we want to avoid a privacy Armageddon, say we do manage to hammer out a better agreement, what exactly would that be?
