@@ -23,7 +23,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:image" content="{{ ($.Scratch.Get "ogImage") | absURL }}">
@@ -42,7 +42,6 @@
     <meta name="apple-itunes-app" content="app-id=1247652431, affiliate-data=at=1010lbVy&amp;ct=mozilla_smart_banner">
 
     <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "irlpodcast.css" }}" />
-    <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "survey.css" }}" />
     <link rel="alternate" type="application/rss+xml" title="{{ htmlEscape .Site.Title }}" href="https://feeds.mozilla-podcasts.org/irl">
     <link rel="canonical" href="{{ .Permalink }}">
 
@@ -61,19 +60,11 @@
 
     {{ partial "footer.html" }}
 
-    {{ partial "survey.html" }}
-
     <script src="/js/{{ index .Site.Data.js.hash "jquery.3.2.1.min.js" }}"></script>
     <script src="/js/{{ index .Site.Data.js.hash "clipboard.min.js" }}"></script>
     <script src="/js/{{ index .Site.Data.js.hash "mozilla.modal-min.js" }}"></script>
     <script src="/js/{{ index .Site.Data.js.hash "mozilla.lazy-load-min.js" }}"></script>
     <script src="/js/{{ index .Site.Data.js.hash "newsletter-min.js" }}"></script>
     <script src="/js/{{ index .Site.Data.js.hash "main-min.js" }}"></script>
-
-    {{/*
-        survey related JS
-    */}}
-    <script src="/js/{{ index .Site.Data.js.hash "mozilla.cookies-min.js" }}"></script>
-    <script src="/js/{{ index .Site.Data.js.hash "survey-min.js" }}"></script>
 </body>
 </html>
