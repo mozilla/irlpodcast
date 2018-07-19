@@ -6,7 +6,7 @@ embed: "a3d1c6fb"
 mp3: "https://tracking.feedpress.it/link/17512/6823925/a3d1c6fb.mp3"
 number: 7
 ogdescription: "Recent events in Charlottesville, VA have revealed the role the Internet plays in IRL threats and violence. Should tech companies regulate who says what on the Internet?"
-ogtitle: "Episode 7: Free Speech, Limited?"
+ogtitle: "Free Speech, Limited?"
 season: 1
 seasonepisode: 7
 shownotes: |

@@ -6,7 +6,7 @@ embed: "e6985bbc"
 mp3: "https://tracking.feedpress.it/link/17512/7403900/e6985bbc.mp3"
 number: B1
 ogdescription: "On the Internet, everything happens so much. Veronica Belmont explores the latest developments in digital activism, cybersecurity and troll clapbacks."
-ogtitle: "Bonus Episode 1: Status Update"
+ogtitle: "Bonus Episode! Status Update"
 season: 1
 seasonepisode: B1
 shownotes: |

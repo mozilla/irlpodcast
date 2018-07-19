@@ -6,7 +6,7 @@ embed: "388730c6"
 mp3: "https://tracking.feedpress.it/link/17512/8602014/388730c6.mp3"
 number: 13
 ogdescription: "How technology can create, and can break, our filter bubbles."
-ogtitle: "Episode 13: Social Bubble Bath"
+ogtitle: "Social Bubble Bath"
 season: 2
 seasonepisode: 6
 shownotes: |

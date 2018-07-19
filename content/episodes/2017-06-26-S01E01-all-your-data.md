@@ -6,7 +6,7 @@ embed: "52b4d81c"
 mp3: "https://tracking.feedpress.it/link/17512/6384461/52b4d81c.mp3"
 number: 1
 ogdescription: "There is no such thing as a free lunch. Mozilla’s IRL podcast dives into the price of “free” online series."
-ogtitle: "Episode 1: All Your Data Are Belong to Us"
+ogtitle: "All Your Data Are Belong to Us"
 season: 1
 seasonepisode: 1
 shownotes: |

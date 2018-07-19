@@ -9,7 +9,7 @@
     {{ $.Scratch.Set "ogImage" (printf "/images/episodes/%s/share.png" (.Scratch.Get "imageFolder")) }}
     {{ $.Scratch.Set "ogImageWidth" "1100" }}
     {{ $.Scratch.Set "ogImageHeight" "619" }}
-    {{ $.Scratch.Set "ogTitle" (printf "IRL Podcast %s" .Params.ogTitle) }}
+    {{ $.Scratch.Set "ogTitle" (printf "IRL Podcast: %s" .Params.ogTitle) }}
 {{ else }}
     {{ $.Scratch.Set "ogImage" "/images/irl-logo-open-graph.png" }}
     {{ $.Scratch.Set "ogImageWidth" "1200" }}

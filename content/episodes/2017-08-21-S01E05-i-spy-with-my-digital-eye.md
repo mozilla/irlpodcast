@@ -6,7 +6,7 @@ embed: "62690553"
 mp3: "https://tracking.feedpress.it/link/17512/6547098/62690553.mp3"
 number: 5
 ogdescription: "Surveillance. Turns out, we’ve invited it into our homes through digital assistants, connected toys and baby monitors."
-ogtitle: "Episode 5: I Spy With My Digital Eye"
+ogtitle: "I Spy With My Digital Eye"
 season: 1
 seasonepisode: 5
 shownotes: |

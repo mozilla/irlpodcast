@@ -6,7 +6,7 @@ embed: "7a906834"
 mp3: "https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/7a906834.mp3"
 number: 16
 ogdescription: "Explore the tradeoffs you make online everyday, and learn why on earth your email inbox is filling up with privacy policies."
-ogtitle: "IRL Podcast: The Grand Bargain"
+ogtitle: "The Grand Bargain"
 season: 3
 seasonepisode: 1
 shownotes: |

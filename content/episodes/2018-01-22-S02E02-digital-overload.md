@@ -6,7 +6,7 @@ embed: "3e74ce73"
 mp3: "https://tracking.feedpress.it/link/17512/8067502/3e74ce73.mp3"
 number: 9
 ogdescription: "Recent reports estimate that over 50% of teens are addicted to their smartphones. Veronica Belmont investigates the impact of growing up online."
-ogtitle: "Episode 9: Digital Overload"
+ogtitle: "Digital Overload"
 season: 2
 seasonepisode: 2
 shownotes: |
