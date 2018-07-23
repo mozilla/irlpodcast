@@ -6,7 +6,7 @@ embed: "036ebe44"
 mp3: "https://tracking.feedpress.it/link/17512/8289733/036ebe44.mp3"
 number: 11
 ogdescription: "On the Internet no one knows you’re a dog, as the old joke goes. But does anonymity truly exist on the web anymore?"
-ogtitle: "Episode 11: Cloak of Invisibility"
+ogtitle: "Cloak of Invisibility"
 season: 2
 seasonepisode: 4
 shownotes: |

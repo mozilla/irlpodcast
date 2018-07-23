@@ -1,15 +1,15 @@
 {{/* set episode-specific open graph info if viewing an individual episode */}}
 {{ if and (isset .Params "categories") (eq .Params.categories "episodes") }}
+    {{/* bonus episodes name their folders differently */}}
     {{ if in .Params.seasonepisode "B" }}
         {{ $.Scratch.Set "imageFolder" (printf "S0%sB0%s" (string .Params.season) (strings.TrimPrefix "B" .Params.seasonepisode) ) }}
     {{ else }}
         {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
     {{ end }}
-
-    {{ $.Scratch.Set "ogImage" (printf "/images/episodes/%s/artwork-high-res.png" (.Scratch.Get "imageFolder")) }}
-    {{ $.Scratch.Set "ogImageWidth" "600" }}
-    {{ $.Scratch.Set "ogImageHeight" "600" }}
-    {{ $.Scratch.Set "ogTitle" (printf "IRL Podcast %s" .Params.ogTitle) }}
+    {{ $.Scratch.Set "ogImage" (printf "/images/episodes/%s/share.png" (.Scratch.Get "imageFolder")) }}
+    {{ $.Scratch.Set "ogImageWidth" "1100" }}
+    {{ $.Scratch.Set "ogImageHeight" "619" }}
+    {{ $.Scratch.Set "ogTitle" (printf "IRL Podcast: %s" .Params.ogTitle) }}
 {{ else }}
     {{ $.Scratch.Set "ogImage" "/images/irl-logo-open-graph.png" }}
     {{ $.Scratch.Set "ogImageWidth" "1200" }}
@@ -31,6 +31,7 @@
     <meta property="og:image:height" content="{{ $.Scratch.Get "ogImageHeight" }}">
     <meta property="og:title" content="{{ $.Scratch.Get "ogTitle" | default "IRL Podcast" }}">
     <meta property="og:description" content="{{ .Page.Params.ogDescription | default "Veronica Belmont explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla." }}">
+    <meta name="twitter:card" content="summary_large_image">
 
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/images/favicon/favicon-180x180.png">
     <link rel="icon" type="image/png" sizes="196x196" href="/images/favicon/favicon-196x196.png">

@@ -6,7 +6,7 @@ embed: "0cb629a8"
 mp3: "https://tracking.feedpress.it/link/17512/6384460/0cb629a8.mp3"
 number: 2
 ogdescription: "The Internet is at a crossroads. Mozilla’s IRL podcast dives into the current net neutrality debate."
-ogtitle: "Episode 2: The Neutral Zone: The Future of Net Neutrality"
+ogtitle: "The Neutral Zone: The Future of Net Neutrality"
 season: 1
 seasonepisode: 2
 shownotes: |

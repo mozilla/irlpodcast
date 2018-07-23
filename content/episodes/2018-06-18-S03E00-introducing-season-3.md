@@ -6,7 +6,7 @@ embed: "5c7fc3e8"
 mp3: "https://tracking.feedpress.it/link/17512/9485414/5c7fc3e8.mp3"
 number: 15
 ogdescription: "Get a sneak peak at what Veronica Belmont will cover in Season 3 of IRL, because online life is real life. "
-ogtitle: "IRL Podcast: Introducing Season 3"
+ogtitle: "Introducing Season 3"
 season: 3
 seasonepisode: 0
 url: /season3/episode0/

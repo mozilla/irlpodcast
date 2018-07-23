@@ -6,7 +6,7 @@ embed: "f4d354b4"
 mp3: "https://tracking.feedpress.it/link/17512/6431718/f4d354b4.mp3"
 number: 4
 ogdescription: "Trolls are in every corner of the Web, but people are fighting back in new ways. Baked goods included."
-ogtitle: "Episode 4: The Care and Feeding of Your Troll"
+ogtitle: "The Care and Feeding of Your Troll"
 season: 1
 seasonepisode: 4
 shownotes: |

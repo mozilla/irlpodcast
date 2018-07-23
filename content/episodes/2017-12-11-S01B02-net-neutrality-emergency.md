@@ -6,7 +6,7 @@ embed: "a12c2c51"
 mp3: "https://tracking.feedpress.it/link/17512/7685620/a12c2c51.mp3"
 number: B2
 ogdescription: "The battle for the open Internet isn’t over. In the days leading up to the FCC’s vote, we investigate what’s next for net neutrality."
-ogtitle: "Bonus Episode 2: Net Neutrality Emergency"
+ogtitle: "Bonus Episode! Net Neutrality Emergency"
 season: 1
 seasonepisode: B2
 shownotes: |

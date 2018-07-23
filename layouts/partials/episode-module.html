@@ -3,17 +3,14 @@
 {{ if in .Params.seasonepisode "B" }}
     {{/* Bonus episode */}}
     {{ $.Scratch.Set "episodeNumber" (printf "Bonus Episode") }}
-    {{ $.Scratch.Set "tweetPrefix" "IRL Podcast Bonus Episode" }}
     {{ $.Scratch.Set "imageFolder" (printf "S0%sB0%s" (string .Params.season) (strings.TrimPrefix "B" .Params.seasonepisode) ) }}
 {{ else if eq (string .Params.seasonepisode) (string "0") }}
     {{/* Episode 0 are trailers */}}
     {{ $.Scratch.Set "episodeNumber" (printf "Season %s Trailer" (string .Params.season) ) }}
-    {{ $.Scratch.Set "tweetPrefix" "IRL Podcast" }}
     {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
 {{ else }}
     {{/* Regular episode */}}
     {{ $.Scratch.Set "episodeNumber" (printf "Season %s Ep. %s" (string .Params.season) (string .Params.seasonepisode)) }}
-    {{ $.Scratch.Set "tweetPrefix" (printf "IRL Podcast %s" (.Scratch.Get "episodeNumber")) }}
     {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
 {{ end }}
 
@@ -90,7 +87,7 @@
 
             <aside class="social-share-links" data-episode-title="{{ .Title | default "" }}">
                 <ul>
-                    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ .Permalink }}&amp;text={{ (.Scratch.Get "tweetPrefix") }}: {{ printf "%s w/ @Mozilla & @Veronica" .Title }}" title="Twitter" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
+                    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ .Permalink }}&amp;text=IRL Podcast: {{ printf "%s w/ @Mozilla & @Veronica" .Title }}" title="Twitter" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
                     <li><a class="facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" title="Facebook" data-link-type="social share" data-link-name="Facebook">Facebook</a></li>
                     <li><a class="copylink" data-service="copylink" href="{{ .Permalink }}" data-link-type="social share" data-link-name="copylink" data-clipboard-target="#episode-url-input-{{ .Params.number }}">Copy Link</a></li>
                 </ul>
