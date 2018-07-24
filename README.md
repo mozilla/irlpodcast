@@ -9,7 +9,7 @@ Edit the `.scss` and `.js` files in the `/src` directory (*NOT* in `/static`).
 
 ## Adding new episodes
 
-1. `docker exec irlpodcast_hugo_1 hugo new episodes/201X-XX-XX-episode-XX-episode-title-here.md`
+1. `docker exec irlpodcast_hugo_1 hugo new episodes/201X-XX-XX-SXXEXX-episode-title-here.md`
 
 You can create this file by hand in the filesystem, but the above command will use the
 `archetypes/episodes.md` template to populate all the necessary front matter, saving
