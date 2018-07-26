@@ -5,7 +5,7 @@ def buildSite(destination) {
       try {
         sh "bin/build.sh " + destination
       } catch(err) {
-        sh "bin/irc-notify.sh --stage 'build " + env.BRANCH_NAME + "' --status 'failed'"
+        sh "bin/slack-notify.sh --stage 'build " + env.BRANCH_NAME + "' --status 'failed'"
         throw err
       }
     }
@@ -16,10 +16,10 @@ def syncS3(String bucket) {
         try {
           sh "cd release && aws s3 sync . s3://" + bucket + " --acl public-read --delete --profile irl"
         } catch(err) {
-          sh "bin/irc-notify.sh --stage 's3 sync " + env.BRANCH_NAME + "' --status 'failed'"
+          sh "bin/slack-notify.sh --stage 's3 sync " + env.BRANCH_NAME + "' --status 'failed'"
           throw err
         }
-        sh "bin/irc-notify.sh --stage 's3 sync " + env.BRANCH_NAME + "' --status 'shipped'"
+        sh "bin/slack-notify.sh --stage 's3 sync " + env.BRANCH_NAME + "' --status 'shipped'"
     }
 }
 
@@ -28,10 +28,10 @@ def syncGhPages() {
         try {
           sh "bin/push-gh-pages.sh"
         } catch(err) {
-          sh "bin/irc-notify.sh --stage 'gh-pages branch sync' --status 'failed'"
+          sh "bin/slack-notify.sh --stage 'gh-pages branch sync' --status 'failed'"
           throw err
         }
-        sh "bin/irc-notify.sh --stage 'gh-pages branch sync' --status 'shipped'"
+        sh "bin/slack-notify.sh --stage 'gh-pages branch sync' --status 'shipped'"
     }
 }
 
