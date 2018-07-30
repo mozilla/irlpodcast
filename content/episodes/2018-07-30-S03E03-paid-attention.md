@@ -1,6 +1,6 @@
 ---
 categories: "episodes"
-date: 2018-07-30T06:01:00-08:00
+date: 2018-07-30T05:00:00-08:00
 description: "There’s a new currency in town (and no, we’re not talking about Bitcoin). We’re talking about attention. In this episode of IRL, [Veronica Belmont](https://twitter.com/Veronica) and special guest [Jane Lytvynenko](https://twitter.com/JaneLytv) explore all the ways your attention has become worth money on social media. Meet [Hamlet the Piggy](https://www.instagram.com/hamlet_the_piggy/), an Instagram star who is helping her owner cope with epilepsy and also build a business; [Lisette Calveiro](https://www.instagram.com/lissettecalv/), whose quest for fame online left her spending beyond her means; and media theorist [Douglas Rushkoff](https://twitter.com/rushkoff), who discusses what’s behind the emerging attention economy."
 embed: "e5bb88ee"
 mp3: "https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/e5bb88ee.mp3"
