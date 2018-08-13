@@ -1,18 +1,17 @@
 ---
-categories: "episodes"
-date: {{ substr .Name 0 10 }}T06:00:00-08:00
-description: ""
-embed: ""
-mp3: ""
-number:
-ogdescription: ""
+date: {{ substr .Name 0 10 }}T04:55:00-08:00
+title: "{{ replace (substr .Name 18) "-" " " | title }}"
 ogtitle: "{{ replace (substr .Name 18) "-" " " | title }}"
+description: ""
+ogdescription: ""
+number:
 season: {{ strings.TrimPrefix "0" (substr .Name 12 2) }}
 seasonepisode: {{ strings.TrimPrefix "0" (substr .Name 15 2) }}
-shownotes: |
-
 url: /season{{ strings.TrimPrefix "0" (substr .Name 12 2) }}/episode{{ strings.TrimPrefix "0" (substr .Name 15 2) }}/
-title: "{{ replace (substr .Name 18) "-" " " | title }}"
+embed: ""
+mp3: ""
+categories: "episodes"
+shownotes: |
 transcript: |
 
 ---
