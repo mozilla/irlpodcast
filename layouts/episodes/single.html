@@ -21,6 +21,22 @@
             <a name="#transcript"></a>
 
             <p>{{ .Params.Transcript | markdownify }}</p>
+
+            <aside class="next">
+                {{ with .NextInSection }}
+                    <div class="next-next">
+                        <span>Next episode</span>
+                        <a class="next-next-link" href="{{ .Permalink }}">{{ .Title }}</a>
+                    </div>
+                {{ end }}
+
+                {{ with .PrevInSection }}
+                    <div class="next-prev">
+                        <span>Previous episode</span>
+                        <a class="next-prev-link" href="{{ .Permalink }}">{{ .Title }}</a>
+                    </div>
+                {{ end }}
+            </aside>
         </div>
     </article>
 
