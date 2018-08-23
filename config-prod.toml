@@ -1,2 +1,3 @@
 baseURL = "https://irlpodcast.org"
 googleAnalytics = "GTM-5H9T7GF"
+buildFuture = false

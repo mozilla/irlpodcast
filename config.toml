@@ -1,5 +1,5 @@
 title = "IRL Podcast: Online Life is Real Life"
 email = "irlpodcast@mozilla.com"
-
+buildFuture = true
 [params]
     description = "Veronica Belmont explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla."
