@@ -9,7 +9,7 @@ season: {{ strings.TrimPrefix "0" (substr .Name 12 2) }}
 seasonepisode: {{ strings.TrimPrefix "0" (substr .Name 15 2) }}
 url: /season{{ strings.TrimPrefix "0" (substr .Name 12 2) }}/episode{{ strings.TrimPrefix "0" (substr .Name 15 2) }}/
 embed: ""
-mp3: ""
+mp3: ".mp3"
 categories: "episodes"
 shownotes: |
 transcript: |
