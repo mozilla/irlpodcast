@@ -3,7 +3,7 @@ date: 2018-08-27T04:55:00-08:00
 title: "Bullying and Bonding Online"
 ogtitle: "Bullying and Bonding Online"
 description: "It’s a problem when tribalism divides us, online and in real life. Join [Veronica Belmont](https://twitter.com/Veronica/) and [Franchesca Ramsey](https://twitter.com/chescaleigh/) as they meet the people working to make the web — and world — friendlier places. Jhamel Robinson discusses how he used social media to organize a massive BBQ in Lake Merritt park after a racial altercation went viral; [Dr. Meredith Clark](https://twitter.com/meredithdclark/) sheds light on the need for social media platforms to hire members of vulnerable communities; [Jon Ronson](https://twitter.com/jonronson/) talks about snap judgements; Professor Kip Williams speaks to the effects of ostracism online and off; and recent high school graduate Natalie Hampton shares her story of surviving extreme bullying and [what she's doing now](https://twitter.com/nobodyeatsalone/) to help others."
-ogdescription: "Veronica Belmont and Franchesca Ramsey meet the people working to make the web — and world — friendlier places. "
+ogdescription: "Veronica Belmont and Franchesca Ramsey meet the people working to make the web — and world — friendlier places."
 number: 20
 season: 3
 seasonepisode: 5
