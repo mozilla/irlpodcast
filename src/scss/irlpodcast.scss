@@ -626,6 +626,44 @@ a.episode-shownotes-link {
     }
 }
 
+.next:before {
+    @include gradient-bar();
+}
+
+.next-next,
+.next-prev {
+    box-sizing: border-box;
+    display: block;
+    margin-top: 20px;
+
+    span {
+        display: block;
+    }
+
+    a {
+        @include font-size-level3;
+    }
+}
+
+@media #{$mq-tablet} {
+    .next-next,
+    .next-prev {
+        float: left;
+        width: 50%;
+    }
+
+    .next-prev {
+        padding-right: 20px;
+    }
+
+    .next-next {
+        border-left: 2px solid #000;
+        float: right;
+        padding-left: 20px;
+    }
+}
+
+
 #footer {
     background: #111;
     top: 0;
