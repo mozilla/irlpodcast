@@ -71,12 +71,3 @@ Mozilla is the maker of Firefox, and a nonprofit leader in the fight for interne
 For press inquiries, email us at [press@mozilla.com](mailto:press@mozilla.com). For any other inquiries, email us at [IRL-podcast@mozilla.com](mailto:IRL-podcast@mozilla.com).
 
 {{< newsletter >}}
-
-{{< div >}}
-<div id="footer-links">
-    <ul>
-        <li><a href="https://www.mozilla.org/privacy/">Privacy Notice</a></li>
-        <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
-    </ul>
-</div>
-{{< /div >}}
