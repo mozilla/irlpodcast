@@ -18,7 +18,7 @@ shownotes: |
 
   Jeff Kasky is the President of [Families vs. Assault Rifles](https://famsvarpac.org/), a political action committee founded by parents of Parkland, Florida Douglas High students working to restrict access to assault rifles.
 
-  Here is a detailed summary of [Social Media, Social Life study findings](http://blog.mozilla.org/internetcitizen/2018/09/10/social-media-social-lives-common-sense/) from Common Sense Media and for [commentary and tips for parents from Common Sense](http://blog.mozilla.org/internetcitizen/2018/09/10/raising-a-connected-generation/).
+  For a detailed summary of Common Sense Media’s findings on technology and teens, check out [this summary of their Social Media, Social Life study](http://blog.mozilla.org/internetcitizen/2018/09/10/social-media-social-lives-common-sense/). Also check out this [commentary from Common Sense about supporting research on tech's impact on the health and well-being of kids](http://blog.mozilla.org/internetcitizen/2018/09/10/research-on-kids-and-tech/).
 
   There are a number of Firefox extensions that can help parents guide their children's internet experiences, such as [Parental Control: Family Friendly Filter](https://addons.mozilla.org/en-US/firefox/addon/family-friendly-filter/?src=collection), which blocks certain websites deemed inappropriate for kids. You can find this extension and more in our [Parental Controls](https://addons.mozilla.org/en-US/firefox/collections/mozilla/parental-controls/) collection.
 
