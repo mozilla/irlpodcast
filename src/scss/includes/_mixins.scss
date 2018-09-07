@@ -230,3 +230,25 @@
     visibility: visible;
     width: 100%;
 }
+
+// white links
+@mixin white-links () {
+    a,
+    a:active,
+    a:focus,
+    a:hover,
+    a:link,
+    a:visited,
+    a:visited:focus,
+    a:visited:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:focus,
+    a:hover,
+    a:visited:focus,
+    a:visited:hover {
+        text-decoration: underline;
+    }
+}

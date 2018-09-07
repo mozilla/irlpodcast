@@ -56,11 +56,12 @@
 
 <body id="{{ block "bodyID" . }}home{{ end }}">
 
+    {{ partial "header.html" }}
+
     <main class="page-content" aria-label="Content">
     {{ block "main" . }}{{ end }}
     </main>
 
-    {{ partial "header.html" }}
     {{ partial "footer.html" }}
 
     <script src="/js/{{ index .Site.Data.js.hash "jquery.3.2.1.min.js" }}"></script>

@@ -5,6 +5,7 @@
 @import '../includes/lib';
 
 #header {
+    @include white-links;
     background: #111;
     top: 0;
     color: #fff;
@@ -13,28 +14,10 @@
     margin-bottom: 20px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 
     .content {
         padding: 10px 20px;
-    }
-
-    a,
-    a:active,
-    a:focus,
-    a:hover,
-    a:link,
-    a:visited,
-    a:visited:focus,
-    a:visited:hover {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    a:focus,
-    a:hover,
-    a:visited:focus,
-    a:visited:hover {
-        text-decoration: underline;
     }
 
     ul {

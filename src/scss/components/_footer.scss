@@ -7,6 +7,7 @@
 
 #footer {
     @include font-size(18px);
+    @include white-links;
     background-color: #000;
     color: #FFF;
     margin: 20px 0 0;
@@ -33,24 +34,5 @@
             text-align: center;
             width: 2px;
         }
-    }
-
-    a,
-    a:active,
-    a:focus,
-    a:hover,
-    a:link,
-    a:visited,
-    a:visited:focus,
-    a:visited:hover {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    a:focus,
-    a:hover,
-    a:visited:focus,
-    a:visited:hover {
-        text-decoration: underline;
     }
 }
