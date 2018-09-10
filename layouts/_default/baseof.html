@@ -55,6 +55,9 @@
 </head>
 
 <body id="{{ block "bodyID" . }}home{{ end }}">
+
+    {{ partial "header.html" }}
+
     <main class="page-content" aria-label="Content">
     {{ block "main" . }}{{ end }}
     </main>

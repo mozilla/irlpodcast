@@ -4,4 +4,35 @@
 
 @import '../includes/lib';
 
-// footer styles here
+
+#footer {
+    @include font-size(18px);
+    @include white-links;
+    background-color: #000;
+    color: #FFF;
+    margin: 20px 0 0;
+    padding-top: 1.25em;
+
+    p {
+        @include font-size(18px);
+    }
+
+    ul {
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    li {
+        padding-right: 20px;
+
+        &:first-child:after {
+            @include font-size(24px);
+            content: '·';
+            display: inline-block;
+            line-height: 1px;
+            padding-left: 20px;
+            text-align: center;
+            width: 2px;
+        }
+    }
+}
