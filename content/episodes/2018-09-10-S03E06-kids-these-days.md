@@ -1,5 +1,5 @@
 ---
-date: 2018-09-10T04:55:00-08:00
+date: 2018-09-10T04:35:00-08:00
 title: "Kids These Days"
 ogtitle: "Kids These Days"
 description: "Today’s teens are the first humans who have spent their entire lives online. Join [Veronica Belmont](https://twitter.com/Veronica/) and [Manoush Zomorodi](https://twitter.com/manoushz/) as they explore what kids are facing on the interwebs, how they’re using social media for good, how they’re handling cyberbullying, and how parents can keep up.<br><br>Parkland, Florida’s [Cameron Kasky](https://twitter.com/cameron_kasky/) discusses how he uses social media as a platform for activism; tech journalist [Alexandra Samuel](https://twitter.com/awsamuel/) talks about Lil Tay and and the the role parents can play as they help their children navigate the internet; and [Common Sense Media's](https://twitter.com/CommonSense/) Sierra Filucci gives us an exclusive look at data from a new study about technology's impact on our youth."
