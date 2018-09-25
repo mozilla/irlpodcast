@@ -1,0 +1,101 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+@import '../includes/lib';
+
+$summary-image-size: 90px;
+
+.episode-summary {
+    @include clearfix;
+    clear: left;
+    border-bottom: 1px solid #000;
+    padding: 1.5em 0 0.25em;
+
+    &:before {
+        content: '';
+        background-color: #000;
+        border-top: 0.4rem solid #fff;
+        display: block;
+        float: right;
+        height: $summary-image-size;
+        margin: 0 0 1.25em 10px;
+        width: $summary-image-size;
+    }
+}
+
+.episode-summary-title {
+    @include font-size-level3;
+    font-weight: bold;
+}
+
+.episode-summary-number {
+    color: $color-text-primary;
+}
+
+@media #{$mq-phone-wide} {
+    .episode-summary-image {
+        float: left;
+        margin: 0 $gutter-width 1.25em 0;
+    }
+
+    .episode-summary-description {
+        overflow: auto;
+    }
+
+    @supports(display:grid) {
+        .episode-summary {
+            display: grid;
+            grid-template-columns: $summary-image-size auto;
+            grid-column-gap: $gutter-width;
+        }
+
+        .episode-summary:before {
+            grid-column-start: 1;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            margin: 0 0 1.25em 0;
+            border-top: 8px solid #fff;
+        }
+
+        .episode-summary-title,
+        .episode-summary-description {
+            grid-column-start: 2;
+        }
+    }
+}
+
+// position background sprite for episodes
+.episode-summary {
+    // season 1
+    &[class*='S01']:before {
+        background-image: url(/images/S01.png);
+        background-size: auto $summary-image-size;
+    }
+
+    @for $episode from 0 through 7 {
+        &.S01E0#{$episode}:before {
+            background-position: ($episode * $summary-image-size * -1) 0;
+        }
+    }
+
+    &.S01B01:before {
+        background-position: -720px 0;
+    }
+
+    &.S01B02:before {
+        background-position: -810px 0;
+    }
+
+    // season 2
+    &[class*='S02']:before {
+        background-image: url(/images/S02.png);
+        background-size: auto $summary-image-size;
+    }
+
+    @for $episode from 1 through 7 {
+        &.S02E0#{$episode}:before {
+            background-position: ($episode * $summary-image-size * -1 + $summary-image-size) 0;
+        }
+    }
+}
