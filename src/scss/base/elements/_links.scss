@@ -7,19 +7,32 @@
 
 a {
     color: $color-link;
-    text-decoration: underline;
+    font-weight: bold;
+    text-decoration: none;
 
     &:hover,
     &:focus,
-    &:active,
     &:visited:hover,
     &:visited:focus,
     &:visited:active {
-        color: darken($color-link, 10%);
+        color: $color-link;
         text-decoration: underline;
+        transition: color 0.2s ease;
     }
 
     &:visited {
-        color: lighten(desaturate($color-link, 50%), 20%);
+        color: desaturate($color-link, 20%);
+    }
+
+    &:focus,
+    &:visited:focus {
+        background-color: #00ff00;
+        color: $color-text-primary;
+    }
+
+    &:active,
+    &:visited:active {
+        background-color: transparent;
+        color: #f808f8;
     }
 }
