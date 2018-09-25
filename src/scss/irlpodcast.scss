@@ -25,23 +25,6 @@ body {
     border-top: 0;
 }
 
-a,
-a:active,
-a:link,
-a:visited {
-    color: #88429d;
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-a:focus,
-a:hover,
-a:visited:focus,
-a:visited:hover {
-    color: lighten(#88429d, 5%);
-}
-
 ol {
     list-style-type: numeric;
     margin-left: 20px;
@@ -178,7 +161,8 @@ ol {
     a {
         align-items: center;
         background: #fff;
-        border: 1px solid #a2a3a3;
+        background-clip: padding-box;
+        border: 2px solid transparent;
         border-radius: 8px;
         box-sizing: border-box;
         display: flex;
@@ -187,6 +171,22 @@ ol {
         padding: 3px 10px;
         text-align: center;
         width: 133px;
+
+        &:hover,
+        &:hover img {
+            border-color: $color-link;
+        }
+
+        &:focus,
+        &:focus img {
+            background: #fff;
+            border-color: #00ff00;
+        }
+
+        &:active,
+        &:active img {
+            border-color: #f8f8f8;
+        }
     }
 
     img {
@@ -197,10 +197,12 @@ ol {
 
     .subscribe-link-google,
     .subscribe-link-apple {
-        border: none;
+        border: 0;
         padding: 0;
 
         img {
+            border: 2px solid transparent;
+            border-radius: 9px;
             height: 34px;
         }
     }

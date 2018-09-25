@@ -246,6 +246,12 @@
     }
 
     a:focus,
+    a:visited:focus {
+        color: $color-text-primary;
+        background-color: #00ff00;
+    }
+
+    a:focus,
     a:hover,
     a:visited:focus,
     a:visited:hover {
