@@ -5,7 +5,6 @@
                 <span>Mozilla</span>
             </a>
         </div>
-        
         <div class="content">
             <div id="intro-main">
                 <div id="site-logo">
@@ -29,7 +28,6 @@
 
                 <section class="subscribe-links-wrapper">
                     <h4>Subscribe:</h4>
-                    
                     {{ partial "subscribe-links.html" (dict "subscribeLinksID" "subscribe-links-primary") }}
                 </section>
             </div>
@@ -41,24 +39,56 @@
             <ul id="episode-list">
             {{- range .Data.Pages -}}
                 {{ if eq .Type "episodes" }}
-                <li class="episode-list-item">
-                    {{/* The dot context below passes the entire episode object */}}
-                    {{ partial "episode-module.html" . }}
-                </li>
+                    {{ if eq (string .Params.season) "3" }}
+                    <li class="episode-list-item">
+                        {{/* The dot context below passes the entire episode object */}}
+                        {{ partial "episode-module.html" . }}
+                    </li>
+                    {{ end }}
                 {{ end }}
             {{- end -}}
             </ul>
         </div>
     </section>
 
+    <section class="season-summaries">
+        <div class="content">
+            <h2>Season 2</h2>
+            <ul id="episode-summary-list">
+            {{- range .Data.Pages -}}
+                {{ if eq .Type "episodes" }}
+                    {{ if eq (string .Params.season) "2" }}
+                    <li class="episode-summary-item">
+                        {{/* The dot context below passes the entire episode object */}}
+                        {{ partial "episode-summary.html" . }}
+                    </li>
+                    {{ end }}
+                {{ end }}
+            {{- end -}}
+            </ul>
+        </div>
+    </section>
+    <section class="season-summaries">
+        <div class="content">
+            <h2>Season 1</h2>
+            <ul id="episode-summary-list">
+            {{- range .Data.Pages -}}
+                {{ if eq .Type "episodes" }}
+                    {{ if eq (string .Params.season) "1" }}
+                        {{/* The dot context below passes the entire episode object */}}
+                        {{ partial "episode-summary.html" . }}
+                    {{ end }}
+                {{ end }}
+            {{- end -}}
+            </ul>
+        </div>
+    </section>
     <div class="content">
         {{ partial "newsletter.html" . }}
     </div>
-    
     <section id="more">
         <div class="content">
             <h3>More on the IRL Podcast</h3>
-    
             <p>
                 <a href="https://blog.mozilla.org/internetcitizen/category/IRL/">Get the 411 on IRL with Mozilla’s Internet Citizen Blog</a>
             </p>
