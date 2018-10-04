@@ -1,5 +1,5 @@
 ---
-date: 2018-10-04T04:55:00-08:00
+date: 2018-10-04T04:54:00-08:00
 title: "What to Expect When You're Electing"
 ogtitle: "What to Expect When You're Electing"
 description: "The 2016 U.S. presidential election blew up our ideas about influence campaigns in the age of screens. Two years later, [Veronica Belmont](https://twitter.com/Veronica) and [Baratunde Thurston](https://twitter.com/baratunde) examine how the internet is changing our minds, our votes, and our democracies – all over the world.<br><br>Pulitzer prize winning New York Times reporter [Scott Shane](https://twitter.com/ScottShaneNYT) details the United States' long history with election meddling. Paris correspondent for the Washington Post,  James McAuley, shines a light on how other countries are managing the the changing dynamics of online political campaigns. And speculative fiction authors [Malka Older](https://twitter.com/m_older) and [Genevieve Valentine](https://twitter.com/glvalentine) describe what elections may look like in the future, with advances in technology."
