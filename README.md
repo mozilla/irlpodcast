@@ -36,6 +36,13 @@ A notice will be posted in `#www-notify` on IRC when the push has completed.
 
 ## Pushing to production
 
+Episode deployments typically happen at 6AM PT on the publish date. Please
+post in #irl-site-redesign (private channel) or DM @michaela when you push so
+she know's it's been successful.
+
+It is responsibility of the person who codes the episode to find someone to push
+if 6AM PT is too early for them. All members of MozMEAO are happy to do this.
+
 1. Verify all is good on [the staging site](https://stage.irlpodcast.org/)
 2. Make sure your local `master` branch is up to date
 3. Push the `master` branch to the `prod` branch: `git push origin master:prod`
