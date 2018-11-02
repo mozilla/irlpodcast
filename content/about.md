@@ -1,14 +1,14 @@
 ---
-title: "About"
+title: "About IRL"
 date: 2018-03-16T17:07:08-05:00
 draft: false
 ---
 
-Our online life is real life. We walk, talk, work, LOL and even love on the Internet – but we don’t always treat it like real life. Host Veronica Belmont explores this disconnect with stories from the wilds of the Web – and gets to the bottom of online issues that affect us all. Whether it’s privacy breaches, closed platforms, hacking, fake news, or cyber bullying, we the people have the power to change the course of the Internet, keeping it healthy, weird, and wonderful for everyone. IRL is an original podcast from Mozilla.
+Our online life is real life. We walk, talk, work, LOL and even love on the Internet – but we don’t always treat it like real life. Host Manoush Zomorodi explores this disconnect with stories from the wilds of the Web, and gets to the bottom of online issues that affect us all. Whether it’s privacy breaches, closed platforms, hacking, fake news, or cyber bullying, we the people have the power to change the course of the Internet, keeping it ethical, safe, weird, and wonderful for everyone. IRL is an original podcast from Mozilla.
 
 ## About Mozilla
 
-Mozilla is the maker of Firefox, and a nonprofit leader in the fight for internet health. We empower people to be safe and strong online, build tools and products that battle Big Tech, and champion a more just, equal, and fair system for all.
+Mozilla is the maker of Firefox, and an organization that puts people over profit. We empower people to be safe and strong online, build tools and products that battle Big Tech, and champion a more just, equal, and fair system for all.
 
 {{< div >}}
 <div id="credits">
@@ -16,19 +16,15 @@ Mozilla is the maker of Firefox, and a nonprofit leader in the fight for interne
 
     <ul>
         <li class="credit">
-            <img src="/images/veronica-belmont.jpg" srcset="/images/veronica-belmont-high-res.jpg 2x" class="credits-image" alt="">
+            <img src="/images/manoush-zomorodi.jpg" srcset="/images/manoush-zomorodi-high-res.jpg 2x" class="credits-image" alt="">
 
-            <h3>Veronica Belmont</h3>
+            <h3>Manoush Zomorodi</h3>
 
             <p>
-                Veronica Belmont is a Product Manager at
-                <a href="https://www.growbot.io/" rel="external">Growbot.io</a>, startup
-                advisor, and board member at
-                <a href="https://about.me/" rel="external">about.me</a>. She has an
-                expertise in and passion for technology, and as a media personality, has
-                hosted several video and audio shows on the topic, including Engadget's
-                Dear Veronica, Gizmodo’s The Gadget Testers, and Discovery Digital’s
-                Tekzilla.
+                Manoush Zomorodi is co-founder of Stable Genius Productions, a media company with a mission to help people navigate personal and global change. In addition to IRL, Manoush hosts Zig Zag, a podcast about changing the course of capitalism, journalism, and women's lives. Investigating how technology is transforming humanity is Manoush's passion and expertise. In 2017, she wrote a book, “Bored and Brilliant: How Spacing Out Can Unlock Your Most Creative Self” and gave a TED Talk about surviving information overload and the “Attention Economy.” She was named one of Fast Company's 100 Most Creative People in Business in 2018.
+            </p>
+            <p>
+                Before founding StableG, Manoush created, hosted, and was managing editor of the podcast Note to Self at WNYC Studios. She and her team also produced The Privacy Paradox, an interactive digital project about personal data.
             </p>
         </li>
 
