@@ -9,6 +9,7 @@ ogdescription: "There is no such thing as a free lunch. Mozilla’s IRL podcast 
 ogtitle: "All Your Data Are Belong to Us"
 season: 1
 seasonepisode: 1
+host: "Veronica"
 shownotes: |
     Go [here](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs/) for the World Privacy Forum's list of the Top 10 Most Important Opt-outs.
 

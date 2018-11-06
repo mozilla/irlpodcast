@@ -9,6 +9,7 @@ ogdescription: "How technology can create, and can break, our filter bubbles."
 ogtitle: "Social Bubble Bath"
 season: 2
 seasonepisode: 6
+host: "Veronica"
 shownotes: |
     Read [B.J. May's How 26 Tweets Broke My Filter Bubble](https://medium.com/@bjmay/how-26-tweets-broke-my-filter-bubble-88c1527517f3).
 

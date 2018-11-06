@@ -9,6 +9,7 @@ ogdescription: "Recent events in Charlottesville, VA have revealed the role the 
 ogtitle: "Free Speech, Limited?"
 season: 1
 seasonepisode: 7
+host: "Veronica"
 shownotes: |
     Freedom of speech is important, online and off. And, it’s also important that free speech not infringe on the freedom of others. Tell us: [what can regular internet citizens do to address this issue](http://blog.mozilla.org/internetcitizen/2017/09/18/accelerate-change/?source=shownotes)? How can we all accelerate the pace of change for a more free, civil and healthy Internet?
 url: /season1/episode7/

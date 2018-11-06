@@ -9,6 +9,7 @@ ogdescription: "Surveillance. Turns out, we’ve invited it into our homes throu
 ogtitle: "I Spy With My Digital Eye"
 season: 1
 seasonepisode: 5
+host: "Veronica"
 shownotes: |
     Struck by the idea that toys made for kids may have prying eyes (and ears)? For more on connected devices and surveillance, head over to our [blog](http://blog.mozilla.org/internetcitizen/2017/08/21/iot-surveillance/?source=shownotes).
 

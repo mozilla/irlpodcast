@@ -11,6 +11,7 @@ url: /season{{ strings.TrimPrefix "0" (substr .Name 12 2) }}/episode{{ strings.T
 embed: ""
 mp3: ".mp3"
 categories: "episodes"
+host: "Manoushz"
 shownotes: |
 transcript: |
 

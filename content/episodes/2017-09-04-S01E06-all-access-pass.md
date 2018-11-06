@@ -9,6 +9,7 @@ ogdescription: "What is life like without fast Internet, and how does life chang
 ogtitle: "All Access Pass"
 season: 1
 seasonepisode: 6
+host: "Veronica"
 shownotes: |
     The more voices, perspectives, lanugages, and people contributing to the Web, the richer the experience for everyone. But the  Internet is not yet accessible to all. [Find out how you can make a difference](https://www.mozilla.org/en-US/internet-health/digital-inclusion/?source=shownotes).
 

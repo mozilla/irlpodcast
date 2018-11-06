@@ -11,6 +11,7 @@ url: /season3/episode5/
 embed: "4758d08e"
 mp3: "https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/4758d08e.mp3"
 categories: "episodes"
+host: "Veronica"
 shownotes: |
     Here is [material on digital inclusion](https://www.mozilla.org/en-US/internet-health/digital-inclusion/) from Mozilla. We also recommend reading this [article on inclusive and exclusive culture](http://blog.mozilla.org/internetcitizen/2018/08/27/inclusive-culture/) from Mozilla's head of Diversity & Inclusion, Larissa Shapiro.
 

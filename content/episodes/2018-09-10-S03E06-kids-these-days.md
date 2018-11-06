@@ -11,6 +11,7 @@ url: /season3/episode6/
 embed: "71b5ec34"
 mp3: "https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/71b5ec34.mp3"
 categories: "episodes"
+host: "Veronica"
 shownotes: |
   Manoush Zomorodi is the co-host of [ZigZag](https://zigzagpod.com/subscribe-to-the-podcast/), a podcast about changing the course of capitalism, journalism, and women’s lives. She's also the author of [Bored an Brilliant: How Spacing Out Can Unlock Your Most Productive and Creative Self](https://www.amazon.com/Bored-Brilliant-Spacing-Productive-Creative/dp/1250124956).
 

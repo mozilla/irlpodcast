@@ -9,6 +9,7 @@ ogdescription: "Veronica Belmont and Peter Rojas explore how the Internet is bui
 ogtitle: "Virtual Connections"
 season: 3
 seasonepisode: 4
+host: "Veronica"
 shownotes: |
     Read more about [Chloe Rose's experience as a "closer" for hire](https://qz.com/1247382/online-dating-is-so-awful-that-people-are-paying-virtual-dating-assistants-to-impersonate-them/) on online dating apps.
 
