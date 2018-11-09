@@ -39,6 +39,21 @@
             <ul id="episode-list">
             {{- range .Data.Pages -}}
                 {{ if eq .Type "episodes" }}
+                    {{ if eq (string .Params.season) "4" }}
+                    <li class="episode-list-item">
+                        {{/* The dot context below passes the entire episode object */}}
+                        {{ partial "episode-module.html" . }}
+                    </li>
+                    {{ end }}
+                {{ end }}
+            {{- end -}}
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Season 3</h2>
+            <ul id="episode-list">
+            {{- range .Data.Pages -}}
+                {{ if eq .Type "episodes" }}
                     {{ if eq (string .Params.season) "3" }}
                     <li class="episode-list-item">
                         {{/* The dot context below passes the entire episode object */}}
