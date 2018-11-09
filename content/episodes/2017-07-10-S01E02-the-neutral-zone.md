@@ -9,6 +9,7 @@ ogdescription: "The Internet is at a crossroads. Mozilla’s IRL podcast dives i
 ogtitle: "The Neutral Zone: The Future of Net Neutrality"
 season: 1
 seasonepisode: 2
+host: "Veronica"
 shownotes: |
     Undecided as to whether or not you support net neutrality? Check out our [blog](https://blog.mozilla.org/internetcitizen/2017/05/18/net-neutrality-answers/) for more.
 

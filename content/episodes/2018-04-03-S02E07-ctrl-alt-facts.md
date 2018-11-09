@@ -7,6 +7,7 @@ mp3: "https://tracking.feedpress.it/link/17512/8734259/a5bb8cd8.mp3"
 number: 14
 ogdescription: "How to stop the spread of disinformation online."
 ogtitle: "Ctrl+Alt+Facts"
+host: "Veronica"
 shownotes: |
     A recent Gallup survey found that most Americans feel that it’s harder today to be well-informed than ever before. But each of us can play a part in stopping the spread of misinformation. [Learn more](https://blog.mozilla.org/internetcitizen/2018/04/02/irl-how-to-stop-social-media-misinformation).
 url: /season2/episode7/

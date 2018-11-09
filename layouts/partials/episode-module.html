@@ -14,6 +14,7 @@
     {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
 {{ end }}
 
+{{ $.Scratch.Set "host" (printf "w/ @Mozilla & @%s" (string .Params.host)) }}
 {{ $.Scratch.Set "imagePath" (printf "episodes/%s/artwork.png" (.Scratch.Get "imageFolder")) }}
 {{ $.Scratch.Set "imagePathHighRes" (replace (.Scratch.Get "imagePath") ".png" "-high-res.png") }}
 {{ $.Scratch.Set "itunesTracking" (printf "episode%s" (string .Params.number)) }}
@@ -87,7 +88,7 @@
 
             <aside class="social-share-links" data-episode-title="{{ .Title | default "" }}">
                 <ul>
-                    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ .Permalink }}&amp;text=IRL Podcast: {{ printf "%s w/ @Mozilla & @Veronica" .Title }}" title="Twitter" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
+                    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ .Permalink }}&amp;text=IRL Podcast: {{ .Title }} {{ .Scratch.Get "host" }}" title="Twitter" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
                     <li><a class="facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" title="Facebook" data-link-type="social share" data-link-name="Facebook">Facebook</a></li>
                     <li><a class="copylink" data-service="copylink" href="{{ .Permalink }}" data-link-type="social share" data-link-name="copylink" data-clipboard-target="#episode-url-input-{{ .Params.number }}">Copy Link</a></li>
                 </ul>

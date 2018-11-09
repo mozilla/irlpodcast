@@ -9,6 +9,7 @@ ogdescription: "Trolls are in every corner of the Web, but people are fighting b
 ogtitle: "The Care and Feeding of Your Troll"
 season: 1
 seasonepisode: 4
+host: "Veronica"
 shownotes: |
     [Help form a more inclusive world and Web](http://blog.mozilla.org/internetcitizen/2017/07/31/a-more-inclusive-world-and-web/?source=shownotes).
 url: /season1/episode4/

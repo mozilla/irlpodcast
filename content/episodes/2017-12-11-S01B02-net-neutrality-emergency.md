@@ -9,6 +9,7 @@ ogdescription: "The battle for the open Internet isn’t over. In the days leadi
 ogtitle: "Bonus Episode! Net Neutrality Emergency"
 season: 1
 seasonepisode: B2
+host: "Veronica"
 shownotes: |
     What does it take to get net neutrality? People like you. Find out more about how you can help [here](https://blog.mozilla.org/netpolicy/2017/11/29/take-get-net-neutrality/).
 url: /season1/bonus2/

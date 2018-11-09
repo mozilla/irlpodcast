@@ -9,6 +9,7 @@ ogdescription: "Explore the tradeoffs you make online everyday, and learn why on
 ogtitle: "The Grand Bargain"
 season: 3
 seasonepisode: 1
+host: "Veronica"
 shownotes: |
     Tom Hayes works for an organization called [Beyond Positive](http://www.beyondpositive.org/).
 

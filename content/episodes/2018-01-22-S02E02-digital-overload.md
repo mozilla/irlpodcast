@@ -9,6 +9,7 @@ ogdescription: "Recent reports estimate that over 50% of teens are addicted to t
 ogtitle: "Digital Overload"
 season: 2
 seasonepisode: 2
+host: "Veronica"
 shownotes: |
     Looking to reset your relationship with the Internet? Check out our [digital detox kit](https://blog.mozilla.org/internetcitizen/2018/01/16/digital-fitness/). And if you still need something to stop your phone’s constant beep boops, we have the next best thing: [an IRL ringtone](!!baseurl!!/ringtones/).
 url: /season2/episode2/

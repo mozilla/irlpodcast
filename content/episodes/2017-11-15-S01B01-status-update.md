@@ -9,6 +9,7 @@ ogdescription: "On the Internet, everything happens so much. Veronica Belmont ex
 ogtitle: "Bonus Episode! Status Update"
 season: 1
 seasonepisode: B1
+host: "Veronica"
 shownotes: |
     Life on the Internet moves fast. Director of Firefox Runtime Selena Deckelmann explains why every millisecond matters. [Learn more](https://blog.mozilla.org/berlin/en/people/selena-deckelmann-firefox-runtime/).
 

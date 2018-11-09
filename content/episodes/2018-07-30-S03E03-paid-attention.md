@@ -9,6 +9,7 @@ ogdescription: "There’s a new currency in town (and no, we’re not talking ab
 ogtitle: "Paid Attention"
 season: 3
 seasonepisode: 3
+host: "Veronica"
 shownotes: |
     When does attention online turn into addiction online? [Here’s a perspective from Mozilla’s Heather West](http://blog.mozilla.org/internetcitizen/2018/07/27/attention-addiction/).
 

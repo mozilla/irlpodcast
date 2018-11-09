@@ -11,6 +11,7 @@ url: /season3/episode7/
 embed: "97e209a6"
 mp3: "https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/97e209a6.mp3"
 categories: "episodes"
+host: "Veronica"
 shownotes: |
     Baratunde Thurston has worked for The Onion and produced for The Daily Show. He’s the host of the iHeartMedia podcast [Spit](https://itunes.apple.com/us/podcast/spit/id1422827494?mt=2), and wrote the New York Times bestseller [How To Be Black](http://howtobeblack.me/htbborder).
 

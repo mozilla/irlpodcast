@@ -9,6 +9,7 @@ ogdescription: "On the Internet no one knows you’re a dog, as the old joke goe
 ogtitle: "Cloak of Invisibility"
 season: 2
 seasonepisode: 4
+host: "Veronica"
 shownotes: |
     The most famous cartoon in New Yorker history is about a dog on the Internet. Makes sense. Cartoonist Kaamran Hafeez revisits the OG doggo meme, with an update for the post-privacy era. Check out his [new cartoons, inspired by this very episode](https://blog.mozilla.org/internetcitizen/2018/02/16/irl-on-the-internet-no-one-knows-youre-doggo).
 url: /season2/episode4/

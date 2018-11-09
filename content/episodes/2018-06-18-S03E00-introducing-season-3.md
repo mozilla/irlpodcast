@@ -10,6 +10,7 @@ ogtitle: "Introducing Season 3"
 season: 3
 seasonepisode: 0
 url: /season3/episode0/
+host: "Veronica"
 aliases:
     - /introducing-season-3/
 title: "Introducing Season 3 of IRL: Because Online Life is Real Life"
