@@ -1,5 +1,5 @@
 ---
-date: 2018-11-26T04:55:00-08:00
+date: 2018-11-26T04:54:00-08:00
 title: "Checking Out Online Shopping"
 ogtitle: "Checking Out Online Shopping"
 description: "When you shop, your data may be the most valuable thing for sale. This isn’t just true online — your data follows you into brick and mortar stores now as well. [Manoush Zomorodi](https://twitter.com/manoushz) explores the hidden costs of shopping, online and off. Meet [Meta Brown](https://twitter.com/metabrown312), a data scientist who unveils the information Amazon captures about you when you make an online purchase; [Joseph Turow](https://twitter.com/JoeProf), who discusses how retailers are stripping us of our privacy; and [Alana Semuels](https://twitter.com/AlanaSemuels), who talks about becoming a hoarder with the advent of online shopping. Plus, learn about a college coffee shop where you can actually buy a drink with your data. (Is it worth it?)"
