@@ -67,13 +67,11 @@ transcript: |
 
   **Manoush Z.:** Oh, my sweet daughter. What a right of passage you've just been through. What an exciting time, your first password, your only password. In our online world, it's really a sign of growing up. Maybe it's kind of fun for now, so enjoy this feeling while it lasts, my dear, because it won't be long before you find yourself swimming in an ocean of terrible, hard to remember, useless feeling passwords and cursing the system along with the rest of us. Because passwords, they suck, but we have to use them anyway. Locking down our virtual stuff, it's a big old pain for everyone. Yet despite our best password intentions, security breaches keep happening.
 
-  In 2018 alone, we saw major data theft at Cathay Pacific, Ticketfly, UnderArmour, Facebook and others. They just. Keep. Happening. Nearly 3 quarters of ALL US companies have experienced some kind of data breach. That means that millions of us have been affected.
+  In 2018 alone, we saw major data theft at Cathay Pacific, Ticketfly, Marriott, Facebook and others.  Over and over again. Nearly 3 quarters of ALL U.S. companies have experienced some kind of data breach. That means that millions of us have been affected.
 
-  Can’t help it then if we wonder whether or not our passwords really do protect us. I mean, there’s not much we can do when a company gets hacked and loses a bunch of important records - including, maybe, databases with our passwords in them.
+  You've got to wonder whether or not our passwords really can protect us from anything, because there's not much we can do when a company gets hacked and our personal information gets stolen.
 
-  And it’s easy to blame them - these companies - for letting their guard down. But if that’s true, shouldn’t we should be mad at ourselves when we don’t use strong passwords? Because it’s truly the least we can do to protect our own information.
-
-  So where does personal culpability lie? Because though it may feel that the quest for the perfect password is a lot like tilting at windmills… that is to say, pointless… personal security is evolving. And so must we.
+  The easiest thing to do is just blame them, the companies, for letting their guard down. But what responsibility should we take? Are passwords pointless? The answer is actually no. Because though it may feel that the quest for the perfect password is a lot like tilting at windmills, personal security is evolving and so must we.
 
   I’m Manoush Zomorodi, and this is IRL: online life is real life.  An original podcast from Mozilla.
 
@@ -239,7 +237,7 @@ transcript: |
 
   **Matt Davey:** Back in the '90s when you needed to remember the AOL password and that was about it? It wasn't such a problem, but now I have 90 accounts or so that are my daily, right? Those ones I use nearly everyday. I then have like 500 or so accounts that I use maybe monthly. I think it's one of those things that people realize that they need, but it takes a bit of time to kind of gestate and like, "Oh, okay. This is to a point where I press the forgotten password link 10-15 times a day. It's like there's nothing else I can do. I need to google and find a product that does this."
 
-  **Manoush Z.:** Matt Davey is the COO of 1Password. Now I should say it's one solution among many, but it's a pretty good way to help you get better at the password game. Though yes, if someone finds out your master password, you can really be vulnerable. If your password manager company gets hacked, you're also vulnerable all over again. You're using tech to solve a tech problem, but you are also minimizing your risk. We can do better and how hard is it really to do better than flower, ninja, princess or Superman? You know what another popular password is on that list? Password. The word password used as a password. Okay.
+  **Manoush Z.:** Matt Davey is the COO of 1Password. Now I should say it's one solution among many, but it's a pretty good way to help you get better at the password game. You're using tech to solve a tech problem, but you are also minimizing your risk. We can do better and how hard is it really to do better than flower, ninja, princess or Superman? You know what another popular password is on that list? Password. The word password used as a password. Okay.
 
   Here's something simple to take away, did you know four random English words, a phrase like beetle unlock salad windmill, four random words are actually harder to hack than if you use one word with all those wacky symbols and numbers? Just pick four random but memorable words that only make sense to you. It's easier and it's better. Make that one your master password and then use the password manager. We like 1Password, LastPass or Dashlane, but actually IRL listeners can sign up to 1Password and get their first three months for free. Just visit 1password.com/promo/IRL and give it a try. 1password.com/promo/IRL. We'll throw in the link the show notes too.
 
