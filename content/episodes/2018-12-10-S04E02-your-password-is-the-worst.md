@@ -1,5 +1,5 @@
 ---
-date: 2018-12-10T04:55:00-08:00
+date: 2018-12-10T04:55:01-08:00
 title: "Your Password Is the Worst"
 ogtitle: "Your Password Is the Worst"
 description: "Look, we agree with you: passwords are the worst. But you know what else is the worst? Someone hacking your account, or big security breaches that expose your email, your credit card information, your government-issued identification number, and more. We should hold companies accountable for better security, but we also need to hold ourselves accountable for having good password hygiene. So let's tackle this once and for all. Hear from Buzzfeed's [Mat Honan](https://twitter.com/mat), who endured a brutal hack a few years ago when hackers exploited password-recovery tools; [Mark Wilson](https://twitter.com/ctrlzee?lang=en) from Fast Company, who wants to ban passwords altogether (though admits it's not the best idea); [Masha Sedova](https://twitter.com/modMasha?lang=en) of Elevate Security who says that, yes, security companies have failed us – but we have to use passwords anyway; and [Matt Davey](https://twitter.com/mattdavey?lang=en) of [1Password](https://1password.com/), who offers a solution that Mozilla can get behind: use a password manager. A simple, game-changing tool that will help you take back control of your accounts, and secure yourself as best as you can."
