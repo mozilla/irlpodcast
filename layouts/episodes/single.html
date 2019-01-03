@@ -7,20 +7,22 @@
             {{ partial "episode-module.html" . }}
 
             {{ if isset .Params "shownotes" }}
+            <section class="episode-notes">
                 <h2 id="show-notes">Show Notes</h2>
-                <a name="#shownotes"></a>
 
                 {{/*
                     'replace' below is to ensure correct local link across local, dev, and prod URLs.
                     Front matter does not allow variables, so we need to do string substitution.
                 */}}
                 <p>{{ (replace .Params.showNotes "!!baseurl!!" .Site.BaseURL) | markdownify }}</p>
+            </section>
             {{ end }}
 
-            <h2 id="transcript">Transcript</h2>
-            <a name="#transcript"></a>
+            <section class="episode-transcript">
+                <h2 id="transcript">Transcript</h2>
 
-            <p>{{ .Params.Transcript | markdownify }}</p>
+                <p>{{ .Params.Transcript | markdownify }}</p>
+            </section>
 
             <aside class="next">
                 {{ with .NextInSection }}

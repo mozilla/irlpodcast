@@ -61,6 +61,20 @@ ol {
     }
 }
 
+.episode-notes ul,
+.episode-transcript ul {
+    list-style-type: disc;
+    margin-left: 20px;
+
+    li {
+        padding-left: 10px;
+    }
+
+    @media #{$mq-tablet} {
+        @include font-size(22px);
+    }
+}
+
 #intro {
     background: #000 url('/images/bg-intro.png') center center no-repeat;
     color: #fff;
