@@ -4,11 +4,11 @@ date: 2018-03-16T17:07:08-05:00
 draft: false
 ---
 
-Our online life is real life. We walk, talk, work, LOL and even love on the Internet – but we don’t always treat it like real life. Host Manoush Zomorodi explores this disconnect with stories from the wilds of the Web, and gets to the bottom of online issues that affect us all. Whether it’s privacy breaches, closed platforms, hacking, fake news, or cyber bullying, we the people have the power to change the course of the Internet, keeping it ethical, safe, weird, and wonderful for everyone. IRL is an original podcast from Mozilla.
+Our online life is real life. We walk, talk, work, LOL and even love on the Internet – but we don’t always treat it like real life. Host Manoush Zomorodi explores this disconnect with stories from the wilds of the Web, and gets to the bottom of online issues that affect us all. Whether it’s privacy breaches, closed platforms, hacking, fake news, or cyber bullying, we the people have the power to change the course of the Internet, keeping it ethical, safe, weird, and wonderful for everyone. IRL is an original podcast from Mozilla, maker of Firefox and always fighting for you.
 
 ## About Mozilla
 
-Mozilla is the maker of Firefox, and an organization that puts people over profit. We empower people to be safe and strong online, build tools and products that battle Big Tech, and champion a more just, equal, and fair system for all.
+Mozilla is the maker of Firefox, and an organization that puts people over profit. We empower people to be safe and strong online, build tools and products that battle Big Tech, and champion a more just, equal, and fair system for all. And, we keep your data safe. Never sold.
 
 {{< div >}}
 <div id="credits">
