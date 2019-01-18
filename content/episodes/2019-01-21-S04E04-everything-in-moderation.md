@@ -24,7 +24,7 @@ shownotes: |
 
     And, check out [this article from Common Sense Media, on disturbing YouTube videos that are supposed to be for kids](http://blog.mozilla.org/internetcitizen/2019/01/20/whats-the-deal-with-those-disturbing-youtube-videos-that-are-supposed-to-be-for-kids/).
 
-    And finally, this IRL episode’s content underscores the importance of supporting companies committed to ethical tech and humane practices. Thank you for supporting Mozilla by choosing [Firefox](https://www.mozilla.org/en-US/firefox/fights-for-you/).
+    And finally, this IRL episode’s content underscores the importance of supporting companies committed to ethical tech and humane practices. Thank you for supporting Mozilla by choosing [Firefox](https://www.mozilla.org/firefox/fights-for-you/).
 transcript: |
     **Marla Carroll:** I have been trained to do the work. Have I been trained to deal with the work? I don't know that.
 
