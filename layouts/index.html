@@ -49,34 +49,32 @@
             {{- end -}}
             </ul>
         </div>
+    </section>
+
+    <section class="season-summaries">
         <div class="content">
             <h2>Season 3</h2>
-            <ul id="episode-list">
+            <ul class="episode-summary-list">
             {{- range .Data.Pages -}}
                 {{ if eq .Type "episodes" }}
                     {{ if eq (string .Params.season) "3" }}
-                    <li class="episode-list-item">
                         {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-module.html" . }}
-                    </li>
+                        {{ partial "episode-summary.html" . }}
                     {{ end }}
                 {{ end }}
             {{- end -}}
             </ul>
         </div>
     </section>
-
     <section class="season-summaries">
         <div class="content">
             <h2>Season 2</h2>
-            <ul id="episode-summary-list">
+            <ul class="episode-summary-list">
             {{- range .Data.Pages -}}
                 {{ if eq .Type "episodes" }}
                     {{ if eq (string .Params.season) "2" }}
-                    <li class="episode-summary-item">
                         {{/* The dot context below passes the entire episode object */}}
                         {{ partial "episode-summary.html" . }}
-                    </li>
                     {{ end }}
                 {{ end }}
             {{- end -}}
@@ -86,7 +84,7 @@
     <section class="season-summaries">
         <div class="content">
             <h2>Season 1</h2>
-            <ul id="episode-summary-list">
+            <ul class="episode-summary-list">
             {{- range .Data.Pages -}}
                 {{ if eq .Type "episodes" }}
                     {{ if eq (string .Params.season) "1" }}
