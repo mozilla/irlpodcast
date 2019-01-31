@@ -27,7 +27,7 @@
     </div>
     <div class="episode-image episode-view-list">
         <a href="{{ .Permalink }}">
-            <img src="/images/{{ .Scratch.Get "imagePath" }}" srcset="/images/{{ .Scratch.Get "imagePathHighRes" }} 2x" alt="">
+            <img src="/images/{{ .Scratch.Get "imagePath" }}" srcset="/images/{{ .Scratch.Get "imagePathHighRes" }} 2x" alt="{{ .Title }}">
         </a>
     </div>
 
@@ -47,9 +47,9 @@
 
     <div class="episode-player">
         <div class="episode-player-wrapper">
-            <iframe class="lazy-load" frameborder="0" height="200px" scrolling="no" seamless src="" data-src="https://embed.simplecast.com/{{ .Params.embed }}?color=f5f5f5" width="100%"></iframe>
+            <iframe title="Listen to {{ .Title }}." class="lazy-load" frameborder="0" height="200px" scrolling="no" seamless src="" data-src="https://embed.simplecast.com/{{ .Params.embed }}?color=f5f5f5" width="100%"></iframe>
             <noscript>
-                <iframe frameborder="0" height="200px" scrolling="no" seamless src="https://embed.simplecast.com/{{ .Params.embed }}?color=f5f5f5" width="100%"></iframe>
+                <iframe title="Listen to {{ .Title }}." frameborder="0" height="200px" scrolling="no" seamless src="https://embed.simplecast.com/{{ .Params.embed }}?color=f5f5f5" width="100%"></iframe>
             </noscript>
         </div>
     </div>
@@ -88,8 +88,8 @@
 
             <aside class="social-share-links" data-episode-title="{{ .Title | default "" }}">
                 <ul>
-                    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ .Permalink }}&amp;text=IRL Podcast: {{ .Title }} {{ .Scratch.Get "host" }}" title="Twitter" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
-                    <li><a class="facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" title="Facebook" data-link-type="social share" data-link-name="Facebook">Facebook</a></li>
+                    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ .Permalink }}&amp;text=IRL Podcast: {{ .Title }} {{ .Scratch.Get "host" }}" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
+                    <li><a class="facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" data-link-type="social share" data-link-name="Facebook">Facebook</a></li>
                     <li><a class="copylink" data-service="copylink" href="{{ .Permalink }}" data-link-type="social share" data-link-name="copylink" data-clipboard-target="#episode-url-input-{{ .Params.number }}">Copy Link</a></li>
                 </ul>
 
