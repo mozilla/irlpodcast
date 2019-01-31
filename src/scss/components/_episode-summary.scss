@@ -98,4 +98,16 @@ $summary-image-size: 90px;
             background-position: ($episode * $summary-image-size * -1 + $summary-image-size) 0;
         }
     }
+
+    // season 3
+    &[class*='S03']:before {
+        background-image: url(/images/S03.png);
+        background-size: auto $summary-image-size;
+    }
+
+    @for $episode from 0 through 7 {
+        &.S03E0#{$episode}:before {
+            background-position: ($episode * $summary-image-size * -1) 0;
+        }
+    }
 }
