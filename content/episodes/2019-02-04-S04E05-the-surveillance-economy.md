@@ -16,13 +16,13 @@ mp3: "https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/c70f8ee2.mp3"
 categories: "episodes"
 host: "Manoushz"
 shownotes: |
-    [Shoshana Zuboff](https://www.shoshanazuboff.com/new/about/) is the author of [The Age of Surveillance Capitalism](https://www.amazon.com/Age-Surveillance-Capitalism-Future-Frontier/dp/1610395697/ref=sr_1_1?ie=UTF8&qid=1548643852&sr=8-1&keywords=The+Age+of+Surveillance+Capitalism/).
+    [Shoshana Zuboff](https://www.shoshanazuboff.com/new/about/) is the author of [The Age of Surveillance Capitalism](https://www.amazon.com/Age-Surveillance-Capitalism-Future-Frontier/dp/1610395697/).
 
     Read Professor S. Matthew Liao's Op-Ed [Do You Have a Moral Duty to Leave Facebook?](https://www.nytimes.com/2018/11/24/opinion/sunday/facebook-immoral.html/) in the New York Times.
 
     Here is Nithin Coca’s story on [fully quitting Google](https://medium.com/s/story/how-i-fully-quit-google-and-you-can-too-4c2f3f85793a/).
 
-    Mozilla is on your side. Firefox has never — and will never — sell your data. And, we make things that give you more control over your life online. If you love Facebook but hate their data collection practices, reduce what they can track about you. Try Firefox’s [Facebook Container extension](https://www.mozilla.org/en-US/firefox/facebookcontainer/), which makes it harder for Facebook to track you on the web outside of Facebook.
+    Mozilla is on your side. Firefox has never — and will never — sell your data. And, we make things that give you more control over your life online. If you love Facebook but hate their data collection practices, reduce what they can track about you. Try Firefox’s [Facebook Container extension](https://www.mozilla.org/firefox/facebookcontainer/), which makes it harder for Facebook to track you on the web outside of Facebook.
 
     Want more? Mozilla has teamed up with [826 Valencia](https://826valencia.org/) to bring you perspectives written by students on IRL topics this season. Gisele C. from [De Marillac Academy](https://demarillac.org/) wrote this piece on [the importance of diversity in tech](https://blog.mozilla.org/internetcitizen/2019/02/03/whose-internet-our-internet/).
 
@@ -36,10 +36,9 @@ transcript: |
 
     **Speaker 3:** Dear Abby. I think my friend the Internet is spying on me. I share everything with her. She knows what I like and don’t like. What I buy and where I shop. Where I’ve been and where I want to go. Who I might vote for and what issues I believe in. Everything. It turns out, my friend the Internet is taking my information and sharing it with other friends. They even pay her for it! It sucks because she is a huge part of my life. But it’s like she’s spying on me! What do I do? Signed, it’s Complicated.
 
-    **Jeanne Phillips:** To It's Complicated,
-    A close friend does not disclose the private chats that you're having. You can't trust a person like this.You can't take back what's out there. A person who mistreats you isn't a friend. Somebody who uses you is not a friend. In the future, be careful what you reveal to this so-called friend, who doesn't seem like much a friend to me at all.
+    **Jeanne Phillips:** To It's Complicated, A close friend does not disclose the private chats that you're having. You can't trust a person like this. You can't take back what's out there. A person who mistreats you isn't a friend. Somebody who uses you is not a friend. In the future, be careful what you reveal to this so-called friend, who doesn't seem like much a friend to me at all.
 
-    **Manoush Z.:* Dear Abby’s tough love makes it obvious: on the internet, we let tech companies get away with more bad behavior than we’d ever let our real life friends get away with. The Big Tech companies especially - like Google, Facebook, Amazon and so on.And the relationships we all have with these companies have fueled an entire digital economy. An economy where     companies watch everything we say and do, and then turn that         knowledge into profit. This online data economy is so pervasive - and so lucrative - that author Shoshana Zuboff has coined a new word for it: Surveillance Capitalism.
+    **Manoush Z.:** Dear Abby’s tough love makes it obvious: on the internet, we let tech companies get away with more bad behavior than we’d ever let our real life friends get away with. The Big Tech companies especially - like Google, Facebook, Amazon and so on.And the relationships we all have with these companies have fueled an entire digital economy. An economy where companies watch everything we say and do, and then turn that knowledge into profit. This online data economy is so pervasive - and so lucrative - that author Shoshana Zuboff has coined a new word for it: Surveillance Capitalism.
 
     In a moment, Shoshana explains what Surveillance Capitalism is and how it is shaping, and modifying our online and offline behavior. And then, we’ll explore if we should cut ties with these companies… or if we even could cut those ties if we wanted to.
 
@@ -47,7 +46,7 @@ transcript: |
 
     Mozilla fights for a safe and open Internet that everyone can enjoy. You can support that mission, by trying out the Firefox browser. Firefox never sells your data. Download it at firefox dot com.
 
-    **Manoush:** Shoshana Zuboff doesn’t think Google, Facebook, or the others are our friends. She believes the online world they’ve created doesn’t leave much room for pleasantries. I mean, it’s right there in the title of her book.
+    **Manoush Z.:** Shoshana Zuboff doesn’t think Google, Facebook, or the others are our friends. She believes the online world they’ve created doesn’t leave much room for pleasantries. I mean, it’s right there in the title of her book.
 
     **Shoshana Zuboff:** My new book is called "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power".
 
