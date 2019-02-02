@@ -17,22 +17,37 @@
         @include font-size(18px);
     }
 
-    ul {
-        display: flex;
-        margin-bottom: 0;
+    li {
+        margin-top: 10px;
+
+        &:first-child {
+            margin-top: 0;
+        }
     }
 
-    li {
-        padding-right: 20px;
+    @media #{$mq-phone-wide} {
+        ul {
+            display: flex;
+            margin-bottom: 0;
+        }
 
-        &:first-child:after {
-            @include font-size(24px);
-            content: '·';
-            display: inline-block;
-            line-height: 1px;
-            padding-left: 20px;
-            text-align: center;
-            width: 2px;
+        li {
+            margin-top: 0;
+            padding-right: 20px;
+
+            &:after {
+                @include font-size(24px);
+                content: '·';
+                display: inline-block;
+                line-height: 1px;
+                padding-left: 20px;
+                text-align: center;
+                width: 2px;
+            }
+
+            &:last-child:after {
+                display: none;
+            }
         }
     }
 }
