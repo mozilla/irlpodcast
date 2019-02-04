@@ -76,7 +76,7 @@ gulp.task('js:lint', function() {
 gulp.task('watch', ['scss', 'scss:lint', 'js', 'js:lint'], function() {
     gulp.watch('src/scss/**/*.scss', ['scss', 'scss:lint']);
     gulp.watch('src/js/**/*', ['js']);
-    gulp.watch(['src/js/**/*.js', '!src/js/**/*.min.js'] ['js:lint']);
+    gulp.watch(['src/js/**/*.js', '!src/js/**/*.min.js'], ['js:lint']);
 });
 
 // build task for pushing to stage/prod
