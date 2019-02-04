@@ -44,6 +44,17 @@ ol {
     }
 }
 
+.episode-transcript {
+    &:before {
+        @include gradient-bar();
+        margin-bottom: 20px;
+
+        @media #{$mq-tablet} {
+            margin-bottom: 40px;
+        }
+    }
+}
+
 .episode-notes ul,
 .episode-transcript ul {
     list-style-type: disc;
