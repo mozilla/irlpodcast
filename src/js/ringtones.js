@@ -1,4 +1,4 @@
-(function() {
+(function(KonamIRL) {
     'use strict';
 
     var gifs = [
@@ -31,5 +31,5 @@
         '56484853565650514848' // 8005882300 (empiiiiiire)
     ];
 
-    var kirl = KonamIRL(keycombos, makeEgg);
-})();
+    var kirl = new KonamIRL(keycombos, makeEgg);
+})(window.KonamIRL);

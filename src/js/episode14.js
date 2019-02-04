@@ -1,4 +1,4 @@
-(function() {
+(function(KonamIRL) {
     'use strict';
 
     var artworkElement = document.querySelector('.episode-image img');
@@ -17,5 +17,5 @@
         '738276' // irl
     ];
 
-    var kirl = window.KonamIRL(keycombos, layEgg);
-})();
+    var kirl = new KonamIRL(keycombos, layEgg);
+})(window.KonamIRL);

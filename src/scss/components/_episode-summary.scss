@@ -69,7 +69,7 @@ $summary-image-size: 90px;
 .episode-summary {
     // season 1
     &[class*='S01']:before {
-        background-image: url(/images/S01.png);
+        background-image: url('/images/S01.png');
         background-size: auto $summary-image-size;
     }
 
@@ -89,7 +89,7 @@ $summary-image-size: 90px;
 
     // season 2
     &[class*='S02']:before {
-        background-image: url(/images/S02.png);
+        background-image: url('/images/S02.png');
         background-size: auto $summary-image-size;
     }
 

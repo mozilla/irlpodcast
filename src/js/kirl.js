@@ -8,15 +8,16 @@
 
     window.KonamIRL = function(keycombos, callback) {
         var konamirl = {
-            addEvent: function(obj, type, fn, ref_obj) {
-                if (obj.addEventListener)
+            addEvent: function(obj, type, fn, refObj) {
+                if (obj.addEventListener) {
                     obj.addEventListener(type, fn, false);
+                }
                 else if (obj.attachEvent) {
                     // IE
                     obj['e' + type + fn] = fn;
                     obj[type + fn] = function () {
-                        obj['e' + type + fn](window.event, ref_obj);
-                    }
+                        obj['e' + type + fn](window.event, refObj);
+                    };
                     obj.attachEvent('on' + type, obj[type + fn]);
                 }
             },
@@ -27,12 +28,12 @@
                     obj.detachEvent(eventName);
                 }
             },
-            input: "",
+            input: '',
             patterns: keycombos,
             maxPatternLength: 0,
-            keydownHandler: function(e, ref_obj) {
-                if (ref_obj) {
-                    konamirl = ref_obj;
+            keydownHandler: function(e, refObj) {
+                if (refObj) {
+                    konamirl = refObj;
                 } // IE
 
                 konamirl.input += e ? e.keyCode : event.keyCode;
@@ -54,7 +55,7 @@
                     }
                 }
             },
-            load: function(link) {
+            load: function() {
                 // determine the maximum number of characters to store
                 // (equal to the longest defined pattern)
                 for (var i = 0; i < this.patterns.length; i++) {
@@ -69,9 +70,9 @@
                 this.removeEvent(document, 'keydown', this.keydownHandler);
             },
             code: function(link) {
-                window.location = link
+                window.location = link;
             }
-        }
+        };
 
         typeof callback === 'string' && konamirl.load(callback);
 

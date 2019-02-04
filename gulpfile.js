@@ -1,9 +1,11 @@
 var del = require('del');
 var gulp = require('gulp');
 var gulpif = require('gulp-if');
+var eslint = require('gulp-eslint');
 var hash = require('gulp-hash');
 var minify = require('gulp-minify');
 var sass = require('gulp-sass');
+var stylelint = require('gulp-stylelint');
 var argv = require('yargs').argv;
 
 // gulp build --production
@@ -24,6 +26,17 @@ gulp.task('scss', function() {
         .pipe(gulp.dest('static/css'))
         .pipe(hash.manifest('hash.json'))
         .pipe(gulp.dest('data/css'));
+});
+
+// lint scss files
+gulp.task('scss:lint', function() {
+    return gulp.src('src/scss/**/*.scss')
+        .pipe(stylelint({
+            reporters: [{
+                formatter: 'string',
+                console: true
+            }]
+        }));
 });
 
 gulp.task('js', function() {
@@ -51,9 +64,19 @@ gulp.task('js', function() {
         .pipe(gulp.dest('data/js'));
 });
 
-gulp.task('watch', ['scss', 'js'], function() {
-    gulp.watch('src/scss/**/*.scss', ['scss']);
+// lint JS files
+gulp.task('js:lint', function() {
+    return gulp.src(['src/js/**/*.js', '!src/js/**/*.min.js'])
+        .pipe(eslint())
+        .pipe(eslint.format())
+        .pipe(eslint.failAfterError());
+});
+
+
+gulp.task('watch', ['scss', 'scss:lint', 'js', 'js:lint'], function() {
+    gulp.watch('src/scss/**/*.scss', ['scss', 'scss:lint']);
     gulp.watch('src/js/**/*', ['js']);
+    gulp.watch(['src/js/**/*.js', '!src/js/**/*.min.js'], ['js:lint']);
 });
 
 // build task for pushing to stage/prod

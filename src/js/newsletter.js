@@ -26,6 +26,14 @@
     // only do this if there's a form on the page
     if (!newsletterForm) { return; }
 
+    // expand collapsed fields
+    function newsletterExpand() {
+        // remove .js-collapse class from form
+        newsletterWrapper.classList.remove('js-collapse');
+        // remove listener, we only expand once
+        emailField.removeEventListener('focus', newsletterExpand, false);
+    }
+
     var newsletterWrapper = parentByClass(newsletterForm, 'newsletter');
 
     // add listener if form is collapsed
@@ -34,19 +42,12 @@
         var emailField = document.getElementById('email');
         // add listener for focus
         emailField.addEventListener('focus', newsletterExpand, false);
-        // expand collapsed fields
-        function newsletterExpand() {
-            // remove .js-collapse class from form
-            newsletterWrapper.classList.remove('js-collapse');
-            // remove listener, we only expand once
-            emailField.removeEventListener('focus', newsletterExpand, false);
-        }
     }
 
     // handle errors
     var errorArray = [];
     var newsletterErrors = document.getElementById('newsletter_errors');
-    function newsletterError(e) {
+    function newsletterError() {
         var errorList = document.createElement('ul');
 
         if (errorArray.length) {

@@ -17,18 +17,6 @@
         $('#modal').find('.copy-ok').addClass('show');
     });
 
-    function copyShareLink(inputElement, $noticeElement) {
-        if (inputElement) {
-            try {
-                inputElement.select();
-                document.execCommand('copy');
-                inputElement.blur();
-
-                $noticeElement.addClass('show');
-            } catch(e) {}
-        }
-    }
-
     // open modals for subscribe/share
     $episodeLinks.on('click', function(e) {
         var $target = $(e.target);
@@ -54,7 +42,7 @@
     });
 
     // track subscribe clicks
-    $subscribeLinks.on('click', 'a', function(e) {
+    $subscribeLinks.on('click', 'a', function() {
         var $this = $(this);
         var $parent = $this.parents('.subscribe-links:first');
         var service = $this.data('service');
