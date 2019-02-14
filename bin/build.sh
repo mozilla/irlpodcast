@@ -5,8 +5,9 @@ mkdir -p ./release
 # let gulp build the assets
 docker run --rm --label=gulp \
     --volume=$(pwd):/srv \
+    --entrypoint /bin/bash \
     huli/gulp \
-    bash -c "build --production && chown $(id -u):$(id -g) . -R"
+    -c "gulp build --production && chown $(id -u):$(id -g) . -R"
 
 # and then let hugo build the site
 docker run --rm --label=hugo \
