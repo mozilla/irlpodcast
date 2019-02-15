@@ -33,8 +33,8 @@ shownotes: |
     decentralized web); and
     - [MicroPub](https://indieweb.org/Micropub) (a standard API for client applications to post to decentralized web services).
 
-    Check out [IndieWeb.org](https://spec.indieweb.org/) for more on key decentralized web
-    standards, and ['become a citizen' of the Indie Web](https://indiewebify.me/).
+    Check out [IndieWeb.org](https://indieweb.org/) for more on [key decentralized web
+    standards](https://spec.indieweb.org/), and ['become a citizen' of the Indie Web](https://indiewebify.me/).
 
     As a part of Mozilla’s dedication to decentralized innovation, Mozilla participated in the 2018 [Decentralized Web Summit](https://www.decentralizedweb.net/):
 
@@ -112,7 +112,7 @@ transcript: |
 
     **Eugen Rochko:** Many of the reasons for Twitter's decision making going against user's interests is driven by its centralization. They have to perform financially. Now with a decentralized approach, we don't really need to monetize because the costs of operating everything are just so comparatively small for any given independent entity, right?
 
-    **:** For me, it's like, let's say about $500 per month to host my server of Mastodon, and that's housing 300,000 registered accounts. I have a Patreon that more than covers that. For many other administrators of Mastodon servers, it's the same situation.
+    For me, it's like, let's say about $500 per month to host my server of Mastodon, and that's housing 300,000 registered accounts. I have a Patreon that more than covers that. For many other administrators of Mastodon servers, it's the same situation.
 
     **Manoush Z.:** Getting rid of a profits over people business model, and diluting the ability for groups to organize and spread hate on the platform, seems to be paying off. Generally, Mastodon's base describe the experience as supportive, fun, and friendly. But that vibe is probably not a result of the decentralized software itself. After all, you can be a Nazi and set up your own Mastodon instance, as it's called. Eugen said as much. It's likely more a result of optimistic early adopters. As with all social media, Mastodon may not be everyone's cup of tea. In the end, it actually wasn't for Luke O'Neil, who we heard from earlier. He is back on Twitter.
 
