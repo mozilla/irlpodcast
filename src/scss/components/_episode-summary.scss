@@ -101,7 +101,7 @@ $summary-image-size: 90px;
 
     // season 3
     &[class*='S03']:before {
-        background-image: url(/images/S03.png);
+        background-image: url('/images/S03.png');
         background-size: auto $summary-image-size;
     }
 
