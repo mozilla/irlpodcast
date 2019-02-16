@@ -56,7 +56,7 @@ transcript: |
 
     **Manoush Z.:** Luke O'Neil is a journalist in Boston. He's talking about provocateur host Alex Jones. He and his site Infowars got banned from much of the internet, places like YouTube, Spotify, Apple's app store, Facebook, kicked him off for violating their policies. These sites are the places where we gather, express, ourselves, find content. Places that have centralized much of our online lives.
 
-    **Manoush Z.:** Alex Jones was no longer welcome there. Yet, as the cascading series of bans spread, people on Twitter noticed that their preferred platform wasn't following suit, and they were incensed.
+    Alex Jones was no longer welcome there. Yet, as the cascading series of bans spread, people on Twitter noticed that their preferred platform wasn't following suit, and they were incensed.
 
     **Luke O'Neil:** A lot of my friends were like, "Screw this. Twitter sucks. I can't take this place anymore. Let's try Mastodon."
 
@@ -70,17 +70,17 @@ transcript: |
 
     **Manoush Z.:** Twitter did eventually kick out Alex Jones, but by then Luke and his friends were already exploring the vast frontier that is Mastodon. As a result, they found not only a new social platform, but a whole new way of thinking about how we connect to each other on a network. Because Mastodon is a decentralized network, meaning that unlike Twitter, it's not controlled by any single company or centralized entity.
 
-    **Manoush Z.:** Some believe that decentralization is the inevitable future of the web. That it will give us control of our online lives, take power back from the big tech companies that dominate and centralize everything we do. As Luke puts it ...
+    Some believe that decentralization is the inevitable future of the web. That it will give us control of our online lives, take power back from the big tech companies that dominate and centralize everything we do. As Luke puts it ...
 
     **Luke O'Neil:** There is this sort of, I guess, utopian feel to it, to Mastodon and other decentralized things.
 
     **Manoush Z.:** But what's the point of promising utopia if nobody comes? Can Decentralization’s champions convince the rest of us to join in?
 
-    **Manoush Z.:** I'm Manoush Zomorodi. This is IRL: Online Life is Real Life, an original podcast from Mozilla.
+    I'm Manoush Zomorodi. This is IRL: Online Life is Real Life, an original podcast from Mozilla.
 
-    **Manoush Z.:** Mozilla's Firefox browser is built on open source software. Thousands of volunteers and employees working together to build a browser that serves people, not corporations. Try Firefox for free at firefox.com.
+    Mozilla's Firefox browser is built on open source software. Thousands of volunteers and employees working together to build a browser that serves people, not corporations. Try Firefox for free at firefox.com.
 
-    **Manoush Z.:** If you've seen the HBO show Silicon Valley, you may be a little familiar with the basic idea of a decentralized internet. One of the main characters, Richard, dreams up this idea of using the collective power of all the computers in our smartphones to build something new. Here's a short scene, courtesy of HBO.
+    If you've seen the HBO show Silicon Valley, you may be a little familiar with the basic idea of a decentralized internet. One of the main characters, Richard, dreams up this idea of using the collective power of all the computers in our smartphones to build something new. Here's a short scene, courtesy of HBO.
 
     **Richard:** There's, what, billions of phones all around the world with the same computing power just sitting in people's’ pockets. What if we used all those phones to build a massive network? We could build a completely decentralized version of our current internet with no firewalls, no tolls, no government regulation, no spying. Information would be totally free in every sense of the word.
 
@@ -88,11 +88,11 @@ transcript: |
 
     **Manoush Z.:** Yes, building a decentralized internet is now fodder for TV comedy. But the idea is not that far off from some real projects taking root. I'm gonna get into specifics in a little bit, but just to make sure that we are speaking the same language, let's clarify the basic differences between a centralized and a decentralized service.
 
-    **Manoush Z.:** Okay, so a centralized internet is one where the major apps, platforms, and tools, are built and owned by a single person or corporation. Google is a centralized service. Apple is a centralized company. Facebook and Twitter are centralized platforms. All the information you send, and all the information you request, pass through central servers operated by those companies, which is useful if you own a lot of services or apps, and you want them to work together, like in the Apple app store. Or you wanna control large chunks of the web's traffic by routing it through your network, and say sell ads based on collecting massive amounts of user data. Oh, hello, Facebook.
+    Okay, so a centralized internet is one where the major apps, platforms, and tools, are built and owned by a single person or corporation. Google is a centralized service. Apple is a centralized company. Facebook and Twitter are centralized platforms. All the information you send, and all the information you request, pass through central servers operated by those companies, which is useful if you own a lot of services or apps, and you want them to work together, like in the Apple app store. Or you wanna control large chunks of the web's traffic by routing it through your network, and say sell ads based on collecting massive amounts of user data. Oh, hello, Facebook.
 
-    **Manoush Z.:** Now, if you're on a decentralized platform, data is distributed across many servers or computers. Those aren't necessarily owned or operated by the creator of the platform you're using. The power, the authority, the control is spread out. A decentralized system gives everyone more freedom, but it also means that because the data is distributed, there's no authority who gets the final word, so it's harder to find and remove illegal or objectionable content.
+    Now, if you're on a decentralized platform, data is distributed across many servers or computers. Those aren't necessarily owned or operated by the creator of the platform you're using. The power, the authority, the control is spread out. A decentralized system gives everyone more freedom, but it also means that because the data is distributed, there's no authority who gets the final word, so it's harder to find and remove illegal or objectionable content.
 
-    **Manoush Z.:** Despite the risks, decentralized alternatives come with a lot of optimism baked in. We're gonna keep that in mind today as we focus on a few examples. We're gonna look at how decentralization could make social media better, how it could give us back control of our privacy and our data, how it could be used to protect journalism and information, maybe. And how it might even revamp the entire internet infrastructure as we know it.
+    Despite the risks, decentralized alternatives come with a lot of optimism baked in. We're gonna keep that in mind today as we focus on a few examples. We're gonna look at how decentralization could make social media better, how it could give us back control of our privacy and our data, how it could be used to protect journalism and information, maybe. And how it might even revamp the entire internet infrastructure as we know it.
 
     **Eugen Rochko:** My name is Eugen Rochko, and I am the founder and developer of Mastodon, the decentralized social network.
 
@@ -156,7 +156,7 @@ transcript: |
 
     **Manoush Z.:** Okay, so that's two problems, a loss of trust and a loss of money. Maria thinks decentralization might fix both.
 
-    **Manoush Z.:** How do you describe what you're doing these days, Maria?
+    How do you describe what you're doing these days, Maria?
 
     **Maria B.:** Well, Civil is a work in progress, so it's kind of hard to say.
 
