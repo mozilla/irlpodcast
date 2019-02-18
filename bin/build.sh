@@ -1,4 +1,6 @@
 #!/bin/bash
+set -ex
+
 cd "$(dirname ${BASH_SOURCE[0]})"/..
 mkdir -p ./release
 
@@ -7,7 +9,7 @@ docker run --rm --label=gulp \
     --volume=$(pwd):/srv \
     --entrypoint /bin/bash \
     huli/gulp \
-    -c "gulp build --production && chown $(id -u):$(id -g) . -R"
+    -c "/entrypoint.sh build --production && chown $(id -u):$(id -g) . -R"
 
 # and then let hugo build the site
 docker run --rm --label=hugo \
