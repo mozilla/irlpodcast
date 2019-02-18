@@ -10,14 +10,14 @@
   "license": "MPL",
   "devDependencies": {
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^3.0.1",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
     "gulp-hash": "^4.2.2",
     "gulp-if": "^2.0.2",
-    "gulp-minify": "^2.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-stylelint": "^7.0.0",
-    "stylelint": "^9.4.0",
-    "yargs": "^11.1.0"
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-stylelint": "^8.0.0",
+    "stylelint": "^9.10.1",
+    "yargs": "^13.2.1"
   }
 }

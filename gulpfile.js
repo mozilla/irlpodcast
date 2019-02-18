@@ -1,6 +1,9 @@
+/* eslint-env node, commonjs */
+
+'use strict';
+
 var del = require('del');
 var gulp = require('gulp');
-var gulpif = require('gulp-if');
 var eslint = require('gulp-eslint');
 var hash = require('gulp-hash');
 var minify = require('gulp-minify');
@@ -12,10 +15,10 @@ var argv = require('yargs').argv;
 var production = !!argv.production;
 
 // gulp task named 'scss' that converts .scss to .css and places the .css files in static/css
-gulp.task('scss', function() {
+function scss() {
     del(['static/css/**/*']);
 
-    gulp.src('src/scss/**/*.scss')
+    return gulp.src('src/scss/**/*.scss')
         .pipe(sass({
             outputStyle: 'compressed'
         }))
@@ -26,10 +29,10 @@ gulp.task('scss', function() {
         .pipe(gulp.dest('static/css'))
         .pipe(hash.manifest('hash.json'))
         .pipe(gulp.dest('data/css'));
-});
+}
 
 // lint scss files
-gulp.task('scss:lint', function() {
+function scssLint() {
     return gulp.src('src/scss/**/*.scss')
         .pipe(stylelint({
             reporters: [{
@@ -37,12 +40,12 @@ gulp.task('scss:lint', function() {
                 console: true
             }]
         }));
-});
+}
 
-gulp.task('js', function() {
+function js() {
     del(['static/js/**/*']);
 
-    gulp.src(['src/js/**/*'])
+    return gulp.src(['src/js/**/*'])
         // maybe we don't want this in local dev mode??
         // https://www.npmjs.com/package/gulp-environments
         .pipe(minify({
@@ -62,24 +65,29 @@ gulp.task('js', function() {
         .pipe(gulp.dest('static/js'))
         .pipe(hash.manifest('hash.json'))
         .pipe(gulp.dest('data/js'));
-});
+}
 
 // lint JS files
-gulp.task('js:lint', function() {
+function jsLint() {
     return gulp.src(['src/js/**/*.js', '!src/js/**/*.min.js'])
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
-});
+}
 
+function watch() {
+    gulp.watch('src/scss/**/*.scss', gulp.series(scss, scssLint));
+    gulp.watch('src/js/**/*', js);
+    gulp.watch(['src/js/**/*.js', '!src/js/**/*.min.js'], jsLint);
+}
 
-gulp.task('watch', ['scss', 'scss:lint', 'js', 'js:lint'], function() {
-    gulp.watch('src/scss/**/*.scss', ['scss', 'scss:lint']);
-    gulp.watch('src/js/**/*', ['js']);
-    gulp.watch(['src/js/**/*.js', '!src/js/**/*.min.js'], ['js:lint']);
-});
+const defaultTask = gulp.series(
+    gulp.parallel(scss, scssLint, js, jsLint),
+    watch
+);
 
 // build task for pushing to stage/prod
-gulp.task('build', ['scss', 'js']);
+gulp.task('build', gulp.parallel(scss, js));
 
-gulp.task('default', ['watch']);
+gulp.task('default', defaultTask);
+module.exports = defaultTask;
