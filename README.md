@@ -44,6 +44,11 @@ It is responsibility of the person who codes the episode to find someone to push
 if 6AM PT is too early for them. All members of MozMEAO are happy to do this.
 
 1. Verify all is good on [the staging site](https://stage.irlpodcast.org/)
+  - If the episode was merged before the publish date it will not be visible on
+  staging. You can see it on staging by either re-running the Jenkins job (if
+  you have permission) or by merging a new pull request. If there are no
+  reviewed pull requests that are ready you can submit one that changes the
+  publish date to 1 minute earlier.
 2. Make sure your local `master` branch is up to date
 3. Push the `master` branch to the `prod` branch: `git push origin master:prod`
 
