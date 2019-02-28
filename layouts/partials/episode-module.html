@@ -23,7 +23,7 @@
 
 <article class="episode" id="episode-{{ .Params.number }}">
     <div class="episode-image episode-view-single">
-        <img src="/images/{{ .Scratch.Get "imagePath" }}" srcset="/images/{{ .Scratch.Get "imagePathHighRes" }} 2x" alt="">
+        <img src="/images/{{ .Scratch.Get "imagePath" }}" srcset="/images/{{ .Scratch.Get "imagePathHighRes" }} 2x" alt="{{ .Title }}">
     </div>
     <div class="episode-image episode-view-list">
         <a href="{{ .Permalink }}">
