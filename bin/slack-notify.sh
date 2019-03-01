@@ -6,7 +6,7 @@ set -eo pipefail
 
 # defaults and constants
 CHANNEL="irlpodcast-notify"
-BLUE_BUILD_URL="https://ci.us-west.moz.works/blue/organizations/jenkins/irlpodcast"
+BLUE_BUILD_URL="https://ci.vpn1.moz.works/blue/organizations/jenkins/irlpodcast"
 BLUE_BUILD_URL="${BLUE_BUILD_URL}/detail/${BRANCH_NAME/\//%2f}/${BUILD_NUMBER}/pipeline"
 
 # parse cli args
