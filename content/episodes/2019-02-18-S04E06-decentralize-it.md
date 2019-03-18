@@ -16,8 +16,6 @@ mp3: "https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/857f7522.mp3"
 categories: "episodes"
 host: "Manoushz"
 shownotes: |
-    Help us dream up the next season of IRL. What topics should we cover? Who should we talk to? [Let us know by filling out this survey](https://qsurvey.mozilla.com/s3/IRL-Listener-Survey).
-
     Try out the decentralized endeavors covered in this episode of IRL:
 
     - [Mastodon](https://mastodon.social/invite/Usw6HEoB)

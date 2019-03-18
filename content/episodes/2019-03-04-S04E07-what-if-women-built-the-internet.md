@@ -16,8 +16,6 @@ mp3: "https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/27508dd7.mp3"
 categories: "episodes"
 host: "Manoushz"
 shownotes: |
-  Help us dream up the next season of IRL. What topics should we cover? Who should we talk to? [Let us know by filling out this survey](https://qsurvey.mozilla.com/s3/IRL-Listener-Survey).
-
   Coraline Ada Ehmke has been an open source programmer for over 20 years and created the [Contributor Covenant](https://www.contributor-covenant.org/). You can also learn about Mozilla's own [community participation guidelines](https://www.mozilla.org/about/governance/policies/participation/).
 
   Meritocracy as an open source practice is briefly mentioned in this episode. Mozilla has taken steps to discontinue using the word “meritocracy” as a way to describe our governance and leadership structures. [Here's why](https://blog.mozilla.org/inclusion/2018/10/02/words-matter-moving-beyond-meritocracy/).
