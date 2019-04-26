@@ -11,5 +11,5 @@ git add release
 git commit -m "Generated from $GIT_COMMIT"
 # create a new branch named 'gh-pages-$GIT_COMMIT' with only the code from the /release folder
 git subtree split --prefix release -b gh-pages-$GIT_COMMIT
-# push our bespoke branch to the gh-pages branch
-git push -f origin gh-pages-$GIT_COMMIT:gh-pages
+# push our bespoke branch to the gh-pages branch using the github-mozmar-robot host defined in ~/.ssh/config
+git push -f github-mozmar-robot:mozilla/irlpodcast gh-pages-$GIT_COMMIT:gh-pages
