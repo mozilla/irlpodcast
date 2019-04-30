@@ -1,0 +1,26 @@
+push dev:
+  tags:
+    - meao
+  only:
+    - dev
+  script:
+    - bin/build.sh dev
+    - bin/push-gh-pages.sh
+
+push stage:
+  tags:
+    - meao
+  only:
+    - master
+  script:
+    - bin/build.sh stage
+    - "cd release && aws s3 sync . s3://irlpodcast-stage --acl public-read --delete"
+
+push prod:
+  tags:
+    - meao
+  only:
+    - prod
+  script:
+    - bin/build.sh prod
+    - "cd release && aws s3 sync . s3://irlpodcast --acl public-read --delete"
