@@ -1,6 +1,6 @@
 ---
 date: 2018-11-12T04:55:01-08:00
-title: "Introducing Season 4 of IRL: Because Online Life is Real Life"
+title: "Introducing Season 4"
 ogtitle: "Introducing Season 4"
 description: "Can ‘ethical tech’ be a thing? We think so. Season 4 of Mozilla’s IRL podcast will explore   all the ways tech can have more positive influence on people, communities, and societies at large. And, we’re delighted to welcome our new host Manoush Zomorodi, who will keep the season nerdy, human, and — importantly — fun, for all of us as we listen in."
 ogdescription: "Meet IRL’s new host, Manoush Zomorodi, who will examine the potential of ethical tech with listeners around the globe."

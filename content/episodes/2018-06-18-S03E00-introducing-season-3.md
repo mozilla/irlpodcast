@@ -13,7 +13,7 @@ url: /season3/episode0/
 host: "Veronica"
 aliases:
     - /introducing-season-3/
-title: "Introducing Season 3 of IRL: Because Online Life is Real Life"
+title: "Introducing Season 3"
 transcript: |
     **Speaker 1:**  You know, there were nights where I would log off having essentially tricked women into going on dates. That was really difficult.
 
