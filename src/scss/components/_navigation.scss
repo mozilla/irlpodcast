@@ -1,0 +1,100 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+$font-path: '/fonts';
+$image-path: '/images/protocol';
+
+@import '../includes/lib',
+        '../../../node_modules/@mozilla-protocol/core/protocol/css/components/menu.scss',
+        '../../../node_modules/@mozilla-protocol/core/protocol/css/components/menu-item.scss',
+        '../../../node_modules/@mozilla-protocol/core/protocol/css/components/navigation.scss';
+
+.mzp-c-navigation {
+    background-color: $color-off-black;
+    color: $color-green-40;
+}
+
+.mzp-c-navigation-menu-button{
+    background-color: rgba(255,255,255,0.1);
+    background-image: url('#{$image-path}/icons/ui/menu-white.svg');
+    color: $color-white;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: rgba(255,255,255,0.2);
+    }
+}
+
+.mzp-c-navigation-logo {
+    background: url('/images/irl-logo.png') no-repeat;
+    background-size: contain;
+    height: 39px;
+    width: 51px;
+
+    a {
+        background-image: none;
+    }
+}
+
+.mzp-c-menu {
+    background-color: $color-off-black;
+    color: $color-green-40;
+
+    .mzp-c-menu-title {
+        font-family: $font-brand;
+        font-weight: bold;
+    }
+
+    .mzp-c-menu-title,
+    .mzp-c-menu-item-link,
+    .mzp-c-menu-item-list {
+        color: $color-green-40;
+
+        &:link,
+        &:visited {
+            color: $color-green-40;
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $color-green-40;
+        }
+    }
+}
+
+.mzp-c-menu-item .mzp-c-menu-item-link:hover .mzp-c-menu-item-title,
+.mzp-c-menu-item .mzp-c-menu-item-link:active .mzp-c-menu-item-title,
+.mzp-c-menu-item .mzp-c-menu-item-link:focus .mzp-c-menu-item-title {
+    color: $color-green-40;
+    border-bottom: 2px solid $color-green-40;
+}
+
+.mzp-c-menu-category.mzp-has-drop-down .mzp-c-menu-title::before {
+    background-image: $url-image-expand-white;
+}
+
+.mzp-c-menu.mzp-is-enhanced .mzp-c-menu-category.mzp-is-selected .mzp-c-menu-title::after,
+.mzp-c-menu.mzp-is-basic .mzp-c-menu-category.mzp-has-drop-down:hover .mzp-c-menu-title::after,
+.mzp-c-menu.mzp-is-basic .mzp-c-menu-category.mzp-has-drop-down:focus .mzp-c-menu-title::after {
+    background-color: $color-green-40;
+}
+
+.mzp-c-menu-panel {
+    background-color: $color-off-black;
+    border-top-color: $color-green-90;
+    color: $color-green-40;
+
+    &:link,
+    &:visited {
+        color: $color-green-40;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: $color-green-40;
+    }
+}

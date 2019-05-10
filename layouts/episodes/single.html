@@ -2,9 +2,9 @@
 
 {{ define "main" }}
     <article class="episode-post" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="content" itemprop="articleBody">
+        <div class="l-content" itemprop="articleBody">
             {{/* The dot context below passes the entire episode object */}}
-            {{ partial "episode-module.html" . }}
+            {{ partial "episode-module.html" (dict "context" . "single" "true") }}
 
             {{ if isset .Params "shownotes" }}
             <section class="episode-notes">
@@ -26,17 +26,19 @@
 
             <aside class="next">
                 {{ with .NextInSection }}
-                    <div class="next-next">
-                        <span>Next episode</span>
-                        <a class="next-next-link" href="{{ .Permalink }}">{{ .Title }}</a>
-                    </div>
+                    <a class="next-block next-next" href="{{ .Permalink }}">
+                        <img class="next-thumb" src="{{ printf "/images/episodes/%s/artwork.png" (printf "S0%s%s0%s" (string .Params.season) (cond (in .Params.seasonepisode "B") "B" "E")  (strings.TrimPrefix "B" .Params.seasonepisode) ) }}" alt="" height="70" width="70">
+                        <div class="next-dir">Next episode</div>
+                        <div class="next-title">{{ .Title }}</div>
+                    </a>
                 {{ end }}
 
                 {{ with .PrevInSection }}
-                    <div class="next-prev">
-                        <span>Previous episode</span>
-                        <a class="next-prev-link" href="{{ .Permalink }}">{{ .Title }}</a>
-                    </div>
+                    <a class="next-block next-prev" href="{{ .Permalink }}">
+                        <img class="next-thumb" src="{{ printf "/images/episodes/%s/artwork.png" (printf "S0%s%s0%s" (string .Params.season) (cond (in .Params.seasonepisode "B") "B" "E")  (strings.TrimPrefix "B" .Params.seasonepisode) ) }}" alt="" height="70" width="70">
+                        <div class="next-dir">Previous episode</div>
+                        <div class="next-title">{{ .Title }}</div>
+                    </a>
                 {{ end }}
             </aside>
         </div>

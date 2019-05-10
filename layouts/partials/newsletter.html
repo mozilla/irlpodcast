@@ -1,10 +1,6 @@
 <div id="newsletter-wrapper">
     <div id="newsletter-inner-wrapper">
-        <h2>Stay up-to-date on IRL and Firefox</h2>
-
-        <p>
-            Sign up for our newsletter.
-        </p>
+        <h2>Stay up-to-date on IRL and Firefox – sign up for the Firefox newsletter.</h2>
 
         <div class="newsletter js-collapse">
             <form id="newsletter_form" name="newsletter_form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
@@ -13,17 +9,20 @@
 
                 <div id="newsletter_errors" class="newsletter_errors"></div>
 
-                <div id="newsletter_email" class="form_group">
-                    <label for="email" class="form_label">E-mail</label> <input type="email" id="email" name="email" class="form_input" required="" placeholder="you@example.com" size="30">
+                <div class="newsleter_primary">
+                    <div id="newsletter_email" class="form_group">
+                        <label for="email" class="form_label">Enter your email*</label> <input type="email" id="email" name="email" class="form_input" required="" placeholder="you@example.com" size="30">
+                    </div>
+                    <div id="newsletter_submit">
+                        <button type="submit" class="mzp-c-button mzp-t-product">Sign up</button>
+                    </div>
                 </div>
 
                 <div id="newsletter_privacy" class="form_group form_group-agree">
                     <input type="checkbox" id="privacy" name="privacy" required=""> <label for="privacy">I'm okay with Mozilla handling my info as explained in this <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>.</label>
                 </div>
 
-                <div id="newsletter_submit">
-                    <button type="submit" class="button">Sign up now</button> <em class="newsletter_promise">By signing up, you will receive emails about IRL episodes, news and views from Firefox, and updates about Firefox products. You may unsubscribe at any time.</em>
-                </div>
+                <em class="newsletter_promise">*By signing up, you will receive emails about IRL episodes, Firefox product announcements, and news affecting the internet. You may unsubscribe at any time. See Mozilla's <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>.</em>
             </form>
 
             <div id="newsletter_thanks" class="newsletter_thanks">

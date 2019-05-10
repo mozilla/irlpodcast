@@ -1,36 +1,7 @@
 {{ define "main" }}
-    <section id="intro">
-        <div class="content">
-            <div id="intro-main">
-                <div id="site-logo">
-                    <img src="/images/irl-logo.png" srcset="/images/irl-logo-high-res.png 2x" alt="IRL">
-                </div>
+{{ partial "intro.html" . }}
 
-                <div id="site-title">
-                    <h1>Because Online Life Is Real Life</h1>
-                </div>
-
-                <div id="site-intro">
-                    <p>
-                        Host Manoush Zomorodi shares real stories of life online
-                        and real talk about the future of the Web.
-                    </p>
-
-                    <p>
-                        IRL is an original podcast from Mozilla.
-                    </p>
-                </div>
-
-                <section class="subscribe-links-wrapper">
-                    <h4>Subscribe for free!</h4>
-
-                    {{ partial "subscribe-links.html" (dict "subscribeLinksID" "subscribe-links-primary") }}
-                </section>
-            </div>
-        </div>
-    </section>
-
-    <div class="content">
+    <div class="l-content">
         <h2>Uh-oh!</h2>
 
         <p>
@@ -38,7 +9,7 @@
         </p>
     </div>
 
-    <div class="content">
+    <div class="l-content">
         {{ partial "newsletter.html" . }}
     </div>
 {{ end }}

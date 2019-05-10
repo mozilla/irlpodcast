@@ -1,0 +1,65 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+@import '../includes/lib';
+
+.next {
+    @include clearfix;
+
+    @media #{$mq-md} {
+        margin-top: $layout-lg;
+        margin-bottom: $layout-lg;
+    }
+}
+
+.next-block {
+    @include clearfix;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 24px 0 $color-gray-30;
+    box-sizing: border-box;
+    display: block;
+    display: block;
+    margin-bottom: $layout-md;
+    padding: $spacing-sm;
+    text-decoration: none;
+}
+
+.next-thumb {
+    float: left;
+    height: 70px;
+    margin-right: $spacing-md;
+    width: 70px;
+}
+
+.next-dir {
+    @include text-body-sm;
+    color: $color-gray-60;
+    display: block;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: $spacing-xs;
+}
+
+.next-title {
+    @include text-body-md;
+    font-weight: bold;
+    line-height: 1.25;
+    text-decoration: underline;
+
+    .next-block:hover & {
+        text-decoration: none;
+    }
+}
+
+@media #{$mq-md} {
+    .next-block {
+        float: left;
+        width: calc(50% - #{$layout-sm});
+    }
+
+    .next-next {
+        float: right;
+    }
+}

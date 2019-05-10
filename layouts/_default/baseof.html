@@ -64,17 +64,22 @@
 
     {{ partial "header.html" }}
 
-    <main class="page-content" aria-label="Content">
-    {{ block "main" . }}{{ end }}
-    </main>
+    {{ block "intro" . }}{{ end }}
+
+    <div>
+        <main class="page-content" aria-label="Content">
+        {{ block "main" . }}{{ end }}
+        </main>
+    </div>
 
     {{ partial "footer.html" }}
 
-    <script src="/js/{{ index .Site.Data.js.hash "jquery.3.2.1.min.js" }}"></script>
-    <script src="/js/{{ index .Site.Data.js.hash "clipboard.min.js" }}"></script>
-    <script src="/js/{{ index .Site.Data.js.hash "mozilla.modal-min.js" }}"></script>
-    <script src="/js/{{ index .Site.Data.js.hash "mozilla.lazy-load-min.js" }}"></script>
+    <script src="/js/{{ index .Site.Data.js.hash "libs/jquery.3.2.1.min.js" }}"></script>
+    <script src="/js/{{ index .Site.Data.js.hash "libs/clipboard.min.js" }}"></script>
+    <script src="/js/{{ index .Site.Data.js.hash "libs/mozilla.lazy-load-min.js" }}"></script>
     <script src="/js/{{ index .Site.Data.js.hash "newsletter-min.js" }}"></script>
+    <script src="/js/{{ index .Site.Data.js.hash "libs/protocol-min.js" }}"></script>
     <script src="/js/{{ index .Site.Data.js.hash "main-min.js" }}"></script>
+    <script src="/js/{{ index .Site.Data.js.hash "protocol-init-min.js" }}"></script>
 </body>
 </html>

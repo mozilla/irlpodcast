@@ -4,42 +4,51 @@
 
 @import '../includes/lib';
 
-$summary-image-size: 90px;
+$summary-image-size: 72px;
+
+.episode-summary-list {
+    margin-bottom: $layout-md;
+
+    @media #{$mq-md} {
+        margin-bottom: $layout-lg;
+    }
+}
 
 .episode-summary {
     @include clearfix;
     clear: left;
-    border-bottom: 1px solid #000;
-    padding: 1.5em 0 0.25em;
+    border-bottom: 2px solid $color-gray-20;
+    padding: $layout-md 0 $layout-md;
 
     &:before {
         content: '';
-        background-color: #000;
-        border-top: 0.4rem solid #fff;
+        background-color: $color-gray-40;
+        border-top: 0.4rem solid #fff; // make it even with the top of the text
         display: block;
         float: right;
         height: $summary-image-size;
-        margin: 0 0 1.25em 10px;
+        margin: 0 0 $spacing-md;
         width: $summary-image-size;
+    }
+
+    .episode + .episode-summary-list &:first-child {
+        padding-top: 0;
     }
 }
 
 .episode-summary-title {
-    @include font-size-level3;
+    @include text-body-lg;
     font-weight: bold;
 }
 
-.episode-summary-number {
-    color: $color-text-primary;
-}
-
-@media #{$mq-phone-wide} {
+@media #{$mq-sm} {
     .episode-summary-image {
         float: left;
-        margin: 0 $gutter-width 1.25em 0;
+        margin: 0 $spacing-md 1.25em 0;
     }
 
     .episode-summary-description {
+        margin-bottom: 0;
         overflow: auto;
     }
 
@@ -47,15 +56,14 @@ $summary-image-size: 90px;
         .episode-summary {
             display: grid;
             grid-template-columns: $summary-image-size auto;
-            grid-column-gap: $gutter-width;
-        }
+            grid-column-gap: $spacing-md;
 
-        .episode-summary:before {
-            grid-column-start: 1;
-            grid-row-start: 1;
-            grid-row-end: 3;
-            margin: 0 0 1.25em 0;
-            border-top: 8px solid #fff;
+            &:before {
+                grid-column-start: 1;
+                grid-row-start: 1;
+                grid-row-end: 3;
+                margin: 0;
+            }
         }
 
         .episode-summary-title,
@@ -67,47 +75,50 @@ $summary-image-size: 90px;
 
 // position background sprite for episodes
 .episode-summary {
-    // season 1
-    &[class*='S01']:before {
-        background-image: url('/images/S01.png');
+    &:before {
         background-size: auto $summary-image-size;
     }
 
     @for $episode from 0 through 7 {
-        &.S01E0#{$episode}:before {
+        &.S01E0#{$episode}:before,
+        &.S02E0#{$episode}:before,
+        &.S03E0#{$episode}:before,
+        &.S04E0#{$episode}:before,
+        &.S05E0#{$episode}:before {
             background-position: ($episode * $summary-image-size * -1) 0;
         }
     }
 
+    // season 1
+    &[class*='S01']:before {
+        background-image: url('/images/S01.png');
+    }
+
     &.S01B01:before {
-        background-position: -720px 0;
+        background-position: (8 * $summary-image-size * -1) 0;
     }
 
     &.S01B02:before {
-        background-position: -810px 0;
+        background-position: (9 * $summary-image-size * -1) 0;
     }
 
     // season 2
     &[class*='S02']:before {
         background-image: url('/images/S02.png');
-        background-size: auto $summary-image-size;
-    }
-
-    @for $episode from 1 through 7 {
-        &.S02E0#{$episode}:before {
-            background-position: ($episode * $summary-image-size * -1 + $summary-image-size) 0;
-        }
     }
 
     // season 3
     &[class*='S03']:before {
         background-image: url('/images/S03.png');
-        background-size: auto $summary-image-size;
     }
 
-    @for $episode from 0 through 7 {
-        &.S03E0#{$episode}:before {
-            background-position: ($episode * $summary-image-size * -1) 0;
-        }
+    // season 4
+    &[class*='S04']:before {
+        background-image: url('/images/S04.png');
+    }
+
+    // season 5
+    &[class*='S05']:before {
+        background-image: url('/images/S05.png');
     }
 }

@@ -3,67 +3,15 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-$font-franklin-gothic: FranklinGothic, sans-serif;
+$font-inter: Inter, sans-serif;
+$font-brand: Firefox, sans-serif;
 
-$base-font-stack: $font-franklin-gothic;
-$base-font-size: 120%;
+$heading-font-stack: $font-brand;
+$heading-font-size: 100%;
+$heading-line-height: 1.1;
+
+$base-font-stack: $font-inter;
+$base-font-size: 100%;
 $base-line-height: 1.5;
 
-
-// Text colors
-$color-text-primary:    #000;
-$color-text-secondary:  #484848;
-$color-text-tertiary:   #666;
-
-// Brand colors
-$color-mozred:          #c13832;
-$color-mozred-bright:   saturate(lighten($color-mozred, 5%), 10%);
-$color-mozblue:         #0c99d5;
-$color-mozgray:         #56565a;
-
-$color-brand-cyan:      #4eb5e6;
-$color-brand-coral:     #ff8385;
-$color-brand-yellow:    #ffed00;
-$color-brand-lilac:     #b0b2e9;
-$color-brand-orange:    #faba00;
-$color-brand-lime:      #b6d806;
-$color-brand-neonblue:  #0ff;
-$color-brand-neonpink:  #fa8cff;
-$color-brand-neongreen: #abff10;
-
-// Link colors
-$color-link-blue:       #00a7e0;
-$color-link:            #88429d;
-$color-link-yellow:     #ffbb38;
-
-// Button colors
-$color-button-light:    #fff;
-$color-button-dark:     #00539f;
-$color-button-green:    #4caf50;
-$color-button-orange:   #f26c23;
-
-
-// Content widths
-$width-phone:           300px;
-$width-phone-wide:      460px;
-$width-tablet:          740px;
-$width-desktop:         860px;
-$width-desktop-wide:    1000px;
-
-
-// Media queries
-$mq-phone:          'screen and (max-width: 480px)';
-$mq-phone-wide:     'screen and (min-width: 480px)';
-$mq-tablet:         'screen and (min-width: 760px)';
-$mq-desktop:        'screen and (min-width: 1000px)';
-$mq-desktop-wide:   'screen and (min-width: 1400px)';
-
-$mq-high-res:       'only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi)';
-
-$mq-short:          '(max-height: 600px)';
-$mq-tall:           '(min-height: 600px)';
-
-
-// Grid columns
-$column-width:  8.333%; // 100% / 12 columns
-$gutter-width:  20px;
+$irl-content-max: 650px;
