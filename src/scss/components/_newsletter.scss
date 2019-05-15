@@ -6,7 +6,8 @@
 
 #newsletter-wrapper {
     box-shadow: 0 2px 24px 0 $color-gray-30;
-    padding: $layout-md;
+    margin-top: $layout-lg;
+    padding: $layout-xs;
 
     h2 {
         @include text-display-sm;
@@ -15,21 +16,20 @@
     }
 }
 
-.newsleter_primary {
-    align-items: end;
-    display: grid;
-    grid-gap: $layout-sm;
-    grid-template-columns: 3fr 1fr;
-}
-
 .form_input[type=email] {
     border: 1px solid $color-gray-50;
     padding: $spacing-md;
     width: 100%;
 }
 
+.form_group {
+    margin-bottom: $spacing-sm;
+}
+
 .form_group-agree {
-    margin-top: $spacing-sm;
+    label {
+        font-weight: normal;
+    }
 
     input {
         float: left;
@@ -68,3 +68,36 @@
         display: none;
     }
 }
+
+@media #{$mq-md} {
+    #newsletter-wrapper {
+        padding: $layout-md;
+    }
+
+    @supports (display: grid) {
+
+        .form_group {
+            margin-bottom: 0;
+        }
+
+        .newsleter_primary {
+            align-items: end;
+            display: grid;
+            grid-column-gap: $layout-sm;
+            grid-row-gap: $spacing-md;
+            grid-template-columns: 3fr 1fr;
+        }
+
+        #newsletter_submit {
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+
+        #newsletter_privacy {
+            grid-row-start: 2;
+
+        }
+
+    }
+}
+

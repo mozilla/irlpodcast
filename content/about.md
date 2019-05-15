@@ -64,4 +64,6 @@ Firefox believes that privacy is a fundamental right, not just a feature buried 
 
 For press inquiries, email us at [press@mozilla.com](mailto:press@mozilla.com). For any other inquiries, email us at [IRL-podcast@mozilla.com](mailto:IRL-podcast@mozilla.com).
 
+<div>
 {{< newsletter >}}
+</div>

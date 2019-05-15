@@ -60,14 +60,12 @@
     </ul>
 
     <div class="episode-description">
-        <p>
-            {{ .context.Params.description | markdownify }}
-            {{ if eq .single "false" }}
-            {{ if .context.Params.shownotes }}
-                <a href="{{ .context.Permalink }}#show-notes" data-shownotes="episode-{{ .context.Params.number }}-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
-            {{ end }}
-            {{ end }}
-        </p>
+        {{ .context.Params.description | markdownify }}
+        {{ if eq .single "false" }}
+        {{ if .context.Params.shownotes }}
+            <a href="{{ .context.Permalink }}#show-notes" data-shownotes="episode-{{ .context.Params.number }}-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
+        {{ end }}
+        {{ end }}
     </div>
 
     <!-- the following are presented in modal windows if JS is enabled -->

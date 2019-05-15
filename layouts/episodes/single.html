@@ -14,14 +14,14 @@
                     'replace' below is to ensure correct local link across local, dev, and prod URLs.
                     Front matter does not allow variables, so we need to do string substitution.
                 */}}
-                <p>{{ (replace .Params.shownotes "!!baseurl!!" .Site.BaseURL) | markdownify }}</p>
+                {{ (replace .Params.shownotes "!!baseurl!!" .Site.BaseURL) | markdownify }}
             </section>
             {{ end }}
 
             <section class="episode-transcript">
                 <h2 id="transcript">Transcript</h2>
 
-                <p>{{ .Params.Transcript | markdownify }}</p>
+                {{ .Params.Transcript | markdownify }}
             </section>
 
             <aside class="next">
