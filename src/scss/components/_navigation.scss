@@ -15,15 +15,21 @@ $image-path: '/images/protocol';
     color: $color-green-40;
 }
 
-.mzp-c-navigation-menu-button{
+.mzp-c-navigation-menu-button {
     background-color: rgba(255,255,255,0.1);
     background-image: url('#{$image-path}/icons/ui/menu-white.svg');
+    border: 1px solid transparent;
     color: $color-white;
 
     &:hover,
     &:focus,
     &:active {
         background-color: rgba(255,255,255,0.2);
+    }
+
+    &.mzp-is-active {
+        background-color: rgba(255,255,255,0.1);
+        border-color: $color-white;
     }
 }
 
