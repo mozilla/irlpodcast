@@ -19,10 +19,11 @@ if (typeof window.dataLayer === 'undefined') {
     var copylinkClipboard = new Clipboard('.js-action-copy a');
 
     // display related copy success message when clicking copy icon
-    copylinkClipboard.on('success', function() {
-        $('.episode-copy-ok').addClass('show');
+    copylinkClipboard.on('success', function(e) {
+        var $confirmation = $(e.trigger).nextAll('.episode-copy-ok').first();
+        $confirmation.addClass('show');
         setTimeout(function() {
-            $('.episode-copy-ok').removeClass('show');
+            $confirmation.removeClass('show');
         }, 2000);
     });
 
