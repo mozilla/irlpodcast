@@ -37,6 +37,7 @@ $image-path: '/images/protocol';
     background: url('/images/irl-logo.png') no-repeat;
     background-size: contain;
     height: 39px;
+    overflow: hidden;
     width: 51px;
 
     a {
