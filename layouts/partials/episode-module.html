@@ -64,7 +64,7 @@
         <p>
             {{ .context.Params.description | markdownify }}
             {{ if eq .single "false" }}
-            {{ if .context.Params.showNotes }}
+            {{ if .context.Params.shownotes }}
                 <a href="{{ .context.Permalink }}#show-notes" data-shownotes="episode-{{ .context.Params.number }}-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
             {{ end }}
             {{ end }}
@@ -77,13 +77,13 @@
     </div>
 
     {{ if eq .single "false" }}
-    {{ if .context.Params.showNotes }}
+    {{ if .context.Params.shownotes }}
     <div class="episode-shownotes" id="episode-{{ .context.Params.number }}-shownotes">
         {{/*
             'replace' below is to ensure correct local link across local, dev, and prod URLs.
             Front matter does not allow variables, so we need to do string substitution.
         */}}
-        {{ (replace .context.Params.showNotes "!!baseurl!!" .Site.BaseURL) | markdownify }}
+        {{ (replace .context.Params.shownotes "!!baseurl!!" .Site.BaseURL) | markdownify }}
     </div>
     {{ end }}
     {{ end }}
