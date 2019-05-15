@@ -70,6 +70,10 @@ $image-path: '/images/protocol';
             color: $color-green-40;
         }
     }
+
+    .mzp-c-menu-button-close {
+        background-image: url('#{$image-path}/icons/ui/close-white.svg');
+    }
 }
 
 .mzp-c-menu-item .mzp-c-menu-item-link:hover .mzp-c-menu-item-title,
