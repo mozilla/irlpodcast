@@ -35,46 +35,63 @@
     }
 }
 
+.episode-player {
+    margin-bottom: $spacing-md;
+}
+
 .episode-actions {
     @include clearfix;
     padding-top: $spacing-md;
-    text-align: right;
+    text-align: center;
 
     li {
         display: inline-block;
-        padding-left: $spacing-sm;
+        padding-left: $spacing-md;
 
         &:first-child {
-            flex-grow: 1;
-            float: left;
+            margin-bottom: $spacing-lg;
             padding-left: 0;
-            text-align: left;
+            width: 100%;
         }
     }
+}
 
-    @supports(display:flex) {
-        align-items: flex-end;
-        display: flex;
-        justify-content: flex-end;
+@media screen and (min-width: #{$screen-xs + 1}) {
+    .episode-image {
+        display: none;
     }
 }
 
 @media #{$mq-sm} {
-    .episode-image {
-        width: calc(40% - #{$spacing-sm});
-    }
+    .episode-actions {
+        @include clearfix;
+        padding-top: $spacing-md;
+        text-align: right;
 
-    .episode-title,
-    .episode-number {
-        clear: right;
-        float: right;
-        padding-left: $spacing-sm;
-        width: calc(60% - #{$spacing-sm});
+        li {
+            display: inline-block;
+            padding-left: $spacing-sm;
+
+            &:first-child {
+                flex-grow: 1;
+                float: left;
+                margin-bottom: 0;
+                text-align: left;
+                width: auto;
+            }
+        }
+
+        @supports(display:flex) {
+            align-items: flex-end;
+            display: flex;
+            justify-content: flex-end;
+        }
     }
 }
 
 @media #{$mq-md} {
     .episode-image {
+        display: block;
         float: left;
         margin-right: $spacing-md;
         width: 261px;
@@ -123,6 +140,7 @@
                 align-items: flex-end;
                 display: flex;
                 grid-area: player;
+                margin-bottom: 0;
             }
 
             .episode-description {
