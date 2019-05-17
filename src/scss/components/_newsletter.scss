@@ -5,90 +5,99 @@
 @import '../includes/lib';
 
 #newsletter-wrapper {
-    @include at2x('/images/newsletter-bg.png');
-    @include background-size(1256px 515px);
-    background-position: top left;
-    color: #fff;
-    padding: 30px 20px;
+    box-shadow: 0 2px 24px 0 $color-gray-30;
+    margin-top: $layout-lg;
+    padding: $layout-xs;
 
-    input[type=email],
-    .button {
-        @include border-box();
-        width: 100%;
-    }
-
-    input[type=email] {
-        border-radius: 0;
-    }
-
-    .button {
-        @include font-size(22px);
-        background: transparent;
-        border: 1px solid #fff;
-        color: #fff;
-        margin: 10px 0;
-        padding: 8px 0;
-        transition: background-color 0.2s ease, color 0.2s ease;
-
-        &:hover {
-            background: #fff;
-            color: #000;
-        }
-    }
-
-    @media #{$mq-tablet} {
-        padding: 40px;
+    h2 {
+        @include text-display-sm;
+        margin-top: 0;
+        margin-bottom: $spacing-lg;
     }
 }
 
-#newsletter-inner-wrapper {
-    @media #{$mq-tablet} {
-        width: 450px;
+.form_input[type=email] {
+    border: 1px solid $color-gray-50;
+    padding: $spacing-md;
+    width: 100%;
+}
+
+.form_group {
+    margin-bottom: $spacing-sm;
+}
+
+.form_group-agree {
+    label {
+        font-weight: normal;
+    }
+
+    input {
+        float: left;
+        margin-right: $spacing-sm;
+        margin-block-end: 0; // forms are hard
     }
 }
 
-#newsletter_privacy {
-    margin-top: 10px;
+.newsletter_promise {
+    color: $color-gray-70;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.2;
+    margin-top: $spacing-lg;
 }
 
 .newsletter_errors {
     display: none; /* hide by default */
-    margin-bottom: 20px;
-    box-shadow: 0 0 0 1px #ffffff; // incase it's on a black background
-    padding: 20px;
     background-color: rgba(0, 0, 0, 0.1); // incase it's on a white background
+    box-shadow: 0 0 0 1px #ffffff; // incase it's on a black background
+    margin-bottom: 20px;
+    padding: 20px;
 
     > :last-child {
         margin-bottom: 0;
     }
 }
 
-.newsletter_promise {
-    display: block;
-    @include font-size(14px);
-}
-
-#newsletter_email label {
-    @include visually-hidden();
-}
-
 .newsletter_thanks {
     display: none;
 }
 
-/* hide the newsletter selection */
-#newsletter_options {
-    display: none;
-}
-
-#privacy-policy-link-wrapper {
-    margin-top: 10px;
-    text-align: center;
-}
-
 .js .js-collapse {
-    #newsletter_privacy,
-    .newsletter_promise {
+    #newsletter_privacy {
         display: none;
     }
 }
+
+@media #{$mq-md} {
+    #newsletter-wrapper {
+        padding: $layout-md;
+    }
+
+    @supports (display: grid) {
+
+        .form_group {
+            margin-bottom: 0;
+        }
+
+        .newsleter_primary {
+            align-items: end;
+            display: grid;
+            grid-column-gap: $layout-sm;
+            grid-row-gap: $spacing-md;
+            grid-template-columns: 3fr 1fr;
+        }
+
+        #newsletter_submit {
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+
+        #newsletter_privacy {
+            grid-row-start: 2;
+
+        }
+
+    }
+}
+

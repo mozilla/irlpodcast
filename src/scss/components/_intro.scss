@@ -1,0 +1,66 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+@import '../includes/lib';
+
+.c-intro {
+    @include text-body-lg;
+    @include light-links;
+    background: $color-purple-80 url('/images/home-480.jpg') center center no-repeat;
+    background-size: cover;
+    color: #fff;
+
+    @media #{$mq-sm} {
+        background-image: url('/images/home-1000.jpg');
+    }
+
+    @media #{$mq-md} {
+        background-image: url('/images/home-1400.jpg');
+
+        .c-intro-title {
+            margin-bottom: $layout-sm;
+        }
+    }
+
+    @media #{$mq-xl} {
+        background-image: url('/images/home-2560.jpg');
+    }
+}
+
+.c-intro-main {
+    margin: 0 auto;
+    max-width: $irl-content-max;
+    padding: 0 $layout-xs $layout-xs;
+
+    @media #{$mq-md} {
+        padding: 0 $layout-lg $layout-md;
+    }
+}
+
+.c-intro-logo {
+    padding: $layout-xs 0 ($layout-xs - 12px); // line height on the intro-title needs to be accounted for
+
+    @media #{$mq-md} {
+        padding: $layout-sm 0 ($layout-sm - 12px); // line height on the intro-title needs to be accounted for
+    }
+}
+
+.c-intro-title {
+    @include font-size(48px);
+
+    @media #{$mq-md} {
+        @include font-size(64px);
+        line-height: 1.1;
+    }
+}
+
+.c-intro-desc {
+
+    p {
+        @media #{$mq-md} {
+            margin-bottom: $layout-sm;
+        }
+    }
+}
+

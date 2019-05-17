@@ -1,58 +1,29 @@
+{{ define "intro" }}
+    {{ partial "intro.html" . }}
+{{ end }}
+
 {{ define "main" }}
-    <section id="intro">
-        <div id="mozilla-logo">
-            <a href="https://www.mozilla.org">
-                <span>Mozilla</span>
-            </a>
-        </div>
-        <div class="content">
-            <div id="intro-main">
-                <div id="site-logo">
-                    <img src="/images/irl-logo.png" srcset="/images/irl-logo-high-res.png 2x" alt="IRL">
-                </div>
-
-                <div id="site-title">
-                    <h1>IRL: Online Life is Real Life</h1>
-                </div>
-
-                <div id="site-intro">
-                    <p>
-                        Host Manoush Zomorodi shares real stories of life online and real talk about the future of the Web.
-                    </p>
-
-                    <p>
-                        IRL is an original podcast from Firefox.
-                    </p>
-                </div>
-
-                <section class="subscribe-links-wrapper">
-                    <h4>Subscribe:</h4>
-                    {{ partial "subscribe-links.html" (dict "subscribeLinksID" "subscribe-links-primary") }}
-                </section>
-            </div>
-        </div>
-    </section>
-
     <section id="episodes">
-        <div class="content">
-            <ul id="episode-list">
-            {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                    {{ if eq (string .Params.season) "4" }}
-                    <li class="episode-list-item">
-                        {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-module.html" . }}
-                    </li>
-                    {{ end }}
-                {{ end }}
+        <div class="l-content">
+            <h2 class="page-title">Season 4</h2>
+            {{- range first 1 (where .Data.Pages "Type" "eq" "episodes") -}}
+                {{/* The dot context below passes the entire episode object */}}
+                {{ partial "episode-module" (dict "context" . "single" "false") }}
             {{- end -}}
+            <ul class="episode-summary-list">
+                {{- range after 1 (where .Data.Pages "Type" "eq" "episodes") -}}
+                    {{ if eq (string .Params.season) "4" }}
+                        {{/* The dot context below passes the entire episode object */}}
+                        {{ partial "episode-summary.html" . }}
+                    {{ end }}
+                {{- end -}}
             </ul>
         </div>
     </section>
 
     <section class="season-summaries">
-        <div class="content">
-            <h2>Season 3</h2>
+        <div class="l-content">
+            <h2 class="season-summary-title">Season 3</h2>
             <ul class="episode-summary-list">
             {{- range .Data.Pages -}}
                 {{ if eq .Type "episodes" }}
@@ -66,8 +37,8 @@
         </div>
     </section>
     <section class="season-summaries">
-        <div class="content">
-            <h2>Season 2</h2>
+        <div class="l-content">
+            <h2 class="season-summary-title">Season 2</h2>
             <ul class="episode-summary-list">
             {{- range .Data.Pages -}}
                 {{ if eq .Type "episodes" }}
@@ -81,8 +52,8 @@
         </div>
     </section>
     <section class="season-summaries">
-        <div class="content">
-            <h2>Season 1</h2>
+        <div class="l-content">
+            <h2 class="season-summary-title">Season 1</h2>
             <ul class="episode-summary-list">
             {{- range .Data.Pages -}}
                 {{ if eq .Type "episodes" }}
@@ -93,17 +64,6 @@
                 {{ end }}
             {{- end -}}
             </ul>
-        </div>
-    </section>
-    <div class="content">
-        {{ partial "newsletter.html" . }}
-    </div>
-    <section id="more">
-        <div class="content">
-            <h3>More on the IRL Podcast</h3>
-            <p>
-                <a href="https://blog.mozilla.org/internetcitizen/category/IRL/">Get the 411 on IRL with Mozilla’s Internet Citizen Blog</a>
-            </p>
         </div>
     </section>
 {{ end }}

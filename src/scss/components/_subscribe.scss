@@ -1,0 +1,75 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+@import '../includes/lib';
+
+.subscribe-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 10px -10px 0 0 ;
+
+    li {
+        @include font-size(10px); // prevents alt text from overflowing
+        flex: 0 0 auto;
+    }
+
+    a {
+        align-items: center;
+        background-clip: padding-box;
+        border: 2px solid transparent;
+        border-radius: 7px;
+        box-sizing: border-box;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 10px;
+
+        &:hover,
+        &:hover img {
+            border-color: $color-link;
+        }
+
+        &:focus,
+        &:focus img {
+            border-color: $color-green-40;
+        }
+
+        &:active,
+        &:active img {
+            border-color: #f8f8f8;
+        }
+    }
+
+    img {
+        display: block;
+        height: 34px;
+        margin: 0 auto;
+    }
+}
+
+@media #{$mq-lg} {
+    .subscribe-links {
+        justify-content: space-between;
+        margin-right: 0;
+
+        a {
+            margin-right: 0;
+        }
+    }
+}
+
+.js .episode .episode-subscribe-links {
+    display: none;
+}
+
+.mzp-c-modal .subscribe-links {
+    flex-direction: column;
+
+    a {
+        &:focus,
+        &:focus img {
+            border-color: $color-pink-50;
+        }
+    }
+}

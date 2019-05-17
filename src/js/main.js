@@ -2,47 +2,33 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-(function($, Mozilla, Clipboard, dataLayer) {
+
+if (typeof window.dataLayer === 'undefined') {
+    window.dataLayer = [];
+}
+
+(function($, Mozilla, Clipboard, dataLayer, Mzp) {
     'use strict';
 
-    var $episodeLinks = $('.episode-links');
-    var $subscribeLinks = $('.subscribe-links');
-    var $socialShareLinks = $('.social-share-links');
+    var $subscribeButtons = $('.episode-subscribe');
+    var $showNotesLink = $('.episode-shownotes-link');
+    var $subscribeLinks = $('[data-link-type="subscribe"]');
+    var $shareLinks = $('[data-link-type="social share"]');
 
     // set up clipboard.js
-    var copylinkClipboard = new Clipboard('.copylink');
+    var copylinkClipboard = new Clipboard('.js-action-copy a');
 
     // display related copy success message when clicking copy icon
-    copylinkClipboard.on('success', function() {
-        $('#modal').find('.copy-ok').addClass('show');
-    });
-
-    // open modals for subscribe/share
-    $episodeLinks.on('click', function(e) {
-        var $target = $(e.target);
-        var modalContentElem;
-        var modalTitle;
-
-        if ($target.hasClass('episode-subscribe-link')) {
-            modalContentElem = $target.data('subscribeLinks');
-            modalTitle = 'Subscribe';
-        } else if ($target.hasClass('episode-share-link')) {
-            modalContentElem = $target.data('shareLinks');
-            modalTitle = 'Share';
-        }
-
-        // mp3 link also exists in this list - that link should have no special handling
-        if (modalContentElem && modalTitle) {
-            e.preventDefault();
-
-            Mozilla.Modal.createModal(e.target, $('#' + modalContentElem), {
-                title: modalTitle
-            });
-        }
+    copylinkClipboard.on('success', function(e) {
+        var $confirmation = $(e.trigger).nextAll('.episode-copy-ok').first();
+        $confirmation.addClass('show');
+        setTimeout(function() {
+            $confirmation.removeClass('show');
+        }, 2000);
     });
 
     // track subscribe clicks
-    $subscribeLinks.on('click', 'a', function() {
+    $subscribeLinks.on('click', function() {
         var $this = $(this);
         var $parent = $this.parents('.subscribe-links:first');
         var service = $this.data('service');
@@ -55,9 +41,9 @@
     });
 
     // track share clicks
-    $socialShareLinks.on('click', 'a', function(e) {
+    $shareLinks.on('click', function(e) {
         var $this = $(this);
-        var $parent = $this.parents('.social-share-links:first');
+        var $parent = $this.parents('.share-link:first');
         var service = $this.data('service');
 
         if (service === 'copylink') {
@@ -73,4 +59,42 @@
 
     // lazy load simplecast players
     Mozilla.LazyLoad.init();
-})(window.jQuery, window.Mozilla, window.Clipboard, window.dataLayer || []);
+
+    // open subscribe modal
+    $subscribeButtons.on('click', function(e) {
+        var linkId = $(e.target).attr('data-subscribe-links');
+        var content = document.getElementById(linkId);
+        //open modal when clicked
+        Mzp.Modal.createModal(e.target, content, {
+            title: 'Subscribe to IRL',
+            closeText: 'Close modal',
+            onCreate: function() {
+                //console.log('Modal opened');
+            },
+            onDestroy: function() {
+                //console.log('Modal closed');
+            }
+        });
+        // content = subscribe links for this episode data-subscribe-links
+    });
+
+    // open show notes modal
+    $showNotesLink.on('click', function(e) {
+        e.preventDefault();
+        var linkId = $(e.target).attr('data-shownotes');
+        var content = document.getElementById(linkId);
+        //open modal when clicked
+        Mzp.Modal.createModal(e.target, content, {
+            title: 'Shownotes',
+            closeText: 'Close modal',
+            onCreate: function() {
+                //console.log('Modal opened');
+            },
+            onDestroy: function() {
+                //console.log('Modal closed');
+            }
+        });
+        // content = subscribe links for this episode data-subscribe-links
+    });
+
+})(window.jQuery, window.Mozilla, window.Clipboard, window.dataLayer, window.Mzp || []);

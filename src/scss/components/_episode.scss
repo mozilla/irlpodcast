@@ -1,0 +1,217 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+@import '../includes/lib';
+
+
+// list with full episodes (example: season page)
+#episode-list {
+    margin-bottom: 0;
+}
+
+// episode module
+
+.episode {
+    @include section-divider;
+}
+
+.episode-title {
+    @include text-display-xs;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: $spacing-md;
+}
+
+.episode-description {
+    margin-top: 20px;
+}
+
+.episode-image {
+    margin-bottom: 10px;
+
+    img {
+        display: block;
+    }
+}
+
+.episode-player {
+    margin-bottom: $spacing-md;
+}
+
+.episode-actions {
+    @include clearfix;
+    padding-top: $spacing-md;
+    text-align: center;
+
+    li {
+        display: inline-block;
+        padding-left: $spacing-md;
+
+        &:first-child {
+            margin-bottom: $spacing-lg;
+            padding-left: 0;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: #{$screen-xs + 1}) {
+    .episode-image {
+        display: none;
+    }
+}
+
+@media #{$mq-sm} {
+    .episode-actions {
+        @include clearfix;
+        padding-top: $spacing-md;
+        text-align: right;
+
+        li {
+            display: inline-block;
+            padding-left: $spacing-sm;
+
+            &:first-child {
+                flex-grow: 1;
+                float: left;
+                margin-bottom: 0;
+                text-align: left;
+                width: auto;
+            }
+        }
+
+        @supports(display:flex) {
+            align-items: flex-end;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+
+@media #{$mq-md} {
+    .episode-image {
+        display: block;
+        float: left;
+        margin-right: $spacing-md;
+        width: 261px;
+    }
+
+    .episode-title,
+    .episode-number {
+        clear: right;
+        float: none;
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+@media #{$mq-md} {
+    @supports (display: grid) {
+        .episode {
+            display: grid;
+            grid-gap: 0 $spacing-md; // gap between art & episode info
+            grid-template: repeat(4, auto) / 235px 140px auto;
+            grid-template-areas: "title title title"
+                                "logo player player"
+                                "logo share share"
+                                "description description description"
+                                "subscribe subscribe subscribe";
+
+            // align image to top right side of grid area
+            .episode-image {
+                @include border-box();
+                grid-area: logo;
+                margin-bottom: 0;
+                width: 100%;
+            }
+
+            .episode-title {
+                grid-area: title;
+            }
+
+            .episode-actions {
+                grid-area: share;
+                justify-content: flex-end;
+                margin-bottom: 0;
+            }
+
+            .episode-player {
+                align-items: flex-end;
+                display: flex;
+                grid-area: player;
+                margin-bottom: 0;
+            }
+
+            .episode-description {
+                grid-area: description;
+            }
+
+            .episode-subscribe-links {
+                grid-area: subscribe;
+            }
+        }
+    }
+}
+
+// should not show up with JS disabled
+.episode-action-share,
+.episode-player,
+.lazy-load {
+    display: none;
+}
+
+.js {
+    .episode-action-share {
+        display: list-item;
+    }
+
+    .episode-player {
+        display: block;
+    }
+
+    .episode-player-wrapper {
+        background: #f5f5f5;
+        border-radius: 4px;
+        height: 183px;
+        width: 100%;
+    }
+
+    .lazy-load {
+        display: block;
+    }
+
+    @media #{$mq-md} {
+        .episode-player {
+            display: flex;
+        }
+    }
+}
+
+
+// transcript & shownotes
+
+.episode-notes ul,
+.episode-transcript ul {
+    list-style-type: disc;
+    margin-left: 20px;
+
+    li {
+        padding-left: 10px;
+    }
+}
+
+.episode-notes,
+.episode-transcript {
+    @include section-divider;
+}
+
+// shownotes modal
+
+.episode-shownotes {
+    display: none;
+
+    .mzp-c-modal & {
+        display: block;
+    }
+}

@@ -1,0 +1,51 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+@import '../includes/lib';
+
+
+// copy link
+
+.js-action-copy {
+    position: relative;
+}
+
+input.episode-url-input, // needs extra specificity
+.episode-copy-ok {
+    display: none;
+}
+
+.episode-copy-ok {
+    background-color: #6EE7C4;
+    border-radius: 2px;
+    bottom: -2px;
+    display: inline-block;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 2px 0;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: -2px;
+    transition: width 0.5s ease-out, padding 0.1s linear;
+    width: 0;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.episode-copy-ok.show {
+    padding: 2px (28px + $spacing-sm) 2px $spacing-sm;
+    width: 190px;
+}
+
+// subscribe button
+
+.episode-subscribe.mzp-c-button.mzp-t-small {
+    padding: $spacing-xs $spacing-lg;
+}
+
+// hide the subscribe link if JS doesn't work
+.no-js .episode-subscribe {
+    display: none;
+}

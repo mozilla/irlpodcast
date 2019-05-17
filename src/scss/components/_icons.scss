@@ -1,0 +1,41 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+@import '../includes/lib';
+
+.icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 24px;
+    border: none;
+    display: block;
+    height: 24px;
+    padding: 0;
+    overflow: hidden;
+    text-indent: 28px;
+    white-space: nowrap;
+    width: 28px;
+}
+
+.icon-twitter {
+        background-image: url('/images/icon-twitter.svg');
+    }
+
+.icon-facebook {
+    background-image: url('/images/icon-facebook.svg');
+}
+
+.icon-instagram {
+    background-image: url('/images/icon-instagram.svg');
+}
+
+.icon-copylink {
+    position: relative;
+    background-image: url('/images/icon-link.svg');
+    z-index: 2;
+}
+
+.icon-download {
+    background-image: url('/images/icon-download.svg');
+}

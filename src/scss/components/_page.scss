@@ -1,0 +1,26 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+@import '../includes/lib';
+
+.page-content {
+    max-width: $irl-content-max;
+    margin: 0 auto;
+    padding: $layout-md $layout-xs $layout-sm;
+
+    @media #{$mq-md} {
+        padding-top: $layout-xl;
+    }
+}
+
+.page-title {
+    @include font-size(24px);
+    line-height: 1.1;
+    margin-bottom: $spacing-lg;
+    margin-top: 0;
+
+    @media #{$mq-md} {
+        @include font-size(32px);
+    }
+}
