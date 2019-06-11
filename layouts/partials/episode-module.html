@@ -18,6 +18,12 @@
     {{ .context.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .context.Params.season) (string .context.Params.seasonepisode) ) }}
 {{ end }}
 
+{{ if lt .context.Params.season 5 }}
+    {{ .context.Scratch.Set "embedSrc" "https://embed.simplecast.com/" }}
+{{ else }}
+    {{ .context.Scratch.Set "embedSrc" "https://player.simplecast.com/" }}
+{{ end }}
+
 {{ .context.Scratch.Set "host" (printf "w/ @Mozilla & @%s" (string .context.Params.host)) }}
 {{ .context.Scratch.Set "imagePath" (printf "episodes/%s/artwork.png" (.context.Scratch.Get "imageFolder")) }}
 {{ .context.Scratch.Set "imagePathHighRes" (replace (.context.Scratch.Get "imagePath") ".png" "-high-res.png") }}
@@ -41,9 +47,9 @@
 
     <div class="episode-player">
         <div class="episode-player-wrapper">
-            <iframe title="Listen to {{ .context.Title }}." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://embed.simplecast.com/{{ .context.Params.embed }}?color=f5f5f5" width="100%"></iframe>
+            <iframe title="Listen to {{ .context.Title }}." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="{{ (.context.Scratch.Get "embedSrc") }}{{ .context.Params.embed }}" width="100%"></iframe>
             <noscript>
-                <iframe title="Listen to {{ .context.Title }}." frameborder="0" height="183px" scrolling="no" seamless src="https://embed.simplecast.com/{{ .context.Params.embed }}?color=f5f5f5" width="100%"></iframe>
+                <iframe title="Listen to {{ .context.Title }}." frameborder="0" height="183px" scrolling="no" seamless src="{{ (.context.Scratch.Get "embedSrc") }}{{ .context.Params.embed }}" width="100%"></iframe>
             </noscript>
         </div>
     </div>
