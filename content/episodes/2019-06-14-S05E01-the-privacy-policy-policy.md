@@ -23,6 +23,7 @@ shownotes: |
     This IRL podcast episode referenced several privacy policies, and we encourage you to read them. To start, here’s [Firefox’s privacy policy] (https://www.mozilla.org/privacy/). You’ll see that Firefox’s business model is not dependent on packaging your personal info. And, we hope you’ll find that our policy is easy-to-read, fully transparent, and specific.
 
     The other privacy policies referenced in this episode include:
+
     - [Google’s privacy policies] (https://policies.google.com/privacy/archive?hl=en)
     - [Uber’s privacy policy] (https://privacy.uber.com/policy/)
     - [Microsoft’s privacy policy] (https://privacy.microsoft.com/en-us/privacystatement)
