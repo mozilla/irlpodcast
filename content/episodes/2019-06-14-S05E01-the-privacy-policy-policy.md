@@ -1,9 +1,9 @@
 ---
 date: 2019-06-14T04:55:00-08:00
-title: "The Privacy Policy Policy"
-ogtitle: "The Privacy Policy Policy"
+title: "The “Privacy Policy” Policy"
+ogtitle: "The “Privacy Policy” Policy"
 description: |
-    Privacy policies: most apps and websites have them, buried away somewhere. These legal documents explain how the company collects, uses, and shares your personal data. But let's be honest, few of us actually read these things, right? And that passive acceptance says a lot about our complicated relationship with online privacy.
+    Privacy policies: most apps and websites have them, buried away somewhere. These legal documents explain how companies collect, use, and share your personal data. But let's be honest, few of us actually read these things, right? And that passive acceptance says a lot about our complicated relationship with online privacy.
 
     In the Season 5 premier of IRL, host Manoush Zomorodi speaks with Charlie Warzel, writer-at-large with the New York Times, about our complicated relationship with data and privacy — and the role privacy policies play in keeping things, well, confusing. You'll also hear from Parker and Lila, two young girls who realize how gaming and personal data intersect. Rowenna Fielding, a data protection expert, walks us through the most efficient ways to understand a privacy policy. Professor Lorrie Cranor explains how these policies have warped our understanding of consent. And privacy lawyer Jenny Afia explains why 	“privacy” is a base element of being human.
 ogdescription: "Find out what to look out for in privacy policies — and examine what privacy means to you — in Firefox's IRL podcast."
