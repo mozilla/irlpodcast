@@ -5,7 +5,7 @@ ogtitle: "The Internet’s Carbon Footprint"
 description: |
     Manoush Zomorodi explores the surprising environmental impact of the internet in this episode of IRL. Because while it’s easy to think of the internet as living only on your screen, energy demand for the internet is indeed powered by massive server farms, running around the clock, all over the world. What exactly is the internet’s carbon footprint? And, what can we do about it?
 
-    Music professor [Kyle Devine](https://twitter.com/kyledevinephd/) considers the environmental costs of streaming music. Geophysicist and pop scientist [Miles Traer](http://twitter.com/geo_miles/) takes his best shot at calculating the carbon footprint of the IRL podcast. Climate journalist [Tatiana Schlossberg](http://twitter.com/tatertatiana/) explores the environmental influence we don’t know we have and what the web’s got to do with it. Greenpeace’s [Gary Cook](https://twitter.com/garyacook/) explains which tech companies are committed to renewable energy — and which are not. Kris De Decker tries powering his [website with a homebrew solar power system](https://solar.lowtechmagazine.com/). And, Ecosia's Chief Tree Planting Officer [Pieter Van Midwoud](http://twitter.com/treepieter/) discusses how his company uses online search to plant trees.
+    Music professor [Kyle Devine](https://twitter.com/kyledevinephd/) considers the environmental costs of streaming music. Geophysicist and pop scientist [Miles Traer](http://twitter.com/geo_miles/) takes his best shot at calculating the carbon footprint of the IRL podcast. Climate journalist [Tatiana Schlossberg](http://twitter.com/tatertatiana/) explores the environmental influence we don’t know we have and what the web’s got to do with it. Greenpeace’s [Gary Cook](https://twitter.com/garyacook/) explains which tech companies are committed to renewable energy — and which are not. Kris De Decker tries powering his website with a [homebrew solar power system](https://solar.lowtechmagazine.com/). And, Ecosia's Chief Tree Planting Officer [Pieter Van Midwoud](http://twitter.com/treepieter/) discusses how his company uses online search to plant trees.
 ogdescription: "Explore the surprising environmental impact of the internet."
 number:
 season: 5
@@ -16,7 +16,7 @@ mp3: "https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c78
 categories: "episodes"
 host: "Manoushz"
 shownotes: |
-    Love the internet, but also love the environment? Here are [some ways you can reduce your energy consumption — or offset it — while online](https://blog.mozilla.org/firefox/environment/).
+    Love the internet, but also love the environment? Here are [some ways you can reduce your energy consumption — or offset it — while online](https://blog.mozilla.org/firefox/digital-carbon-footprint/).
 
     Learn more about Kyle Devine’s research on the [environmental costs of music streaming](https://www.rollingstone.com/music/music-features/environmental-impact-streaming-music-835220/).
 
