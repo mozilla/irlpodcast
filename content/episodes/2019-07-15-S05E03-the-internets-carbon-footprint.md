@@ -7,7 +7,7 @@ description: |
 
     Music professor [Kyle Devine](https://twitter.com/kyledevinephd/) considers the environmental costs of streaming music. Geophysicist and pop scientist [Miles Traer](http://twitter.com/geo_miles/) takes his best shot at calculating the carbon footprint of the IRL podcast. Climate journalist [Tatiana Schlossberg](http://twitter.com/tatertatiana/) explores the environmental influence we don’t know we have and what the web’s got to do with it. Greenpeace’s [Gary Cook](https://twitter.com/garyacook/) explains which tech companies are committed to renewable energy — and which are not. Kris De Decker tries powering his website with a [homebrew solar power system](https://solar.lowtechmagazine.com/). And, Ecosia's Chief Tree Planting Officer [Pieter Van Midwoud](http://twitter.com/treepieter/) discusses how his company uses online search to plant trees.
 ogdescription: "Explore the surprising environmental impact of the internet."
-number:
+number: 33
 season: 5
 seasonepisode: 3
 url: /season5/episode3/
