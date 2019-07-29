@@ -26,37 +26,37 @@ shownotes: |
 transcript: |
     **Manoush:** Rebecca Stack-Martinez has been driving for rideshare companies for over a year now.
 
-    **Rebecca Stac:** I originally started driving for Lyft exclusively and then switched over to Uber which I do exclusively at this point.
+    **Rebecca Stack-Martinez:** I originally started driving for Lyft exclusively and then switched over to Uber which I do exclusively at this point.
 
     **Manoush:** But not on May 8th. On that day, Rebecca, was organizing a protest.
 
-    **Rebecca Stac:** Drivers, thank you for being here.
+    **Rebecca Stack-Martinez:** Drivers, thank you for being here.
 
     **Manoush:** An informal coalition of ride hail drivers had come together and for this one day, they were on strike. They turned off their apps, got out of their cars, grabbed placards, and protested in Chicago, Washington, New York. Some targeted airports like LAX in Los Angeles. Some drivers protested in Europe too, like in London. Rebecca's group was in San Francisco.
 
-    **Rebecca Stac:** On the sidewalk in front of Uber headquarters. To me it felt like a party in the street for a moment. You know you had the band playing, you had drivers meeting and greeting each other, discussing their stories, getting on the loudspeaker, letting everybody know where they stood and what they wanted.
+    **Rebecca Stack-Martinez:** On the sidewalk in front of Uber headquarters. To me it felt like a party in the street for a moment. You know you had the band playing, you had drivers meeting and greeting each other, discussing their stories, getting on the loudspeaker, letting everybody know where they stood and what they wanted.
 
     **Manoush:** What they wanted, what they still want, is better pay, better working conditions.
 
-    **Rebecca Stac:** We deserve to be paid fairly.
+    **Rebecca Stack-Martinez:** We deserve to be paid fairly.
 
     We have absolutely no say as drivers and any of the algorithms or policies or anything that's done in headquarters that affects us. And so I think what Uber treats us as, is an extension of the app, which is very dehumanizing as a driver.
 
     **Manoush:** Rideshare companies steadfastly argue that the drivers are contractors, not employees. So on May 8th, they marched, and the timing was deliberate, right before the initial public offering or IPO of Uber stock.
 
-    **Rebecca Stac:** What we started hearing in the press and reading about is how Uber was potentially going to be valued at $120 billion, and how their CEO made $45 million the year before and how he stands to become a potential billionaire with this IPO that was coming up, and at the same time we're earning less and less money.
+    **Rebecca Stack-Martinez:** What we started hearing in the press and reading about is how Uber was potentially going to be valued at $120 billion, and how their CEO made $45 million the year before and how he stands to become a potential billionaire with this IPO that was coming up, and at the same time we're earning less and less money.
 
     **Manoush:** Uber's valuation on its first day of trading ended up being more like $78 billion. No paltry sum, but below market expectations. And as for Rebecca's own expectations after the protest? Well, she didn't really have any.
 
-    **Rebecca Stac:** None of us standing out there that day on May 8th thought that Uber executives were going to come outside and say, "Oh, come on in, let's have a conversation."
+    **Rebecca Stack-Martinez:** None of us standing out there that day on May 8th thought that Uber executives were going to come outside and say, "Oh, come on in, let's have a conversation."
 
     **Manoush:** The one day strike didn't result in any immediate action, but Rebecca marks it as a victory nonetheless.
 
-    **Rebecca Stac:** There are some drivers who can't even afford to take off of work for a few hours to come join our protest. So I was there also for them, for those drivers who couldn't be there, to give them a voice to what they're experiencing.
+    **Rebecca Stack-Martinez:** There are some drivers who can't even afford to take off of work for a few hours to come join our protest. So I was there also for them, for those drivers who couldn't be there, to give them a voice to what they're experiencing.
 
     **Manoush:** And she's not backing down anytime soon. Something she made very clear on that day, standing in front of Uber HQ with her megaphone.
 
-    **Rebecca Stac:** I put the megaphone up to my mouth and I said, "If you didn't come down and talk to us today, don't think it's over. We'll be back." And then everybody behind me just started chanting, "We'll be back. We'll be back." And so to me, I knew that we were doing the right thing and that this fight wasn't over.
+    **Rebecca Stack-Martinez:** I put the megaphone up to my mouth and I said, "If you didn't come down and talk to us today, don't think it's over. We'll be back." And then everybody behind me just started chanting, "We'll be back. We'll be back." And so to me, I knew that we were doing the right thing and that this fight wasn't over.
 
     **Manoush:** For Rebecca, the Uber strike is personal. But by striking, she and the other drivers are also calling out an entire industry, an entire way of doing business. Tech companies that chase profit over people. Tech companies like Uber have heard these complaints before from lawmakers, privacy advocates, people who use their products. But now the complaints are coming from the inside, from the tech workers themselves.
 
@@ -118,43 +118,43 @@ transcript: |
 
     Okay. Now over to Amazon. That's where staff and shareholders recently spoke out against the world's biggest online retailer, claiming that the company has weak environmental policies. While Amazon does invest in some renewable energy products and has committed to reducing the carbon footprint of its trucking fleet, some say the company must do much more.
 
-    **Rebecca:** Climate scientists have been telling us for decades that there is one very easy number to remember of what the right number is for a fossil fuel extraction, and that is zero.
+    **Rebecca Sheppard:** Climate scientists have been telling us for decades that there is one very easy number to remember of what the right number is for a fossil fuel extraction, and that is zero.
 
     **Manoush:** Rebecca Sheppard works at Amazon.
 
-    **Rebecca:** We cannot continue to expand and accelerate the extraction of fossil fuels and the corresponding carbon emissions, and yet Amazon web services has continued to partner with those fossil fuel services, which is extremely alarming and doesn't show the commitment to sustainability and innovation that you would expect from Amazon.
+    **Rebecca Sheppard:** We cannot continue to expand and accelerate the extraction of fossil fuels and the corresponding carbon emissions, and yet Amazon web services has continued to partner with those fossil fuel services, which is extremely alarming and doesn't show the commitment to sustainability and innovation that you would expect from Amazon.
 
     **Manoush:** Amazon Web Services is a massive network of data centers that support countless companies. Rebecca thinks an innovative company like Amazon could be a leader by making those data centers more environmentally responsible. She's not the only one. In May, shareholders asked the company's board of directors to come up with a robust climate change plan and 8,000 employees signed a public letter calling for action. Rebecca was one of them and it gave her hope.
 
-    **Rebecca:** It's incredible that at the place that you work when you start to feel down, rather than feeling small or disempowered that you can actually do something in your current company, to make the change that you know is right. You don't have to be on the wrong side of history just because where you currently find yourself. You can work to make the company or organization you're currently identified with better.
+    **Rebecca Sheppard:** It's incredible that at the place that you work when you start to feel down, rather than feeling small or disempowered that you can actually do something in your current company, to make the change that you know is right. You don't have to be on the wrong side of history just because where you currently find yourself. You can work to make the company or organization you're currently identified with better.
 
     **Manoush:** Ultimately the shareholder resolution was voted down. Amazon says it's already working on reducing emissions, but it's now agreed to make information about its carbon footprint public for the first time. As for Rebecca and the other members of the Amazon employees for climate justice, they say they are not letting up and they have another shareholder resolution planned for next year.
 
-    **Rebecca:** I think the best form of company loyalty and ensuring you're getting the most from the place you work is to challenge your company to be better.
+    **Rebecca Sheppard:** I think the best form of company loyalty and ensuring you're getting the most from the place you work is to challenge your company to be better.
 
     **Manoush:** By the way, if you missed our previous episode, it was all about the internet's carbon footprint, so go check it out. It's really interesting. Uber, Google, Amazon. Those are just a few examples of companies facing new found tech resistance from within. And this activism is growing, but what's less clear is: why now?
 
-    **Cind:** I think that many tech workers were lured in with the idea that they were making the world a better place.
+    **Cindy:** I think that many tech workers were lured in with the idea that they were making the world a better place.
 
     **Manoush:** Cindy Cohn is the executive director of the Electronic Frontier Foundation, the EFF.
 
-    **Cind:** I think they're increasingly seeing that the business models of these companies and the business strategies of these companies are really not, I think consistent with some of the values that they were lured in with. And I think tech workers are beginning to feel like it's time for them to stand up.
+    **Cindy:** I think they're increasingly seeing that the business models of these companies and the business strategies of these companies are really not, I think consistent with some of the values that they were lured in with. And I think tech workers are beginning to feel like it's time for them to stand up.
 
     **Manoush:** Taking that stand, calling your company out in public, takes courage. On that, Cindy says there's a simple reason why they're able to do it: these employees are hard to replace.
 
-    **Cind:** The tech companies don't really compete in the marketplace anymore for anything but talent. They compete for the best and the brightest out of the schools and out there in the world. And I think the tech workers have started to realize that that's an important thing and that they have power in a way that I suspect they didn't feel as much a few years ago.
+    **Cindy:** The tech companies don't really compete in the marketplace anymore for anything but talent. They compete for the best and the brightest out of the schools and out there in the world. And I think the tech workers have started to realize that that's an important thing and that they have power in a way that I suspect they didn't feel as much a few years ago.
 
     **Manoush:** Cindy and the EFF have long championed tech workers who speak out, because when they do it helps those who are fighting from the outside.
 
-    **Cind:** When we're trying to make change, when we're trying to protect people's privacy, and protect civil liberties, the information that comes out is really the facts that we need to be able to make our case and to be able to make change. So it's incredibly important that we have people who have the courage to come out and tell the rest of us what's really going on. We want to live in a world where our technology answers to us, serves us and isn't really working against us. And I think that these tech workers are making their voices heard because they're trying to make sure that they build a world that we all want to live in. What these tech workers are saying is important and we should be listening and standing with them when we agree.
+    **Cindy:** When we're trying to make change, when we're trying to protect people's privacy, and protect civil liberties, the information that comes out is really the facts that we need to be able to make our case and to be able to make change. So it's incredibly important that we have people who have the courage to come out and tell the rest of us what's really going on. We want to live in a world where our technology answers to us, serves us and isn't really working against us. And I think that these tech workers are making their voices heard because they're trying to make sure that they build a world that we all want to live in. What these tech workers are saying is important and we should be listening and standing with them when we agree.
 
     **Manoush:** Cindy Cohn says these protests matter to all of us because the business decisions these companies make affects all our lives, and in some cases, our liberties. And that includes our right to privacy. The fight at Amazon, over selling facial recognition tech to law enforcement is one example I mentioned earlier. The fight over Google's censored search engine, Project Dragonfly, is another.
 
-    **Cind:** It's one thing when you're building a search engine that has a business model. It's another thing when the tool that you're working on is being used to actively support repression in China.
+    **Cindy:** It's one thing when you're building a search engine that has a business model. It's another thing when the tool that you're working on is being used to actively support repression in China.
 
     **Manoush:** Not every tech worker protests leads to change, but Project Dragonfly was stopped. Sundar Pichai, the CEO, told US lawmakers that the project is not under development, and it's those victories that make Cindy hopeful for this movement.
 
-    **Cind:** I think that the tech workers are beginning to make a difference. So there's going to need to be some persistence. But I think that the tech workers got some good initial wins and now they have to figure out how to build on them.
+    **Cindy:** I think that the tech workers are beginning to make a difference. So there's going to need to be some persistence. But I think that the tech workers got some good initial wins and now they have to figure out how to build on them.
 
     **Manoush:** And when you see all this activism rising from within the tech companies, it makes you wonder if maybe the next big issue will be about online privacy. After all, tech employees are online consumers too. They have families and kids and communities that they care about. So as more and more of us are talking about and wondering where our personal information is going, maybe they also will start to push back on the very companies collecting all that data.
 
