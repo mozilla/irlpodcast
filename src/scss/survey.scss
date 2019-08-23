@@ -6,11 +6,11 @@
 
 .survey-banner {
     @include gradient-horizontal($start-color: #ff00ff, $end-color: #2e2aa6);
-    bottom: 0;
+    bottom: -50px;
     color: #fff;
     display: none;
     left: 0;
-    padding-bottom: 10px;
+    padding-bottom: 60px;
     position: fixed;
     text-align: center;
     width: 100%;
