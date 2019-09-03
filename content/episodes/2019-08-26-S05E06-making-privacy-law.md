@@ -16,6 +16,8 @@ mp3: "https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c78
 categories: "episodes"
 host: "Manoushz"
 shownotes: |
+    The IRL production team would love your feedback. [Take this 2-minute survey](https://qsurvey.mozilla.com/s3/irlseason5).
+
     Learn more about [consumer rights under the GDPR](https://ec.europa.eu/commission/priorities/justice-and-fundamental-rights/data-protection/2018-reform-eu-data-protection-rules_en/), and for a top-level look at what the GDPR does for you, check out our [GDPR summary](https://blog.mozilla.org/internetcitizen/2018/05/23/gdpr-mozilla/).
 
     Here’s more about the [California Consumer Privacy Act and Alistair MacTaggat](https://www.caprivacy.org/).
