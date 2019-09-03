@@ -5,9 +5,8 @@
 @import 'includes/lib';
 
 .survey-banner {
-    @include gradient-horizontal($start-color: #ff00ff, $end-color: #2e2aa6);
+    background-color: $color-gray-20;
     bottom: -50px;
-    color: #fff;
     display: none;
     left: 0;
     padding-bottom: 60px;
