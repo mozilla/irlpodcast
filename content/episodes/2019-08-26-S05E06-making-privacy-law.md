@@ -12,7 +12,7 @@ season: 5
 seasonepisode: 6
 url: /season5/episode6/
 embed: "e637ec86-473d-4ff1-a090-a62099538050"
-mp3: "https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/e637ec86-473d-4ff1-a090-a62099538050/irl_s5_e06_privacy_gamechangers_withsurvey_vfinal_tc.mp3"
+mp3: "https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/e637ec86-473d-4ff1-a090-a62099538050/irl_s5_e06_privacy_gamechangers_vfinal_tc.mp3"
 categories: "episodes"
 host: "Manoushz"
 shownotes: |
