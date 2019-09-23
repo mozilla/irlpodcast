@@ -12,7 +12,7 @@ season: 5
 seasonepisode: 7
 url: /season5/episode7/
 embed: "36c42a33-95a3-4e40-b78f-a321de94f580"
-mp3: "https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/36c42a33-95a3-4e40-b78f-a321de94f580/irl_s5e07_privacy_or_profits_final_w_survey_tc.mp3"
+mp3: "https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/36c42a33-95a3-4e40-b78f-a321de94f580/irl_s5_e07_privacy_profits_vfinal_nosurvey_tc.mp3"
 categories: "episodes"
 host: "Manoushz"
 shownotes: |
