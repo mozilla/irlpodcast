@@ -16,8 +16,6 @@ mp3: "https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c78
 categories: "episodes"
 host: "Manoushz"
 shownotes: |
-    The IRL production team would love your feedback. [Take this short 2-minute survey](https://qsurvey.mozilla.com/s3/irlseason5).
-
     Read about Patrick Jackson and Geoffrey Fowler's [privacy experiment](https://www.washingtonpost.com/technology/2019/05/28/its-middle-night-do-you-know-who-your-iphone-is-talking/).
 
     Learn more about [DuckDuckGo](https://duckduckgo.com/), an alternative to Google search, at [duckduckgo.com](https://duckduckgo.com/).
