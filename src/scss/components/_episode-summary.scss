@@ -41,6 +41,17 @@ $summary-image-size: 72px;
     font-weight: bold;
 }
 
+.episode-summary-date {
+    @include text-body-sm;
+    display: block;
+    font-weight: normal;
+    margin: $spacing-xs 0;
+}
+
+.episode-summary-cta {
+    white-space: nowrap;
+}
+
 @media #{$mq-sm} {
     .episode-summary-image {
         float: left;
@@ -69,6 +80,12 @@ $summary-image-size: 72px;
         .episode-summary-title,
         .episode-summary-description {
             grid-column-start: 2;
+        }
+
+        .episode-summary-date {
+            display: inline;
+            margin: 0;
+            white-space: nowrap;
         }
     }
 }
