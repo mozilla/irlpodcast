@@ -44,5 +44,9 @@ $image-path: '/images/protocol';
                 color: $color-link-visited-hover;
             }
         }
+
+        &.mzp-c-cta-link {
+            text-decoration: none;
+        }
     }
 }
