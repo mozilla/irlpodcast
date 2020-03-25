@@ -41,8 +41,6 @@
     <h2 class="episode-title">{{ (.context.Scratch.Get "episodeNumber") }}: <a href="{{ .context.Permalink }}">{{ .context.Title }}</a></h2>
     {{ end }}
 
-    <div class="episode-date">{{ dateFormat "January 2, 2006" .context.Params.date }}</div>
-
     <div class="episode-image">
         <img src="/images/{{ .context.Scratch.Get "imagePath" }}" srcset="/images/{{ .context.Scratch.Get "imagePathHighRes" }} 2x" alt="">
     </div>
@@ -74,6 +72,7 @@
             <a href="{{ .context.Permalink }}#show-notes" data-shownotes="episode-{{ .context.Params.number }}-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
         {{ end }}
         {{ end }}
+        <div class="episode-date">Published: {{ dateFormat "January 2, 2006" .context.Params.date }}</div>
     </div>
 
     <!-- the following are presented in modal windows if JS is enabled -->

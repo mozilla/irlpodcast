@@ -17,14 +17,18 @@
 }
 
 .episode-title {
-    @include text-display-sm;
+    @include text-display-xs;
     font-weight: bold;
-    margin-bottom: $spacing-xs;
+    margin-bottom: $spacing-md;
     margin-top: 0;
 }
 
 .episode-date {
-    margin-bottom: $spacing-md;
+    font-style: italic;
+
+    .episode-shownotes-link + & {
+        margin-top: $spacing-md;
+    }
 }
 
 .episode-description {
@@ -117,11 +121,11 @@
             grid-gap: 0 $spacing-md; // gap between art & episode info
             grid-template: repeat(4, auto) / 235px 140px auto;
             grid-template-areas: "title title title"
-                                 "date date date"
                                  "logo player player"
                                  "logo share share"
                                  "description description description"
-                                 "subscribe subscribe subscribe";
+                                 "subscribe subscribe subscribe"
+                                 "date date date";
 
             // align image to top right side of grid area
             .episode-image {
