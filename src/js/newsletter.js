@@ -70,19 +70,6 @@
     function newsletterThanks() {
         var thanks = document.getElementById('newsletter_thanks');
 
-        // if this is an inline form
-        if (newsletterWrapper.classList.contains('newsletter-inline')) {
-            var sectionBody = window.vs.utils.parentByClass(newsletterForm, 'section_body');
-            // move the thanks up to the section level
-            sectionBody.insertBefore(thanks, sectionBody.firstChild);
-            // hide the other stuff in the section
-            var sectionChildren = sectionBody.children;
-
-            for (var i = 0; i < sectionChildren.length; i++) {
-                sectionChildren[i].style.display = 'none';
-            }
-        }
-
         // show thanks message
         thanks.style.display = 'block';
     }
