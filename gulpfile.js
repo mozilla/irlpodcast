@@ -19,8 +19,8 @@ var production = !!argv.production;
 // copy protocol assets to public folder
 function protocolCopyUI() {
 
-    return  gulp.src(nodeProtocolDir + '/img/icons/ui/**/*.{svg,png,jpg,gif}')
-        .pipe(gulp.dest('public/images/protocol/icons/ui'));
+    return  gulp.src(nodeProtocolDir + '/img/icons/**/*.{svg,png,jpg,gif}')
+        .pipe(gulp.dest('static/images/protocol/icons'));
 }
 
 // concat needed Protocol files and copy to JS directory

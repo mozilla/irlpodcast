@@ -66,11 +66,9 @@
 
     {{ block "intro" . }}{{ end }}
 
-    <div>
-        <main class="page-content" aria-label="Content">
-        {{ block "main" . }}{{ end }}
-        </main>
-    </div>
+    <main class="page-content" aria-label="Content">
+    {{ block "main" . }}{{ end }}
+    </main>
 
     {{ partial "footer.html" }}
 
