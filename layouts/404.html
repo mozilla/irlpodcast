@@ -1,15 +1,13 @@
+{{ define "intro" }}
+    {{ partial "intro.html" . }}
+{{ end }}
 {{ define "main" }}
-{{ partial "intro.html" . }}
-
     <div class="l-content">
         <h2>Uh-oh!</h2>
 
         <p>
             We can't find the page you're looking for.
         </p>
-    </div>
-
-    <div class="l-content">
-        {{ partial "newsletter.html" . }}
+        <p> &nbsp; </p>
     </div>
 {{ end }}
