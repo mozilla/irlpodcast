@@ -44,6 +44,7 @@ $summary-image-size: 72px;
 .episode-summary-date {
     @include text-body-sm;
     display: block;
+    font-style: italic;
     font-weight: normal;
     margin: $spacing-xs 0;
 }
