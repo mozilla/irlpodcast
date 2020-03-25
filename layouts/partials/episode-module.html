@@ -88,6 +88,8 @@
             Front matter does not allow variables, so we need to do string substitution.
         */}}
         {{ (replace .context.Params.shownotes "!!baseurl!!" .Site.BaseURL) | markdownify }}
+
+        <a href="{{ .context.Permalink }}#transcript" class="mzp-c-cta-link">Episode transcript</a>
     </div>
     {{ end }}
     {{ end }}
