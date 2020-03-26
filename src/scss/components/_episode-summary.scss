@@ -17,12 +17,12 @@ $summary-image-size: 72px;
 .episode-summary {
     @include clearfix;
     clear: left;
-    border-bottom: 2px solid $color-gray-20;
+    border-bottom: 2px solid $color-marketing-gray-20;
     padding: $layout-md 0 $layout-md;
 
     &:before {
         content: '';
-        background-color: $color-gray-40;
+        background-color: $color-marketing-gray-40;
         border-top: 0.4rem solid #fff; // make it even with the top of the text
         display: block;
         float: right;

@@ -17,7 +17,7 @@
     @include clearfix;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 24px 0 $color-gray-30;
+    box-shadow: $box-shadow-sm;
     box-sizing: border-box;
     display: block;
     display: block;
@@ -35,7 +35,7 @@
 
 .next-dir {
     @include text-body-sm;
-    color: $color-gray-60;
+    color: $color-marketing-gray-60;
     display: block;
     font-weight: bold;
     line-height: 1;

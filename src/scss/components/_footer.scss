@@ -6,13 +6,13 @@
 
 .footer {
     @include text-body-sm;
-    background: $color-gray-20;
+    background: $color-marketing-gray-20;
     clear: both;
 }
 
 .footer-tag {
     @include text-body-md;
-    background: $color-gray-30;
+    background: $color-marketing-gray-30;
     padding: $spacing-md $layout-xs;
 
     p {
@@ -59,7 +59,7 @@
 
     a:link,
     a:visited {
-        color: $color-off-black;
+        color: $color-ink-80;
         text-decoration: none;
     }
 
@@ -71,7 +71,7 @@
 }
 
 .footer-social {
-    border-top: 1px solid $color-gray-40;
+    border-top: 1px solid $color-marketing-gray-40;
     padding-top: $spacing-lg;
 
     li {
@@ -81,7 +81,7 @@
 
 .footer-legal {
     @include font-size(12px);
-    border-top: 1px solid $color-gray-40;
+    border-top: 1px solid $color-marketing-gray-40;
     padding-top: $spacing-lg;
 }
 

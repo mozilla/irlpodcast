@@ -5,7 +5,7 @@
 @import '../includes/lib';
 
 #newsletter-wrapper {
-    box-shadow: 0 2px 24px 0 $color-gray-30;
+    box-shadow: $box-shadow-sm;
     margin-top: $layout-lg;
     padding: $layout-xs;
 
@@ -17,7 +17,7 @@
 }
 
 .form_input[type=email] {
-    border: 1px solid $color-gray-50;
+    border: 1px solid $color-marketing-gray-50;
     padding: $spacing-md;
     width: 100%;
 }
@@ -39,7 +39,7 @@
 }
 
 .newsletter_promise {
-    color: $color-gray-70;
+    color: $color-marketing-gray-70;
     display: block;
     font-size: 12px;
     font-style: normal;
