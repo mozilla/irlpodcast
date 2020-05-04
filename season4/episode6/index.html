@@ -1,0 +1,558 @@
+
+
+    
+    
+        
+    
+    
+    
+    
+    
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dev.irlpodcast.org/season4/episode6/">
+    <meta property="og:image" content="https://dev.irlpodcast.org/images/episodes/S04E06/share.png">
+    <meta property="og:image:width" content="1100">
+    <meta property="og:image:height" content="619">
+    <meta property="og:title" content="IRL Podcast: Decentralize It">
+    <meta property="og:description" content="Explore the premise, the promise, and the pitfalls of decentralization — the antidote to Big Tech.">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/images/favicon/favicon-180x180.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="/images/favicon/favicon-196x196.png">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+
+    <title>Decentralize It</title>
+    <meta name="description" content="&amp;lt;p&amp;gt;Some people believe that decentralization is the inevitable future of the web. They believe that internet users will start to demand more privacy and …">
+
+    <meta name="apple-itunes-app" content="app-id=1247652431, affiliate-data=at=1010lbVy&amp;ct=mozilla_smart_banner">
+
+    <link rel="stylesheet" href="/css/irlpodcast-b691ec18.css" />
+    <link rel="alternate" type="application/rss+xml" title="IRL Podcast: Online Life is Real Life" href="https://feeds.mozilla-podcasts.org/irl">
+    <link rel="canonical" href="https://dev.irlpodcast.org/season4/episode6/">
+
+    <script src="/js/pre-render-min-81c6f16b.js"></script>
+
+    
+        <script>
+    (function() {
+        'use strict';
+
+        
+        
+        if(navigator.doNotTrack !== 1) {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5H9T7GF');
+        } else {
+            
+            window.dataLayer = [];
+        }
+    })();
+</script>
+
+    
+</head>
+
+<body id="episode-page" class="mzp-t-firefox">
+
+    <header id="header">
+    <div class="mzp-c-navigation">
+        <div class="mzp-c-navigation-l-content">
+            <div class="mzp-c-navigation-container">
+            <button class="mzp-c-navigation-menu-button has-label" type="button" aria-controls="menu-site">Menu</button>
+            <div class="mzp-c-navigation-logo"><a href="/">IRL</a></div>
+            <div class="mzp-c-navigation-items" id="menu-site">
+                <div class="mzp-c-navigation-menu">
+                    <nav class="mzp-c-menu mzp-is-basic">
+                        <ul class="mzp-c-menu-category-list">
+                            <li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+                                <a class="mzp-c-menu-title" href="/" aria-haspopup="true" aria-controls="menu-episodes">Episodes</a>
+                                <div class="mzp-c-menu-panel" id="menu-episodes">
+                                    <div class="mzp-c-menu-panel-container">
+                                        <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-example">Close Episodes menu</button>
+                                        <div class="mzp-c-menu-panel-content">
+                                            <ul>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season1/">
+                                                            <h4 class="mzp-c-menu-item-title">Season One</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season2/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Two</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season3/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Three</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season4/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Four</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season5/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Five</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mzp-c-menu-category">
+                                <a class="mzp-c-menu-title" href="/about/">About</a>
+                            </li>
+                            <li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+                                <a class="mzp-c-menu-title" href="/about/#contact" aria-haspopup="true" aria-controls="menu-contact">Contact</a>
+                                <div class="mzp-c-menu-panel" id="menu-contact">
+                                    <div class="mzp-c-menu-panel-container">
+                                        <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-example">Close Contact menu</button>
+                                        <div class="mzp-c-menu-panel-content">
+                                            <section class="mzp-c-menu-item ">
+                                                <a class="mzp-c-menu-item-link" href="mailto:IRL-podcast@mozilla.com">
+                                                    <h4 class="mzp-c-menu-item-title">General</h4>
+                                                    <p class="mzp-c-menu-item-desc">
+                                                    IRL-podcast@mozilla.com
+                                                    </p>
+                                                </a>
+                                            </section>
+                                            <section class="mzp-c-menu-item">
+                                                <a class="mzp-c-menu-item-link" href="mailto:press@mozilla.com">
+                                                    <h4 class="mzp-c-menu-item-title">Press</h4>
+                                                    <p class="mzp-c-menu-item-desc">
+                                                    press@mozilla.com
+                                                    </p>
+                                                </a>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</header>
+
+
+    
+
+    <main class="page-content" aria-label="Content">
+    
+    <article class="episode-post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="l-content" itemprop="articleBody">
+            
+            
+
+
+    
+    
+        
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<h1 class="page-title">Decentralize It</h1>
+
+
+<article class="episode" id="episode-29">
+    
+    <h2 class="episode-title">Season 4: Episode 6</h2>
+    
+
+    <div class="episode-image">
+        <img src="/images/episodes/S04E06/artwork.png" srcset="/images/episodes/S04E06/artwork-high-res.png 2x" alt="">
+    </div>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe title="Listen to Decentralize It." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://embed.simplecast.com/857f7522" width="100%"></iframe>
+            <noscript>
+                <iframe title="Listen to Decentralize It." frameborder="0" height="183px" scrolling="no" seamless src="https://embed.simplecast.com/857f7522" width="100%"></iframe>
+            </noscript>
+        </div>
+    </div>
+
+    <ul class="episode-actions">
+        <li><button type="button" class="episode-subscribe mzp-c-button mzp-t-small mzp-t-product" data-subscribe-links="episode-29-subscribe-links">Subscribe</button></li>
+        <li><a class="episode-action icon icon-twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=https%3a%2f%2fdev.irlpodcast.org%2fseason4%2fepisode6%2f&amp;text=IRL Podcast: Decentralize%20It w%2f%20%40Mozilla%20%26%20%40Manoushz" data-link-type="social share" data-link-name="Twitter">Share on Twitter</a></li>
+        <li><a class="episode-action icon icon-facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.irlpodcast.org%2fseason4%2fepisode6%2f" data-link-type="social share" data-link-name="Facebook">Share on Facebook</a></li>
+        <li class="js-action-copy">
+            <a class="episode-action icon icon-copylink" data-service="copylink" href="https://dev.irlpodcast.org/season4/episode6/" data-link-type="social share" data-link-name="copylink" data-clipboard-text="https://dev.irlpodcast.org/season4/episode6/">Copy Link</a>
+            <div class="episode-copy-ok">URL copied to clipboard</div>
+        </li>
+        <li><a class="episode-action icon icon-download" data-service="download" href="https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/857f7522.mp3" rel="external noopener noreferrer">Download MP3</a></li>
+    </ul>
+
+    <div class="episode-description">
+        <p>Some people believe that decentralization is the inevitable future of the web. They believe that internet users will start to demand more privacy and authenticity of information online, and that they’ll look to decentralized platforms to get those things. But would decentralization be as utopian as advocates say it could be?</p>
+
+<p>Host <a href="https://twitter.com/manoushz">Manoush Zomorodi</a> speaks to Eugen Rochko of <a href="https://joinmastodon.org/">Mastodon</a>, an ad-free alternative to Twitter; Justin Hunter of <a href="https://app.graphitedocs.com/">Graphite docs</a>, a decentralized alternative to GoogleDocs; <a href="https://twitter.com/mariabustillos">Maria Bustillos</a> who hopes to help eliminate fake news online through the Blockchain; <a href="https://twitter.com/metaquestions?lang=en">David Irvine</a>, the co-founder of <a href="https://maidsafe.net/">MaidSafe</a> who plans to make the centralized internet as we know it redundant; and <a href="https://twitter.com/tsimonite/">Tom Simonite</a> of <a href="https://www.wired.com/">WIRED</a>, who comments on both the promise and also the pitfalls of decentralization.</p>
+
+        
+        <div class="episode-date">Published: February 18, 2019</div>
+    </div>
+
+    
+    <div class="episode-subscribe-links" id="episode-29-subscribe-links">
+        <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_episode29" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=episode29-modal" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+    </div>
+
+    
+</article>
+
+
+            
+            <section class="episode-notes">
+                <h2 id="show-notes">Show Notes</h2>
+
+                
+                <p>Try out the decentralized endeavors covered in this episode of IRL:</p>
+
+<ul>
+<li><a href="https://mastodon.social/invite/Usw6HEoB">Mastodon</a></li>
+<li><a href="https://app.graphitedocs.com/">Graphite Docs</a></li>
+<li><a href="https://maidsafe.net/">MaidSafe</a></li>
+<li><a href="https://popula.com/">Popula</a></li>
+</ul>
+
+<p>Decentralization efforts are proof that the age of internet innovation is far from over. In fact, Mozilla staff work tirelessly on decentralized web standards, which have been — and continue to be — widely adopted.</p>
+
+<p>Mozilla co-chaired the <a href="https://www.w3.org/wiki/Socialwg#Social_Web_Working_Group">W3C Social Web Working Group</a> 2014 through 2018, which produced several key decentralized social web standards. Some have dozens of implementations like:</p>
+
+<ul>
+<li><a href="https://indieweb.org/Webmention">Webmention</a> (a standard for federating conversations across the
+decentralized web); and</li>
+<li><a href="https://indieweb.org/Micropub">MicroPub</a> (a standard API for client applications to post to decentralized web services).</li>
+</ul>
+
+<p>Check out <a href="https://indieweb.org/">IndieWeb.org</a> for more on <a href="https://spec.indieweb.org/">key decentralized web
+standards</a>, and <a href="https://indiewebify.me/">&lsquo;become a citizen&rsquo; of the Indie Web</a>.</p>
+
+<p>As a part of Mozilla’s dedication to decentralized innovation, Mozilla participated in the 2018 <a href="https://www.decentralizedweb.net/">Decentralized Web Summit</a>:</p>
+
+<ul>
+<li>See our Founder and Executive Chairwoman Mitchell Baker’s <a href="https://decentralizedweb.net/videos/talk-mitchell-baker-revitalizing-the-web/">talk on revitalizing the web</a>;</li>
+<li>Hear Tantek Çelik, Web Standards Lead, speak on <a href="https://www.youtube.com/watch?v=y9FSPcmybT8">taking back your content with practical decentralization steps</a>; and</li>
+<li>Watch Chris Riley, Head of Policy, lead a <a href="https://decentralizedweb.net/videos/panel-decentralizing-social-networks/">web panel on decentralization</a>.</li>
+</ul>
+
+<p>So, are you inspired? Want to work on the decentralized web? Join Mozilla at one of these events:</p>
+
+<ul>
+<li>Feb 23-24, 2019: <a href="https://2019.indieweb.org/austin">IndieWebCamp Austin</a></li>
+<li>Mar 30-31, 2019: <a href="https://indieweb.org/2019/New_Haven">IndieWebCamp New Haven</a></li>
+<li>May 4-5, 2019: <a href="https://indieweb.org/2019/Berlin">IndieWebCamp Berlin</a></li>
+<li>June 29-30, 2019: <a href="https://indieweb.org/2019">IndieWeb Summit in Portland</a></li>
+<li>Questions about participating? <a href="https://indieweb.org/discuss">Ask here</a>.</li>
+</ul>
+
+<p>For more, we&rsquo;ve teamed up with <a href="https://826valencia.org/">826 Valencia</a> to bring you articles written by students on IRL topics this season. Accompanying this IRL episode, Huy An N. from <a href="https://demarillac.org/">De Marillac Academy</a> wrote about <a href="https://blog.mozilla.org/internetcitizen/2019/02/17/how-to-make-frenemies-with-big-tech">centralized social media platforms and privacy</a>. And, see <a href="https://blog.mozilla.org/internetcitizen/2018/09/10/research-on-kids-and-tech/">this article from Common Sense Media</a>, on why we need more research on kids and tech (centralized and not).</p>
+
+            </section>
+            
+
+            <section class="episode-transcript">
+                <h2 id="transcript">Transcript</h2>
+
+                <p><strong>Luke O&rsquo;Neil:</strong> I think it was around July or August, and there was a big controversy going on on Twitter where they were really dragging their heels on banning a series of really controversial people from using the site.</p>
+
+<p><strong>Manoush Z.:</strong> Luke O&rsquo;Neil is a journalist in Boston. He&rsquo;s talking about provocateur host Alex Jones. He and his site Infowars got banned from much of the internet, places like YouTube, Spotify, Apple&rsquo;s app store, Facebook, kicked him off for violating their policies. These sites are the places where we gather, express, ourselves, find content. Places that have centralized much of our online lives.</p>
+
+<p>Alex Jones was no longer welcome there. Yet, as the cascading series of bans spread, people on Twitter noticed that their preferred platform wasn&rsquo;t following suit, and they were incensed.</p>
+
+<p><strong>Luke O&rsquo;Neil:</strong> A lot of my friends were like, &ldquo;Screw this. Twitter sucks. I can&rsquo;t take this place anymore. Let&rsquo;s try Mastodon.&rdquo;</p>
+
+<p><strong>Manoush Z.:</strong> Mastodon, it&rsquo;s a social site that looks and feels a lot like Twitter.</p>
+
+<p><strong>Luke O&rsquo;Neil:</strong> A series of timelines with posts going down the screen. You reply to them, or you can retweet them, or re-toot them as it&rsquo;s called on Mastodon. They call posts &ldquo;toots,&rdquo; which sounds silly, but probably isn&rsquo;t that much sillier than the name tweet if we&rsquo;re being honest.</p>
+
+<p><strong>Manoush Z.:</strong> Luke&rsquo;s friends wanted to try something new. Something that promised to be safer, friendlier, without armies of trolls and hate-speech that, to them, was ruining Twitter.</p>
+
+<p><strong>Luke O&rsquo;Neil:</strong> Everyone on there seemed to be nice, which is such a difference from what I&rsquo;m used on Twitter, where I can&rsquo;t go an hour without somebody telling me I should kill myself.</p>
+
+<p><strong>Manoush Z.:</strong> Twitter did eventually kick out Alex Jones, but by then Luke and his friends were already exploring the vast frontier that is Mastodon. As a result, they found not only a new social platform, but a whole new way of thinking about how we connect to each other on a network. Because Mastodon is a decentralized network, meaning that unlike Twitter, it&rsquo;s not controlled by any single company or centralized entity.</p>
+
+<p>Some believe that decentralization is the inevitable future of the web. That it will give us control of our online lives, take power back from the big tech companies that dominate and centralize everything we do. As Luke puts it &hellip;</p>
+
+<p><strong>Luke O&rsquo;Neil:</strong> There is this sort of, I guess, utopian feel to it, to Mastodon and other decentralized things.</p>
+
+<p><strong>Manoush Z.:</strong> But what&rsquo;s the point of promising utopia if nobody comes? Can Decentralization’s champions convince the rest of us to join in?</p>
+
+<p>I&rsquo;m Manoush Zomorodi. This is IRL: Online Life is Real Life, an original podcast from Mozilla.</p>
+
+<p>Mozilla&rsquo;s Firefox browser is built on open source software. Thousands of volunteers and employees working together to build a browser that serves people, not corporations. Try Firefox for free at firefox.com.</p>
+
+<p>If you&rsquo;ve seen the HBO show Silicon Valley, you may be a little familiar with the basic idea of a decentralized internet. One of the main characters, Richard, dreams up this idea of using the collective power of all the computers in our smartphones to build something new. Here&rsquo;s a short scene, courtesy of HBO.</p>
+
+<p><strong>Richard:</strong> There&rsquo;s, what, billions of phones all around the world with the same computing power just sitting in people&rsquo;s’ pockets. What if we used all those phones to build a massive network? We could build a completely decentralized version of our current internet with no firewalls, no tolls, no government regulation, no spying. Information would be totally free in every sense of the word.</p>
+
+<p><strong>Speaker 4:</strong> You wanna build a new internet?</p>
+
+<p><strong>Manoush Z.:</strong> Yes, building a decentralized internet is now fodder for TV comedy. But the idea is not that far off from some real projects taking root. I&rsquo;m gonna get into specifics in a little bit, but just to make sure that we are speaking the same language, let&rsquo;s clarify the basic differences between a centralized and a decentralized service.</p>
+
+<p>Okay, so a centralized internet is one where the major apps, platforms, and tools, are built and owned by a single person or corporation. Google is a centralized service. Apple is a centralized company. Facebook and Twitter are centralized platforms. All the information you send, and all the information you request, pass through central servers operated by those companies, which is useful if you own a lot of services or apps, and you want them to work together, like in the Apple app store. Or you wanna control large chunks of the web&rsquo;s traffic by routing it through your network, and say sell ads based on collecting massive amounts of user data. Oh, hello, Facebook.</p>
+
+<p>Now, if you&rsquo;re on a decentralized platform, data is distributed across many servers or computers. Those aren&rsquo;t necessarily owned or operated by the creator of the platform you&rsquo;re using. The power, the authority, the control is spread out. A decentralized system gives everyone more freedom, but it also means that because the data is distributed, there&rsquo;s no authority who gets the final word, so it&rsquo;s harder to find and remove illegal or objectionable content.</p>
+
+<p>Despite the risks, decentralized alternatives come with a lot of optimism baked in. We&rsquo;re gonna keep that in mind today as we focus on a few examples. We&rsquo;re gonna look at how decentralization could make social media better, how it could give us back control of our privacy and our data, how it could be used to protect journalism and information, maybe. And how it might even revamp the entire internet infrastructure as we know it.</p>
+
+<p><strong>Eugen Rochko:</strong> My name is Eugen Rochko, and I am the founder and developer of Mastodon, the decentralized social network.</p>
+
+<p><strong>Manoush Z.:</strong> Before Eugen Rochko created Mastodon, he loved Twitter.</p>
+
+<p><strong>Eugen Rochko:</strong> I was an avid Twitter user, and the format was close to my heart, but I was not happy with the direction the company was going.</p>
+
+<p><strong>Manoush Z.:</strong> So he wanted to build an alternative, and right away Eugen knew he wanted Mastodon to be decentralized.</p>
+
+<p><strong>Eugen Rochko:</strong> With a platform like Mastodon, when you have your own server, you make the rules, and nobody can change the rules for you.</p>
+
+<p><strong>Manoush Z.:</strong> Anyone can host a server, or node. In Mastodon speak, servers are called &ldquo;instances.&rdquo; Eugen says this model forms a kind of federated universe, a fedeverse, and because of this it&rsquo;s much easier to deal with challenges that Twitter struggles to tackle.</p>
+
+<p><strong>Eugen Rochko:</strong> In a decentralized network, every admin can decide, &ldquo;What do I want to host on my node? What do I not want to host on my node?&rdquo; If you don&rsquo;t want Nazis, you just ban all Nazis from your node. If bad actors wanted to start a Mastodon server they could, but normal people could too. You can just say, &ldquo;I don&rsquo;t wanna receive any messages from this bad server, there&rsquo;s bad people there.&rdquo;</p>
+
+<p><strong>Manoush Z.:</strong> Eugen says he counts about 1.8 million registered users, although he concedes that only about 170,000 of those users seem to be active on the platform, but it&rsquo;s a start. The other advantage he points to is that Mastodon doesn&rsquo;t depend on user data and ad targeting to make money.</p>
+
+<p><strong>Eugen Rochko:</strong> Many of the reasons for Twitter&rsquo;s decision making going against user&rsquo;s interests is driven by its centralization. They have to perform financially. Now with a decentralized approach, we don&rsquo;t really need to monetize because the costs of operating everything are just so comparatively small for any given independent entity, right?</p>
+
+<p>For me, it&rsquo;s like, let&rsquo;s say about $500 per month to host my server of Mastodon, and that&rsquo;s housing 300,000 registered accounts. I have a Patreon that more than covers that. For many other administrators of Mastodon servers, it&rsquo;s the same situation.</p>
+
+<p><strong>Manoush Z.:</strong> Getting rid of a profits over people business model, and diluting the ability for groups to organize and spread hate on the platform, seems to be paying off. Generally, Mastodon&rsquo;s base describe the experience as supportive, fun, and friendly. But that vibe is probably not a result of the decentralized software itself. After all, you can be a Nazi and set up your own Mastodon instance, as it&rsquo;s called. Eugen said as much. It&rsquo;s likely more a result of optimistic early adopters. As with all social media, Mastodon may not be everyone&rsquo;s cup of tea. In the end, it actually wasn&rsquo;t for Luke O&rsquo;Neil, who we heard from earlier. He is back on Twitter.</p>
+
+<p><strong>Luke O&rsquo;Neil:</strong> It&rsquo;s like, let&rsquo;s say you met a guy, you liked him, and you hung out for a couple days. You&rsquo;re like, &ldquo;Oh, I should be friends with that guy.&rdquo; And then for some reason you just never do. I guess that&rsquo;s sort of how I feel about Mastodon. It&rsquo;s some nice guy that I met, and we talked for a few times, and probably won&rsquo;t be the end of the world if I don&rsquo;t end up being friends with him, but it would be nice.</p>
+
+<p><strong>Manoush Z.:</strong> If you wanna give Mastodon a try, find a link in the episode show notes at IRLpodcast.org.</p>
+
+<p>Mastodon is decentralized social media. The next stop on our decentralization tour is an app called Graphite Docs. It&rsquo;s an app that is trying to take on Google. Google&rsquo;s suite of productivity tools are used by millions of people. We calculate budgets in Google Sheets. We store photos on Google Drive. We write reports, and podcasts like this one, in Google Docs. As centralized services go, Google is as big as it gets.</p>
+
+<p>Justin Hunter was in grad school when he realized he might be able to offer an alternative.</p>
+
+<p><strong>Justin Hunter:</strong> I am not a developer by trade. I&rsquo;m a writer, actually. I was finishing up my MFA in creative writing, and I was - at that point I stored everything, all of my fiction, my nonfiction, resumes, everything on Google Docs. It was starting to worry me that Google had so much control over all of my material.</p>
+
+<p><strong>Manoush Z.:</strong> So he taught himself how to code, and he launched Graphite Docs in March 2018.</p>
+
+<p><strong>Justin Hunter:</strong> Graphite Docs is a decentralized and encrypted productivity suite. You can create documents, create spreadsheets, you can store files, and you can collaborate with people.</p>
+
+<p><strong>Manoush Z.:</strong> Anything you make on Graphite belongs to you and you alone. Only you decide who has access to your data. Only you have the key to unlock it.</p>
+
+<p><strong>Justin Hunter:</strong> This is the cool part. This is where the decentralized web comes. When you create your account, you&rsquo;re actually creating a bitcoin address, and you&rsquo;re saving some metadata to the bitcoin blockchain. That&rsquo;s actually gonna represent your identity that you can use really on any app that supports it.</p>
+
+<p><strong>Manoush Z.:</strong> Bitcoin, blockchain, we&rsquo;ll get to those in a minute, but to be clear, Justin knew that what he was building wasn&rsquo;t just a great tool. He wanted it to be something to promote democracy and free expression too.</p>
+
+<p><strong>Justin Hunter:</strong> Centralized services like Google, like Amazon, those are trivial to censor by a government. In fact, you see it in China all the time. China doesn&rsquo;t let tech companies in unless they&rsquo;re willing to hand over user data to the Chinese government. I think the biggest problem that Graphite solves is it allows users access to convenient software without that fear of their data being handed over to somebody that they don&rsquo;t want it to be handed over to.</p>
+
+<p><strong>Manoush Z.:</strong> As Justin says, our information is valuable, it&rsquo;s worth protecting. And that goes not just for our personal data, a decentralized web might even help journalism, while we&rsquo;re at it. That is the next stop on our tour.</p>
+
+<p>First though, I need to ask you a favor. The IRL team is working on the next season of this podcast, and we want your help. What specific issues, topics, or stories are you curious about? How can IRL help you live a better life online? Find the link to a very short survey. It&rsquo;s in the show notes at IRLpodcast.org. We don&rsquo;t share any of your data with anyone else. Your answers will go directly to the humans who make IRL. IRLpodcast.org, find the survey, talk to us about all things IRL.</p>
+
+<p>Before the web, journalism came from centralized news sources that we read, watched, listened to, and trusted. We still get a lot of our news from these sources, but many are struggling to make enough money to keep going. Think of BuzzFeed news for example, they cut 15% of their newsroom in January. The big news organizations are also constantly facing accusations of bias, or they get labeled as fake news, even if a story is accurately reported.</p>
+
+<p><strong>Maria B.:</strong> So, as long as there have been newspapers this has been an issue of where the agenda is coming from.</p>
+
+<p><strong>Manoush Z.:</strong> This is my pal Maria Bustillos. She&rsquo;s also a journalist and runs an online magazine called Popula.com. She knows that whether bias is real or perceived, it is a problem.</p>
+
+<p><strong>Maria B.:</strong> Take The Washington Post for example. That is owned by Jeff Bezos. There&rsquo;s one guy on top who really owns that property. If The Washington Post wants to criticize Amazon, they&rsquo;ve gotta think very carefully about whom they are going to offend. The same principle applies pretty much all through media. I mean, who gets to decide what we talk about, and how we talk about it.</p>
+
+<p><strong>Manoush Z.:</strong> But I think the other thing, correct me if I&rsquo;m wrong, when I mention journalism centralization problem, I&rsquo;m also talking about the fact that Facebook and Google take the majority of all advertising dollars, which is the reason why newsrooms are shrinking across the United States, across the world.</p>
+
+<p><strong>Maria B.:</strong> And there&rsquo;s a middleman between you and the information that&rsquo;s available on the internet. As we&rsquo;ve seen, they - neither Google nor Facebook is subject to any kind of oversight.</p>
+
+<p><strong>Manoush Z.:</strong> Okay, so that&rsquo;s two problems, a loss of trust and a loss of money. Maria thinks decentralization might fix both.</p>
+
+<p>How do you describe what you&rsquo;re doing these days, Maria?</p>
+
+<p><strong>Maria B.:</strong> Well, Civil is a work in progress, so it&rsquo;s kind of hard to say.</p>
+
+<p><strong>Manoush Z.:</strong> Civil is a company trying to build a decentralized network for journalists, and I actually know a lot about it. Because last year, I did something a little nutty. I quit my job in public radio, and I started my own company, Stable Genius Productions, with my co-founder Jen Poyant. We joined Civil&rsquo;s experimental journalism project, and we made another podcast documenting the entire strange adventure. The podcast is called ZigZag, and we spent a lot of time talking about Civil, and how it&rsquo;s being built with something called blockchain technology.</p>
+
+<p>Blockchain is, well, honestly it is complicated. For now, you just need to know that a blockchain is a network of computers all processing data collectively, with no central authority. You may have heard of bitcoin. Bitcoin runs on the Bitcoin blockchain. Civil is similar, except it runs on a blockchain called Ethereum.</p>
+
+<p><strong>Maria B.:</strong> Ethereum is a big network of computers, like 12,000 super powerful computers, and that network has records on it. Those records are incorruptible.</p>
+
+<p><strong>Manoush Z.:</strong> Not only that, but this technology can make it possible to support journalists in new ways, like creating new virtual currencies.</p>
+
+<p><strong>Maria B.:</strong> For example, we&rsquo;re building right now a micro-tipping platform where readers can get to the bottom of an article, and they&rsquo;re gonna be able to &hellip; Did you like this? Send 15 cents to the person that wrote it. Send a dollar, send $500 to the person that wrote it.</p>
+
+<p><strong>Manoush Z.:</strong> As for rebuilding trust, well, again, because the blockchain can&rsquo;t be altered if you add your content to the network, it&rsquo;s protected and authenticated.</p>
+
+<p><strong>Maria B.:</strong> In this world, I will know who wrote what, and why they wrote it. I will know that the information that they have published is secure and safe from bad actors.</p>
+
+<p><strong>Manoush Z.:</strong> In other words, you can trace the author of the piece, and hopefully learn to trust them as a news source.</p>
+
+<p><strong>Maria B.:</strong> Already, Popula has succeeded in archiving pieces to that network that cannot be altered, or changed, or taken down. You&rsquo;ve gotta basically shut the internet off to get rid of this text that we have committed to the Ethereum blockchain.</p>
+
+<p><strong>Manoush Z.:</strong> You&rsquo;ve just undersold yourself. Let&rsquo;s just, can we say that you are probably the first journalist to ever publish an article onto a blockchain?</p>
+
+<p><strong>Maria B.:</strong> I -  I think that&rsquo;s true?</p>
+
+<p><strong>Manoush Z.:</strong> Maria Bustillos, you should check out the great journalism that she is doing. You don&rsquo;t need to know anything about blockchain to do so. Go to Popula.com.</p>
+
+<p>There&rsquo;s a lot more going on with blockchain technology than we can get into right here, including the downsides, but if you&rsquo;re curious, go listen to the first season of ZigZag to learn a lot more about it.</p>
+
+<p>So far I&rsquo;ve shown you three ways that decentralization could work, but there are many other people working on lots of other projects. People like David Irvine, who wants to take the whole concept much further. Okay, remember that Silicon Valley clip from earlier about building a decentralized internet through a global network of cellphones?</p>
+
+<p><strong>Speaker 4:</strong> You wanna build a new internet?</p>
+
+<p><strong>Manoush Z.:</strong> Well, David is kind of sort of building that, only without the smartphones part.</p>
+
+<p><strong>David Irvine:</strong> The company is MaidSafe, which is an acronym about Massive Array of Internet Disks, Secure Access For Everyone.</p>
+
+<p><strong>Manoush Z.:</strong> David, I&rsquo;d love to introduce you to my mom. Can you describe to her what MaidSafe is? She&rsquo;s 77 and basically uses just email on her iPhone.</p>
+
+<p><strong>David Irvine:</strong> Yes, no problem at all. It&rsquo;s the new version of the internet with no controllers, and no servers, and no big companies in charge of it anymore. We take away all of the problems of internet, of data being lost, servers being hacked, passwords being stolen, and make it a nice, safe, comfortable place for everyone that&rsquo;s using it.</p>
+
+<p>And really, it’s people&rsquo;s computers will run, and they run a bit of software, which is a safe network software, and all of the computers connect together.</p>
+
+<p><strong>Manoush Z.:</strong> I&rsquo;m trying to figure out what is success for MaidSafe, is it that the entire centralized web disappears, and is replaced by this decentralized model?</p>
+
+<p><strong>David Irvine:</strong> Yeah. I think if you look at what we&rsquo;re trying to do, the vision is privacy, security, and freedom, and it-</p>
+
+<p><strong>Manoush Z.:</strong> But it strikes me that the way you&rsquo;re defining success is very different than Silicon Valley does.</p>
+
+<p><strong>David Irvine:</strong> Yeah. Oh, yeah. For us, it&rsquo;s have you made people more free today, have you made them more secure? There&rsquo;s people in countries which can&rsquo;t speak openly because of the way the internet works just now, that will be able to.</p>
+
+<p><strong>Manoush Z.:</strong> Gotta love David Irvine&rsquo;s optimism. I think it really speaks to that idea of a decentralized utopia that we mentioned at the very beginning of the episode. But I can&rsquo;t help but be a little skeptical. As exciting and enticing as the decentralized world may be, it has big hurdles to overcome before reaching mass adoption.</p>
+
+<p>Over at WIRED magazine, Tom Simonite lays out what he thinks some of those challenges are. First, there&rsquo;s something we&rsquo;re calling the network effect. This affects projects like Mastodon, for example.</p>
+
+<p><strong>Tom Simonite:</strong> It&rsquo;s the chicken and egg problem. I might have this wonderful new decentralized social network with no one on it, but I can&rsquo;t get anyone to join because there&rsquo;s no one else to talk with, and there&rsquo;s no one to talk with because no one will join.</p>
+
+<p><strong>Manoush Z.:</strong> Next, Tom flags that the encryption benefits that come with services like Graphite Docs are also going to be a barrier.</p>
+
+<p><strong>Tom Simonite:</strong> You might have an encryption key that means that only you can unlock your files and look at your photos, but if you lose that key, no one can help you. I think that&rsquo;s a big usability problem because people are not used to being 100% in control of their data.</p>
+
+<p><strong>Manoush Z.:</strong> And then there&rsquo;s the whole monetization problem.</p>
+
+<p><strong>Tom Simonite:</strong> One reason a lot of people are excited about decentralized web projects is that they don&rsquo;t like the ad supported business model that keeps so many other companies and services going today.</p>
+
+<p><strong>Manoush Z.:</strong> If decentralized services can&rsquo;t or won&rsquo;t rely on an ad model to support themselves, then it&rsquo;s up to people to pay for it.</p>
+
+<p><strong>Tom Simonite:</strong> But I think after so many years of everything being free, there may be cultural barriers to that.</p>
+
+<p><strong>Manoush Z.:</strong> That&rsquo;s assuming that these decentralized platforms are built to survive as sustainable businesses, and not just really wonderful ideas that ultimately can&rsquo;t scale.</p>
+
+<p>When the internet was first built, it was a decentralized system. Over time though, those systems hardened and consolidated. Companies started building massive server farms, and hosting reams and reams of data. That was the first step towards the centralized web we know today. In some ways, the push for decentralization is actually just a push to re-decentralize it.</p>
+
+<p>Decentralization could change the web for the better, or it might repeat some of the problems our web already has, or even make problems worse. But it&rsquo;s early days for the decentralized web. I mean, it&rsquo;s still early days for the internet too when you think about it. There&rsquo;s so much room to experiment and try things, break things, fix things, remake how everything works together. There is room for both, and it&rsquo;s why Tom Simonite at WIRED says it&rsquo;s worth trying it all.</p>
+
+<p><strong>Tom Simonite:</strong> Because they show that we haven&rsquo;t reached the endpoint of the internet. The endpoint of the internet is not billions of people communicating via centralized corporate servers that analyze your data for ads.</p>
+
+<p><strong>Manoush Z.:</strong> After all, the internet owes much of its success to openness. It should belong to all of us, not just corporations.</p>
+
+<p>Learn more about Mozilla&rsquo;s stance on decentralization and the future of the web at Mozilla.org/decentralization. For now, I&rsquo;m Manoush Zomorodi. This is IRL: Online Life is Real Life, an original podcast from Mozilla.</p>
+
+<p><strong>Eugen Rochko:</strong> Fun fact, at the time it was suggested, I was not aware that toot had a different connotation than just the sound that an elephant makes.</p>
+
+<p><strong>Manoush Z.:</strong> Don&rsquo;t forget, I wanna hear from you. Find our short listener survey at IRLpodcast.org, and thanks.</p>
+
+            </section>
+
+            <aside class="next">
+                
+                    <a class="next-block next-next" href="https://dev.irlpodcast.org/season4/episode7/">
+                        <img class="next-thumb" src="/images/episodes/S04E07/artwork.png" alt="" height="70" width="70">
+                        <div class="next-dir">Next episode</div>
+                        <div class="next-title">What if women built the internet?</div>
+                    </a>
+                
+
+                
+                    <a class="next-block next-prev" href="https://dev.irlpodcast.org/season4/episode5/">
+                        <img class="next-thumb" src="/images/episodes/S04E05/artwork.png" alt="" height="70" width="70">
+                        <div class="next-dir">Previous episode</div>
+                        <div class="next-title">The Surveillance Economy</div>
+                    </a>
+                
+            </aside>
+        </div>
+    </article>
+
+    
+
+    </main>
+
+    <footer id="footer" class="footer">
+    <div class="footer-tag">
+        <p>IRL is an original podcast from Firefox, the tech company that believes privacy isn’t a policy. It’s a right.</p>
+    </div>
+
+    <div class="footer-primary">
+        <ul class="footer-links">
+            <li class="footer-logo"><a href="https://www.mozilla.org/firefox/"><img src="/images/firefox-logo.png" srcset="/images/firefox-logo-high-res.png 2x" width="111" height="38"></a></li>
+            <li><a href="https://www.mozilla.org/privacy/">Privacy Notice</a></li>
+            <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+            <li><a href="/ringtones/">Ringtones</a></li>
+        </ul>
+        <ul class="footer-social">
+            <li><a class="icon icon-twitter" href="https://twitter.com/firefox">Twitter</a></li>
+            <li><a class="icon icon-instagram" href="https://www.instagram.com/firefox/">Instagram</a></li>
+        </ul>
+        <p class="footer-legal">Unless otherwise indicated, IRL Podcast episodes are available from the Mozilla Corporation under the <a href="https://creativecommons.org/licenses/by-sa/3.0/us/" rel="external">Creative Commons Attribution Share-Alike 3.0</a> Unported license, or any later version.</p>
+    </div>
+</footer>
+
+
+    <script src="/js/libs/jquery.3.2.1.min-1055018c.js"></script>
+    <script src="/js/libs/clipboard.min-a9e688f0.js"></script>
+    <script src="/js/libs/mozilla.lazy-load-min-9b82a01f.js"></script>
+    <script src="/js/newsletter-min-8de43da4.js"></script>
+    <script src="/js/libs/protocol-min-96a4c400.js"></script>
+    <script src="/js/main-min-a01d0d70.js"></script>
+    <script src="/js/protocol-init-min-d680371b.js"></script>
+</body>
+</html>

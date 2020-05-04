@@ -1,0 +1,981 @@
+
+
+    
+    
+    
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dev.irlpodcast.org/season5/">
+    <meta property="og:image" content="https://dev.irlpodcast.org/images/irl-logo-open-graph.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:title" content="IRL Podcast">
+    <meta property="og:description" content="Manoush Zomorodi explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from the Mozilla Corporation.">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/images/favicon/favicon-180x180.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="/images/favicon/favicon-196x196.png">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+
+    <title>IRL Podcast: Online Life is Real Life</title>
+    <meta name="description" content="Manoush Zomorodi explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original …">
+
+    <meta name="apple-itunes-app" content="app-id=1247652431, affiliate-data=at=1010lbVy&amp;ct=mozilla_smart_banner">
+
+    <link rel="stylesheet" href="/css/irlpodcast-b691ec18.css" />
+    <link rel="alternate" type="application/rss+xml" title="IRL Podcast: Online Life is Real Life" href="https://feeds.mozilla-podcasts.org/irl">
+    <link rel="canonical" href="https://dev.irlpodcast.org/season5/">
+
+    <script src="/js/pre-render-min-81c6f16b.js"></script>
+
+    
+        <script>
+    (function() {
+        'use strict';
+
+        
+        
+        if(navigator.doNotTrack !== 1) {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5H9T7GF');
+        } else {
+            
+            window.dataLayer = [];
+        }
+    })();
+</script>
+
+    
+</head>
+
+<body id="season-page" class="mzp-t-firefox">
+
+    <header id="header">
+    <div class="mzp-c-navigation">
+        <div class="mzp-c-navigation-l-content">
+            <div class="mzp-c-navigation-container">
+            <button class="mzp-c-navigation-menu-button has-label" type="button" aria-controls="menu-site">Menu</button>
+            <div class="mzp-c-navigation-logo"><a href="/">IRL</a></div>
+            <div class="mzp-c-navigation-items" id="menu-site">
+                <div class="mzp-c-navigation-menu">
+                    <nav class="mzp-c-menu mzp-is-basic">
+                        <ul class="mzp-c-menu-category-list">
+                            <li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+                                <a class="mzp-c-menu-title" href="/" aria-haspopup="true" aria-controls="menu-episodes">Episodes</a>
+                                <div class="mzp-c-menu-panel" id="menu-episodes">
+                                    <div class="mzp-c-menu-panel-container">
+                                        <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-example">Close Episodes menu</button>
+                                        <div class="mzp-c-menu-panel-content">
+                                            <ul>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season1/">
+                                                            <h4 class="mzp-c-menu-item-title">Season One</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season2/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Two</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season3/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Three</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season4/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Four</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season5/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Five</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mzp-c-menu-category">
+                                <a class="mzp-c-menu-title" href="/about/">About</a>
+                            </li>
+                            <li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+                                <a class="mzp-c-menu-title" href="/about/#contact" aria-haspopup="true" aria-controls="menu-contact">Contact</a>
+                                <div class="mzp-c-menu-panel" id="menu-contact">
+                                    <div class="mzp-c-menu-panel-container">
+                                        <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-example">Close Contact menu</button>
+                                        <div class="mzp-c-menu-panel-content">
+                                            <section class="mzp-c-menu-item ">
+                                                <a class="mzp-c-menu-item-link" href="mailto:IRL-podcast@mozilla.com">
+                                                    <h4 class="mzp-c-menu-item-title">General</h4>
+                                                    <p class="mzp-c-menu-item-desc">
+                                                    IRL-podcast@mozilla.com
+                                                    </p>
+                                                </a>
+                                            </section>
+                                            <section class="mzp-c-menu-item">
+                                                <a class="mzp-c-menu-item-link" href="mailto:press@mozilla.com">
+                                                    <h4 class="mzp-c-menu-item-title">Press</h4>
+                                                    <p class="mzp-c-menu-item-desc">
+                                                    press@mozilla.com
+                                                    </p>
+                                                </a>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</header>
+
+
+    
+
+    <main class="page-content" aria-label="Content">
+    
+    
+
+    <h1 class="page-title">Season 5</h1>
+    <section id="episodes">
+        <div class="l-content">
+            <ul id="episode-list">
+                    <li class="episode-list-item">
+                        
+                        
+
+
+    
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<article class="episode" id="episode-31">
+    
+    <h2 class="episode-title">1: <a href="https://dev.irlpodcast.org/season5/episode1/">The “Privacy Policy” Policy</a></h2>
+    
+
+    <div class="episode-image">
+        <img src="/images/episodes/S05E01/artwork.png" srcset="/images/episodes/S05E01/artwork-high-res.png 2x" alt="">
+    </div>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe title="Listen to The “Privacy Policy” Policy." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://player.simplecast.com/5c0ef6cc-9636-4ed1-9012-3491328ae612" width="100%"></iframe>
+            <noscript>
+                <iframe title="Listen to The “Privacy Policy” Policy." frameborder="0" height="183px" scrolling="no" seamless src="https://player.simplecast.com/5c0ef6cc-9636-4ed1-9012-3491328ae612" width="100%"></iframe>
+            </noscript>
+        </div>
+    </div>
+
+    <ul class="episode-actions">
+        <li><button type="button" class="episode-subscribe mzp-c-button mzp-t-small mzp-t-product" data-subscribe-links="episode-31-subscribe-links">Subscribe</button></li>
+        <li><a class="episode-action icon icon-twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode1%2f&amp;text=IRL Podcast: The%20%e2%80%9cPrivacy%20Policy%e2%80%9d%20Policy w%2f%20%40Mozilla%20%26%20%40Manoushz" data-link-type="social share" data-link-name="Twitter">Share on Twitter</a></li>
+        <li><a class="episode-action icon icon-facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode1%2f" data-link-type="social share" data-link-name="Facebook">Share on Facebook</a></li>
+        <li class="js-action-copy">
+            <a class="episode-action icon icon-copylink" data-service="copylink" href="https://dev.irlpodcast.org/season5/episode1/" data-link-type="social share" data-link-name="copylink" data-clipboard-text="https://dev.irlpodcast.org/season5/episode1/">Copy Link</a>
+            <div class="episode-copy-ok">URL copied to clipboard</div>
+        </li>
+        <li><a class="episode-action icon icon-download" data-service="download" href="https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/5c0ef6cc-9636-4ed1-9012-3491328ae612/IRL_S5E01_Privacy_Policy_Policies_FINAL_tc.mp3" rel="external noopener noreferrer">Download MP3</a></li>
+    </ul>
+
+    <div class="episode-description">
+        <p>Privacy policies: most apps and websites have them, buried away somewhere. These legal documents explain how companies collect, use, and share your personal data. But let&rsquo;s be honest, few of us actually read these things, right? And that passive acceptance says a lot about our complicated relationship with online privacy.</p>
+
+<p>In the Season 5 premier of IRL, host Manoush Zomorodi speaks with Charlie Warzel, writer-at-large with the New York Times, about our complicated relationship with data and privacy — and the role privacy policies play in keeping things, well, confusing. You&rsquo;ll also hear from Parker and Lila, two young girls who realize how gaming and personal data intersect. Rowenna Fielding, a data protection expert, walks us through the most efficient ways to understand a privacy policy. Professor Lorrie Cranor explains how these policies have warped our understanding of consent. And privacy lawyer Jenny Afia explains why   “privacy” is a base element of being human.</p>
+
+        
+        
+            <a href="https://dev.irlpodcast.org/season5/episode1/#show-notes" data-shownotes="episode-31-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
+        
+        
+        <div class="episode-date">Published: June 14, 2019</div>
+    </div>
+
+    
+    <div class="episode-subscribe-links" id="episode-31-subscribe-links">
+        <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_episode31" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=episode31-modal" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+    </div>
+
+    
+    
+    <div class="episode-shownotes" id="episode-31-shownotes">
+        
+        <p>Charlie Warzel is an Opinion writer at large for the New York Times. You can get more insights from him about privacy online when you sign up for the Times’ <a href="https://www.nytimes.com/newsletters/privacy-project">Privacy Project Newsletter</a>.</p>
+
+<p>If you’d like to learn more about privacy policies and their impact on our youth, check out Jenny Afia’s <a href="https://www.schillingspartners.com/news-and-opinion/time-to-tackle-techs-exploitative-relationship-with-our-children">article on tech’s exploitative relationship with our children</a>.</p>
+
+<p>This IRL podcast episode referenced several privacy policies, and we encourage you to read them. To start, here’s <a href="https://www.mozilla.org/privacy/">Firefox’s privacy policy</a>. You’ll see that Firefox’s business model is not dependent on packaging your personal info. And, we hope you’ll find that our policy is easy-to-read, fully transparent, and specific.</p>
+
+<p>The other privacy policies referenced in this episode include:</p>
+
+<ul>
+<li><a href="https://policies.google.com/privacy/archive?hl=en">Google’s privacy policies</a></li>
+<li><a href="https://privacy.uber.com/policy/">Uber’s privacy policy</a></li>
+<li><a href="https://privacy.microsoft.com/en-us/privacystatement">Microsoft’s privacy policy</a></li>
+<li><a href="https://twitter.com/en/privacy">Twitter’s privacy policy</a></li>
+<li><a href="https://www.facebook.com/policy.php">Facebook’s privacy policy</a></li>
+</ul>
+
+
+        <a href="https://dev.irlpodcast.org/season5/episode1/#transcript" class="mzp-c-cta-link">Episode transcript</a>
+    </div>
+    
+    
+</article>
+
+                    </li>
+                
+                    <li class="episode-list-item">
+                        
+                        
+
+
+    
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<article class="episode" id="episode-32">
+    
+    <h2 class="episode-title">2: <a href="https://dev.irlpodcast.org/season5/episode2/">Democracy and the Internet</a></h2>
+    
+
+    <div class="episode-image">
+        <img src="/images/episodes/S05E02/artwork.png" srcset="/images/episodes/S05E02/artwork-high-res.png 2x" alt="">
+    </div>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe title="Listen to Democracy and the Internet." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://player.simplecast.com/5a41a319-48ac-4afc-8743-ddb4ba54cb8f" width="100%"></iframe>
+            <noscript>
+                <iframe title="Listen to Democracy and the Internet." frameborder="0" height="183px" scrolling="no" seamless src="https://player.simplecast.com/5a41a319-48ac-4afc-8743-ddb4ba54cb8f" width="100%"></iframe>
+            </noscript>
+        </div>
+    </div>
+
+    <ul class="episode-actions">
+        <li><button type="button" class="episode-subscribe mzp-c-button mzp-t-small mzp-t-product" data-subscribe-links="episode-32-subscribe-links">Subscribe</button></li>
+        <li><a class="episode-action icon icon-twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode2%2f&amp;text=IRL Podcast: Democracy%20and%20the%20Internet w%2f%20%40Mozilla%20%26%20%40Manoushz" data-link-type="social share" data-link-name="Twitter">Share on Twitter</a></li>
+        <li><a class="episode-action icon icon-facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode2%2f" data-link-type="social share" data-link-name="Facebook">Share on Facebook</a></li>
+        <li class="js-action-copy">
+            <a class="episode-action icon icon-copylink" data-service="copylink" href="https://dev.irlpodcast.org/season5/episode2/" data-link-type="social share" data-link-name="copylink" data-clipboard-text="https://dev.irlpodcast.org/season5/episode2/">Copy Link</a>
+            <div class="episode-copy-ok">URL copied to clipboard</div>
+        </li>
+        <li><a class="episode-action icon icon-download" data-service="download" href="https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/5a41a319-48ac-4afc-8743-ddb4ba54cb8f/irl_s5e02_democracy_vs_online_final_tc.mp3" rel="external noopener noreferrer">Download MP3</a></li>
+    </ul>
+
+    <div class="episode-description">
+        <p>Part of celebrating democracy is questioning what influences it. In this episode of IRL, we look at how the internet influences us, our votes, and our systems of government. Is democracy in trouble? Are democratic elections and the internet incompatible?</p>
+
+<p>Politico&rsquo;s <a href="https://twitter.com/markscott82/">Mark Scott</a> takes us into Facebook&rsquo;s European Union election war room. <a href="https://twitter.com/karinagould/">Karina Gould</a>, Canada&rsquo;s Minister for Democratic Institutions, explains why they passed a law governing online political ads. The ACLU&rsquo;s <a href="https://twitter.com/benwizner/">Ben Wizner</a> says our online electoral integrity problem goes well beyond a few bad ads. The team at <a href="https://twitter.com/StopFakingNews/">Stop Fake</a> describes a massive problem that Ukraine faces in telling political news fact from fiction, as well as how they&rsquo;re tackling it. And NYU professor <a href="https://twitter.com/EricKlinenberg/">Eric Klinenberg</a> explains how a little bit of offline conversation goes a long way to inoculate an electorate against election interference.</p>
+
+        
+        
+            <a href="https://dev.irlpodcast.org/season5/episode2/#show-notes" data-shownotes="episode-32-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
+        
+        
+        <div class="episode-date">Published: July 1, 2019</div>
+    </div>
+
+    
+    <div class="episode-subscribe-links" id="episode-32-subscribe-links">
+        <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_episode32" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=episode32-modal" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+    </div>
+
+    
+    
+    <div class="episode-shownotes" id="episode-32-shownotes">
+        
+        <p>Early on in this episode, we comment about how more privacy online means more democracy offline. <a href="https://blog.mozilla.org/internetcitizen/2019/04/25/more-privacy-means-more-democracy/">Here&rsquo;s more on that concept from Michaela Smiley at Firefox</a>.</p>
+
+<p>Have a read through Mark Scott&rsquo;s Politico reporting on <a href="https://www.politico.eu/article/facebook-european-election-war-room-dublin-political-advertising-misinformation-mark-zuckerberg/">Facebook&rsquo;s European election war room</a>.</p>
+
+<p>For more from Eric Klinenberg, check out his book, <a href="https://www.penguinrandomhouse.com/books/557044/palaces-for-the-people-by-eric-klinenberg/9781524761165/">Palaces for the People: How Social Infrastructure Can Help Fight Inequality, Polarization, and the Decline of Civic Life</a>.</p>
+
+<p>And, find out more about <a href="https://www.stopfake.org/en/about-us/">Stop Fake, its history, and its mission</a>.</p>
+
+
+        <a href="https://dev.irlpodcast.org/season5/episode2/#transcript" class="mzp-c-cta-link">Episode transcript</a>
+    </div>
+    
+    
+</article>
+
+                    </li>
+                
+                    <li class="episode-list-item">
+                        
+                        
+
+
+    
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<article class="episode" id="episode-33">
+    
+    <h2 class="episode-title">3: <a href="https://dev.irlpodcast.org/season5/episode3/">The Internet’s Carbon Footprint</a></h2>
+    
+
+    <div class="episode-image">
+        <img src="/images/episodes/S05E03/artwork.png" srcset="/images/episodes/S05E03/artwork-high-res.png 2x" alt="">
+    </div>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe title="Listen to The Internet’s Carbon Footprint." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://player.simplecast.com/99a79fe9-7a1c-41cf-85a9-c5f2c7216d23" width="100%"></iframe>
+            <noscript>
+                <iframe title="Listen to The Internet’s Carbon Footprint." frameborder="0" height="183px" scrolling="no" seamless src="https://player.simplecast.com/99a79fe9-7a1c-41cf-85a9-c5f2c7216d23" width="100%"></iframe>
+            </noscript>
+        </div>
+    </div>
+
+    <ul class="episode-actions">
+        <li><button type="button" class="episode-subscribe mzp-c-button mzp-t-small mzp-t-product" data-subscribe-links="episode-33-subscribe-links">Subscribe</button></li>
+        <li><a class="episode-action icon icon-twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode3%2f&amp;text=IRL Podcast: The%20Internet%e2%80%99s%20Carbon%20Footprint w%2f%20%40Mozilla%20%26%20%40Manoushz" data-link-type="social share" data-link-name="Twitter">Share on Twitter</a></li>
+        <li><a class="episode-action icon icon-facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode3%2f" data-link-type="social share" data-link-name="Facebook">Share on Facebook</a></li>
+        <li class="js-action-copy">
+            <a class="episode-action icon icon-copylink" data-service="copylink" href="https://dev.irlpodcast.org/season5/episode3/" data-link-type="social share" data-link-name="copylink" data-clipboard-text="https://dev.irlpodcast.org/season5/episode3/">Copy Link</a>
+            <div class="episode-copy-ok">URL copied to clipboard</div>
+        </li>
+        <li><a class="episode-action icon icon-download" data-service="download" href="https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/99a79fe9-7a1c-41cf-85a9-c5f2c7216d23/irl_s5e03_what_is_the_carbon_footprint_of_irl_final_june_27_tc.mp3" rel="external noopener noreferrer">Download MP3</a></li>
+    </ul>
+
+    <div class="episode-description">
+        <p>Manoush Zomorodi explores the surprising environmental impact of the internet in this episode of IRL. Because while it’s easy to think of the internet as living only on your screen, energy demand for the internet is indeed powered by massive server farms, running around the clock, all over the world. What exactly is the internet’s carbon footprint? And, what can we do about it?</p>
+
+<p>Music professor <a href="https://twitter.com/kyledevinephd/">Kyle Devine</a> considers the environmental costs of streaming music. Geophysicist and pop scientist <a href="http://twitter.com/geo_miles/">Miles Traer</a> takes his best shot at calculating the carbon footprint of the IRL podcast. Climate journalist <a href="http://twitter.com/tatertatiana/">Tatiana Schlossberg</a> explores the environmental influence we don’t know we have and what the web’s got to do with it. Greenpeace’s <a href="https://twitter.com/garyacook/">Gary Cook</a> explains which tech companies are committed to renewable energy — and which are not. Kris De Decker tries powering his website with a <a href="https://solar.lowtechmagazine.com/">homebrew solar power system</a>. And, Ecosia&rsquo;s Chief Tree Planting Officer <a href="http://twitter.com/treepieter/">Pieter Van Midwoud</a> discusses how his company uses online search to plant trees.</p>
+
+        
+        
+            <a href="https://dev.irlpodcast.org/season5/episode3/#show-notes" data-shownotes="episode-33-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
+        
+        
+        <div class="episode-date">Published: July 15, 2019</div>
+    </div>
+
+    
+    <div class="episode-subscribe-links" id="episode-33-subscribe-links">
+        <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_episode33" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=episode33-modal" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+    </div>
+
+    
+    
+    <div class="episode-shownotes" id="episode-33-shownotes">
+        
+        <p>Love the internet, but also love the environment? Here are <a href="https://blog.mozilla.org/firefox/digital-carbon-footprint/">some ways you can reduce your energy consumption — or offset it — while online</a>.</p>
+
+<p>Learn more about Kyle Devine’s research on the <a href="https://www.rollingstone.com/music/music-features/environmental-impact-streaming-music-835220/">environmental costs of music streaming</a>.</p>
+
+<p>For more from Tatiana Schlossberg, check out her book, <a href="https://www.tatianaschlossberg.com/">Inconspicuous Consumption: The Environmental Impact You Don’t Know You Have</a>.</p>
+
+<p>Have a read through Greenpeace’s <a href="http://www.clickclean.org/">Click Clean Report</a> that Gary Cook discusses in this IRL episode.</p>
+
+<p>You can find <a href="https://solar.lowtechmagazine.com">solar-powered Low Tech Magazine here</a> (and, if the weather is bad, you can <a href="https://www.lowtechmagazine.com/">view the archive here</a>).</p>
+
+<p>As Pieter Van Midwoud notes, Ecosia uses the money it makes from your online searches to plant trees where they are needed most. <a href="https://www.ecosia.org/">Learn more about Ecosia, an alternative to Google Search</a>.</p>
+
+<p>Here’s <a href="https://milestraer.com/">more about Miles Traer</a>, the geophysicist who calculated the carbon footprint of the IRL podcast.</p>
+
+<p>And, if you’re interested in offsetting your personal carbon emissions overall, <a href="https://carbonfund.org/">Carbonfund.org</a> can help with that.</p>
+
+<p>The sound of a data center in this episode is courtesy of artist Matt Parker. <a href="https://earthkeptwarm.bandcamp.com/album/the-peoples-cloud-original-soundtrack">Download his music</a>.</p>
+
+
+        <a href="https://dev.irlpodcast.org/season5/episode3/#transcript" class="mzp-c-cta-link">Episode transcript</a>
+    </div>
+    
+    
+</article>
+
+                    </li>
+                
+                    <li class="episode-list-item">
+                        
+                        
+
+
+    
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<article class="episode" id="episode-34">
+    
+    <h2 class="episode-title">4: <a href="https://dev.irlpodcast.org/season5/episode4/">The Tech Worker Resistance</a></h2>
+    
+
+    <div class="episode-image">
+        <img src="/images/episodes/S05E04/artwork.png" srcset="/images/episodes/S05E04/artwork-high-res.png 2x" alt="">
+    </div>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe title="Listen to The Tech Worker Resistance." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://player.simplecast.com/190dc2cc-e4c3-4d23-b3fe-247d389b7c85" width="100%"></iframe>
+            <noscript>
+                <iframe title="Listen to The Tech Worker Resistance." frameborder="0" height="183px" scrolling="no" seamless src="https://player.simplecast.com/190dc2cc-e4c3-4d23-b3fe-247d389b7c85" width="100%"></iframe>
+            </noscript>
+        </div>
+    </div>
+
+    <ul class="episode-actions">
+        <li><button type="button" class="episode-subscribe mzp-c-button mzp-t-small mzp-t-product" data-subscribe-links="episode-34-subscribe-links">Subscribe</button></li>
+        <li><a class="episode-action icon icon-twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode4%2f&amp;text=IRL Podcast: The%20Tech%20Worker%20Resistance w%2f%20%40Mozilla%20%26%20%40Manoushz" data-link-type="social share" data-link-name="Twitter">Share on Twitter</a></li>
+        <li><a class="episode-action icon icon-facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode4%2f" data-link-type="social share" data-link-name="Facebook">Share on Facebook</a></li>
+        <li class="js-action-copy">
+            <a class="episode-action icon icon-copylink" data-service="copylink" href="https://dev.irlpodcast.org/season5/episode4/" data-link-type="social share" data-link-name="copylink" data-clipboard-text="https://dev.irlpodcast.org/season5/episode4/">Copy Link</a>
+            <div class="episode-copy-ok">URL copied to clipboard</div>
+        </li>
+        <li><a class="episode-action icon icon-download" data-service="download" href="https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/190dc2cc-e4c3-4d23-b3fe-247d389b7c85/irl_s5e04_the_tech_worker_resistance_final_tc.mp3" rel="external noopener noreferrer">Download MP3</a></li>
+    </ul>
+
+    <div class="episode-description">
+        <p>There&rsquo;s a movement building within tech. Workers are demanding higher standards from their companies — and because of their unique skills and talent, they have the leverage to get attention. Walkouts and sit-ins. Picket protests and petitions. Shareholder resolutions, and open letters. These are the new tools of tech workers, increasingly emboldened to speak out. And, as they do that, they expose the underbellies of their companies&rsquo; ethics and values, or perceived lack of them.</p>
+
+<p>In this episode of IRL, host Manoush Zomorodi meets with Rebecca Stack-Martinez, an Uber driver fed up with being treated like an extension of the app; <a href="https://twitter.com/supernodal/">Jack Poulson</a>, who left Google over ethical concerns with a secret search engine being built for China; and Rebecca Sheppard, who works at Amazon and pushes for innovation on <a href="https://twitter.com/AMZNforClimate/">climate change</a> from within. EFF Executive Director <a href="https://twitter.com/eff/">Cindy Cohn</a> explains why this movement is happening now, and why it matters for all of us.</p>
+
+        
+        
+            <a href="https://dev.irlpodcast.org/season5/episode4/#show-notes" data-shownotes="episode-34-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
+        
+        
+        <div class="episode-date">Published: July 29, 2019</div>
+    </div>
+
+    
+    <div class="episode-subscribe-links" id="episode-34-subscribe-links">
+        <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_episode34" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=episode34-modal" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+    </div>
+
+    
+    
+    <div class="episode-shownotes" id="episode-34-shownotes">
+        
+        <p>Rebecca Stack-Martinez is a committee member for <a href="https://www.gigworkersrising.org/">Gig Workers Rising</a>.</p>
+
+<p>Here is Jack Poulson&rsquo;s <a href="https://www.documentcloud.org/documents/4905801-Jack-Poulson-Google-resignation-letter-20-Aug-2018.html">resignation letter to Google</a>. For more, read Google employees&rsquo; <a href="https://medium.com/@googlersagainstdragonfly/we-are-google-employees-google-must-drop-dragonfly-4c8a30c5e5eb/">open letter against Project Dragonfly</a>.</p>
+
+<p>Check out Amazon employees&rsquo; <a href="https://medium.com/@amazonemployeesclimatejustice/public-letter-to-jeff-bezos-and-the-amazon-board-of-directors-82a8405f5e38">open letter to Jeff Bezos and Board of Directors</a> asking for a better plan to address climate change.</p>
+
+<p>Cindy Cohn is the Executive Director of the <a href="https://www.eff.org/about/staff/cindy-cohn/">Electronic Frontier Foundation</a>. EFF is a nonprofit that defends civil liberties in the digital world. They champion user privacy, free expression, and innovation through impact litigation, policy analysis, grassroots activism, and technology development.</p>
+
+
+        <a href="https://dev.irlpodcast.org/season5/episode4/#transcript" class="mzp-c-cta-link">Episode transcript</a>
+    </div>
+    
+    
+</article>
+
+                    </li>
+                
+                    <li class="episode-list-item">
+                        
+                        
+
+
+    
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<article class="episode" id="episode-35">
+    
+    <h2 class="episode-title">5: <a href="https://dev.irlpodcast.org/season5/episode5/">The 5G Privilege</a></h2>
+    
+
+    <div class="episode-image">
+        <img src="/images/episodes/S05E05/artwork.png" srcset="/images/episodes/S05E05/artwork-high-res.png 2x" alt="">
+    </div>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe title="Listen to The 5G Privilege." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://player.simplecast.com/c97c7fc9-f1ed-40ed-9ae4-410a407a4773" width="100%"></iframe>
+            <noscript>
+                <iframe title="Listen to The 5G Privilege." frameborder="0" height="183px" scrolling="no" seamless src="https://player.simplecast.com/c97c7fc9-f1ed-40ed-9ae4-410a407a4773" width="100%"></iframe>
+            </noscript>
+        </div>
+    </div>
+
+    <ul class="episode-actions">
+        <li><button type="button" class="episode-subscribe mzp-c-button mzp-t-small mzp-t-product" data-subscribe-links="episode-35-subscribe-links">Subscribe</button></li>
+        <li><a class="episode-action icon icon-twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode5%2f&amp;text=IRL Podcast: The%205G%20Privilege w%2f%20%40Mozilla%20%26%20%40Manoushz" data-link-type="social share" data-link-name="Twitter">Share on Twitter</a></li>
+        <li><a class="episode-action icon icon-facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode5%2f" data-link-type="social share" data-link-name="Facebook">Share on Facebook</a></li>
+        <li class="js-action-copy">
+            <a class="episode-action icon icon-copylink" data-service="copylink" href="https://dev.irlpodcast.org/season5/episode5/" data-link-type="social share" data-link-name="copylink" data-clipboard-text="https://dev.irlpodcast.org/season5/episode5/">Copy Link</a>
+            <div class="episode-copy-ok">URL copied to clipboard</div>
+        </li>
+        <li><a class="episode-action icon icon-download" data-service="download" href="https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/c97c7fc9-f1ed-40ed-9ae4-410a407a4773/irl_s5_e05_5g_privilege_final_tc.mp3" rel="external noopener noreferrer">Download MP3</a></li>
+    </ul>
+
+    <div class="episode-description">
+        <p>‘5G’ is a new buzzword floating around every corner of the internet. But what exactly is this hyped-up cellular network, often referred to as the next technological evolution in mobile internet communications? Will it really be 100 times faster than what we have now? What will it make possible that has never been possible before? Who will reap the benefits? And, who will get left behind?</p>
+
+<p>Mike Thelander at <a href="https://signalsresearch.com/">Signals Research Group</a> imagines the wild ways 5G might change our lives in the near future. <a href="https://twitter.com/RhiannonJudithW/">Rhiannon Williams</a> hits the street to test drive a new 5G network. <a href="https://twitter.com/amy_kaymay/">Amy France</a> lives in a very rural part of Kansas — she dreams of the day that true, fast internet could come to her farm (but isn’t holding her breath). <a href="https://twitter.com/larry_irving/">Larry Irving</a> explains why technology has never been provided equally to everyone, and why he fears 5G will leave too many people out. <a href="https://twitter.com/ssantosham/">Shireen Santosham</a>, though, is doing what she can to leverage 5G deployment in order to bridge the digital divide in her city of San Jose.</p>
+
+        
+        
+            <a href="https://dev.irlpodcast.org/season5/episode5/#show-notes" data-shownotes="episode-35-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
+        
+        
+        <div class="episode-date">Published: August 12, 2019</div>
+    </div>
+
+    
+    <div class="episode-subscribe-links" id="episode-35-subscribe-links">
+        <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_episode35" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=episode35-modal" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+    </div>
+
+    
+    
+    <div class="episode-shownotes" id="episode-35-shownotes">
+        
+        <p>Read more about Rhiannon Williams&rsquo; <a href="https://inews.co.uk/news/what-its-like-to-use-ees-5g-network-in-london/">5G tests throughout London</a>.</p>
+
+<p>And, find out more about San Jose&rsquo;s <a href="https://moti.sanjosemayor.org/smart-city-vision/">smart city vision</a> that hopes to bridge the digital divide.</p>
+
+
+        <a href="https://dev.irlpodcast.org/season5/episode5/#transcript" class="mzp-c-cta-link">Episode transcript</a>
+    </div>
+    
+    
+</article>
+
+                    </li>
+                
+                    <li class="episode-list-item">
+                        
+                        
+
+
+    
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<article class="episode" id="episode-36">
+    
+    <h2 class="episode-title">6: <a href="https://dev.irlpodcast.org/season5/episode6/">Making Privacy Law</a></h2>
+    
+
+    <div class="episode-image">
+        <img src="/images/episodes/S05E06/artwork.png" srcset="/images/episodes/S05E06/artwork-high-res.png 2x" alt="">
+    </div>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe title="Listen to Making Privacy Law." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://player.simplecast.com/e637ec86-473d-4ff1-a090-a62099538050" width="100%"></iframe>
+            <noscript>
+                <iframe title="Listen to Making Privacy Law." frameborder="0" height="183px" scrolling="no" seamless src="https://player.simplecast.com/e637ec86-473d-4ff1-a090-a62099538050" width="100%"></iframe>
+            </noscript>
+        </div>
+    </div>
+
+    <ul class="episode-actions">
+        <li><button type="button" class="episode-subscribe mzp-c-button mzp-t-small mzp-t-product" data-subscribe-links="episode-36-subscribe-links">Subscribe</button></li>
+        <li><a class="episode-action icon icon-twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode6%2f&amp;text=IRL Podcast: Making%20Privacy%20Law w%2f%20%40Mozilla%20%26%20%40Manoushz" data-link-type="social share" data-link-name="Twitter">Share on Twitter</a></li>
+        <li><a class="episode-action icon icon-facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode6%2f" data-link-type="social share" data-link-name="Facebook">Share on Facebook</a></li>
+        <li class="js-action-copy">
+            <a class="episode-action icon icon-copylink" data-service="copylink" href="https://dev.irlpodcast.org/season5/episode6/" data-link-type="social share" data-link-name="copylink" data-clipboard-text="https://dev.irlpodcast.org/season5/episode6/">Copy Link</a>
+            <div class="episode-copy-ok">URL copied to clipboard</div>
+        </li>
+        <li><a class="episode-action icon icon-download" data-service="download" href="https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/e637ec86-473d-4ff1-a090-a62099538050/irl_s5_e06_privacy_gamechangers_vfinal_tc.mp3" rel="external noopener noreferrer">Download MP3</a></li>
+    </ul>
+
+    <div class="episode-description">
+        <p>The word “regulation” gets tossed around a lot. And it’s often aimed at the internet’s Big Tech companies. Some worry that the size of these companies and the power and influence they wield is too much. On the other end, there’s the argument that any regulation is overreach — leave it to the market, and everything will sort itself out. But over the last year, in the midst of this regulation debate, a funny thing happened. Tech companies got regulated. And our right to privacy got a little easier to exercise.</p>
+
+<p><a href="https://fpf.org/gabriela-zanfir-fortuna/">Gabriela Zanfir-Fortuna</a> gives us the highlights of Europe’s sweeping GDPR privacy law, and explains how the law netted a huge fine against Spain’s National Football League. Twitter’s Data Protection Officer, <a href="https://twitter.com/damokieran/">Damien Kieran</a> explains how regulation has shaped his new job and is changing how Twitter works with our personal data. <a href="https://blogs.microsoft.com/on-the-issues/author/jbrill/">Julie Brill</a> at Microsoft says the company wants legislators to go further, and bring a federal privacy law to the U.S. And Manoush chats with <a href="https://www.caprivacy.org/about-us/">Alastair MacTaggart</a>, the California resident whose work led to the passing of the California Consumer Privacy Act.</p>
+
+        
+        
+            <a href="https://dev.irlpodcast.org/season5/episode6/#show-notes" data-shownotes="episode-36-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
+        
+        
+        <div class="episode-date">Published: August 26, 2019</div>
+    </div>
+
+    
+    <div class="episode-subscribe-links" id="episode-36-subscribe-links">
+        <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_episode36" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=episode36-modal" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+    </div>
+
+    
+    
+    <div class="episode-shownotes" id="episode-36-shownotes">
+        
+        <p>The IRL production team would love your feedback. <a href="https://qsurvey.mozilla.com/s3/irlseason5">Take this 2-minute survey</a>.</p>
+
+<p>Learn more about <a href="https://ec.europa.eu/commission/priorities/justice-and-fundamental-rights/data-protection/2018-reform-eu-data-protection-rules_en/">consumer rights under the GDPR</a>, and for a top-level look at what the GDPR does for you, check out our <a href="https://blog.mozilla.org/internetcitizen/2018/05/23/gdpr-mozilla/">GDPR summary</a>.</p>
+
+<p>Here’s more about the <a href="https://www.caprivacy.org/">California Consumer Privacy Act and Alistair MacTaggat</a>.</p>
+
+<p>And, get commentary and analysis on data privacy from <a href="https://blogs.microsoft.com/on-the-issues/author/jbrill/">Julie Brill</a>, <a href="https://pdpecho.com/about/">Gabriela Zanfir-Fortuna</a>, and <a href="https://twitter.com/damokieran/">Damien Kieran</a>.</p>
+
+<p>Firefox has a department dedicated to open policy and advocacy. We believe that privacy is a right, not a privilege. <a href="https://blog.mozilla.org/netpolicy/">Follow our blog</a> for more.</p>
+
+
+        <a href="https://dev.irlpodcast.org/season5/episode6/#transcript" class="mzp-c-cta-link">Episode transcript</a>
+    </div>
+    
+    
+</article>
+
+                    </li>
+                
+                    <li class="episode-list-item">
+                        
+                        
+
+
+    
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<article class="episode" id="episode-37">
+    
+    <h2 class="episode-title">7: <a href="https://dev.irlpodcast.org/season5/episode7/">Privacy or Profit - Why Not Both?</a></h2>
+    
+
+    <div class="episode-image">
+        <img src="/images/episodes/S05E07/artwork.png" srcset="/images/episodes/S05E07/artwork-high-res.png 2x" alt="">
+    </div>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe title="Listen to Privacy or Profit - Why Not Both?." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://player.simplecast.com/36c42a33-95a3-4e40-b78f-a321de94f580" width="100%"></iframe>
+            <noscript>
+                <iframe title="Listen to Privacy or Profit - Why Not Both?." frameborder="0" height="183px" scrolling="no" seamless src="https://player.simplecast.com/36c42a33-95a3-4e40-b78f-a321de94f580" width="100%"></iframe>
+            </noscript>
+        </div>
+    </div>
+
+    <ul class="episode-actions">
+        <li><button type="button" class="episode-subscribe mzp-c-button mzp-t-small mzp-t-product" data-subscribe-links="episode-37-subscribe-links">Subscribe</button></li>
+        <li><a class="episode-action icon icon-twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode7%2f&amp;text=IRL Podcast: Privacy%20or%20Profit%20-%20Why%20Not%20Both%3f w%2f%20%40Mozilla%20%26%20%40Manoushz" data-link-type="social share" data-link-name="Twitter">Share on Twitter</a></li>
+        <li><a class="episode-action icon icon-facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode7%2f" data-link-type="social share" data-link-name="Facebook">Share on Facebook</a></li>
+        <li class="js-action-copy">
+            <a class="episode-action icon icon-copylink" data-service="copylink" href="https://dev.irlpodcast.org/season5/episode7/" data-link-type="social share" data-link-name="copylink" data-clipboard-text="https://dev.irlpodcast.org/season5/episode7/">Copy Link</a>
+            <div class="episode-copy-ok">URL copied to clipboard</div>
+        </li>
+        <li><a class="episode-action icon icon-download" data-service="download" href="https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/36c42a33-95a3-4e40-b78f-a321de94f580/irl_s5_e07_privacy_profits_vfinal_nosurvey_tc.mp3" rel="external noopener noreferrer">Download MP3</a></li>
+    </ul>
+
+    <div class="episode-description">
+        <p>Every day, our data hits the market when we sign online. It’s for sale, and we’re left to wonder if tech companies will ever choose to protect our privacy rather than reap large profits with our information. But, is the choice — profit or privacy — a false dilemma? Meet the people who have built profitable tech businesses while also respecting your privacy. Fact check if Facebook and Google have really found religion in privacy. And, imagine a world where you could actually get paid to share your data.</p>
+
+<p>In this episode, Oli Frost recalls what happened when he auctioned his personal data on eBay. Jeremy Tillman from Ghostery reveals the scope of how much ad-tracking is really taking place online. Patrick Jackson at Disconnect.me breaks down Big Tech’s privacy pivot. DuckDuckGo’s Gabriel Weinberg explains why his private search engine has been profitable. And Dana Budzyn walks us through how her company, UBDI, hopes to give consumers the ability to sell their data for cash.&rdquo;</p>
+
+        
+        
+            <a href="https://dev.irlpodcast.org/season5/episode7/#show-notes" data-shownotes="episode-37-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
+        
+        
+        <div class="episode-date">Published: September 9, 2019</div>
+    </div>
+
+    
+    <div class="episode-subscribe-links" id="episode-37-subscribe-links">
+        <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_episode37" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=episode37-modal" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+    </div>
+
+    
+    
+    <div class="episode-shownotes" id="episode-37-shownotes">
+        
+        <p>Read about Patrick Jackson and Geoffrey Fowler&rsquo;s <a href="https://www.washingtonpost.com/technology/2019/05/28/its-middle-night-do-you-know-who-your-iphone-is-talking/">privacy experiment</a>.</p>
+
+<p>Learn more about <a href="https://duckduckgo.com/">DuckDuckGo</a>, an alternative to Google search, at <a href="https://duckduckgo.com/">duckduckgo.com</a>.</p>
+
+<p>And, we&rsquo;re pleased to add a little more about Firefox&rsquo;s business here as well — one that puts user privacy first and is also profitable. Mozilla was founded as a community open source project in 1998, and currently consists of two organizations: the 501(c)3 Mozilla Foundation, which backs emerging leaders and mobilizes citizens to create a global movement for the health of the internet; and its wholly owned subsidiary, the Mozilla Corporation, which creates Firefox products, advances public policy in support of internet user rights and explores new technologies that give people more control and privacy in their lives online. Firefox products have never — and never will ever — buy or sell user data. Because of its unique structure, Mozilla stands apart from its peers in the technology field as one of the most impactful and successful social enterprises in the world. Learn more about Mozilla and Firefox at <a href="https://www.mozilla.org/">mozilla.org</a>.</p>
+
+
+        <a href="https://dev.irlpodcast.org/season5/episode7/#transcript" class="mzp-c-cta-link">Episode transcript</a>
+    </div>
+    
+    
+</article>
+
+                    </li>
+                </ul>
+        </div>
+    </section>
+
+    </main>
+
+    <footer id="footer" class="footer">
+    <div class="footer-tag">
+        <p>IRL is an original podcast from Firefox, the tech company that believes privacy isn’t a policy. It’s a right.</p>
+    </div>
+
+    <div class="footer-primary">
+        <ul class="footer-links">
+            <li class="footer-logo"><a href="https://www.mozilla.org/firefox/"><img src="/images/firefox-logo.png" srcset="/images/firefox-logo-high-res.png 2x" width="111" height="38"></a></li>
+            <li><a href="https://www.mozilla.org/privacy/">Privacy Notice</a></li>
+            <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+            <li><a href="/ringtones/">Ringtones</a></li>
+        </ul>
+        <ul class="footer-social">
+            <li><a class="icon icon-twitter" href="https://twitter.com/firefox">Twitter</a></li>
+            <li><a class="icon icon-instagram" href="https://www.instagram.com/firefox/">Instagram</a></li>
+        </ul>
+        <p class="footer-legal">Unless otherwise indicated, IRL Podcast episodes are available from the Mozilla Corporation under the <a href="https://creativecommons.org/licenses/by-sa/3.0/us/" rel="external">Creative Commons Attribution Share-Alike 3.0</a> Unported license, or any later version.</p>
+    </div>
+</footer>
+
+
+    <script src="/js/libs/jquery.3.2.1.min-1055018c.js"></script>
+    <script src="/js/libs/clipboard.min-a9e688f0.js"></script>
+    <script src="/js/libs/mozilla.lazy-load-min-9b82a01f.js"></script>
+    <script src="/js/newsletter-min-8de43da4.js"></script>
+    <script src="/js/libs/protocol-min-96a4c400.js"></script>
+    <script src="/js/main-min-a01d0d70.js"></script>
+    <script src="/js/protocol-init-min-d680371b.js"></script>
+</body>
+</html>

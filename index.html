@@ -1,0 +1,1474 @@
+
+
+    
+    
+    
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta name="generator" content="Hugo 0.40.2" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dev.irlpodcast.org/">
+    <meta property="og:image" content="https://dev.irlpodcast.org/images/irl-logo-open-graph.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:title" content="IRL Podcast">
+    <meta property="og:description" content="Manoush Zomorodi explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from the Mozilla Corporation.">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/images/favicon/favicon-180x180.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="/images/favicon/favicon-196x196.png">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+
+    <title>IRL Podcast: Online Life is Real Life</title>
+    <meta name="description" content="Manoush Zomorodi explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original …">
+
+    <meta name="apple-itunes-app" content="app-id=1247652431, affiliate-data=at=1010lbVy&amp;ct=mozilla_smart_banner">
+
+    <link rel="stylesheet" href="/css/irlpodcast-b691ec18.css" />
+    <link rel="alternate" type="application/rss+xml" title="IRL Podcast: Online Life is Real Life" href="https://feeds.mozilla-podcasts.org/irl">
+    <link rel="canonical" href="https://dev.irlpodcast.org/">
+
+    <script src="/js/pre-render-min-81c6f16b.js"></script>
+
+    
+        <script>
+    (function() {
+        'use strict';
+
+        
+        
+        if(navigator.doNotTrack !== 1) {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5H9T7GF');
+        } else {
+            
+            window.dataLayer = [];
+        }
+    })();
+</script>
+
+    
+</head>
+
+<body id="home" class="mzp-t-firefox">
+
+    <header id="header">
+    <div class="mzp-c-navigation">
+        <div class="mzp-c-navigation-l-content">
+            <div class="mzp-c-navigation-container">
+            <button class="mzp-c-navigation-menu-button has-label" type="button" aria-controls="menu-site">Menu</button>
+            <div class="mzp-c-navigation-logo"><a href="/">IRL</a></div>
+            <div class="mzp-c-navigation-items" id="menu-site">
+                <div class="mzp-c-navigation-menu">
+                    <nav class="mzp-c-menu mzp-is-basic">
+                        <ul class="mzp-c-menu-category-list">
+                            <li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+                                <a class="mzp-c-menu-title" href="/" aria-haspopup="true" aria-controls="menu-episodes">Episodes</a>
+                                <div class="mzp-c-menu-panel" id="menu-episodes">
+                                    <div class="mzp-c-menu-panel-container">
+                                        <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-example">Close Episodes menu</button>
+                                        <div class="mzp-c-menu-panel-content">
+                                            <ul>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season1/">
+                                                            <h4 class="mzp-c-menu-item-title">Season One</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season2/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Two</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season3/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Three</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season4/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Four</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season5/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Five</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mzp-c-menu-category">
+                                <a class="mzp-c-menu-title" href="/about/">About</a>
+                            </li>
+                            <li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+                                <a class="mzp-c-menu-title" href="/about/#contact" aria-haspopup="true" aria-controls="menu-contact">Contact</a>
+                                <div class="mzp-c-menu-panel" id="menu-contact">
+                                    <div class="mzp-c-menu-panel-container">
+                                        <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-example">Close Contact menu</button>
+                                        <div class="mzp-c-menu-panel-content">
+                                            <section class="mzp-c-menu-item ">
+                                                <a class="mzp-c-menu-item-link" href="mailto:IRL-podcast@mozilla.com">
+                                                    <h4 class="mzp-c-menu-item-title">General</h4>
+                                                    <p class="mzp-c-menu-item-desc">
+                                                    IRL-podcast@mozilla.com
+                                                    </p>
+                                                </a>
+                                            </section>
+                                            <section class="mzp-c-menu-item">
+                                                <a class="mzp-c-menu-item-link" href="mailto:press@mozilla.com">
+                                                    <h4 class="mzp-c-menu-item-title">Press</h4>
+                                                    <p class="mzp-c-menu-item-desc">
+                                                    press@mozilla.com
+                                                    </p>
+                                                </a>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</header>
+
+
+    
+    <section class="c-intro">
+    <div class="c-intro-main">
+
+        <div class="c-intro-logo">
+            <a href="https://www.mozilla.org/firefox/"><img src="/images/firefox.png" alt="Firefox" width="95" height="30"></a>
+        </div>
+
+        <h1 class="c-intro-title">IRL: Online Life is Real Life</h1>
+
+        <div class="c-intro-desc">
+            <p>
+                Host Manoush Zomorodi shares real stories of life online and real talk about the future of the Web.
+            </p>
+
+            <p>
+                IRL is an original podcast from Firefox.
+            </p>
+        </div>
+
+        <section class="c-intro-subscribe">
+            <strong>Subscribe:</strong>
+            <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_homepage" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=header-badge" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+        </section>
+    </div>
+</section>
+
+
+
+    <main class="page-content" aria-label="Content">
+    
+    <section id="episodes">
+        <div class="l-content">
+            <h2 class="page-title">Season 5</h2>
+                
+
+
+    
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<article class="episode" id="episode-37">
+    
+    <h2 class="episode-title">7: <a href="https://dev.irlpodcast.org/season5/episode7/">Privacy or Profit - Why Not Both?</a></h2>
+    
+
+    <div class="episode-image">
+        <img src="/images/episodes/S05E07/artwork.png" srcset="/images/episodes/S05E07/artwork-high-res.png 2x" alt="">
+    </div>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe title="Listen to Privacy or Profit - Why Not Both?." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://player.simplecast.com/36c42a33-95a3-4e40-b78f-a321de94f580" width="100%"></iframe>
+            <noscript>
+                <iframe title="Listen to Privacy or Profit - Why Not Both?." frameborder="0" height="183px" scrolling="no" seamless src="https://player.simplecast.com/36c42a33-95a3-4e40-b78f-a321de94f580" width="100%"></iframe>
+            </noscript>
+        </div>
+    </div>
+
+    <ul class="episode-actions">
+        <li><button type="button" class="episode-subscribe mzp-c-button mzp-t-small mzp-t-product" data-subscribe-links="episode-37-subscribe-links">Subscribe</button></li>
+        <li><a class="episode-action icon icon-twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode7%2f&amp;text=IRL Podcast: Privacy%20or%20Profit%20-%20Why%20Not%20Both%3f w%2f%20%40Mozilla%20%26%20%40Manoushz" data-link-type="social share" data-link-name="Twitter">Share on Twitter</a></li>
+        <li><a class="episode-action icon icon-facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.irlpodcast.org%2fseason5%2fepisode7%2f" data-link-type="social share" data-link-name="Facebook">Share on Facebook</a></li>
+        <li class="js-action-copy">
+            <a class="episode-action icon icon-copylink" data-service="copylink" href="https://dev.irlpodcast.org/season5/episode7/" data-link-type="social share" data-link-name="copylink" data-clipboard-text="https://dev.irlpodcast.org/season5/episode7/">Copy Link</a>
+            <div class="episode-copy-ok">URL copied to clipboard</div>
+        </li>
+        <li><a class="episode-action icon icon-download" data-service="download" href="https://cdn.simplecast.com/audio/9b52b8/9b52b824-909f-4be5-aaf0-10f9e93c7818/36c42a33-95a3-4e40-b78f-a321de94f580/irl_s5_e07_privacy_profits_vfinal_nosurvey_tc.mp3" rel="external noopener noreferrer">Download MP3</a></li>
+    </ul>
+
+    <div class="episode-description">
+        <p>Every day, our data hits the market when we sign online. It’s for sale, and we’re left to wonder if tech companies will ever choose to protect our privacy rather than reap large profits with our information. But, is the choice — profit or privacy — a false dilemma? Meet the people who have built profitable tech businesses while also respecting your privacy. Fact check if Facebook and Google have really found religion in privacy. And, imagine a world where you could actually get paid to share your data.</p>
+
+<p>In this episode, Oli Frost recalls what happened when he auctioned his personal data on eBay. Jeremy Tillman from Ghostery reveals the scope of how much ad-tracking is really taking place online. Patrick Jackson at Disconnect.me breaks down Big Tech’s privacy pivot. DuckDuckGo’s Gabriel Weinberg explains why his private search engine has been profitable. And Dana Budzyn walks us through how her company, UBDI, hopes to give consumers the ability to sell their data for cash.&rdquo;</p>
+
+        
+        
+            <a href="https://dev.irlpodcast.org/season5/episode7/#show-notes" data-shownotes="episode-37-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
+        
+        
+        <div class="episode-date">Published: September 9, 2019</div>
+    </div>
+
+    
+    <div class="episode-subscribe-links" id="episode-37-subscribe-links">
+        <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_episode37" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=episode37-modal" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+    </div>
+
+    
+    
+    <div class="episode-shownotes" id="episode-37-shownotes">
+        
+        <p>Read about Patrick Jackson and Geoffrey Fowler&rsquo;s <a href="https://www.washingtonpost.com/technology/2019/05/28/its-middle-night-do-you-know-who-your-iphone-is-talking/">privacy experiment</a>.</p>
+
+<p>Learn more about <a href="https://duckduckgo.com/">DuckDuckGo</a>, an alternative to Google search, at <a href="https://duckduckgo.com/">duckduckgo.com</a>.</p>
+
+<p>And, we&rsquo;re pleased to add a little more about Firefox&rsquo;s business here as well — one that puts user privacy first and is also profitable. Mozilla was founded as a community open source project in 1998, and currently consists of two organizations: the 501(c)3 Mozilla Foundation, which backs emerging leaders and mobilizes citizens to create a global movement for the health of the internet; and its wholly owned subsidiary, the Mozilla Corporation, which creates Firefox products, advances public policy in support of internet user rights and explores new technologies that give people more control and privacy in their lives online. Firefox products have never — and never will ever — buy or sell user data. Because of its unique structure, Mozilla stands apart from its peers in the technology field as one of the most impactful and successful social enterprises in the world. Learn more about Mozilla and Firefox at <a href="https://www.mozilla.org/">mozilla.org</a>.</p>
+
+
+        <a href="https://dev.irlpodcast.org/season5/episode7/#transcript" class="mzp-c-cta-link">Episode transcript</a>
+    </div>
+    
+    
+</article>
+<ul class="episode-summary-list">
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S05E06">
+    <div class="episode-summary-title"><span class="episode-summary-number">6:</span> <a href="https://dev.irlpodcast.org/season5/episode6/">Making Privacy Law</a> <span class="episode-summary-date">August 26, 2019</span></div>
+    <p class="episode-summary-description">What if you could, by law, say “no” to the sale of your personal data? Get the latest on internet privacy regulation. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season5/episode6/">Listen now.</a></p>
+</li>
+
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S05E05">
+    <div class="episode-summary-title"><span class="episode-summary-number">5:</span> <a href="https://dev.irlpodcast.org/season5/episode5/">The 5G Privilege</a> <span class="episode-summary-date">August 12, 2019</span></div>
+    <p class="episode-summary-description">If 5G is going to change the world, who will get to live in it? Explore the future of mobile internet in Firefox&#39;s IRL podcast.  <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season5/episode5/">Listen now.</a></p>
+</li>
+
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S05E04">
+    <div class="episode-summary-title"><span class="episode-summary-number">4:</span> <a href="https://dev.irlpodcast.org/season5/episode4/">The Tech Worker Resistance</a> <span class="episode-summary-date">July 29, 2019</span></div>
+    <p class="episode-summary-description">Walkouts, protests, and picket lines are becoming more common among tech workers. Explore their reasons for resistance in the IRL podcast.  <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season5/episode4/">Listen now.</a></p>
+</li>
+
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S05E03">
+    <div class="episode-summary-title"><span class="episode-summary-number">3:</span> <a href="https://dev.irlpodcast.org/season5/episode3/">The Internet’s Carbon Footprint</a> <span class="episode-summary-date">July 15, 2019</span></div>
+    <p class="episode-summary-description">Explore the surprising environmental impact of the internet. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season5/episode3/">Listen now.</a></p>
+</li>
+
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S05E02">
+    <div class="episode-summary-title"><span class="episode-summary-number">2:</span> <a href="https://dev.irlpodcast.org/season5/episode2/">Democracy and the Internet</a> <span class="episode-summary-date">July 1, 2019</span></div>
+    <p class="episode-summary-description">Host Manoush Zomorodi explores how ad targeting and misinformation online could impact democracy at large.  <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season5/episode2/">Listen now.</a></p>
+</li>
+
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S05E01">
+    <div class="episode-summary-title"><span class="episode-summary-number">1:</span> <a href="https://dev.irlpodcast.org/season5/episode1/">The “Privacy Policy” Policy</a> <span class="episode-summary-date">June 14, 2019</span></div>
+    <p class="episode-summary-description">Find out what to look out for in privacy policies — and examine what privacy means to you — in Firefox&#39;s IRL podcast. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season5/episode1/">Listen now.</a></p>
+</li>
+
+                    </ul>
+        </div>
+    </section>
+
+    <section class="season-summaries">
+        <div class="l-content">
+            <h2 class="season-summary-title">Season 4</h2>
+            <ul class="episode-summary-list">
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S04E07">
+    <div class="episode-summary-title"><span class="episode-summary-number">7:</span> <a href="https://dev.irlpodcast.org/season4/episode7/">What if women built the internet?</a> <span class="episode-summary-date">March 4, 2019</span></div>
+    <p class="episode-summary-description">IRL host Manoush Zomorodi explores gender diversity and inclusion in tech.  <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season4/episode7/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S04E06">
+    <div class="episode-summary-title"><span class="episode-summary-number">6:</span> <a href="https://dev.irlpodcast.org/season4/episode6/">Decentralize It</a> <span class="episode-summary-date">February 18, 2019</span></div>
+    <p class="episode-summary-description">Explore the premise, the promise, and the pitfalls of decentralization — the antidote to Big Tech. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season4/episode6/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S04E05">
+    <div class="episode-summary-title"><span class="episode-summary-number">5:</span> <a href="https://dev.irlpodcast.org/season4/episode5/">The Surveillance Economy</a> <span class="episode-summary-date">February 4, 2019</span></div>
+    <p class="episode-summary-description">Explore the surveillance economy, the companies that participate in it, and its impact on you. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season4/episode5/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S04E04">
+    <div class="episode-summary-title"><span class="episode-summary-number">4:</span> <a href="https://dev.irlpodcast.org/season4/episode4/">Everything in Moderation</a> <span class="episode-summary-date">January 21, 2019</span></div>
+    <p class="episode-summary-description">Meet the people responsible for cleaning your social media feed in Mozilla’s IRL podcast. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season4/episode4/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S04E03">
+    <div class="episode-summary-title"><span class="episode-summary-number">3:</span> <a href="https://dev.irlpodcast.org/season4/episode3/">TL;DR</a> <span class="episode-summary-date">January 7, 2019</span></div>
+    <p class="episode-summary-description">Join Manoush Zomorodi as she explores how the internet has changed reading. And, how we&#39;re changing alongside it. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season4/episode3/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S04E02">
+    <div class="episode-summary-title"><span class="episode-summary-number">2:</span> <a href="https://dev.irlpodcast.org/season4/episode2/">Your Password Is the Worst</a> <span class="episode-summary-date">December 10, 2018</span></div>
+    <p class="episode-summary-description">Tackle your password problem once and for all in this episode of Mozilla&#39;s IRL podcast. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season4/episode2/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S04E01">
+    <div class="episode-summary-title"><span class="episode-summary-number">1:</span> <a href="https://dev.irlpodcast.org/season4/episode1/">Checking Out Online Shopping</a> <span class="episode-summary-date">November 26, 2018</span></div>
+    <p class="episode-summary-description">Explore the hidden privacy costs of online shopping. Your data may be the most valuable thing for sale. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season4/episode1/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S04E00">
+    <div class="episode-summary-title"><span class="episode-summary-number">Trailer:</span> <a href="https://dev.irlpodcast.org/season4/trailer/">Introducing Season 4</a> <span class="episode-summary-date">November 12, 2018</span></div>
+    <p class="episode-summary-description">Meet IRL’s new host, Manoush Zomorodi, who will examine the potential of ethical tech with listeners around the globe. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season4/trailer/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                </ul>
+        </div>
+    </section>
+    <section class="season-summaries">
+        <div class="l-content">
+            <h2 class="season-summary-title">Season 3</h2>
+            <ul class="episode-summary-list">
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S03E07">
+    <div class="episode-summary-title"><span class="episode-summary-number">7:</span> <a href="https://dev.irlpodcast.org/season3/episode7/">What to Expect When You&#39;re Electing</a> <span class="episode-summary-date">October 4, 2018</span></div>
+    <p class="episode-summary-description">Examine how the internet is changing our minds, our votes, and our democracies – all over the world. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season3/episode7/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S03E06">
+    <div class="episode-summary-title"><span class="episode-summary-number">6:</span> <a href="https://dev.irlpodcast.org/season3/episode6/">Kids These Days</a> <span class="episode-summary-date">September 10, 2018</span></div>
+    <p class="episode-summary-description">Today’s teens are the first humans who have spent their entire lives online. Find out what it&#39;s like growing up in the age of screens. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season3/episode6/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S03E05">
+    <div class="episode-summary-title"><span class="episode-summary-number">5:</span> <a href="https://dev.irlpodcast.org/season3/episode5/">Bullying and Bonding Online</a> <span class="episode-summary-date">August 27, 2018</span></div>
+    <p class="episode-summary-description">Veronica Belmont and Franchesca Ramsey meet the people working to make the web — and world — friendlier places. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season3/episode5/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S03E04">
+    <div class="episode-summary-title"><span class="episode-summary-number">4:</span> <a href="https://dev.irlpodcast.org/season3/episode4/">Virtual Connections</a> <span class="episode-summary-date">August 13, 2018</span></div>
+    <p class="episode-summary-description">Veronica Belmont and Peter Rojas explore how the Internet is building and confusing our relationships. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season3/episode4/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S03E03">
+    <div class="episode-summary-title"><span class="episode-summary-number">3:</span> <a href="https://dev.irlpodcast.org/season3/episode3/">Paid Attention</a> <span class="episode-summary-date">July 30, 2018</span></div>
+    <p class="episode-summary-description">There’s a new currency in town (and no, we’re not talking about Bitcoin). We’re talking about attention. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season3/episode3/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S03E02">
+    <div class="episode-summary-title"><span class="episode-summary-number">2:</span> <a href="https://dev.irlpodcast.org/season3/episode2/">Press Play</a> <span class="episode-summary-date">July 16, 2018</span></div>
+    <p class="episode-summary-description">One of the most successful recruitment tools the U.S. Army ever made was… a video game? Find out how gaming elements in tech have infiltrated our online and offline lives. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season3/episode2/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S03E01">
+    <div class="episode-summary-title"><span class="episode-summary-number">1:</span> <a href="https://dev.irlpodcast.org/season3/episode1/">The Grand Bargain</a> <span class="episode-summary-date">July 2, 2018</span></div>
+    <p class="episode-summary-description">Explore the tradeoffs you make online everyday, and learn why on earth your email inbox is filling up with privacy policies. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season3/episode1/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S03E00">
+    <div class="episode-summary-title"><span class="episode-summary-number">Trailer:</span> <a href="https://dev.irlpodcast.org/season3/episode0/">Introducing Season 3</a> <span class="episode-summary-date">June 18, 2018</span></div>
+    <p class="episode-summary-description">Get a sneak peak at what Veronica Belmont will cover in Season 3 of IRL, because online life is real life.  <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season3/episode0/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                </ul>
+        </div>
+    </section>
+    <section class="season-summaries">
+        <div class="l-content">
+            <h2 class="season-summary-title">Season 2</h2>
+            <ul class="episode-summary-list">
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S02E07">
+    <div class="episode-summary-title"><span class="episode-summary-number">7:</span> <a href="https://dev.irlpodcast.org/season2/episode7/">Ctrl&#43;Alt&#43;Facts</a> <span class="episode-summary-date">April 3, 2018</span></div>
+    <p class="episode-summary-description">How to stop the spread of disinformation online. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season2/episode7/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S02E06">
+    <div class="episode-summary-title"><span class="episode-summary-number">6:</span> <a href="https://dev.irlpodcast.org/season2/episode6/">Social Bubble Bath</a> <span class="episode-summary-date">March 19, 2018</span></div>
+    <p class="episode-summary-description">How technology can create, and can break, our filter bubbles. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season2/episode6/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S02E05">
+    <div class="episode-summary-title"><span class="episode-summary-number">5:</span> <a href="https://dev.irlpodcast.org/season2/episode5/">Algorisky</a> <span class="episode-summary-date">March 5, 2018</span></div>
+    <p class="episode-summary-description">When bad code spreads disinformation and bias, it’s never something that “the algorithm did.” It’s something people did. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season2/episode5/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S02E04">
+    <div class="episode-summary-title"><span class="episode-summary-number">4:</span> <a href="https://dev.irlpodcast.org/season2/episode4/">Cloak of Invisibility</a> <span class="episode-summary-date">February 16, 2018</span></div>
+    <p class="episode-summary-description">On the Internet no one knows you’re a dog, as the old joke goes. But does anonymity truly exist on the web anymore? <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season2/episode4/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S02E03">
+    <div class="episode-summary-title"><span class="episode-summary-number">3:</span> <a href="https://dev.irlpodcast.org/season2/episode3/">Face Value</a> <span class="episode-summary-date">February 5, 2018</span></div>
+    <p class="episode-summary-description">From Snapchat filters to Apple’s Face ID, biometric technology plays a growing role in our everyday lives. What do we actually give up when we upload our face to these apps? <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season2/episode3/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S02E02">
+    <div class="episode-summary-title"><span class="episode-summary-number">2:</span> <a href="https://dev.irlpodcast.org/season2/episode2/">Digital Overload</a> <span class="episode-summary-date">January 22, 2018</span></div>
+    <p class="episode-summary-description">Recent reports estimate that over 50% of teens are addicted to their smartphones. Veronica Belmont investigates the impact of growing up online. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season2/episode2/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S02E01">
+    <div class="episode-summary-title"><span class="episode-summary-number">1:</span> <a href="https://dev.irlpodcast.org/season2/episode1/">Bot Or Not</a> <span class="episode-summary-date">January 8, 2018</span></div>
+    <p class="episode-summary-description">Most website visitors aren’t human. They’re bots. Here’s how to spot them. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season2/episode1/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                </ul>
+        </div>
+    </section>
+    <section class="season-summaries">
+        <div class="l-content">
+            <h2 class="season-summary-title">Season 1</h2>
+            <ul class="episode-summary-list">
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S01B02">
+    <div class="episode-summary-title"><span class="episode-summary-number">Bonus:</span> <a href="https://dev.irlpodcast.org/season1/bonus2/">Net Neutrality Emergency</a> <span class="episode-summary-date">December 11, 2017</span></div>
+    <p class="episode-summary-description">The battle for the open Internet isn’t over. In the days leading up to the FCC’s vote, we investigate what’s next for net neutrality. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season1/bonus2/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S01B01">
+    <div class="episode-summary-title"><span class="episode-summary-number">Bonus:</span> <a href="https://dev.irlpodcast.org/season1/bonus1/">Status Update</a> <span class="episode-summary-date">November 15, 2017</span></div>
+    <p class="episode-summary-description">On the Internet, everything happens so much. Veronica Belmont explores the latest developments in digital activism, cybersecurity and troll clapbacks. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season1/bonus1/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S01E07">
+    <div class="episode-summary-title"><span class="episode-summary-number">7:</span> <a href="https://dev.irlpodcast.org/season1/episode7/">Free Speech, Limited?</a> <span class="episode-summary-date">September 18, 2017</span></div>
+    <p class="episode-summary-description">Recent events in Charlottesville, VA have revealed the role the Internet plays in IRL threats and violence. Should tech companies regulate who says what on the Internet? <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season1/episode7/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S01E06">
+    <div class="episode-summary-title"><span class="episode-summary-number">6:</span> <a href="https://dev.irlpodcast.org/season1/episode6/">All Access Pass</a> <span class="episode-summary-date">September 4, 2017</span></div>
+    <p class="episode-summary-description">What is life like without fast Internet, and how does life change once a person has it? Veronica Belmont talks to people about joining the digital economy. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season1/episode6/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S01E05">
+    <div class="episode-summary-title"><span class="episode-summary-number">5:</span> <a href="https://dev.irlpodcast.org/season1/episode5/">I Spy With My Digital Eye</a> <span class="episode-summary-date">August 21, 2017</span></div>
+    <p class="episode-summary-description">Surveillance. Turns out, we’ve invited it into our homes through digital assistants, connected toys and baby monitors. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season1/episode5/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S01E04">
+    <div class="episode-summary-title"><span class="episode-summary-number">4:</span> <a href="https://dev.irlpodcast.org/season1/episode4/">The Care and Feeding of Your Troll</a> <span class="episode-summary-date">August 7, 2017</span></div>
+    <p class="episode-summary-description">Trolls are in every corner of the Web, but people are fighting back in new ways. Baked goods included. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season1/episode4/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S01E03">
+    <div class="episode-summary-title"><span class="episode-summary-number">3:</span> <a href="https://dev.irlpodcast.org/season1/episode3/">Hack Jobs</a> <span class="episode-summary-date">July 24, 2017</span></div>
+    <p class="episode-summary-description">This episode of IRL focuses on our internet insecurity. Meet the unsung heroes fighting to keep us safe. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season1/episode3/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S01E02">
+    <div class="episode-summary-title"><span class="episode-summary-number">2:</span> <a href="https://dev.irlpodcast.org/season1/episode2/">The Neutral Zone: The Future of Net Neutrality</a> <span class="episode-summary-date">July 10, 2017</span></div>
+    <p class="episode-summary-description">The Internet is at a crossroads. Mozilla’s IRL podcast dives into the current net neutrality debate. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season1/episode2/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S01E01">
+    <div class="episode-summary-title"><span class="episode-summary-number">1:</span> <a href="https://dev.irlpodcast.org/season1/episode1/">All Your Data Are Belong to Us</a> <span class="episode-summary-date">June 26, 2017</span></div>
+    <p class="episode-summary-description">There is no such thing as a free lunch. Mozilla’s IRL podcast dives into the price of “free” online series. <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season1/episode1/">Listen now.</a></p>
+</li>
+
+                    
+                
+                    
+                        
+                        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+<li class="episode-summary S01E00">
+    <div class="episode-summary-title"><span class="episode-summary-number">Trailer:</span> <a href="https://dev.irlpodcast.org/season1/episode0/">Introducing IRL</a> <span class="episode-summary-date">May 25, 2017</span></div>
+    <p class="episode-summary-description">Introducing IRL <a class="episode-summary-cta" href="https://dev.irlpodcast.org/season1/episode0/">Listen now.</a></p>
+</li>
+
+                    
+                </ul>
+        </div>
+    </section>
+
+    </main>
+
+    <footer id="footer" class="footer">
+    <div class="footer-tag">
+        <p>IRL is an original podcast from Firefox, the tech company that believes privacy isn’t a policy. It’s a right.</p>
+    </div>
+
+    <div class="footer-primary">
+        <ul class="footer-links">
+            <li class="footer-logo"><a href="https://www.mozilla.org/firefox/"><img src="/images/firefox-logo.png" srcset="/images/firefox-logo-high-res.png 2x" width="111" height="38"></a></li>
+            <li><a href="https://www.mozilla.org/privacy/">Privacy Notice</a></li>
+            <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+            <li><a href="/ringtones/">Ringtones</a></li>
+        </ul>
+        <ul class="footer-social">
+            <li><a class="icon icon-twitter" href="https://twitter.com/firefox">Twitter</a></li>
+            <li><a class="icon icon-instagram" href="https://www.instagram.com/firefox/">Instagram</a></li>
+        </ul>
+        <p class="footer-legal">Unless otherwise indicated, IRL Podcast episodes are available from the Mozilla Corporation under the <a href="https://creativecommons.org/licenses/by-sa/3.0/us/" rel="external">Creative Commons Attribution Share-Alike 3.0</a> Unported license, or any later version.</p>
+    </div>
+</footer>
+
+
+    <script src="/js/libs/jquery.3.2.1.min-1055018c.js"></script>
+    <script src="/js/libs/clipboard.min-a9e688f0.js"></script>
+    <script src="/js/libs/mozilla.lazy-load-min-9b82a01f.js"></script>
+    <script src="/js/newsletter-min-8de43da4.js"></script>
+    <script src="/js/libs/protocol-min-96a4c400.js"></script>
+    <script src="/js/main-min-a01d0d70.js"></script>
+    <script src="/js/protocol-init-min-d680371b.js"></script>
+</body>
+</html>

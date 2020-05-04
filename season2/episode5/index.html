@@ -1,0 +1,464 @@
+
+
+    
+    
+        
+    
+    
+    
+    
+    
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dev.irlpodcast.org/season2/episode5/">
+    <meta property="og:image" content="https://dev.irlpodcast.org/images/episodes/S02E05/share.png">
+    <meta property="og:image:width" content="1100">
+    <meta property="og:image:height" content="619">
+    <meta property="og:title" content="IRL Podcast: Algorisky">
+    <meta property="og:description" content="When bad code spreads disinformation and bias, it’s never something that “the algorithm did.” It’s something people did.">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/images/favicon/favicon-180x180.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="/images/favicon/favicon-196x196.png">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+
+    <title>Algorisky</title>
+    <meta name="description" content="From Google search to Facebook news, algorithms shape our online experience. But like us, algorithms are flawed. Whether intentional or not, biases get written …">
+
+    <meta name="apple-itunes-app" content="app-id=1247652431, affiliate-data=at=1010lbVy&amp;ct=mozilla_smart_banner">
+
+    <link rel="stylesheet" href="/css/irlpodcast-b691ec18.css" />
+    <link rel="alternate" type="application/rss+xml" title="IRL Podcast: Online Life is Real Life" href="https://feeds.mozilla-podcasts.org/irl">
+    <link rel="canonical" href="https://dev.irlpodcast.org/season2/episode5/">
+
+    <script src="/js/pre-render-min-81c6f16b.js"></script>
+
+    
+        <script>
+    (function() {
+        'use strict';
+
+        
+        
+        if(navigator.doNotTrack !== 1) {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5H9T7GF');
+        } else {
+            
+            window.dataLayer = [];
+        }
+    })();
+</script>
+
+    
+</head>
+
+<body id="episode-page" class="mzp-t-firefox">
+
+    <header id="header">
+    <div class="mzp-c-navigation">
+        <div class="mzp-c-navigation-l-content">
+            <div class="mzp-c-navigation-container">
+            <button class="mzp-c-navigation-menu-button has-label" type="button" aria-controls="menu-site">Menu</button>
+            <div class="mzp-c-navigation-logo"><a href="/">IRL</a></div>
+            <div class="mzp-c-navigation-items" id="menu-site">
+                <div class="mzp-c-navigation-menu">
+                    <nav class="mzp-c-menu mzp-is-basic">
+                        <ul class="mzp-c-menu-category-list">
+                            <li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+                                <a class="mzp-c-menu-title" href="/" aria-haspopup="true" aria-controls="menu-episodes">Episodes</a>
+                                <div class="mzp-c-menu-panel" id="menu-episodes">
+                                    <div class="mzp-c-menu-panel-container">
+                                        <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-example">Close Episodes menu</button>
+                                        <div class="mzp-c-menu-panel-content">
+                                            <ul>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season1/">
+                                                            <h4 class="mzp-c-menu-item-title">Season One</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season2/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Two</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season3/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Three</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season4/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Four</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="mzp-c-menu-item ">
+                                                        <a class="mzp-c-menu-item-link" href="/season5/">
+                                                            <h4 class="mzp-c-menu-item-title">Season Five</h4>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mzp-c-menu-category">
+                                <a class="mzp-c-menu-title" href="/about/">About</a>
+                            </li>
+                            <li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+                                <a class="mzp-c-menu-title" href="/about/#contact" aria-haspopup="true" aria-controls="menu-contact">Contact</a>
+                                <div class="mzp-c-menu-panel" id="menu-contact">
+                                    <div class="mzp-c-menu-panel-container">
+                                        <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-example">Close Contact menu</button>
+                                        <div class="mzp-c-menu-panel-content">
+                                            <section class="mzp-c-menu-item ">
+                                                <a class="mzp-c-menu-item-link" href="mailto:IRL-podcast@mozilla.com">
+                                                    <h4 class="mzp-c-menu-item-title">General</h4>
+                                                    <p class="mzp-c-menu-item-desc">
+                                                    IRL-podcast@mozilla.com
+                                                    </p>
+                                                </a>
+                                            </section>
+                                            <section class="mzp-c-menu-item">
+                                                <a class="mzp-c-menu-item-link" href="mailto:press@mozilla.com">
+                                                    <h4 class="mzp-c-menu-item-title">Press</h4>
+                                                    <p class="mzp-c-menu-item-desc">
+                                                    press@mozilla.com
+                                                    </p>
+                                                </a>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</header>
+
+
+    
+
+    <main class="page-content" aria-label="Content">
+    
+    <article class="episode-post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="l-content" itemprop="articleBody">
+            
+            
+
+
+    
+    
+        
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<h1 class="page-title">Algorisky</h1>
+
+
+<article class="episode" id="episode-12">
+    
+    <h2 class="episode-title">Season 2: Episode 5</h2>
+    
+
+    <div class="episode-image">
+        <img src="/images/episodes/S02E05/artwork.png" srcset="/images/episodes/S02E05/artwork-high-res.png 2x" alt="">
+    </div>
+
+    <div class="episode-player">
+        <div class="episode-player-wrapper">
+            <iframe title="Listen to Algorisky." class="lazy-load" frameborder="0" height="183px" scrolling="no" seamless src="" data-src="https://embed.simplecast.com/afafa89f" width="100%"></iframe>
+            <noscript>
+                <iframe title="Listen to Algorisky." frameborder="0" height="183px" scrolling="no" seamless src="https://embed.simplecast.com/afafa89f" width="100%"></iframe>
+            </noscript>
+        </div>
+    </div>
+
+    <ul class="episode-actions">
+        <li><button type="button" class="episode-subscribe mzp-c-button mzp-t-small mzp-t-product" data-subscribe-links="episode-12-subscribe-links">Subscribe</button></li>
+        <li><a class="episode-action icon icon-twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url=https%3a%2f%2fdev.irlpodcast.org%2fseason2%2fepisode5%2f&amp;text=IRL Podcast: Algorisky w%2f%20%40Mozilla%20%26%20%40Veronica" data-link-type="social share" data-link-name="Twitter">Share on Twitter</a></li>
+        <li><a class="episode-action icon icon-facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.irlpodcast.org%2fseason2%2fepisode5%2f" data-link-type="social share" data-link-name="Facebook">Share on Facebook</a></li>
+        <li class="js-action-copy">
+            <a class="episode-action icon icon-copylink" data-service="copylink" href="https://dev.irlpodcast.org/season2/episode5/" data-link-type="social share" data-link-name="copylink" data-clipboard-text="https://dev.irlpodcast.org/season2/episode5/">Copy Link</a>
+            <div class="episode-copy-ok">URL copied to clipboard</div>
+        </li>
+        <li><a class="episode-action icon icon-download" data-service="download" href="https://tracking.feedpress.it/link/17512/8459340/afafa89f.mp3" rel="external noopener noreferrer">Download MP3</a></li>
+    </ul>
+
+    <div class="episode-description">
+        From Google search to Facebook news, algorithms shape our online experience. But like us, algorithms are flawed. Whether intentional or not, biases get written into code. Now, more than ever, it’s up to us to push for accountability. Because when bad code spreads disinformation, it’s never something that “the algorithm did.” It’s something people did. Veronica Belmont investigates algorithmic accountability, in conversation with Luke Dormehl, Staci Burns, James Bridle, Nick Seaver, and Safiya Noble.
+        
+        <div class="episode-date">Published: March 5, 2018</div>
+    </div>
+
+    
+    <div class="episode-subscribe-links" id="episode-12-subscribe-links">
+        <ul class="subscribe-links" data-episode-title="" id="">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_episode12" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple"><img src="/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google"><img src="/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify"><img src="/images/subscribe-badge-spotify.svg" alt="Subscribe on Spotify"></a>
+    </li>
+    <li>
+        <a href="https://play.radiopublic.com/irl-online-life-is-real-life-6Bv5Op?utm_source=Mozilla&amp;utm_medium=irl-website&amp;utm_campaign=episode12-modal" rel="external" data-link-type="subscribe" data-service="Radio Public" class="subscribe-link-radiopublic"><img src="/images/subscribe-badge-radiopublic.png" alt="Subscribe on RadioPublic"></a>
+    </li>
+    <li>
+        <a href="https://feeds.mozilla-podcasts.org/irl" data-link-type="subscribe" data-service="RSS"><img src="/images/subscribe-badge-rss.png" alt="Subscribe with RSS"></a>
+    </li>
+</ul>
+
+    </div>
+
+    
+</article>
+
+
+            
+            <section class="episode-notes">
+                <h2 id="show-notes">Show Notes</h2>
+
+                
+                Algorithms aren’t neutral. They’re really just recipes; expressions of human intent. That means it’s up to us to build the algorithms we want. <a href="https://blog.mozilla.org/netpolicy/2017/10/23/mozillas-comments-uk-algorithms-inquiry/">Read more on how we can make algorithms more accountable</a>.
+            </section>
+            
+
+            <section class="episode-transcript">
+                <h2 id="transcript">Transcript</h2>
+
+                <p><strong>Veronica B.:</strong> Hey everyone it’s Veronica, now before we dive into the episode, I want to invite you to come out to a live taping of the show, you get to come see an episode of IRL - recording in real life. The episode dives into misinformation and the web. Online it’s hard to figure out what&rsquo;s real and what&rsquo;s fake - who can be trusted and who absolutely can&rsquo;t. Bots spread false news and hype controversies, echo chambers, polarize opinions and divide us. Alternative facts and emotions are trumping accurate reporting. So what can we do to make things better? The taping is at at 4pm at the Commonwealth Club in downtown San Francisco on Sunday, March 18. Want to be in the audience? Send us an email and we&rsquo;ll add you to the guest list until we run out of spots. The email address is <a href="mailto:irl-podcast@mozilla.com">irl-podcast@mozilla.com</a> and and we’ll take it from there. That’s <a href="mailto:irl-podcast@mozilla.com">irl-podcast@mozilla.com</a>. Alright, I’ll see ya there pals. Here’s this week’s episode.</p>
+
+<p><strong>Staci Burns:</strong> Okay. Do you want me to kind of tell the story while I&rsquo;m introducing, or just make it real brief, like hi, I&rsquo;m Staci. I&rsquo;m the mom of two boys, and my son &hellip; I don&rsquo;t even know what to say.</p>
+
+<p><strong>Veronica B.:</strong> Most parents do it. They&rsquo;ve got their hands full, or frankly, they just need a moment to themselves or to get something done, so they hand over the iPad to the kid. Let them entertain themselves with some fun videos on YouTube Kids. Staci Burns would let her son Isaac do this, too. Isaac is three years old.</p>
+
+<p><strong>Staci Burns:</strong> One night, I was in the kitchen cooking some dinner. My son was a few feet away from me on the floor watching an iPad, YouTube Kids to be specific. The video that my son was watching was basically a few characters from the show Paw Patrol, and I heard him say, &ldquo;Mommy, the monster scares me,&rdquo; and I look over to see what he&rsquo;s doing. He wasn&rsquo;t crying, but he had this really concerned look on his face like he was worried for the characters&rsquo; safety.</p>
+
+<p><strong>Veronica B.:</strong> I&rsquo;m assuming you&rsquo;ve been YouTube and know that when you watch something the sight loads up a bunch of recommended videos to watch next. It&rsquo;s some kind of algorithm where it&rsquo;s basically-</p>
+
+<p><strong>Staci Burns:</strong> If you like Paw Patrol, then here&rsquo;s some other videos that have the name Paw Patrol in them.</p>
+
+<p><strong>Veronica B.:</strong> The video Isaac was watching played just like a Paw Patrol clip, had the same harmless, happy music, the characters, and everything, except Staci noticed &hellip;</p>
+
+<p><strong>Staci Burns:</strong> He&rsquo;s watching this really violent cartoon on YouTube.</p>
+
+<p><strong>Veronica B.:</strong> The video was a fake.</p>
+
+<p><strong>Staci Burns:</strong> They were driving in a car and they were all screaming, which was being chased by some creepy-looking doll with big, scary eyes. Yeah. When the car crashed, there was blood all over the place. The car basically burst into flames and then blood was leaking from the car and it had Xs over their eyes.</p>
+
+<p><strong>Veronica B.:</strong> Staci counted on the algorithm to filter material on YouTube&rsquo;s kids channel, but this time it had been gamed with content designed to slip through the algorithm&rsquo;s fingers, and since there&rsquo;s no human at the gate, it ended up on Isaac&rsquo;s iPad.</p>
+
+<p><strong>Staci Burns:</strong> Later when I was on my own, I got on my phone and went to the channel that had the video in question. I mean, I didn&rsquo;t watch any of them, but they all had descriptions like Paw Patrol babies pretend to die by suicide. There have been negative impacts from the video, if I&rsquo;m being honest. He wasn&rsquo;t afraid to go to his room by himself until after he watched the video.</p>
+
+<p><strong>Veronica B.:</strong> When an algorithm fails, it might make you second guess the abilities of the coders who built it. An algorithm is only as effective, only as useful, only as good as its programming lets it be. Today, we peek inside the black boxes and learn how algorithms rule huge parts of our online and offline lives, and we find out what we can do to make them work better. I&rsquo;m Veronica Belmont, and this is IRL: Online Life Is Real Life, an original podcast from Mozilla. An algorithm is a recipe. That&rsquo;s it. It&rsquo;s a set of instructions that gets you from point A to point B to point wherever. When you stumble into the kitchen in your PJs, and without really thinking you start making coffee, you&rsquo;re using an algorithm. You don&rsquo;t invent a way to make coffee every single morning. Instead, you follow a predetermined set of steps, the steps that you know will result in coffee. Beans out of the cupboard, beans in grinder, grind beans for 10 seconds, dump grounds in filter, put water in reservoir thingy, put pot in its place, mash the start button, stare out the window, wait. Follow the algorithm, get a cup of beautiful coffee. In our online world, those recipes, they&rsquo;re everywhere.</p>
+
+<p><strong>Luke Dormehl:</strong> So really, every time you do something involving a computer, algorithms are in some way involved.</p>
+
+<p><strong>Veronica B.:</strong> This is Luke Dormehl. He wrote The Formula. It&rsquo;s a book about how algorithms run our lives. He also wrote Thinking Machines, a book on artificial intelligence. This guy, algorithms. I&rsquo;ve asked Luke to stick around for the entire episode today, a bit of a copilot. He&rsquo;ll explore a few ideas with me with the help of other guests I&rsquo;ll be pulling in.</p>
+
+<p><strong>Luke Dormehl:</strong> Computer programmers often like to take big, complex issues and turn them into a problem that can be broken down into that sequential series of instructions.</p>
+
+<p><strong>Veronica B.:</strong> In a sentence, that&rsquo;s entirely how the internet works, and more and more, it&rsquo;s a lot like how a lot of stuff in real life works, too, so it makes sense that we expect these things to work perfectly. Luke, let&rsquo;s dive into this. What do you think?</p>
+
+<p><strong>Luke Dormehl:</strong> There&rsquo;s this idea that the inventor of the ship is also the inventor of the shipwreck, and what&rsquo;s so interesting about it is the fact that these to a lot of people these are kind of invisible processes. We don&rsquo;t necessarily know how these algorithms work, but they have an enormous impact on our lives.</p>
+
+<p><strong>Veronica B.:</strong> Exactly, and even the word algorithms is kind of mysterious. In fact, it&rsquo;s the only word I consistently spell incorrectly all of the time, like 100% of the time, but I imagine that at least the people who are building these things understand them, that they kind of get how they work. So, we talked to Nick Seaver. He&rsquo;s an anthropologist at Tufts University in Boston, and he actually went and embedded himself in Silicon Valley to learn how these engineers build the algorithms that rule our digital lives, as we know, but it turned out it wasn&rsquo;t quite so simple, so let&rsquo;s have a listen to what he has to say about that particular adventure.</p>
+
+<p><strong>Nick Seaver:</strong> When I set out to interview people who worked on algorithmic recommendation, I wanted to figure out how specific kinds of algorithms corresponded to specific kinds of ideas about culture, so that sounds like a pretty straightforward project. You ask someone what they think about taste, why people like what music they like, for instance, and then you ask them about the recommender algorithm they&rsquo;ve designed. These are people that, to most outsiders, are clearly working on the algorithm, as we usually talk about it, but when I ask them about their algorithms, I get these blank looks. Whatever bit of the system they personally worked on wasn&rsquo;t the algorithm, and it kept happening. At the engineering level, the algorithm was sort of everywhere and nowhere, so I realized that this vision I had had of the algorithm is a kind of simple thing I could wrap my head around and describe in a sentence or two didn&rsquo;t really exist, not even for the engineers who we might pretend have the inside scoop. Instead, it&rsquo;s so distributed and dependent on all sorts of unreliable things that it&rsquo;s actually hard to figure out whether it&rsquo;s doing what you want, and no one person has that bird&rsquo;s eye view on the whole thing.</p>
+
+<p><strong>Veronica B.:</strong> That&rsquo;s Nick Seaver from Tufts University, and Luke, you&rsquo;re still here hanging out with me. Where does your mind go when you hear this, that algorithm builders can&rsquo;t say for sure how what their building actually works?</p>
+
+<p><strong>Luke Dormehl:</strong> If you&rsquo;re talking, for example, about music recommendation or the discovery algorithms which are used on Amazon that say, &ldquo;You enjoyed Harry Potter. You might also enjoy Twilight,&rdquo; that is &hellip; If that algorithm isn&rsquo;t entirely understood by its creators, you know the worst thing that can happen is that you&rsquo;re recommended a book which isn&rsquo;t the book that you wanted. If you&rsquo;re talking, however, about an algorithm which is potentially going to be used for incriminating someone in some way, potentially kind of stripping someone of their driving license, as has happened in the past, or something which is gonna have a far more profound impact on someone&rsquo;s life, that&rsquo;s quite alarming.</p>
+
+<p><strong>Veronica B.:</strong> How ubiquitous or dependent are we on algorithms in everyday life?</p>
+
+<p><strong>Luke Dormehl:</strong> Very. I mean, if you look at something like online dating, that&rsquo;s now where a large number of people meet each other, a lot of that matching process is carried out algorithmically. The news that we&rsquo;re shown on Facebook, which you can argue as has been argued over the past year can impact on election results, that&rsquo;s a pretty dramatic implication of algorithms. Economically, the amount of financial traits which are now made algorithmically is considerable, so really, every aspect of our lives that we look at, there are algorithms with are being used to control them in some -  some cases.</p>
+
+<p><strong>Veronica B.:</strong> So, how about as an individual? So, I have an Apple Watch. I&rsquo;m really into the quantified self. I like data about my day-to-day life. People buy Fitbits and other devices like that. We&rsquo;re really amassing a ton of data on ourselves. Are we becoming algorithm junkies?</p>
+
+<p><strong>Luke Dormehl:</strong> I kind of think that to an extent we are. You know if you go back 20 years, and I think this would be something that would be only a certain fraction of people would be interested in, whereas today we all collect sort of Fitbit data. There&rsquo;s actually a case going on in Germany at the moment where a 19-year-old woman had been murdered, and they arrested someone, and they had no surveillance footage that was kind of accounting for this person&rsquo;s whereabouts during that time, so what they did was they gained access to his iPhone and looked at the health data, because they -  one of the things that the iPhone does is it talks about how many flights of stairs you&rsquo;ve climbed-</p>
+
+<p><strong>Veronica B.:</strong> Oh, no&hellip;</p>
+
+<p><strong>Luke Dormehl:</strong> &hellip; and they were able to look to see basically the movement that he would&rsquo;ve been taking, sort of climbing up and down this riverbank where she vanished correlating with the amount of stairs that his iPhone said that he had been climbing, if that makes sense, and they were actually able to get investigators to replicate those movements, and found that the iPhone kind of collected that same data.</p>
+
+<p><strong>Veronica B:</strong> Wow.</p>
+
+<p><strong>Luke Dormehl:</strong> So hopefully that&rsquo;s a scenario that not many listeners will ever find themselves in, but that&rsquo;s kind of an example of some unexpected way that our iPhones may be constantly sort of tracking our movement, and the way that, you know, the idea that data that we&rsquo;re collecting about ourselves could one day wind a person up in prison is kind of something, I guess, kind of intriguing to think about.</p>
+
+<p><strong>Veronica B:</strong> So look, if I mess up a question I just stop and start over. But when someone messes up an algorithm, how bad can it get?</p>
+
+<p><strong>Luke Dormehl:</strong> I mean, really, there can be all sorts of problematic aspects. For example, in 2010, there was a very famous, called the flash crash. When suddenly billions of dollars disappeared off the stock market, which turned out to possibly be because an algorithm had made a mistake. In that case, then that is a very obvious, sort of notable example of how an algorithm making potentially a sort of, what seems like a minor error, can have an enormous, immediate, sort of economic effect.</p>
+
+<p><strong>Veronica B:</strong> On a simpler level, what comes to mind for me is the Solid Gold Bomb t-shirt company a few years ago that actually used an algorithm to generate words on shirts. Do you remember that one?</p>
+
+<p><strong>Luke Dormehl:</strong> I do, and it&rsquo;s funny because, how badly wrong could that go? And it turns out that it can go fairly badly wrong. This story involved, as you say, a t-shirt manufacturer which came up with a technology that was going to generate slogans to complete the sentence, &ldquo;Keep calm and,&rdquo; the main one is, &ldquo;Keep calm and carry on,&rdquo; but it was going to run through different possible kind of word combinations, and it wound up generating all of these really offensive ones like, I think, &ldquo;Keep calm and rape a lot,&rdquo; was one. &ldquo;Keep calm and hit her, Keep calm and grope on,&rdquo; and they wound up being suspended from Amazon. I think that that is a big thing that we&rsquo;re increasingly seeing. Algorithms which are making mistakes, which were humans to make that same error, would be an enormously kind of big problem, but the companies now say, &ldquo;Actually, it wasn&rsquo;t our fault. It was the algorithm, which accidentally did this.&rdquo;</p>
+
+<p><strong>Veronica B:</strong> But it did actually kill the company, and the shirts were never printed. So, effectively, even though they were able to blame the algorithm, the algorithm kind of, it kind of slapped back.</p>
+
+<p><strong>Luke Dormehl:</strong> It did. It brought them down, so yeah. Maybe we shouldn&rsquo;t always cede that much control when an algorithm is coming up with the slogans that dictate whether our company continues or not. Maybe that&rsquo;s putting a bit too much reliance on them.</p>
+
+<p><strong>Veronica B:</strong> This is IRL, Online Life is Real Life. I&rsquo;m Veronica Belmont, and with me for this episode is Luke Dormehl. He wrote The Formula, and it&rsquo;s about how algorithms rule our everyday lives. It&rsquo;s not just the programmers of algorithms who need to be held accountable. Sometimes it&rsquo;s the people using the algorithms. The mom you heard at the top of the episode, Staci Burns, described how she and her son were the victims of YouTube video uploaders, who were gaming the video recommendation algorithm.</p>
+
+<p><strong>Staci Burns:</strong> Mommy, the monster scares me.</p>
+
+<p><strong>Veronica B:</strong> When news about this problem broke last fall, YouTube shot a bunch of these video providers down pretty fast. James Bridle wrote a post about this on Medium, and it really struck a chord. So I asked him about it.</p>
+
+<p><strong>James Bridle:</strong> No, so there&rsquo;s lots and lots of kids watching YouTube. They&rsquo;re racking up millions and millions of hits on these videos, which means there&rsquo;s lots and lots of advertising money to be had if you can get your videos in front of kids. What you can do as a content provider, is you can look at what are the most popular keywords? Like PAW Patrol or Peppa Pig, and you can give your video that title, and it&rsquo;ll get picked up by this algorithm and fed into this ongoing stream of videos. Some of those are, you know, well-known TV programs. Beyond that you get really, really badly made ones that are just desperately trying to get the right words into the title. Gradually they expand, and they turn into these insane kind of word salads, which are kind of like spiderman, Elsa, learn colors, trampoline, tape. Whatever it is, these kind of nonsensical sentences that, nevertheless, are like, kind of catnip to the algorithm that&rsquo;s trying to find the holy grail, the most popular content out there and show it to people in return for ad money. What you have is a massive money faucet with people trying to stick their mouth under it.</p>
+
+<p><strong>Veronica B:</strong> After you wrote about this, and the New York Times wrote about it, YouTube moved pretty quickly to identify and shut down a lot of these channels. How do you feel about their response? Do we trust the algorithms at all when we see stuff like this?</p>
+
+<p><strong>James Bridle:</strong> I mean, it&rsquo;s great that they shut down some of the more prominent channels. Though frankly, they only act once they&rsquo;re kind of prodded to do so. And no, you don&rsquo;t trust anything when you don&rsquo;t fully understand how it functions. This is the nature of proprietary and commercial algorithms, is that essentially they&rsquo;re gonna be making decisions in the best interest of the company that designed them. So they absolutely, absolutely can&rsquo;t and shouldn&rsquo;t be trusted.</p>
+
+<p><strong>Veronica B:</strong> That&rsquo;s James Bridle, a writer in the UK. So Luke, you&rsquo;re a new dad. How did you react to this story when you first heard about it?</p>
+
+<p><strong>Luke Dormehl:</strong> Yeah, I think it&rsquo;s horrifying. I think that any parent would be terrified. In some ways this highlights both what&rsquo;s great about algorithms in some senses, and what&rsquo;s sort of terrible about them. I mean, YouTube is a tremendous resource. But then the problem is that you get something like this, which is a relatively straight forward way to game an algorithm. Essentially all they&rsquo;re doing is just putting the name of a child&rsquo;s program in the title, and then the algorithm, it presents it as part of, you know, the rest of the collection of things, which are far more appropriate in that, in that category.</p>
+
+<p><strong>Veronica B:</strong> With this just absolute sea of content on a site like YouTube, for example, with tons of online content, are the algorithms managing this just inherently prone to being taken advantage of?</p>
+
+<p><strong>Luke Dormehl:</strong> I think so. I think that people are always going to find ways to sort of get around a lot of these tools, and particularly when there&rsquo;s sort of money - money at stake. I think that there is always going to be a sort of vested interested in people finding ways to kind of game the system. But hopefully over time these systems will get smarter and cases like this, as troubling as they are when they come out, will make companies kind of realize the importance of actually kind of tightening up these systems so that some of these more straight forward ways of gaming them can actually be closed.</p>
+
+<p><strong>Veronica B:</strong> The trickiest problems with our algorithms are the ones we create ourselves. Programmers write cultural biases into the code, whether they realize it or not. So the algorithm can itself return biased results when they go to work. I put this to Safiya Noble. She wrote a book called, Algorithms of Oppression. Safiya first got interested in this nearly a decade ago when she was still a graduate student. A colleague pointed out something bizarre he had noticed on Google.</p>
+
+<p><strong>Safiya Noble:</strong> He just happened to kind of give me a throw away. He said, &ldquo;Oh yeah, you should see the kinds of things that come back even when you search for &lsquo;black girls.&rsquo;&rdquo; He started laughing, and he was like, &ldquo;Don&rsquo;t do that search, Safiya,&rdquo; which, of course meant I went and did it, and I was stunned, quite frankly, at that time to see that 90% of the content on the first page when you did a keyword search on the words &ldquo;black girls,&rdquo; was pornography, or some type of hyper sexualized content. From there, that is where I really started looking at all kinds of identities, concepts, images, and it&rsquo;s really led to several years now of tracking the kinds of biases that show up in Google search results.</p>
+
+<p><strong>Veronica B:</strong> So why are algorithms biased?</p>
+
+<p><strong>Safiya Noble:</strong> One of the things that, when we think about algorithms, that I think is a challenge here is, is we think of algorithms as objective mathematical formulas. And yet math, computer science, computer programing, these are languages to express ideas and concepts. And as we know, language is highly subjective. So computer language also is subjective based on who&rsquo;s writing, who&rsquo;s coding, and how they want to express or point to particular ideas and concepts.</p>
+
+<p><strong>Veronica B:</strong> If I search for &ldquo;black girls&rdquo; on Google, I don&rsquo;t get the results you saw 10 years ago. So what do I need to understand about that?</p>
+
+<p><strong>Safiya Noble:</strong> We&rsquo;ve seen Google be very responsive to the critiques. In some cases they&rsquo;ve issued apologies for, say, you know, doing searches on Jews and being served up white supremacist, Holocaust denying websites, and it tries to curate its search results differently. So I think that these are positive signs.</p>
+
+<p><strong>Veronica B:</strong> So Luke, algorithms didn&rsquo;t invent the kind of racial bias Safiya mentions here, but how does this bias or this discrimination in this context, how is it different from bias offline?</p>
+
+<p><strong>Veronica B:</strong> Text &hellip; How is it different from bias offline?</p>
+
+<p><strong>Luke:</strong> I think probably that the biggest difference is that as regrettable and terrible as sort of obvious revert bias in the real world might be, someone obviously discriminating against another person, that&rsquo;s noticeable. With an algorithm, it&rsquo;s an invisible process, so we assume that what they&rsquo;re presenting us is in some ways as was mentioned in that interview clip, an objective truth, and of course it&rsquo;s not.</p>
+
+<p><strong>Veronica B:</strong> So how likely do you think it is that algorithmic bias is a problem that just can&rsquo;t be solved?</p>
+
+<p><strong>Luke:</strong> I &hellip; It&rsquo;s a very, very difficult thing. Hopefully with education increasingly focusing on sort of computational skills, the generation of people I suppose who have grown up with smart phones around them, they will have more of an awareness of how some of these technologies around them work. But I think that there&rsquo;s always going to be a degree of bias.</p>
+
+<p><strong>Veronica B:</strong> Of course, if algorithms aren&rsquo;t neutral, if they&rsquo;re really just expressions of human intentions, that means it&rsquo;s up to us to build the algorithms we want. But algorithms can be complicated. So unpacking how an algorithm works or doesn&rsquo;t work isn&rsquo;t easy. How to make them accountable is a work in progress. When officials working at the department of human services in Allegheny County, Pennsylvania built their family screening tool algorithm, they did so knowing it would come under intense scrutiny, so they built with that in mind. The algorithm helps them better respond to people phoning in to report on the welfare of children in their county. Erin Dalton is their deputy director.</p>
+
+<p><strong>Erin:</strong> So workers in Allegheny County get a tremendous amount of volume, so 14-15,000 calls to a county of about 1.2 million. Unlike the police, we don&rsquo;t have resources to respond to all of those calls.</p>
+
+<p><strong>Veronica B:</strong> Prioritizing the highest need cases is critical, but it&rsquo;s also time consuming, and decisions can be very hard to make. So with the help of some expert researchers, they created a system that helps staff make smarter decisions.</p>
+
+<p><strong>Erin:</strong> The Allegheny family screening tool is a predictive risk model, which takes into account previous human services, criminal justice, other social services, experience, and predicts the likelihood of a future adverse event, so the likelihood of a home removal, which is a really serious event, or the likelihood of  future and sometimes many calls back to the child abuse hotline reporting abuse and neglect.</p>
+
+<p><strong>Veronica B:</strong> One thing I found interesting is how the county insisted on building the algorithm transparently, that way people could understand why and how it was being made. Here&rsquo;s Erin again.</p>
+
+<p><strong>Erin:</strong> First, we of course procure this to a public process. Transparency around what data goes into it, so there&rsquo;s a paper on our website that documents all the data elements that are part of the system. We had a number of public meetings where we explained the tool to the public, allowed them to ask questions, provide input, and in fact, influence our process. We had a separate ethical review, which examine the ethics of implementing or failing to implement a tool like this. The hard part for us is that because we&rsquo;re so transparent, people can so easily attack what we&rsquo;re doing, and that’s fine because we want it to be the best thing we can be. They just can&rsquo;t compare it to anything else, you know what I mean? Like nobody else is willing to be this transparent.</p>
+
+<p><strong>Veronica B:</strong> She says, &ldquo;Nobody else is willing to be this transparent.&rdquo; Luke, what do you think?</p>
+
+<p><strong>Luke:</strong> I think that that&rsquo;s certainly true when you&rsquo;re talking about a company. If you&rsquo;re talking for example about Google, then the algorithms, which the make their search-search technology so valuable. These algorithms are guided like missile codes, so in that sense, al &hellip; Companies are not necessarily willing to share exactly how this technology works because it&rsquo;s their competitive edge.</p>
+
+<p><strong>Veronica B:</strong> Exactly. Even if we opened up all these black box algorithms if we somehow convinced companies like Facebook, or Google, or Uber, or whatever to show us their formulas, what are the chances we&rsquo;d even know what we&rsquo;re looking at?</p>
+
+<p><strong>Luke:</strong> Absolutely. Particularly if the people who are programming these algorithms don&rsquo;t necessarily understand exactly how they work. They don&rsquo;t know how the computer is necessarily making some of these decisions, so in that case, exactly how do you start on picking that? How do you start presenting that information to the public? It&rsquo;s really, really difficult, and even when you gave the example of maybe bringing the public in at an early stage, you then have to pass those results onto a computer programmer, whose then going to interpret what the public have said, and turn that into an algorithm. So it&rsquo;s very, very difficult to know exactly how you can make this information transparent to people.</p>
+
+<p><strong>Veronica B:</strong> So then how do we make sure algorithms are working for us all the time and not against us, whether that&rsquo;s accidentally or on purpose?</p>
+
+<p><strong>Luke:</strong> Excellent question. I think if you had it &hellip; A good answer to that, then you would certainly be in great demand among tech companies. A lot of the time it comes down to subjective-subjective issues, so for example, if you look at &hellip; I know Facebook is now taking steps to maybe change this by changing its Facebook feed, but a user on Facebook is essentially kind of looking for news about their friends. Facebook is looking at a way monetizing your social graph, so the people who are creating the algorithm maybe have a different idea of what they wanted to achieve versus the people who are using it. I don&rsquo;t think that we&rsquo;re anywhere near answering these questions, but I think the fact that we&rsquo;re now at a stage where a large number of people in the public are asking these questions about algorithmic accountability, we&rsquo;re hopefully at the start of what should be an interesting kind of shift.</p>
+
+<p><strong>Veronica B:</strong> Luke Dormehl is the author of The Formula: How Algorithms Solve All Our Problems and Create More. And he also wrote Thinking Machines, the quest for artificial intelligence and where it&rsquo;s taking us next. Every algorithm is repeating somebody&rsquo;s idea of how things should go, what we should do, who we should be. The mathematician, Cathy O&rsquo;Neil warned that what algorithms are really good at is automating the status quo. That means the more our lives are managed by algorithms, the more accountable their programmers need to be. I&rsquo;ve had these moments where my friends and I joke about what did the algorithm do? Like we can blame the code for making a bad decision or suggesting we watch some horrible movie on Netflix. But the truth is, it&rsquo;s never something the algorithm did, it&rsquo;s something people did. That means we can still take charge of our algorithms. After all, they&rsquo;re here to serve us, not the other way around. Earlier, I mentioned how after the Youtube kids controversy, the company reacted quickly to implement changes. Since then, the company has rewritten their policy around how video creators can monetize their content. Now, a creator&rsquo;s channel needs to earn at least 4,000 watch hours and 1,000 subscribers before it can apply for the ad program. Youtube also says it&rsquo;s adding more humans to the content approval process and of course, those humans are also helping train the algorithms to be smarter and work better. Luke Dormehl, and the rest of this episode&rsquo;s guests are all working to build better relationships with the code that shapes our identities and our lives. They&rsquo;re looking for ways to make algorithms more accountable, so is Mozilla. You can read about Mozilla&rsquo;s position on algorithmic accountability, just check out the show notes to this episode at IRLPodcast.org. IRL is an original podcast for Mozilla, the not for profit behind the all new Firefox browser. I&rsquo;m Veronica Belmont, I will see you online until we catch up again, IRL. A-L &hellip; No, yeah. A-L-G-O-R-I-T-H &hellip; I always feel like there&rsquo;s a Y in here, but I don&rsquo;t think there actually is. Algorithm. Thm, thm &hellip; Y-M? There&rsquo;s still not a Y in there, is there? Is there a Y in there anywhere? T-H-I-M? You&rsquo;re laughing, but you&rsquo;re not giving me any feedback.</p>
+
+            </section>
+
+            <aside class="next">
+                
+                    <a class="next-block next-next" href="https://dev.irlpodcast.org/season2/episode6/">
+                        <img class="next-thumb" src="/images/episodes/S02E06/artwork.png" alt="" height="70" width="70">
+                        <div class="next-dir">Next episode</div>
+                        <div class="next-title">Social Bubble Bath</div>
+                    </a>
+                
+
+                
+                    <a class="next-block next-prev" href="https://dev.irlpodcast.org/season2/episode4/">
+                        <img class="next-thumb" src="/images/episodes/S02E04/artwork.png" alt="" height="70" width="70">
+                        <div class="next-dir">Previous episode</div>
+                        <div class="next-title">Cloak of Invisibility</div>
+                    </a>
+                
+            </aside>
+        </div>
+    </article>
+
+    
+
+    </main>
+
+    <footer id="footer" class="footer">
+    <div class="footer-tag">
+        <p>IRL is an original podcast from Firefox, the tech company that believes privacy isn’t a policy. It’s a right.</p>
+    </div>
+
+    <div class="footer-primary">
+        <ul class="footer-links">
+            <li class="footer-logo"><a href="https://www.mozilla.org/firefox/"><img src="/images/firefox-logo.png" srcset="/images/firefox-logo-high-res.png 2x" width="111" height="38"></a></li>
+            <li><a href="https://www.mozilla.org/privacy/">Privacy Notice</a></li>
+            <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+            <li><a href="/ringtones/">Ringtones</a></li>
+        </ul>
+        <ul class="footer-social">
+            <li><a class="icon icon-twitter" href="https://twitter.com/firefox">Twitter</a></li>
+            <li><a class="icon icon-instagram" href="https://www.instagram.com/firefox/">Instagram</a></li>
+        </ul>
+        <p class="footer-legal">Unless otherwise indicated, IRL Podcast episodes are available from the Mozilla Corporation under the <a href="https://creativecommons.org/licenses/by-sa/3.0/us/" rel="external">Creative Commons Attribution Share-Alike 3.0</a> Unported license, or any later version.</p>
+    </div>
+</footer>
+
+
+    <script src="/js/libs/jquery.3.2.1.min-1055018c.js"></script>
+    <script src="/js/libs/clipboard.min-a9e688f0.js"></script>
+    <script src="/js/libs/mozilla.lazy-load-min-9b82a01f.js"></script>
+    <script src="/js/newsletter-min-8de43da4.js"></script>
+    <script src="/js/libs/protocol-min-96a4c400.js"></script>
+    <script src="/js/main-min-a01d0d70.js"></script>
+    <script src="/js/protocol-init-min-d680371b.js"></script>
+</body>
+</html>

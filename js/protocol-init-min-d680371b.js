@@ -1,0 +1,1 @@
+!function(i){"use strict";i.Menu.init(),i.Navigation.init()}(window.Mzp);
