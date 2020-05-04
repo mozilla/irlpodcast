@@ -1,6 +1,6 @@
 push dev:
   tags:
-    - meao
+    - mozmeao
   only:
     - dev
   script:
@@ -9,7 +9,7 @@ push dev:
 
 push stage:
   tags:
-    - meao
+    - mozmeao
   only:
     - master
   script:
@@ -18,7 +18,7 @@ push stage:
 
 push prod:
   tags:
-    - meao
+    - mozmeao
   only:
     - prod
   script:
