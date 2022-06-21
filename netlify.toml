@@ -1,0 +1,6 @@
+[build]
+  publish = "public"
+  command = "bin/build-netlify.sh"
+
+[build.environment]
+  NODE_VERSION = "v8.17.0"
