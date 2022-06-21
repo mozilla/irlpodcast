@@ -9,10 +9,10 @@
 [context.production.environment]
   CONFIG_FILE = "prod"
 
-[context.master.environment]
+[context.stage.environment]
   CONFIG_FILE = "stage"
 
-[context.dev.environment]
+[context.master.environment]
   CONFIG_FILE = "dev"
 
 [context.deploy-preview.environment]
