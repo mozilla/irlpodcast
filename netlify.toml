@@ -17,3 +17,40 @@
 
 [context.deploy-preview.environment]
   CONFIG_FILE = "dev"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Cache-Control = "public, max-age=3600"
+    Content-Security-Policy = '''
+    font-src 'self' *.mozilla.net *.mozilla.org;
+    img-src 'self' data: *.mozilla.net *.mozilla.org www.google-analytics.com;
+    style-src 'self' 'unsafe-inline' *.mozilla.org *.mozilla.net;
+    script-src 'self' 'unsafe-inline' data: *.mozilla.org *.mozilla.net www.google-analytics.com www.googletagmanager.com;
+    default-src 'self' *.cdn.mozilla.net assets.mozilla.net;
+    child-src 'self' player.simplecast.com embed.simplecast.com;
+    form-action 'self' www.mozilla.org;
+    '''
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "max-age=31536000, public, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "max-age=31536000, public, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "max-age=31536000, public"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "max-age=3600, public"
