@@ -1,19 +1,19 @@
 ---
-date: 2018-11-12T04:55:01-08:00
-title: "Introducing Season 4"
-ogtitle: "Introducing Season 4"
+date: 2022-07-05T04:55:01-08:00
+title: "Introducing Season 6"
+ogtitle: "Introducing Season 6"
 description: "Can ‘ethical tech’ be a thing? We think so. Season 4 of Mozilla’s IRL podcast will explore   all the ways tech can have more positive influence on people, communities, and societies at large. And, we’re delighted to welcome our new host Manoush Zomorodi, who will keep the season nerdy, human, and — importantly — fun, for all of us as we listen in."
 ogdescription: "Meet IRL’s new host, Manoush Zomorodi, who will examine the potential of ethical tech with listeners around the globe."
-number: 23
-season: 4
+number: 38
+season: 6
 seasonepisode: 0
-url: /season4/trailer/
+url: /season6/trailer/
 aliases:
-    - /season4/episode0/
+    - /season6/episode0/
 embed: "08924a79"
 mp3: "https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/08924a79.mp3"
 categories: "episodes"
-host: "Manoushz"
+host: "Bridget Todd"
 shownotes: |
     [Here's more about IRL Season 4, Manoush, and the Mozillians who make the IRL podcast](http://blog.mozilla.org/internetcitizen/2018/11/07/irl-podcast-manoush-zomorodi/).
 transcript: |
