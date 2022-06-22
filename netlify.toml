@@ -58,3 +58,7 @@
 [[redirects]]
   from = "/twit"
   to = "https://2022.internethealthreport.org/"
+
+[[redirects]]
+  from = "/castbox"
+  to = "https://2022.internethealthreport.org/"
