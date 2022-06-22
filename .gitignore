@@ -3,5 +3,6 @@
 data/
 node_modules/
 public/
+release/
 static/css
 static/js

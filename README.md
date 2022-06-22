@@ -23,16 +23,16 @@ This probably won't happen often, but if needed, run:
 
 ## Pushing to dev
 
-1. Push your changes to the `dev` branch: `git push origin my-branch-name:dev`
-2. Test on `https://dev.irlpodcast.org`
+Any merge to the `master` branch will automatically update the dev site:
 
-## Pushing to stage
-
-Any merge to the `master` branch will automatically update the staging site:
-
-`https://stage.irlpodcast.org/`
+`https://master.irlpodcast.org/`
 
 A notice will be posted in `#irlpodcast-notify` on Slack when the push has completed.
+
+## Pushing to staging
+
+1. Push your changes to the `stage` branch: `git push origin my-branch-name:stage`
+2. Test on `https://stage.irlpodcast.org`
 
 ## Pushing to production
 
