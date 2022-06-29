@@ -4,11 +4,11 @@ date: 2018-03-16T17:07:08-05:00
 draft: false
 ---
 
-Our online life is real life. We walk, talk, work, LOL and even love on the Internet – but we don’t always treat it like real life. Host Manoush Zomorodi explores this disconnect with stories from the wilds of the Web, and gets to the bottom of online issues that affect us all. Whether it’s privacy breaches, closed platforms, hacking, fake news, or cyber bullying, we the people have the power to change the course of the Internet, keeping it ethical, safe, weird, and wonderful for everyone. IRL is an original podcast from Firefox, the tech company that believes privacy isn’t a policy. It’s a right.
+Online life is real life. But it isn’t always obvious how much of our lives are driven by technology. And how much of technology is driven by data about our lives. Host Bridget Todd explores this disconnect with stories from the wilds of the internet and artificial intelligence. She talks to the people reclaiming power over our technology and making online life healthier for everyone. IRL is an original podcast from Mozilla, the non-profit behind Firefox.
 
-## About Firefox
+## About Mozilla
 
-Firefox believes that privacy is a fundamental right, not just a feature buried in a menu bar. That’s why we put privacy first in everything we make, like services that help people find out if they were affected by a data breach, add-ons that block social media sites from following them around the web, and a browser that keeps your data safe, never sold. Firefox fights for your privacy and we’re backed by Mozilla – the not-for-profit organization working to make the web open and accessible to all.
+Mozilla’s work is guided by the [Mozilla Manifesto](https://mzl.la/manifesto). Founded as a community open source project in 1998, Mozilla currently consists of two organizations: the 501(c)3 Mozilla Foundation, which leads our movement building work; and its wholly owned subsidiary, the Mozilla Corporation, which leads our market-based work. The two organizations work in close concert with each other and a global community of tens of thousands of volunteers under the single banner: Mozilla.
 
 
 {{< div >}}
@@ -19,7 +19,7 @@ Firefox believes that privacy is a fundamental right, not just a feature buried 
         <li class="credit">
             <img src="/images/manoush-zomorodi.jpg" srcset="/images/manoush-zomorodi-high-res.jpg 2x" class="credits-image" alt="">
 
-            <h3>Manoush Zomorodi</h3>
+            <h3>Bridget Todd</h3>
 
             <p>
                 Investigating how technology is transforming humanity is Manoush's passion and expertise. She is co-founder of Stable Genius Productions, a media company with a mission to help people navigate personal and global change. In addition to IRL, Manoush hosts Zig Zag, a podcast about changing the course of capitalism, journalism,and women's lives. Learn more about Manoush’s thoughts on the good-and-bad of tech in her book “Bored and Brilliant: How Spacing Out Can Unlock Your Most Creative Self”and her 2017 TED Talk “Attention Economy.”
@@ -62,7 +62,7 @@ Firefox believes that privacy is a fundamental right, not just a feature buried 
 
 ## Contact
 
-For press inquiries, email us at [press@mozilla.com](mailto:press@mozilla.com). For any other inquiries, email us at [IRL-podcast@mozilla.com](mailto:IRL-podcast@mozilla.com).
+For press inquiries, email us at [tracy@mozillafoundation.org](mailto:tracy@mozillafoundation.org). For any other inquiries, email us at [internethealth@mozillafoundation.org](mailto:internethealth@mozillafoundation.org).
 
 <div>
 {{< newsletter >}}
