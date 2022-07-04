@@ -38,7 +38,7 @@ IRL is an original podcast from Mozilla, the non-profit behind Firefox. Mozillaâ
 
         <li class="credit">
             <div class="credits-image svg-about-image">
-                <img src="/images/pacific-content-logo.png" width="200" height="200">
+                <img src="/images/pacific-content-logo.png" width="200" height="267">
             </div>
 
             <h3>Pacific Content</h3>
