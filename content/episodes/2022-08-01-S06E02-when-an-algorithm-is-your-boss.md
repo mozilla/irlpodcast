@@ -10,7 +10,7 @@ number: 40
 season: 6
 seasonepisode: 2
 url: /season6/episode2/
-embed: "67d5b12c-ba8f-4bb4-a3ee-2adf3225bec7"
+embed: "f97c1a27-a3c0-46b9-aba8-9df8727c060a"
 mp3: ""
 categories: "episodes"
 host: "Bridget Todd"

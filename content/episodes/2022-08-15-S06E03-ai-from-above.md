@@ -10,7 +10,7 @@ number: 41
 season: 6
 seasonepisode: 3
 url: /season6/episode3/
-embed: "f97c1a27-a3c0-46b9-aba8-9df8727c060a"
+embed: "82476d39-0f6d-4027-9ae0-7e392117ea17"
 mp3: ""
 categories: "episodes"
 host: "Bridget Todd"

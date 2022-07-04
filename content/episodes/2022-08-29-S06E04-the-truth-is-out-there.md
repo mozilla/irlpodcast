@@ -10,7 +10,7 @@ number: 42
 season: 6
 seasonepisode: 4
 url: /season6/episode4/
-embed: "82476d39-0f6d-4027-9ae0-7e392117ea17"
+embed: "6bf428bb-87b4-45a4-88b8-1c23c9ce5333"
 mp3: ""
 categories: "episodes"
 host: "Bridget Todd"

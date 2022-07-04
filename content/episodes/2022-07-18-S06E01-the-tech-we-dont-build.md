@@ -10,7 +10,7 @@ number: 39
 season: 6
 seasonepisode: 1
 url: /season6/episode1/
-embed: "6bf428bb-87b4-45a4-88b8-1c23c9ce5333"
+embed: "67d5b12c-ba8f-4bb4-a3ee-2adf3225bec7"
 mp3: ""
 categories: "episodes"
 host: "Bridget Todd"
