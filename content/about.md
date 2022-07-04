@@ -27,7 +27,7 @@ IRL is an original podcast from Mozilla, the non-profit behind Firefox. Mozillaâ
         </li>
 
         <li class="credit">
-            <img src="/images/manoush-zomorodi.jpg" srcset="/images/manoush-zomorodi-high-res.jpg 2x" class="credits-image" alt="">
+            <img src="/images/bridget-todd.jpg" srcset="/images/bridget-todd-high-res.jpg 2x" class="credits-image" alt="">
 
             <h3>Bridget Todd</h3>
 
@@ -38,7 +38,7 @@ IRL is an original podcast from Mozilla, the non-profit behind Firefox. Mozillaâ
 
         <li class="credit">
             <div class="credits-image svg-about-image">
-                <img src="/images/pacific-content-logo.svg" width="200" height="267">
+                <img src="/images/pacific-content-logo.png" width="200" height="200">
             </div>
 
             <h3>Pacific Content</h3>
