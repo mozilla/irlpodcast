@@ -4,7 +4,7 @@ date: 2018-03-16T17:07:08-05:00
 draft: false
 ---
 
-Online life is real life. But it isn’t always obvious how much of our lives are driven by technology. And how much of technology is driven by data about our lives. In Season 6, host Bridget Todd explores this disconnect with real life stories from  around the world about artificial intelligence.
+Online life is real life, and with artificial intelligence it’s getting even more real. In Season 6, IRL zooms in on data, machine learning and algorithms, as host Bridget Todd shares real life stories from around the world about AI. This season doubles as Mozilla’s 2022 Internet Health Report which explores who is reclaiming power to make online life healthier for everyone.
 
 <!--This season doubles as the [2022 Internet Health Report](https://2022.internethealthreport.org), which explores who is reclaiming power over data, machine learning and automation to make online life healthier for everyone.-->
 
