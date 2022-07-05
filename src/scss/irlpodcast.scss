@@ -66,7 +66,7 @@ $image-path: '/images/protocol';
 .credits-image {
     display: block;
     margin-bottom: 20px;
-    width: 300px;
+    min-width: 300px;
 
     @media #{$mq-md} {
         float: left;

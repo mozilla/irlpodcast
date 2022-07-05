@@ -13,7 +13,8 @@ module.exports = {
         ],
         "linebreak-style": [
             2,
-            "unix"
+            /*"unix",*/
+            "windows"
         ],
         "quotes": [
             2,

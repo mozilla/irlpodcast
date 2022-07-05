@@ -1,9 +1,11 @@
-hugo:
-  image: jojomi/hugo:0.40.2
-  volumes:
-    - ./:/src:delegated
-  environment:
-    - HUGO_WATCH=True
-  ports:
-    - "1313:1313"
-  restart: always
+version: "3"  # optional since v1.27.0
+services:
+  hugo:
+    image: jojomi/hugo:0.40.2
+    volumes:
+      - ./:/src:delegated
+    environment:
+      - HUGO_WATCH=True
+    ports:
+      - "1313:1313"
+    restart: always

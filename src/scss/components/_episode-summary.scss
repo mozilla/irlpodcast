@@ -102,7 +102,8 @@ $summary-image-size: 72px;
         &.S02E0#{$episode}:before,
         &.S03E0#{$episode}:before,
         &.S04E0#{$episode}:before,
-        &.S05E0#{$episode}:before {
+        &.S05E0#{$episode}:before,
+        &.S06E0#{$episode}:before {
             background-position: ($episode * $summary-image-size * -1) 0;
         }
     }
@@ -138,5 +139,10 @@ $summary-image-size: 72px;
     // season 5
     &[class*='S05']:before {
         background-image: url('/images/S05.png');
+    }
+
+    // season 6
+    &[class*='S06']:before {
+      background-image: url('/images/S06.png');
     }
 }
