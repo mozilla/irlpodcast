@@ -4,11 +4,13 @@ date: 2018-03-16T17:07:08-05:00
 draft: false
 ---
 
-Our online life is real life. We walk, talk, work, LOL and even love on the Internet – but we don’t always treat it like real life. Host Manoush Zomorodi explores this disconnect with stories from the wilds of the Web, and gets to the bottom of online issues that affect us all. Whether it’s privacy breaches, closed platforms, hacking, fake news, or cyber bullying, we the people have the power to change the course of the Internet, keeping it ethical, safe, weird, and wonderful for everyone. IRL is an original podcast from Firefox, the tech company that believes privacy isn’t a policy. It’s a right.
+Online life is real life, and with artificial intelligence it’s getting even more real. In Season 6, IRL zooms in on data, machine learning and algorithms, as host Bridget Todd shares real life stories from around the world about AI. This season doubles as Mozilla’s 2022 Internet Health Report which explores who is reclaiming power to make online life healthier for everyone.
 
-## About Firefox
+<!--This season doubles as the [2022 Internet Health Report](https://2022.internethealthreport.org), which explores who is reclaiming power over data, machine learning and automation to make online life healthier for everyone.-->
 
-Firefox believes that privacy is a fundamental right, not just a feature buried in a menu bar. That’s why we put privacy first in everything we make, like services that help people find out if they were affected by a data breach, add-ons that block social media sites from following them around the web, and a browser that keeps your data safe, never sold. Firefox fights for your privacy and we’re backed by Mozilla – the not-for-profit organization working to make the web open and accessible to all.
+## About Mozilla
+
+IRL is an original podcast from Mozilla, the non-profit behind Firefox. Mozilla’s work is guided by the [Mozilla Manifesto](https://mzl.la/manifesto). Founded as a community open source project in 1998, Mozilla currently consists of two organizations: the <span>501&#40;c&#41;3</span> Mozilla Foundation, which leads our movement building work; and its wholly owned subsidiary, the Mozilla Corporation, which leads our market-based work. The two organizations work in close concert with each other and a global community of tens of thousands of volunteers under the single banner: Mozilla.
 
 
 {{< div >}}
@@ -16,29 +18,33 @@ Firefox believes that privacy is a fundamental right, not just a feature buried 
     <h2>Credits</h2>
 
     <ul>
-        <li class="credit">
-            <img src="/images/manoush-zomorodi.jpg" srcset="/images/manoush-zomorodi-high-res.jpg 2x" class="credits-image" alt="">
 
-            <h3>Manoush Zomorodi</h3>
+        <li>
+           <h3>Mozilla Insights</h3>
+            <p>
+               The Insights team of the Mozilla Foundation led the editorial process for Season 6 of IRL. This team is responsible for the annual publication of the <a href="https://internethealthreport.org">Internet Health Report</a> and more.
+            </p>
+        </li>
+
+        <li class="credit">
+            <img src="/images/bridget-todd.jpg" srcset="/images/bridget-todd-high-res.jpg 2x" class="credits-image" alt="">
+
+            <h3>Bridget Todd</h3>
 
             <p>
-                Investigating how technology is transforming humanity is Manoush's passion and expertise. She is co-founder of Stable Genius Productions, a media company with a mission to help people navigate personal and global change. In addition to IRL, Manoush hosts Zig Zag, a podcast about changing the course of capitalism, journalism,and women's lives. Learn more about Manoush’s thoughts on the good-and-bad of tech in her book “Bored and Brilliant: How Spacing Out Can Unlock Your Most Creative Self”and her 2017 TED Talk “Attention Economy.”
+                Bridget is the host of IRL when she is not hosting her own podcast, <a href="https://www.tangoti.com/" rel="nofollow">There Are No Girls On The Internet</a>. In her daily life, she is the communications director of the feminist group, <a href="https://weareultraviolet.org" rel="nofollow" >UltraViolet</a>. Formerly, she was the host of a global salon at AFROPUNK and the  podcast Stuff Mom Never Told You. She got her start teaching courses on writing and social change at Howard University.
             </p>
         </li>
 
         <li class="credit">
             <div class="credits-image svg-about-image">
-                <img src="/images/pacific-content-logo.svg" width="200" height="267">
+                <img src="/images/pacific-content-logo.png" width="200" height="267">
             </div>
 
             <h3>Pacific Content</h3>
 
             <p>
-                Pacific Content leads production of Mozilla’s IRL podcast. They’re a
-                group of forward-facing media professionals that exclusively focuses on
-                making original podcast series with brands. They’re also the people
-                behind Slack’s Work in Progress podcast, Dell Technologies's
-                Trailblazers with Walter Isaacson podcast, and Zendesk’s Relate podcast.
+                Pacific Content leads production of Mozilla’s IRL podcast. Pacific Content is a leading podcast services company based in Canada that helps some of the world’s biggest brands create and market compelling audio stories. Their team is made up of veteran media professionals: experts in podcast production, strategy, marketing, distribution and sound design.
             </p>
         </li>
 
@@ -51,9 +57,7 @@ Firefox believes that privacy is a fundamental right, not just a feature buried 
 
             <p>
                 The music you hear on IRL is an original composition by Roberto Angel-Dwyer
-                and Daniel Byrne and is available under a
-                <a href="https://creativecommons.org/licenses/by-nc/3.0/" rel="license external">Creative Commons license</a>.
-                <a href="http://ccmixter.org/people/Angel_Dwyer_Byrne" rel="external">Download the music files</a>.
+                and Daniel Byrne.
             </p>
         </li>
     </ul>
@@ -62,7 +66,8 @@ Firefox believes that privacy is a fundamental right, not just a feature buried 
 
 ## Contact
 
-For press inquiries, email us at [press@mozilla.com](mailto:press@mozilla.com). For any other inquiries, email us at [IRL-podcast@mozilla.com](mailto:IRL-podcast@mozilla.com).
+For press inquiries, see our [Press Center](https://foundation.mozilla.org/en/press-center/).<br>
+For any other inquiries, email us at [internethealth@mozillafoundation.org](mailto:internethealth@mozillafoundation.org).
 
 <div>
 {{< newsletter >}}
