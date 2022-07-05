@@ -1,5 +1,5 @@
 ---
-date: 2022-07-05T07:00:00-07:00
+date: 2022-07-05T06:00:00-07:00
 title: "Introducing Season 6 of IRL: AI in Real Life"
 ogtitle: "Introducing Season 6 of IRL: AI in Real Life"
 description: "<b>Meet IRL's new host, Bridget Todd, who is on a journey to meet people around the world who are making AI more trustworthy, <i>in real life.</i></b> AI is everywhere now. It's part of healthcare, social media, maps, and even killer robots. But who has power over AI? And who is shifting that power? Join IRL's new host, Bridget Todd, as she talks to technology builders and policy folks from around the world who are developing more trustworthy AI that puts people over profits.<br><br>IRL is an original podcast from the non-profit Mozilla. To read more about Season 6, [visit our blog](https://foundation.mozilla.org/en/blog/listen-to-the-trailer-season-6-of-mozillas-podcast-irl-is-around-the-corner/)."
