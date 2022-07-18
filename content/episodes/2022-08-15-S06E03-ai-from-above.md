@@ -1,6 +1,6 @@
 ---
 draft: true
-date: 2022-08-15T04:55:00-08:00
+date: 2022-08-15T06:00:00-07:00
 title: "Ai from above"
 ogtitle: "Ai from above"
 description: |
