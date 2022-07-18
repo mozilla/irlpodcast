@@ -37,8 +37,9 @@ $summary-image-size: 72px;
 }
 
 .episode-summary-title {
-    @include text-body-lg;
-    font-weight: bold;
+  max-width: 75%;
+  @include text-body-lg;
+  font-weight: bold;
 }
 
 .episode-summary-date {
@@ -46,7 +47,7 @@ $summary-image-size: 72px;
     display: block;
     font-style: italic;
     font-weight: normal;
-    margin: $spacing-xs 0;
+    margin: 10px 0;
 }
 
 .episode-summary-cta {
@@ -57,6 +58,10 @@ $summary-image-size: 72px;
     .episode-summary-image {
         float: left;
         margin: 0 $spacing-md 1.25em 0;
+    }
+
+    .episode-summary-title {
+      max-width: none;
     }
 
     .episode-summary-description {
