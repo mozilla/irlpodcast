@@ -10,7 +10,7 @@ season: 6
 seasonepisode: 1
 url: /season6/episode1/
 embed: "67d5b12c-ba8f-4bb4-a3ee-2adf3225bec7"
-mp3: ""
+mp3: "https://cdn.simplecast.com/audio/9b52b824-909f-4be5-aaf0-10f9e93c7818/episodes/67d5b12c-ba8f-4bb4-a3ee-2adf3225bec7/audio/74ab904b-fac9-4e1d-a7a5-b6ccc202972e/default_tc.mp3"
 categories: "episodes"
 host: "Bridget Todd"
 shownotes: |
@@ -22,7 +22,7 @@ shownotes: |
 
     [Shmyla Khan](https://2022.internethealthreport.org/story/tech-broken-promise-shmyla-khan/), describes being at the receiving end of technologies developed by foreign superpowers as a researcher with the [Digital Rights Foundation](https://digitalrightsfoundation.pk/) in Pakistan.
 
-    IRL is an original podcast from Mozilla, the non-profit behind Firefox. In Season 6, host Bridget Todd shares stories of people who make AI more trustworthy in real life. This season doubles as Mozilla's 2022 Internet Health Report. Go to the report for show notes, transcripts, and more.
+    IRL is an original podcast from Mozilla, the non-profit behind Firefox. In Season 6, host Bridget Todd shares stories of people who make AI more trustworthy in real life. This season doubles as Mozilla's [2022 Internet Health Report](https://2022.internethealthreport.org). Go to the report for show notes, transcripts, and more.
 transcript: |
 
     [Read the transcript](https://2022.internethealthreport.org/irl-transcript-the-tech-we-wont-build/)
