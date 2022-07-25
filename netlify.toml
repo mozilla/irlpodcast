@@ -66,3 +66,7 @@
 [[redirects]]
   from = "/TWIT"
   to = "https://2022.internethealthreport.org/?utm_medium=podcast&utm_source=twit&utm_campaign=ihr2022&utm_content=twit"
+
+[[redirects]]
+  from = "/talkpython"
+  to = "https://2022.internethealthreport.org/?utm_medium=podcast&utm_source=talkpython&utm_campaign=ihr2022&utm_content=talkpython"
