@@ -1,7 +1,7 @@
 ---
 date: 2022-08-01T06:00:00-07:00
 title: "When an Algorithm is Your Boss"
-ogtitle: "When an Algorithm is your Boss"
+ogtitle: "When an Algorithm is Your Boss"
 description: |
     Gig workers around the world report directly to algorithms in precarious jobs created by secretive corporations. We take you to the streets of Quito, Ecuador where delivery workers are protesting against artificial intelligence, and we hear solutions from people in several countries on how to audit the algorithms and reclaim rights.
 ogdescription: "Gig workers around the world report directly to algorithms in precarious jobs created by secretive corporations. We take you to the streets of Quito, Ecuador where delivery workers are protesting against artificial intelligence, and we hear solutions from people in several countries on how to audit the algorithms and reclaim rights."
