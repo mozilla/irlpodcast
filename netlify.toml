@@ -70,3 +70,19 @@
 [[redirects]]
   from = "/talkpython"
   to = "https://2022.internethealthreport.org/?utm_medium=podcast&utm_source=talkpython&utm_campaign=ihr2022&utm_content=talkpython"
+
+[[redirects]]
+  from = "/endlessthread"
+  to = "https://2022.internethealthreport.org/?utm_medium=podcast&utm_source=endlessthread&utm_campaign=ihr2022&utm_content=endlessthread"
+
+[[redirects]]
+  from = "/ted"
+  to = "https://2022.internethealthreport.org/?utm_medium=podcast&utm_source=ted&utm_campaign=ihr2022&utm_content=ted"
+
+[[redirects]]
+  from = "/cyber"
+  to = "https://2022.internethealthreport.org/?utm_medium=podcast&utm_source=cyber&utm_campaign=ihr2022&utm_content=cyber"
+
+[[redirects]]
+  from = "/CYBER"
+  to = "https://2022.internethealthreport.org/?utm_medium=podcast&utm_source=cyber&utm_campaign=ihr2022&utm_content=cyber"
