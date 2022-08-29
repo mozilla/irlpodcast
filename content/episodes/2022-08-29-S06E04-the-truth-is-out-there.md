@@ -1,5 +1,5 @@
 ---
-date: 2022-08-29T06:00:00-07:00
+date: 2022-08-29T06:00:00-06:00
 title: "The Truth is Out There"
 ogtitle: "The Truth is Out There"
 description: |
