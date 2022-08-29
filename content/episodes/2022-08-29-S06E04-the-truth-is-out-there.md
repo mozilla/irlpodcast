@@ -26,6 +26,6 @@ shownotes: |
 
 transcript: |
     
-    [Read the transcript](https://2022.internethealthreport.org/transcript-ai-from-above-ep3/)
+    [Read the transcript](https://2022.internethealthreport.org/episodes/the-truth-is-out-there/)
 
 ---
