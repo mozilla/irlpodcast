@@ -9,7 +9,8 @@
   "author": "Mozilla",
   "license": "MPL",
   "dependencies": {
-    "@mozilla-protocol/core": "^11.0.0"
+    "@mozilla-protocol/core": "^11.0.0",
+    "sass": "^1.66.1"
   },
   "devDependencies": {
     "del": "^3.0.0",
