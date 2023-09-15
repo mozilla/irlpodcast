@@ -2,8 +2,8 @@
 date: 2023-09-26T06:00:00-07:00
 title: "Introducing Season 7 of IRL: Trailer"
 ogtitle: "Introducing Season 7 of IRL: Trailer"
-description: "<b>Meet IRL's new host, Bridget Todd, who is on a journey to meet people around the world who are making AI more trustworthy, <i>in real life.</i></b> AI is everywhere now. It's part of healthcare, social media, maps, and even killer robots. But who has power over AI? And who is shifting that power? Join IRL's new host, Bridget Todd, as she talks to technology builders and policy folks from around the world who are developing more trustworthy AI that puts people over profits.<br><br>IRL is an original podcast from the non-profit Mozilla. To read more about Season 7, [visit our blog](https://foundation.mozilla.org/en/blog/listen-to-the-trailer-season-6-of-mozillas-podcast-irl-is-around-the-corner/)."
-ogdescription: "Meet IRL's new host, Bridget Todd, who is on a journey to meet people around the world who are making AI more trustworthy, in real life."
+description: "<b>Lorem ipsum</b> dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+ogdescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
 number: 44
 season: 7
 seasonepisode: 0
