@@ -6,10 +6,23 @@
 
 .c-intro {
     @include text-body-lg;
-    @include light-links;
+
+    a {
+      color: #000;
+      text-decoration: underline;
+      &:hover, &:active {
+        text-decoration: underline;
+        color: #0060df;
+      }
+      &:visited {
+        text-decoration: underline;
+        color: #b833e1;
+      }
+    }
+
     background: $color-purple-80 url('/images/home-480.jpg') center center no-repeat;
     background-size: cover;
-    color: #fff;
+    color: #000;
 
     @media #{$mq-sm} {
         background-image: url('/images/home-1000.jpg');
