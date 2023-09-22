@@ -4,7 +4,7 @@
 
 @import '../includes/lib';
 
-$summary-image-size: 72px;
+$summary-image-size: 235px;
 
 .episode-summary-list {
     margin-bottom: $layout-md;
@@ -108,14 +108,15 @@ $summary-image-size: 72px;
         &.S03E0#{$episode}:before,
         &.S04E0#{$episode}:before,
         &.S05E0#{$episode}:before,
-        &.S06E0#{$episode}:before {
+        &.S06E0#{$episode}:before,
+        &.S07E0#{$episode}:before {
             background-position: ($episode * $summary-image-size * -1) 0;
         }
     }
 
     // season 1
     &[class*='S01']:before {
-        background-image: url('/images/S01.png');
+        background-image: url('/images/S01-300.png');
     }
 
     &.S01B01:before {
@@ -128,26 +129,31 @@ $summary-image-size: 72px;
 
     // season 2
     &[class*='S02']:before {
-        background-image: url('/images/S02.png');
+        background-image: url('/images/S02-300.png');
     }
 
     // season 3
     &[class*='S03']:before {
-        background-image: url('/images/S03.png');
+        background-image: url('/images/S03-300.png');
     }
 
     // season 4
     &[class*='S04']:before {
-        background-image: url('/images/S04.png');
+        background-image: url('/images/S04-300.png');
     }
 
     // season 5
     &[class*='S05']:before {
-        background-image: url('/images/S05.png');
+        background-image: url('/images/S05-300.png');
     }
 
     // season 6
     &[class*='S06']:before {
-      background-image: url('/images/S06.png');
+      background-image: url('/images/S06-300.png');
+    }
+
+    // season 7
+    &[class*='S07']:before {
+      background-image: url('/images/S07-300.png');
     }
 }

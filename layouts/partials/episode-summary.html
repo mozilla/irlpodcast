@@ -20,6 +20,6 @@
 {{ $.Scratch.Set "rpTracking" (printf "episode%s-modal" (string .Params.number)) }}
 
 <li class="episode-summary {{ (.Scratch.Get "imageFolder") }}">
-    <div class="episode-summary-title"><span class="episode-summary-number">{{ (.Scratch.Get "episodeNumber") }}:</span> <a href="{{ .Permalink }}">{{ .Title }}</a> <span class="episode-summary-date">{{ dateFormat "January 2, 2006" .Params.date }}</span></div>
-    <p class="episode-summary-description">{{ .Params.ogdescription | plainify }} <a class="episode-summary-cta" href="{{ .Permalink }}">Listen now.</a></p>
+    <div class="episode-summary-title"><span class="episode-summary-number">{{ (.Scratch.Get "episodeNumber") }}:</span> <a href="{{ .Permalink }}" aria-label="Listen now" >{{ .Title }}&nbsp;<span class="sr-only">Listen now.</span></a> <span class="episode-summary-date">{{ dateFormat "January 2, 2006" .Params.date }}</span></div>
+    <p class="episode-summary-description">{{ .Params.ogdescription | plainify }} <a aria-hidden="true" class="episode-summary-cta" href="{{ .Permalink }}">Listen now.</a></p>
 </li>

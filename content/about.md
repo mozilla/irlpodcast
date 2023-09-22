@@ -69,6 +69,7 @@ IRL is an original podcast from Mozilla, the non-profit behind Firefox. Mozillaâ
 For press inquiries, see our [Press Center](https://foundation.mozilla.org/en/press-center/).<br>
 For any other inquiries, email us at [internethealth@mozillafoundation.org](mailto:internethealth@mozillafoundation.org)
 
-<div>
-{{< newsletter >}}
+<div class="subscribe-links-wrap">
+<strong>Follow:</strong>
+{{< subscribe-links >}}
 </div>
