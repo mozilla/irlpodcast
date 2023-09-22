@@ -19,6 +19,9 @@ $image-path: '/images/protocol';
     //
     'base/elements',
 
+    // Helpers
+    'includes/helpers',
+
     // Components - specific purpose blocks with sub-elements and modifiers
     'components/modal',
     'components/episode-summary',

@@ -6,7 +6,7 @@
 
 
 a {
-    color: $color-link;
+    color: #000;
     font-weight: bold;
     text-decoration: none;
 
@@ -15,7 +15,7 @@ a {
     &:visited:hover,
     &:visited:focus,
     &:visited:active {
-        color: $color-link;
+        color: #000;
         text-decoration: underline;
         transition: color 0.2s ease;
     }
