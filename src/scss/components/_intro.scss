@@ -24,21 +24,21 @@
     background-size: cover;
     color: #000;
 
-    @media #{$mq-sm} {
-        background-image: url('/images/home-1000.jpg');
+    @media only screen and (min-width: 1000px) {
+      background-image: url('/images/home-1000.jpg');
     }
 
-    @media #{$mq-md} {
-        background-image: url('/images/home-1400.jpg');
-
-        .c-intro-title {
-            margin-bottom: $layout-sm;
-        }
+    @media only screen and (min-width: 1400px) {
+      background-image: url('/images/home-1400.jpg');
+      .c-intro-title {
+        margin-bottom: $layout-sm;
+      }
     }
 
-    @media #{$mq-xl} {
-        background-image: url('/images/home-2560.jpg');
+    @media only screen and (min-width: 1600px) {
+      background-image: url('/images/home-2560.jpg');
     }
+
 }
 
 .c-intro-main {
