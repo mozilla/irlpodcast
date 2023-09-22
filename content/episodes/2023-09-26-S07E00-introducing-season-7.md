@@ -2,7 +2,7 @@
 date: 2023-09-26T06:00:00-07:00
 title: "Introducing Season 7 of IRL: AI in Real Life"
 ogtitle: "Introducing Season 7 of IRL: AI in Real Life"
-description: "This season, IRL host Bridget Todd meets people who are balancing the upsides of artificial intelligence with the downsides that are coming into view worldwide. [Listen now.](https://irlpodcast.org/season7/trailer/)<br><br>IRL is an original podcast from the non-profit Mozilla.  The first of five new biweekly episodes launches on October 10!"
+description: "This season, IRL host Bridget Todd meets people who are balancing the upsides of artificial intelligence with the downsides that are coming into view worldwide.<br>[Listen now.](https://irlpodcast.org/season7/trailer/)<br><br>IRL is an original podcast from the non-profit Mozilla.  The first of five new biweekly episodes launches on October 10!"
 ogdescription: "This season, IRL host Bridget Todd meets people who are balancing the upsides of artificial intelligence with the downsides that are coming into view worldwide."
 number: 44
 season: 7
