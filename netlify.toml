@@ -3,7 +3,7 @@
   command = "bin/build-netlify.sh"
 
 [build.environment]
-  NODE_VERSION = "v8.17.0"
+  NODE_VERSION = "14"
   HUGO_VERSION = "0.40.2"
 
 [context.production.environment]
