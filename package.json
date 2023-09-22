@@ -21,7 +21,7 @@
     "gulp-minify": "^3.1.0",
     "gulp-sass": "^4.0.2",
     "gulp-stylelint": "^8.0.0",
-    "stylelint": "^9.10.1",
+    "stylelint": "^15.10.1",
     "yargs": "^13.2.1"
   }
 }
