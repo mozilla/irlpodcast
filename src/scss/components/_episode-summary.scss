@@ -4,7 +4,8 @@
 
 @import '../includes/lib';
 
-$summary-image-size: 72px;
+$summary-image-size: 92px;
+$summary-image-size-desktop: 235px;
 
 .episode-summary-list {
     margin-bottom: $layout-md;
@@ -24,6 +25,7 @@ $summary-image-size: 72px;
         content: '';
         background-color: $color-marketing-gray-40;
         border-top: 0.4rem solid #fff; // make it even with the top of the text
+        border-left: 0.4rem solid #fff;
         display: block;
         float: right;
         height: $summary-image-size;
@@ -54,48 +56,6 @@ $summary-image-size: 72px;
     white-space: nowrap;
 }
 
-@media #{$mq-sm} {
-    .episode-summary-image {
-        float: left;
-        margin: 0 $spacing-md 1.25em 0;
-    }
-
-    .episode-summary-title {
-      max-width: none;
-    }
-
-    .episode-summary-description {
-        margin-bottom: 0;
-        overflow: auto;
-    }
-
-    @supports(display:grid) {
-        .episode-summary {
-            display: grid;
-            grid-template-columns: $summary-image-size auto;
-            grid-column-gap: $spacing-md;
-
-            &:before {
-                grid-column-start: 1;
-                grid-row-start: 1;
-                grid-row-end: 3;
-                margin: 0;
-            }
-        }
-
-        .episode-summary-title,
-        .episode-summary-description {
-            grid-column-start: 2;
-        }
-
-        .episode-summary-date {
-            display: inline;
-            margin: 0;
-            white-space: nowrap;
-        }
-    }
-}
-
 // position background sprite for episodes
 .episode-summary {
     &:before {
@@ -108,7 +68,8 @@ $summary-image-size: 72px;
         &.S03E0#{$episode}:before,
         &.S04E0#{$episode}:before,
         &.S05E0#{$episode}:before,
-        &.S06E0#{$episode}:before {
+        &.S06E0#{$episode}:before,
+        &.S07E0#{$episode}:before {
             background-position: ($episode * $summary-image-size * -1) 0;
         }
     }
@@ -150,4 +111,74 @@ $summary-image-size: 72px;
     &[class*='S06']:before {
       background-image: url('/images/S06.png');
     }
+
+    // season 7
+    &[class*='S07']:before {
+      background-image: url('/images/S07.png');
+    }
+}
+
+@media #{$mq-sm} {
+  .episode-summary-image {
+    float: left;
+    margin: 0 $spacing-md 1.25em 0;
+  }
+
+  .episode-summary-title {
+    max-width: none;
+  }
+
+  .episode-summary-description {
+    margin-bottom: 0;
+    overflow: auto;
+  }
+
+  .episode-summary {
+    &:before {
+      border-left: 0;
+      border-right: 1rem solid #fff;
+      background-size: auto $summary-image-size-desktop;
+      height: $summary-image-size-desktop;
+      width: $summary-image-size-desktop;
+    }
+
+    @for $episode from 0 through 7 {
+      &.S01E0#{$episode}:before,
+      &.S02E0#{$episode}:before,
+      &.S03E0#{$episode}:before,
+      &.S04E0#{$episode}:before,
+      &.S05E0#{$episode}:before,
+      &.S06E0#{$episode}:before,
+      &.S07E0#{$episode}:before {
+        background-position: ($episode * $summary-image-size-desktop * -1) 0;
+      }
+    }
+
+  }
+
+  @supports(display:grid) {
+    .episode-summary {
+      display: grid;
+      grid-template-columns: $summary-image-size-desktop auto;
+      grid-column-gap: $spacing-md;
+
+      &:before {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        margin: 0;
+      }
+    }
+
+    .episode-summary-title,
+    .episode-summary-description {
+      grid-column-start: 2;
+    }
+
+    .episode-summary-date {
+      display: inline;
+      margin: 0;
+      white-space: nowrap;
+    }
+  }
 }

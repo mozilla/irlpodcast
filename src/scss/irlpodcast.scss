@@ -19,6 +19,9 @@ $image-path: '/images/protocol';
     //
     'base/elements',
 
+    // Helpers
+    'includes/helpers',
+
     // Components - specific purpose blocks with sub-elements and modifiers
     'components/modal',
     'components/episode-summary',
@@ -73,6 +76,37 @@ $image-path: '/images/protocol';
         margin-right: 20px;
     }
 }
+
+.awards {
+  .award-copy {
+    width: 100%;
+  }
+  .award-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    img {
+      max-width: 120px;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media screen and (min-width: 448px) {
+    display: flex;
+    .award-copy {
+      width: 82%;
+      margin-right: .5rem;
+    }
+    .award-image {
+      max-width: none;
+      width: 18%;
+      display: block;
+    }
+  }
+
+}
+
 
 .svg-about-image img {
     display: block;

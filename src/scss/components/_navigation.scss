@@ -34,6 +34,10 @@ $image-path: '/images/protocol';
     }
 }
 
+.mzp-t-firefox .mzp-c-navigation-logo a {
+  background-image: none; /* mozilla node_module 404 error fix*/
+}
+
 .mzp-c-navigation-logo {
     background: url('/images/irl-logo.png') no-repeat;
     background-size: contain;
@@ -42,6 +46,7 @@ $image-path: '/images/protocol';
     width: 51px;
 
     a {
+        color: white; /*fixing a11y contrast error*/
         background-image: none;
     }
 }
