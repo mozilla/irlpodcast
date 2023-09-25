@@ -2,7 +2,7 @@
 date: 2023-09-26T06:00:00-07:00
 title: "Introducing Season 7 of IRL: AI in Real Life"
 ogtitle: "Introducing Season 7 of IRL: AI in Real Life"
-description: "This season, IRL host Bridget Todd meets people who are balancing the upsides of artificial intelligence with the downsides that are coming into view worldwide.<br>[Listen now.](https://irlpodcast.org/season7/trailer/)<br><br>IRL is an original podcast from the non-profit Mozilla.  The first of five new biweekly episodes launches on October 10!"
+description: "This season, IRL host Bridget Todd meets people who are balancing the upsides of artificial intelligence with the downsides that are coming into view worldwide.<br>[Listen now.](https://irlpodcast.org/season7/trailer/)<br><br>IRL is an original podcast from the non-profit Mozilla. The first of five new biweekly episodes launches on October 10!"
 ogdescription: "This season, IRL host Bridget Todd meets people who are balancing the upsides of artificial intelligence with the downsides that are coming into view worldwide."
 number: 44
 season: 7
@@ -11,7 +11,7 @@ url: /season7/trailer/
 aliases:
     - /season7/episode0/
 embed: "41c243fa-78eb-4580-a33c-826e74ff3e40"
-mp3: "https://cdn.simplecast.com/audio/9b52b824-909f-4be5-aaf0-10f9e93c7818/episodes/41c243fa-78eb-4580-a33c-826e74ff3e40/audio/a6355dbb-4085-4c91-9b21-641facd43d61/default_tc.mp3"
+mp3: "https://cdn.simplecast.com/audio/9b52b824-909f-4be5-aaf0-10f9e93c7818/episodes/41c243fa-78eb-4580-a33c-826e74ff3e40/audio/a6355dbb-4085-4c91-9b21-641facd43d61/default_tc.mp3?nocache"
 categories: "episodes"
 host: "Bridget Todd"
 transcript: |

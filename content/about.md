@@ -4,7 +4,7 @@ date: 2018-03-16T17:07:08-05:00
 draft: false
 ---
 
-<i>IRL: Online Life is Real Life</i> is an original podcast from [Mozilla](https://foundation.mozilla.org), the non-profit behind Firefox. We build tech and support movements to reclaim the internet. Our mission is to make the internet a healthier place for everyone, and to make artificial intelligence more trustworthy worldwide.
+<i>IRL: Online Life is Real Life</i> is an original podcast from [Mozilla](https://foundation.mozilla.org), the non-profit behind Firefox. We build tech and support movements to reclaim the internet. Our mission is to make the internet healthier, and to make artificial intelligence more trustworthy.
 
 Season 7 of IRL coincides with Mozilla’s 25th anniversary and explores how to build artificial intelligence that puts <i>people</i> ahead of profit.
 
@@ -16,7 +16,7 @@ In 2022, IRL relaunched with Season 6 as a special edition of Mozilla’s [Inter
 <div class="awards">
         <div class="award-copy">
             <p>
-                IRL won a <a href="https://winners.webbyawards.com/winners/podcasts/general-series/technology?years=0" rel="nofollow">Webby Award for Top Tech Podcast</a> (2023) for this season, as well as a <a href="https://shortyawards.com/7th-impact/irl-online-life-is-real-life-a-mozilla-podcast" rel="nofollow">Shorty Impact Award for Podcast</a> (Silver) plus the Audience Honor, and an <a href="https://www.anthemawards.com/winners/list/#responsible-technology/all/1972/-1" rel="nofollow">Anthem Award</a> (Silver) for podcasts in the Responsible Tech category.
+                IRL won a <a href="https://winners.webbyawards.com/winners/podcasts/general-series/technology?years=0" rel="nofollow">Webby Award for Top Tech Podcast</a> (2023) for Season 6, as well as a <a href="https://shortyawards.com/7th-impact/irl-online-life-is-real-life-a-mozilla-podcast" rel="nofollow">Shorty Impact Award for Podcast</a> (Silver) plus the Audience Honor, and an <a href="https://www.anthemawards.com/winners/list/#responsible-technology/all/1972/-1" rel="nofollow">Anthem Award</a> (Silver) for podcasts in the Responsible Tech category.
             </p>
         </div>
         <div class="award-image">
