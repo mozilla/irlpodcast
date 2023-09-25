@@ -16,7 +16,7 @@ In 2022, IRL relaunched with Season 6 as a special edition of Mozilla’s [Inter
 <div class="awards">
         <div class="award-copy">
             <p>
-                IRL won a <a href="https://winners.webbyawards.com/winners/podcasts/general-series/technology?years=0" rel="nofollow">Webby Award for Top Tech Podcast</a> (2023) for this season, as well as a <a href="https://shortyawards.com/7th-impact/irl-online-life-is-real-life-a-mozilla-podcast" rel="nofollow">Shorty Impact Award for Podcast</a> (Silver) plus the Audience Honor, and an <a href="https://www.anthemawards.com/winners/list/#responsible-technology/all/1972/-1" rel="nofollow">Anthem Award</a> (Silver) for podcasts in the Responsible Tech category.
+                IRL won a <a href="https://winners.webbyawards.com/winners/podcasts/general-series/technology?years=0" rel="nofollow">Webby Award for Top Tech Podcast</a> (2023) for Season 6, as well as a <a href="https://shortyawards.com/7th-impact/irl-online-life-is-real-life-a-mozilla-podcast" rel="nofollow">Shorty Impact Award for Podcast</a> (Silver) plus the Audience Honor, and an <a href="https://www.anthemawards.com/winners/list/#responsible-technology/all/1972/-1" rel="nofollow">Anthem Award</a> (Silver) for podcasts in the Responsible Tech category.
             </p>
         </div>
         <div class="award-image">
