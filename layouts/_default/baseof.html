@@ -62,17 +62,7 @@
 
     <script src="/js/{{ index .Site.Data.js.hash "pre-render-min.js" }}"></script>
 
-    {{ if eq (getenv "HUGO_ENV") "production" }}
-        {{ partial "fathom-analytics.html" . }}
-    {{ else }}
-        <script>
-            (function() {
-                'use strict';
-                // avoid JS errors if no GA
-                window.dataLayer = [];
-            })();
-        </script>
-    {{ end }}
+    {{ partial "fathom-analytics.html" . }}
 
 </head>
 
