@@ -4,7 +4,7 @@ date: 2018-03-16T17:07:08-05:00
 draft: false
 ---
 
-<i>IRL: Online Life is Real Life</i> is an original podcast from [Mozilla](https://foundation.mozilla.org), the non-profit behind Firefox. We build tech and support movements to reclaim the internet. Our mission is to make the internet a healthier place for everyone, and to make artificial intelligence more trustworthy worldwide.
+<i>IRL: Online Life is Real Life</i> is an original podcast from [Mozilla](https://foundation.mozilla.org), the non-profit behind Firefox. We build tech and support movements to reclaim the internet. Our mission is to make the internet healthier, and to make artificial intelligence more trustworthy.
 
 Season 7 of IRL coincides with Mozilla’s 25th anniversary and explores how to build artificial intelligence that puts <i>people</i> ahead of profit.
 
