@@ -8,7 +8,7 @@ draft: false
 
 Season 7 of IRL coincides with Mozilla’s 25th anniversary and explores how to build artificial intelligence that puts <i>people</i> ahead of profit.
 
-IRL originally launched in 2017 and was hosted by [Veronica Belmont](https://veronicabelmont.com/) for three seasons, followed by two seasons hosted by [Manoush Zamrodi](http://www.manoushz.com/).
+IRL originally launched in 2017 and was hosted by [Veronica Belmont](https://veronicabelmont.com/) for three seasons, followed by two seasons hosted by [Manoush Zomorodi](http://www.manoushz.com/).
 
 In 2022, IRL relaunched with Season 6 as a special edition of Mozilla’s [Internet Health Report](https://2022.internethealthreport.org/) hosted by [Bridget Todd](https://www.instagram.com/bridgetmarieindc/).
 
