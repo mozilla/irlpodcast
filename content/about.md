@@ -16,7 +16,7 @@ In 2022, IRL relaunched with Season 6 as a special edition of Mozilla’s [Inter
 <div class="awards">
         <div class="award-copy">
             <p>
-                IRL won a <a href="https://winners.webbyawards.com/winners/podcasts/general-series/technology?years=0" rel="nofollow">Webby Award for Top Tech Podcast</a> (2023) for Season 6, as well as a <a href="https://shortyawards.com/7th-impact/irl-online-life-is-real-life-a-mozilla-podcast" rel="nofollow">Shorty Impact Award for Podcast</a> (Silver) plus the Audience Honor, and an <a href="https://www.anthemawards.com/winners/list/#responsible-technology/all/1972/-1" rel="nofollow">Anthem Award</a> (Silver) for podcasts in the Responsible Tech category.
+                IRL won a <a href="https://winners.webbyawards.com/winners/podcasts/general-series/technology?years=0" rel="nofollow">Webby Award for Top Tech Podcast</a> (2023) for Season 6, a <a href="https://shortyawards.com/7th-impact/irl-online-life-is-real-life-a-mozilla-podcast" rel="nofollow">Shorty Impact Award for Podcast</a> (Silver) plus the Audience Honor, and an <a href="https://www.anthemawards.com/winners/list/#responsible-technology/all/1972/-1" rel="nofollow">Anthem Award</a> (Silver) for podcasts in the Responsible Tech category.
             </p>
         </div>
         <div class="award-image">
@@ -35,7 +35,7 @@ In 2022, IRL relaunched with Season 6 as a special edition of Mozilla’s [Inter
             <img src="/images/bridget-todd.jpg" srcset="/images/bridget-todd-high-res.jpg 2x" class="credits-image" alt="Bridget Todd">
             <h3>Bridget Todd</h3>
             <p>
-                Bridget is the host of IRL, and a prolific writer and speaker on safer and more equitable digital experiences. She is also the host of her own award-winning podcast, <a href="https://www.tangoti.com/" rel="nofollow">There Are No Girls On The Internet</a>. Until 2023, she was the communications director of the gender-justice advocacy group, <a href="https://weareultraviolet.org" rel="nofollow" >UltraViolet</a>.
+                Bridget is the host of IRL, and a prolific writer and speaker on safer and more equitable digital experiences.  She is also the host of her own award-winning podcast, <a href="https://www.tangoti.com/" rel="nofollow">There Are No Girls On The Internet</a>. Previously, she was the communications director of the gender-justice advocacy group, <a href="https://weareultraviolet.org" rel="nofollow" >UltraViolet</a>.
             </p>
         </li>
         <li class="credit">
@@ -52,7 +52,7 @@ In 2022, IRL relaunched with Season 6 as a special edition of Mozilla’s [Inter
 
 ## Contact
 
-For press inquiries, see our [Press Center](https://foundation.mozilla.org/en/press-center/). For any other inquiries, email Mozilla’s Insights team at [internethealth@mozillafoundation.org](mailto:internethealth@mozillafoundation.org)
+For press inquiries, see our [Press Center](https://foundation.mozilla.org/en/press-center/).<br>For any other inquiries, email us at [internethealth@mozillafoundation.org](mailto:internethealth@mozillafoundation.org).
 
 <div class="subscribe-links-wrap">
 <strong>Follow:</strong>
