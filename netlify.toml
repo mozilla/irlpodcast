@@ -29,7 +29,7 @@
     font-src 'self' *.mozilla.net *.mozilla.org;
     img-src 'self' data: *.mozilla.net *.mozilla.org www.google-analytics.com;
     style-src 'self' 'unsafe-inline' *.mozilla.org *.mozilla.net;
-    script-src 'self' 'unsafe-inline' data: *.mozilla.org *.mozilla.net www.google-analytics.com www.googletagmanager.com;
+    script-src 'self' 'unsafe-inline' data: *.mozilla.org *.mozilla.net www.google-analytics.com www.googletagmanager.com *.usefathom.com;
     default-src 'self' *.cdn.mozilla.net assets.mozilla.net;
     child-src 'self' player.simplecast.com embed.simplecast.com;
     form-action 'self' www.mozilla.org;
