@@ -1,8 +1,8 @@
 ---
 date: 2023-09-26T06:00:00-07:00
-title: "Introducing Season 7 of IRL: AI in Real Life"
-ogtitle: "Introducing Season 7 of IRL: AI in Real Life"
-description: "This season, IRL host Bridget Todd meets people who are balancing the upsides of artificial intelligence with the downsides that are coming into view worldwide.<br>[Listen now.](https://irlpodcast.org/season7/trailer/)<br><br>IRL is an original podcast from the non-profit Mozilla.  The first of five new biweekly episodes launches on October 10!"
+title: "We're Back! IRL Season 7: People Over Profit"
+ogtitle: "We're Back! IRL Season 7: People Over Profit"
+description: "This season, IRL host Bridget Todd meets people who are balancing the upsides of artificial intelligence with the downsides that are coming into view worldwide.<br>[Listen now.](https://irlpodcast.org/season7/trailer/)<br><br>IRL is an original podcast from the non-profit Mozilla. The first of five new biweekly episodes launches on October 10!"
 ogdescription: "This season, IRL host Bridget Todd meets people who are balancing the upsides of artificial intelligence with the downsides that are coming into view worldwide."
 number: 44
 season: 7
@@ -10,25 +10,26 @@ seasonepisode: 0
 url: /season7/trailer/
 aliases:
     - /season7/episode0/
-embed: "8728bbc5-f876-4a5e-bc12-4c225591a6f6"
-mp3: "https://cdn.simplecast.com/audio/9b52b824-909f-4be5-aaf0-10f9e93c7818/episodes/8728bbc5-f876-4a5e-bc12-4c225591a6f6/audio/9e3b3a8c-77b1-4353-88c9-395dc6c8d7f7/default_tc.mp3"
+embed: "41c243fa-78eb-4580-a33c-826e74ff3e40"
+mp3: "https://cdn.simplecast.com/audio/9b52b824-909f-4be5-aaf0-10f9e93c7818/episodes/41c243fa-78eb-4580-a33c-826e74ff3e40/audio/a6355dbb-4085-4c91-9b21-641facd43d61/default_tc.mp3?nocache"
 categories: "episodes"
 host: "Bridget Todd"
 transcript: |
-    **Bridget Todd:**  Thanks to the internet, artificial intelligence is everywhere now. Algorithms are making more of the decisions that shape our lives.  So let me ask you a question: who should have the power over AI?
+    **Bridget Todd:**  When it comes to artificial intelligence, AI, what's good for trillion-dollar companies isn't necessarily good for people. Can the risks and rewards be balanced? I'm Bridget Todd, host of IRL, Mozilla's multi award-winning podcast.
+
+    This season, putting people over profit in AI. We go around the world to meet people building responsible alternatives to the tech that's changing how we work, communicate, and even listen to music. We talk to trailblazers who are creating language tools for their own communities.
     
-    I'm Bridget Todd, the new host of IRL. Yes, Mozilla's award-winning podcast is back.
+    **Speaker 2:** I think where we're at now is we know we can do better than them, despite only having a handful of people in our team, not much money.
     
-    I'm taking a quick break from my own podcast, "There are No Girls on the Internet", to be your host this season. We'll be talking about healthcare. Gig work, social media and even killer robots. You'll meet AI builders around the world, who make AI more trustworthy: in real life.
+    **Bridget Todd:** We dive into data sets for generative AI and ask, is bigger always better?
     
-    **Aida Ponce Del Castillo:** You will be able to challenge the algorithm.
+    **Speaker 3:** It holds everything from the world's beauty to its ugliness and everything in between.
     
-    **Eduardo Meneses:** Technology can solve some problems, but definitely technology can be part of the problem.
-    
-    **Laura Nolan:** I have the power to walk away from it and not contribute to it. And I have the power to try and change law.
-    
-    **Bridget Todd:**  This season, we're tapping into Mozilla's internet health report to learn who should have power over AI.
-    
-    That's  IRL, an original podcast from Mozilla, the non-profit behind Firefox.
-    Don't miss it! Go to your favorite podcast app right now to find us.
+    **Bridget Todd:**  We hear from startups that empower people working behind the scenes on machine learning systems.
+
+    **Speaker 4:** Our active, I think, mission every year and every month is to figure out how we can bring our costs down even more so that we can give people even more money.
+
+    **Bridget Todd:** This season, we get real about AI that lowers the human cost. Go find IRL on your favorite podcast app right now.
+
+    IRL: Online Life is Real Life is an original podcast for Mozilla, the nonprofit behind Firefox. Mozilla, reclaim the internet.
 ---

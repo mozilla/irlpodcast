@@ -39,7 +39,8 @@
     margin-bottom: 10px;
 
     img {
-        display: block;
+      display: block;
+      width: 100%;
     }
 }
 
@@ -64,7 +65,7 @@
     }
 }
 
-@media screen and (min-width: #{$screen-xs + 1}) {
+@media screen and (min-width: 448px) {
     .episode-image {
         display: none;
     }

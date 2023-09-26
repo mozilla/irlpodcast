@@ -60,7 +60,7 @@
 }
 
 .c-intro-title {
-    @include font-size(48px);
+    @include font-size(40px);
 
     @media #{$mq-md} {
         @include font-size(64px);

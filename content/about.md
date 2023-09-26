@@ -4,59 +4,55 @@ date: 2018-03-16T17:07:08-05:00
 draft: false
 ---
 
-IRL is an original podcast from the non-profit Mozilla.  The first of five new biweekly episodes launches on October 10!
+<i>IRL: Online Life is Real Life</i> is an original podcast from [Mozilla](https://foundation.mozilla.org), the non-profit behind Firefox. We build tech and support movements to reclaim the internet. Our mission is to make the internet healthier, and to make artificial intelligence more trustworthy.
 
-Join our host Bridget Todd, as she meets people building responsible alternatives to the tech that’s changing how we work, communicate, and even listen to music.
+Season 7 of IRL coincides with Mozilla’s 25th anniversary and explores how to build artificial intelligence that puts <i>people</i> ahead of profit.
 
-# About Mozilla
+IRL originally launched in 2017 and was hosted by [Veronica Belmont](https://veronicabelmont.com/) for three seasons, followed by two seasons hosted by [Manoush Zomorodi](http://www.manoushz.com/).
 
-IRL is an original podcast from [Mozilla](https://foundation.mozilla.org), the non-profit behind Firefox.
-
-We build tech and support movements that prioritizes people and their privacy over profits. We exist to make the internet a healthier, happier place for everyone.
+In 2022, IRL relaunched with Season 6 as a special edition of Mozilla’s [Internet Health Report](https://2022.internethealthreport.org/) hosted by [Bridget Todd](https://www.instagram.com/bridgetmarieindc/).
 
 {{< div >}}
+<div class="awards">
+        <div class="award-copy">
+            <p>
+                IRL won a <a href="https://winners.webbyawards.com/winners/podcasts/general-series/technology?years=0" rel="nofollow">Webby Award for Top Tech Podcast</a> (2023) for Season 6, a <a href="https://shortyawards.com/7th-impact/irl-online-life-is-real-life-a-mozilla-podcast" rel="nofollow">Shorty Impact Award for Podcast</a> (Silver) plus the Audience Honor, and an <a href="https://www.anthemawards.com/winners/list/#responsible-technology/all/1972/-1" rel="nofollow">Anthem Award</a> (Silver) for podcasts in the Responsible Tech category.
+            </p>
+        </div>
+        <div class="award-image">
+            <img src="/images/Site_Badges_2023_webby_winner-1.webp" alt="Webby Award">
+        </div>
+</div>
 <div id="credits">
     <h2>Credits</h2>
     <ul>
         <li>
-           <h3>Mozilla Insights</h3>
             <p>
-               The Insights team of the Mozilla Foundation led the editorial process for Season 7 of IRL. This team is responsible for the annual publication of the <a href="https://internethealthreport.org">Internet Health Report</a> and more.
+                <a href="https://foundation.mozilla.org/en/insights/" rel="nofollow">The Insights team</a> of the Mozilla Foundation leads the editorial direction of IRL, with input from teams across Mozilla, including policy, advocacy, product, marketing teams, fellows, awardees, grantees, and friends.
             </p>
         </li>
         <li class="credit">
-            <img src="/images/bridget-todd.jpg" srcset="/images/bridget-todd-high-res.jpg 2x" class="credits-image" alt="">
+            <img src="/images/bridget-todd.jpg" srcset="/images/bridget-todd-high-res.jpg 2x" class="credits-image" alt="Bridget Todd">
             <h3>Bridget Todd</h3>
             <p>
-                Bridget is the host of IRL when she is not hosting her own podcast, <a href="https://www.tangoti.com/" rel="nofollow">There Are No Girls On The Internet</a>. In her daily life, she is the communications director of the feminist group, <a href="https://weareultraviolet.org" rel="nofollow" >UltraViolet</a>. Formerly, she was the host of a global salon at AFROPUNK and the podcast Stuff Mom Never Told You. She got her start teaching courses on writing and social change at Howard University.
+                Bridget is the host of IRL, and a prolific writer and speaker on safer and more equitable digital experiences.  She is also the host of her own award-winning podcast, <a href="https://www.tangoti.com/" rel="nofollow">There Are No Girls On The Internet</a>. Previously, she was the communications director of the gender-justice advocacy group, <a href="https://weareultraviolet.org" rel="nofollow" >UltraViolet</a>.
             </p>
         </li>
         <li class="credit">
-            <div class="credits-image svg-about-image">
-                <img src="/images/pacific-content-logo.png" width="200" height="267">
-            </div>
-            <h3>Pacific Content</h3>
             <p>
-                Pacific Content leads production of Mozilla’s IRL podcast. Pacific Content is a leading podcast services company based in Canada that helps some of the world’s biggest brands create and market compelling audio stories. Their team is made up of veteran media professionals: experts in podcast production, strategy, marketing, distribution and sound design.
+                Our partners at <a href="https://pacific-content.com" rel="nofollow">Pacific Content</a> lead the production of IRL in collaboration with Mozilla. Their team is made up of veteran media professionals and experts in podcast production, distribution and sound design.
+            </p>
+            <p>
+                IRL’s theme tune (Seasons 1-3) is an original composition by Roberto Angel-Dwyer and Daniel Byrne shared under a CC-BY copyright license.
             </p>
         </li
-        <li class="credit">
-            <div class="credits-image svg-about-image">
-                <img src="/images/creative-commons-logo.svg" width="200" height="200">
-            </div>
-            <h3>Roberto Angel-Dwyer and Daniel Byrne</h3>
-            <p>
-                The music you hear on IRL is an original composition by Roberto Angel-Dwyer and Daniel Byrne.
-            </p>
-        </li>
     </ul>
 </div>
 {{< /div >}}
 
 ## Contact
 
-For press inquiries, see our [Press Center](https://foundation.mozilla.org/en/press-center/).<br>
-For any other inquiries, email us at [internethealth@mozillafoundation.org](mailto:internethealth@mozillafoundation.org)
+For press inquiries, see our [Press Center](https://foundation.mozilla.org/en/press-center/).<br>For any other inquiries, email us at [internethealth@mozillafoundation.org](mailto:internethealth@mozillafoundation.org).
 
 <div class="subscribe-links-wrap">
 <strong>Follow:</strong>
