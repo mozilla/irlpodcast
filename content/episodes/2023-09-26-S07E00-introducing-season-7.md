@@ -1,5 +1,5 @@
 ---
-date: 2023-09-26T06:00:00-07:00
+date: 2023-09-26T04:55:00-07:00
 title: "We're Back! IRL Season 7: People Over Profit"
 ogtitle: "We're Back! IRL Season 7: People Over Profit"
 description: "This season, IRL host Bridget Todd meets people who are balancing the upsides of artificial intelligence with the downsides that are coming into view worldwide.<br>[Listen now.](https://irlpodcast.org/season7/trailer/)<br><br>IRL is an original podcast from the non-profit Mozilla. The first of five new biweekly episodes launches on October 10!"
