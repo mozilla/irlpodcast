@@ -28,22 +28,32 @@ In 2022, IRL relaunched with Season 6 as a special edition of Mozilla’s [Inter
     <ul>
         <li>
             <p>
-                <a href="https://foundation.mozilla.org/en/insights/" rel="nofollow">The Insights team</a> of the Mozilla Foundation leads the editorial direction of IRL, with input from teams across Mozilla, including policy, advocacy, product, marketing teams, fellows, awardees, grantees, and friends.
+                Mozilla’s <a href="https://foundation.mozilla.org/en/insights/" rel="nofollow">Insights team</a> leads the editorial direction of IRL, with input from teams across Mozilla, including policy, advocacy, product, marketing, fellows, awardees, grantees, and friends.
+            </p>
+            <p>
+                <strong>J. Bob Alotta</strong> is the VP, Global Programs and executive producer.<br>
+                <strong>Solana Larsen</strong> is the editor.<br>
+                <strong>Eeva Moore</strong> is the engagement manager.<br>
+                <strong>Neha Ravella</strong> is the project manager.<br>
+                <strong>Kasia Odrozek</strong> is the director of Insights.
             </p>
         </li>
         <li class="credit">
             <img src="/images/bridget-todd.jpg" srcset="/images/bridget-todd-high-res.jpg 2x" class="credits-image" alt="Bridget Todd">
-            <h3>Bridget Todd</h3>
+            <span class="credits-title"><strong>Bridget Todd</strong></span>
             <p>
                 Bridget is the host of IRL, and a prolific writer and speaker on safer and more equitable digital experiences.  She is also the host of her own award-winning podcast, <a href="https://www.tangoti.com/" rel="nofollow">There Are No Girls On The Internet</a>. Previously, she was the communications director of the gender-justice advocacy group, <a href="https://weareultraviolet.org" rel="nofollow" >UltraViolet</a>.
             </p>
         </li>
-        <li class="credit">
+        <li>
             <p>
                 Our partners at <a href="https://pacific-content.com" rel="nofollow">Pacific Content</a> lead the production of IRL in collaboration with Mozilla. Their team is made up of veteran media professionals and experts in podcast production, distribution and sound design.
             </p>
             <p>
-                IRL’s theme tune (Seasons 1-3) is an original composition by Roberto Angel-Dwyer and Daniel Byrne shared under a CC-BY copyright license.
+               IRL Podcast episodes are available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow">Creative Commons Attribution Share-Alike 4.0</a> unported license, or any later version.
+            </p>
+            <p>
+               Our theme tune (Seasons 1-3) is an original composition by Roberto Angel-Dwyer and Daniel Byrne shared under a CC-BY copyright license.
             </p>
         </li
     </ul>
