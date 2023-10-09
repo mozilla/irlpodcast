@@ -73,7 +73,7 @@
         {{ .context.Params.description | markdownify }}
         {{ if eq .single "false" }}
         {{ if .context.Params.shownotes }}
-            <a href="{{ .context.Permalink }}#show-notes" data-shownotes="episode-{{ .context.Params.number }}-shownotes" class="episode-shownotes-link mzp-c-cta-link">Show Notes</a>
+            <a href="{{ .context.Permalink }}#show-notes" data-shownotes="episode-{{ .context.Params.number }}-shownotes" class="episode-shownotes-link mzp-c-cta-link fw-normal">Show Notes</a>
         {{ end }}
         {{ end }}
         <br><br>
