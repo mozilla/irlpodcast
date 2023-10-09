@@ -1,6 +1,6 @@
 ---
 draft: true
-date: 2023-11-21T06:00:00-07:00
+date: 2023-11-21T04:55:00-07:00
 title: "My AI and I (personal AIs)"
 ogtitle: "My AI and I (personal AIs)"
 description: |

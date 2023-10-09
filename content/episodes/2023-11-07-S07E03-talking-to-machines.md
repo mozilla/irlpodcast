@@ -1,6 +1,6 @@
 ---
 draft: true
-date: 2023-11-07T06:00:00-07:00
+date: 2023-11-07T04:55:00-07:00
 title: "Talking to Machines"
 ogtitle: "Talking to Machines"
 description: |
