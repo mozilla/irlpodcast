@@ -85,7 +85,7 @@ if (typeof window.dataLayer === 'undefined') {
         var content = document.getElementById(linkId);
         //open modal when clicked
         Mzp.Modal.createModal(e.target, content, {
-            title: 'Shownotes',
+            title: 'Show Notes',
             closeText: 'Close modal',
             onCreate: function() {
                 //console.log('Modal opened');
