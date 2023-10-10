@@ -1,5 +1,5 @@
 ---
-date: 2023-10-10T00:55:00-07:00
+date: 2023-10-10T00:30:00-07:00
 title: "With AIs Wide Open"
 ogtitle: "With AIs Wide Open"
 description: |
