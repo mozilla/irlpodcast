@@ -9,8 +9,8 @@ number: 46
 season: 7
 seasonepisode: 2
 url: /season7/episode2/
-embed: ""
-mp3: ""
+embed: "f3090550-e2da-4261-85c5-2fe91895112a"
+mp3: "https://cdn.simplecast.com/audio/9b52b824-909f-4be5-aaf0-10f9e93c7818/episodes/f3090550-e2da-4261-85c5-2fe91895112a/audio/09018bfd-c5d1-40f4-a9bc-0e986b2abaec/default_tc.mp3?nocache"
 categories: "episodes"
 host: "Bridget Todd"
 shownotes: |
@@ -59,7 +59,7 @@ transcript: |
 
     **Bridget Todd:** Day in and day out, the team was reading and labeling texts from the bowels of the datasets used to train OpenAI’s large language models. Sexually horrific content that Richard says was traumatizing to read because of how graphic and violent it was, and because they did nothing else for hours on end. But as countless moderators – working for Sama and other outsourcing companies – have reported for years, there was barely any psychological support.
 
-    **Richard Mathenge:** They were very hardworking and very devoted. I saw there was a lack of commitment in trying to ensure that counseling sessions were being rendered to, to the contact moderators. I felt there was a need for me to rise to the occasion and speak out against such activities.                                                                                                                                                                                                                                                                                                         **Richard Mathenge:** They were very hardworking and very devoted. I saw there was a lack of commitment in trying to ensure that counseling sessions were being rendered to, to the contact moderators. I felt there was a need for me to rise to the occasion and speak out against such activities.
+    **Richard Mathenge:** They were very hardworking and very devoted. I saw there was a lack of commitment in trying to ensure that counseling sessions were being rendered to, to the contact moderators. I felt there was a need for me to rise to the occasion and speak out against such activities.
 
     **Bridget Todd:** Richard says Sama didn’t do enough, and that after the project ended, his team members were jobless and too traumatized to find work. He says lives were shattered, marriages dissolved. Now moderators are calling for change.
 
