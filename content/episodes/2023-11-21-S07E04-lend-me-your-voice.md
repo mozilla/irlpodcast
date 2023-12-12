@@ -10,7 +10,7 @@ season: 7
 seasonepisode: 4
 url: /season7/episode4/
 embed: "6126ad98-525e-4f0c-a498-bfeb47a556e6"
-mp3: "https://cdn.simplecast.com/audio/9b52b824-909f-4be5-aaf0-10f9e93c7818/episodes/6126ad98-525e-4f0c-a498-bfeb47a556e6/audio/b20161b1-b54c-4a6f-af9d-d9d712871f43/default_tc.mp3?nocache"
+mp3: "https://cdn.simplecast.com/audio/9b52b824-909f-4be5-aaf0-10f9e93c7818/episodes/6126ad98-525e-4f0c-a498-bfeb47a556e6/audio/0389023a-0392-4a2d-9918-61230a2218fb/default_tc.mp3?nocache"
 categories: "episodes"
 host: "Bridget Todd"
 shownotes: |
@@ -44,7 +44,7 @@ transcript: |
 
     **Halcyon Lawrence:**  I spent a year with Alexa and I allowed the device to do whatever the device heard me say.
 
-    **Bridget Todd:**  This is Halcyon Lawrence. She’s an assistant professor of technical communication and information design at Towson University. Three years ago, she conducted an experiment with Amazon’s home assistant, Alexa, which is pretty popular in the US.
+    **Bridget Todd:**  This is Halcyon Lawrence. She’s an associate professor of technical communication and information design at Towson University. Three years ago, she conducted an experiment with Amazon’s home assistant, Alexa, which is pretty popular in the US.
 
     **Halcyon Lawrence:**  So for example, I would ask, can you set a 5:30 alarm and the device would hear 5:50. And so I would just wake up at 5:50. I wanted to push and see, what is the level of inconvenience, right, that this device would allow me to do.
 
