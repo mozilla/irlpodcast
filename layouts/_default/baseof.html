@@ -53,7 +53,7 @@
 
     <title>{{ .Page.Title | default .Site.Title }}</title>
     <meta name="description" content="{{ htmlEscape (.Page.Params.description | default .Site.Params.description | markdownify) | truncate 160 }}">
-
+    <meta http-equiv="origin-trial" content="A/RgvqkHmrtw01EiLR9De6O3HMMwLra6TnK90KTANyNtZCVmWxChB7oMje3Z/OEG0p0iF1xoiM8vcglI9a15NREAAABWeyJvcmlnaW4iOiJodHRwczovL2lybHBvZGNhc3Qub3JnIiwiZmVhdHVyZSI6IlByaXZhdGVBdHRyaWJ1dGlvbiIsImV4cGlyeSI6MTc1MDk1ODU4OX0=">
     <meta name="apple-itunes-app" content="app-id=1247652431, affiliate-data=at=1010lbVy&amp;ct=mozilla_smart_banner">
 
     <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "irlpodcast.css" }}" />
