@@ -13,6 +13,7 @@ mp3: "https://cdn.simplecast.com/audio/9b52b824-909f-4be5-aaf0-10f9e93c7818/epis
 categories: "episodes"
 host: "Bridget Todd"
 shownotes: |
+    Bridget Todd is on a journey to find out how AI affects us on a personal level. From her love life to her city, to the privacy of her memories, Bridget digs deep to uncover the relationship between us and AI. She talks to people who question the status quo, and pour their hearts into shaping AI that will change our lives without invading our privacy.
 
 transcript: |
     **Bridget Todd:** Every day, the news is full of stories about AI. How it's changing everything. But what does that really mean for you and me? I'm Bridget Todd, host of IRL, Mozilla Foundation's award-winning podcast. Welcome to our new season: AI and Us. We're talking to people who are reshaping AI from the personal to the planetary. Inside our brains…
