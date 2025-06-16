@@ -1,133 +1,131 @@
 {{ define "intro" }}
-    {{ partial "intro.html" . }}
+{{ partial "intro.html" . }}
 {{ end }}
 
 {{ define "main" }}
-    <section id="episodes">
-        <div class="l-content">
-           <h2 class="page-title">Season 8</h2>
-{{- range first 1 (where .Data.Pages "Params.season" "eq" "8") -}}
-   
-        {{/* The dot context below passes the entire episode object */}}
-        {{ partial "episode-module" (dict "context" . "single" "false") }}
-    
+<section id="episodes">
+<div class="l-content">
+<h2 class="page-title">Season 8</h2>
+{{- range .Data.Pages -}}
+{{ if eq .Type "episodes" }}
+{{ if eq (string .Params.season) "8" }}
+{{/* The dot context below passes the entire episode object */}}
+{{ partial "episode-module" (dict "context" . "single" "false") }}
+{{ end }}
+{{ end }}
 {{- end -}}
-            <ul class="episode-summary-list">
-               {{- range after 1 (where .Data.Pages "Params.season" "eq" "8") -}}
-                   
-                        {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-summary.html" . }}
-                  
-                {{- end -}}
-            </ul>
-        </div>
-    </section>
-    <section class="season-summaries">
-        <div class="l-content">
-            <h2 class="season-summary-title">Season 7</h2>
-            <ul class="episode-summary-list">
-                {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                {{ if eq (string .Params.season) "7" }}
-                {{/* The dot context below passes the entire episode object */}}
-                {{ partial "episode-summary.html" . }}
-                {{ end }}
-                {{ end }}
-                {{- end -}}
-            </ul>
-        </div>
-    </section>
+</div>
+</section>
 
-    <section class="season-summaries">
-        <div class="l-content">
-            <h2 class="season-summary-title">Season 6</h2>
-            <ul class="episode-summary-list">
-                {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                {{ if eq (string .Params.season) "6" }}
-                {{/* The dot context below passes the entire episode object */}}
-                {{ partial "episode-summary.html" . }}
-                {{ end }}
-                {{ end }}
-                {{- end -}}
-            </ul>
-        </div>
-    </section>
+<section class="season-summaries">
+<div class="l-content">
+<h2 class="season-summary-title">Season 7</h2>
+<ul class="episode-summary-list">
+{{- range .Data.Pages -}}
+{{ if eq .Type "episodes" }}
+{{ if eq (string .Params.season) "7" }}
+{{/* The dot context below passes the entire episode object */}}
+{{ partial "episode-summary.html" . }}
+{{ end }}
+{{ end }}
+{{- end -}}
+</ul>
+</div>
+</section>
 
-    <section class="season-summaries">
-        <div class="l-content">
-            <h2 class="season-summary-title">Season 5</h2>
-            <ul class="episode-summary-list">
-                {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                {{ if eq (string .Params.season) "5" }}
-                {{/* The dot context below passes the entire episode object */}}
-                {{ partial "episode-summary.html" . }}
-                {{ end }}
-                {{ end }}
-                {{- end -}}
-            </ul>
-        </div>
-    </section>
+<section class="season-summaries">
+<div class="l-content">
+<h2 class="season-summary-title">Season 6</h2>
+<ul class="episode-summary-list">
+{{- range .Data.Pages -}}
+{{ if eq .Type "episodes" }}
+{{ if eq (string .Params.season) "6" }}
+{{/* The dot context below passes the entire episode object */}}
+{{ partial "episode-summary.html" . }}
+{{ end }}
+{{ end }}
+{{- end -}}
+</ul>
+</div>
+</section>
 
-    <section class="season-summaries">
-        <div class="l-content">
-            <h2 class="season-summary-title">Season 4</h2>
-            <ul class="episode-summary-list">
-            {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                    {{ if eq (string .Params.season) "4" }}
-                        {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-summary.html" . }}
-                    {{ end }}
-                {{ end }}
-            {{- end -}}
-            </ul>
-        </div>
-    </section>
-    <section class="season-summaries">
-        <div class="l-content">
-            <h2 class="season-summary-title">Season 3</h2>
-            <ul class="episode-summary-list">
-            {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                    {{ if eq (string .Params.season) "3" }}
-                        {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-summary.html" . }}
-                    {{ end }}
-                {{ end }}
-            {{- end -}}
-            </ul>
-        </div>
-    </section>
-    <section class="season-summaries">
-        <div class="l-content">
-            <h2 class="season-summary-title">Season 2</h2>
-            <ul class="episode-summary-list">
-            {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                    {{ if eq (string .Params.season) "2" }}
-                        {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-summary.html" . }}
-                    {{ end }}
-                {{ end }}
-            {{- end -}}
-            </ul>
-        </div>
-    </section>
-    <section class="season-summaries">
-        <div class="l-content">
-            <h2 class="season-summary-title">Season 1</h2>
-            <ul class="episode-summary-list">
-            {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                    {{ if eq (string .Params.season) "1" }}
-                        {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-summary.html" . }}
-                    {{ end }}
-                {{ end }}
-            {{- end -}}
-            </ul>
-        </div>
-    </section>
+<section class="season-summaries">
+<div class="l-content">
+<h2 class="season-summary-title">Season 5</h2>
+<ul class="episode-summary-list">
+{{- range .Data.Pages -}}
+{{ if eq .Type "episodes" }}
+{{ if eq (string .Params.season) "5" }}
+{{/* The dot context below passes the entire episode object */}}
+{{ partial "episode-summary.html" . }}
+{{ end }}
+{{ end }}
+{{- end -}}
+</ul>
+</div>
+</section>
+
+<section class="season-summaries">
+<div class="l-content">
+<h2 class="season-summary-title">Season 4</h2>
+<ul class="episode-summary-list">
+{{- range .Data.Pages -}}
+{{ if eq .Type "episodes" }}
+{{ if eq (string .Params.season) "4" }}
+{{/* The dot context below passes the entire episode object */}}
+{{ partial "episode-summary.html" . }}
+{{ end }}
+{{ end }}
+{{- end -}}
+</ul>
+</div>
+</section>
+
+<section class="season-summaries">
+<div class="l-content">
+<h2 class="season-summary-title">Season 3</h2>
+<ul class="episode-summary-list">
+{{- range .Data.Pages -}}
+{{ if eq .Type "episodes" }}
+{{ if eq (string .Params.season) "3" }}
+{{/* The dot context below passes the entire episode object */}}
+{{ partial "episode-summary.html" . }}
+{{ end }}
+{{ end }}
+{{- end -}}
+</ul>
+</div>
+</section>
+
+<section class="season-summaries">
+<div class="l-content">
+<h2 class="season-summary-title">Season 2</h2>
+<ul class="episode-summary-list">
+{{- range .Data.Pages -}}
+{{ if eq .Type "episodes" }}
+{{ if eq (string .Params.season) "2" }}
+{{/* The dot context below passes the entire episode object */}}
+{{ partial "episode-summary.html" . }}
+{{ end }}
+{{ end }}
+{{- end -}}
+</ul>
+</div>
+</section>
+
+<section class="season-summaries">
+<div class="l-content">
+<h2 class="season-summary-title">Season 1</h2>
+<ul class="episode-summary-list">
+{{- range .Data.Pages -}}
+{{ if eq .Type "episodes" }}
+{{ if eq (string .Params.season) "1" }}
+{{/* The dot context below passes the entire episode object */}}
+{{ partial "episode-summary.html" . }}
+{{ end }}
+{{ end }}
+{{- end -}}
+</ul>
+</div>
+</section>
 {{ end }}

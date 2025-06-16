@@ -1,5 +1,5 @@
 ---
-date: 2025-06-15T08:00:00-04:00
+date: 2025-06-17T08:00:00-04:00
 title: "We Found Love in an AI Place"
 ogtitle: "We Found Love in an AI Place"
 description: "Will my new AI boyfriend be a green flag? Bridget Todd explores how encounters of love and sex are secretly shaped by data and algorithms."
@@ -17,7 +17,7 @@ shownotes: |
     
     Love is intimate. It's private. It's human. So naturally tech companies see it as a money-maker. Host Bridget Todd uncovers the algorithmic racism and bias built into most popular dating apps, and meets the people who are coming up with better alternatives. 
 
-    [Apryl Williams](https://aprylwilliams.com/) interviewed more than 100 dating app users for her book "Not My Type: Automating Sexual Racism in Online Dating" and learned a lot about race-based discrimination in dating algorithms.
+    [Apryl Williams](https://aprylwilliams.com/) interviewed more than 100 dating app users for her book "Not My Type-Automating Sexual Racism in Online Dating" and learned a lot about race-based discrimination in dating algorithms.
 
     After he was diagnosed with Autism and ADHD early in the pandemic, [Jamie Johnston](https://www.linkedin.com/in/jamiejohnston9033/?originalSubdomain=uk) founded [Mattr](https://www.mattr.social/), a dating app where neurodiversity is celebrated and people have a less addictive algorithmic dating experience.
 
