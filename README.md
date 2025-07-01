@@ -60,3 +60,4 @@ A notice will be posted in `#irlpodcast-notify` on Slack when the push has compl
 - https://regisphilibert.com/blog/2018/02/hugo-the-scope-the-context-and-the-dot/
  
  
+ 
