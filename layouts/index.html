@@ -12,14 +12,12 @@
                     {{ partial "episode-module" (dict "context" . "single" "false") }}
                 {{ end }}
             {{- end -}}
-            <ul class="episode-summary-list">
-                {{- range after 1 (where .Data.Pages "Type" "eq" "episodes") -}}
-                    {{ if eq (string .Params.season) "8" }}
-                        {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-summary.html" . }}
-                    {{ end }}
-                {{- end -}}
-            </ul>
+            {{- range after 1 (where .Data.Pages "Type" "eq" "episodes") -}}
+                {{ if eq (string .Params.season) "8" }}
+                    {{/* The dot context below passes the entire episode object */}}
+                    {{ partial "episode-module" (dict "context" . "single" "false") }}
+                {{ end }}
+            {{- end -}}
         </div>
     </section>
    <section class="season-summaries">

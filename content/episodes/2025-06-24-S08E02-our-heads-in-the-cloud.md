@@ -1,3 +1,4 @@
+
 ---
 date: 2025-06-24T00:30:00-07:00
 title: "Our Heads in the Cloud"
