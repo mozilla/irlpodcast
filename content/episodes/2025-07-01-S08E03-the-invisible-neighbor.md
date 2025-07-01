@@ -26,7 +26,7 @@ transcript: |
   *Bridget Todd:*
   If you invite me over, I'll pull up an app on my phone to figure out the best way to get to your house.
   
-  It's still how I navigate my own city, Washington DC.
+  It's still how I navigate my  own city, Washington DC.
   
   But a lot of times, people still beat technology when it comes to getting to know cities.
 
